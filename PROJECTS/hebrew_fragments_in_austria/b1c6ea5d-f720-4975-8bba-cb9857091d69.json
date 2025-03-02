@@ -1,0 +1,145 @@
+{
+    "schema_version": "0.2.6",
+    "record_metadata": {
+        "uuid": "b1c6ea5d-f720-4975-8bba-cb9857091d69",
+        "record_created_on": "2025-03-02",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2025-03-02",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Hebrew Fragments and Manuscripts in Austrian Libraries",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {"from": "1991", "to": "2002"},
+            {"from": "2004", "to": "2008"},
+            {"from": "2008", "to": ""}
+        ],
+        "maintained": true,
+        "websites": ["https://www.hebrewmanuscript.com/"],
+        "project_desc": "The project aims at the collection, digitalisation, academic description and identification of all Hebrew fragments at Austrian libraries and archives.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "St. P\u00f6lten",
+                    "ref": [
+                        "https://www.geonames.org/2766429/sankt-poelten.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.2044",
+                    "lng": "15.62291"
+                }
+            }
+        ],
+        "lang": ["deu","eng"],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Institute for Jewish History in Austria",
+                    "ref": ["https://ror.org/031kbs337" ]
+                },
+                "websites": ["http://www.injoest.ac.at/en"]
+            },
+            {
+                "relation_type": "cooperation",
+                "org_name": {
+                    "text": "Austrian Academy of Sciences",
+                    "ref": [
+                        "https://ror.org/03anc3s24",
+                        "https://www.wikidata.org/wiki/Q299015"
+                    ]
+                },
+                "websites": ["https://www.oeaw.ac.at/"]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "cooperation",
+                "title": "Books within Books: Hebrew Fragments in European Libraries",
+                "uuid": "4847058e-f701-4430-91ef-65c2428646fb"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-2571-4902",
+                        "http://d-nb.info/gnd/1017517576",
+                        "https://www.wikidata.org/wiki/Q19295875"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "http://www.injoest.ac.at/de/institut/mitarbeiterinnen/martha-keil"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": ["heb"],
+            "sustainability_plan": null,
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [
+                    {
+                        "label": "",
+                        "stage": "raw",
+                        "licensing": [],
+                        "open_access": 0
+                    }
+                ],
+                "repositories": [
+                    {
+                        "label": "",
+                        "accessibility": "public",
+                        "ref": [],
+                        "websites": [],
+                        "licensing": [],
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [
+                {
+                    "label": "",
+                    "self_developed": false,
+                    "ref": [],
+                    "websites": [],
+                    "description": ""
+                }
+            ],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "catalog",
+            "corpus_output",
+            "digital_preservation",
+            "image",
+            "jewish_studies",
+            "manuscript",
+            "religious_text"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
+}
