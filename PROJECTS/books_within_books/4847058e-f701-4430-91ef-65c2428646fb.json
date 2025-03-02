@@ -1,0 +1,147 @@
+{
+    "schema_version": "0.2.6",
+    "record_metadata": {
+        "uuid": "4847058e-f701-4430-91ef-65c2428646fb",
+        "record_created_on": "2025-03-02",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2025-03-02",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Books within Books: Hebrew Fragments in European Libraries",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2007",
+                "to": ""
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://www.hebrewmanuscript.com/"
+        ],
+        "project_desc": "The project is a European scholarly network dedicated to studying medieval Hebrew book and document fragments found in book bindings and notarial files across various archives. It aims to foster collaboration between existing projects by sharing updates on research, events, and publications. Additionally, it seeks to systematically catalog and describe these fragments through published catalogues and an online database for registered users.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Paris",
+                    "ref": [
+                        "https://www.geonames.org/2988507/paris.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.8535",
+                    "lng": "2.34839"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Universit\u00e9 Paris Sciences et Lettres",
+                    "ref": [
+                        "https://ror.org/013cjyk83",
+                        "https://www.wikidata.org/wiki/Q1163431"
+                    ]
+                },
+                "websites": [
+                    "https://psl.eu"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "cooperation",
+                "title": "Hebrew Fragments and Manuscripts in Austrian Libraries",
+                "uuid": "b1c6ea5d-f720-4975-8bba-cb9857091d69"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0001-6070-9386",
+                        "https://d-nb.info/gnd/1046170465"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.ccc.ox.ac.uk/people/professor-judith-olszowy-schlanger"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "heb"
+            ],
+            "sustainability_plan": null,
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [
+                    {
+                        "label": "",
+                        "stage": "raw",
+                        "licensing": [],
+                        "open_access": 0
+                    }
+                ],
+                "repositories": [
+                    {
+                        "label": "",
+                        "accessibility": "public",
+                        "ref": [],
+                        "websites": [],
+                        "licensing": [],
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [
+                {
+                    "label": "",
+                    "self_developed": false,
+                    "ref": [],
+                    "websites": [],
+                    "description": ""
+                }
+            ],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "catalog",
+            "collaboration_platform",
+            "corpus_resource",
+            "digital_preservation",
+            "history_studies",
+            "image",
+            "jewish_studies",
+            "manuscript",
+            "research_infrastructure"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
+}
