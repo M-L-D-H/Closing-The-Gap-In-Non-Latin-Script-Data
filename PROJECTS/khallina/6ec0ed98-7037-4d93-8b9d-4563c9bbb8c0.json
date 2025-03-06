@@ -1,0 +1,183 @@
+{
+    "schema_version": "0.2.6",
+    "record_metadata": {
+      "uuid": "6ec0ed98-7037-4d93-8b9d-4563c9bbb8c0",
+      "record_created_on": "2025-03-06",
+      "record_created_by": "Sido Bozan, Joudy",
+      "last_edited_on": "",
+      "interviewed": false
+    },
+    "project": {
+      "title": "Khallina",
+      "abbr": "",
+      "type": "project",
+      "ref": [],
+      "date": [
+        {
+          "from": "2012",
+          "to": ""
+        }
+      ],
+      "maintained": true,
+      "websites": [
+        "https://khallina.org"
+      ],
+      "project_desc": "The project is an Open Source tool to explore Arabic cutlure. The learning materials include Cultural Modules for different educational stages, covering a variety of subject matters and include diverse output methods.",
+      "places": [
+        {
+          "place_name": {
+            "text": "Abu Dhabi",
+            "ref": [
+              "https://www.geonames.org/292968/"
+            ]
+          },
+          "coordinates": {
+            "lat": "24.45118",
+            "lng": "54.39696"
+          }
+        }
+      ],
+      "lang": [
+        "eng"
+      ],
+      "related_institutions": [
+        {
+          "relation_type": "host",
+          "org_name": {
+            "text": "New York University Abu Dhabi",
+            "ref": [
+              "https://ror.org/00e5k0821",
+              "https://www.wikidata.org/wiki/Q566189"
+            ]
+          },
+          "websites": [
+            "https://nyuad.nyu.edu/"
+          ]
+        },
+        {
+          "relation_type": "cooperation",
+          "org_name": {
+            "text": "The University of Texas at Austin",
+            "ref": [
+              "https://ror.org/00hj54h04",
+              "https://www.wikidata.org/wiki/Q49213"
+            ]
+          },
+          "websites": [
+            "http://www.utexas.edu/"
+          ]
+        },
+        {
+          "relation_type": "cooperation",
+          "org_name": {
+            "text": "Qatar Foundation",
+            "ref": [
+              "https://ror.org/01cawbq05",
+              "https://www.wikidata.org/wiki/Q1575900"
+            ]
+          },
+          "websites": [
+            "https://www.qf.org.qa"
+          ]
+        }
+      ],
+      "related_entities": [
+          {
+              "relation_type": "sibling",
+              "title": "Gumar Corpus",
+              "uuid": "74b74185-081c-40f7-86da-52bdf9f53105"
+          },
+          {
+              "relation_type": "sibling",
+              "title": "Multi-Arabic Dialect Applications and Resources",
+              "uuid": "693b7383-6f97-46a6-9023-6aae878c25e7"
+          },
+          {
+              "relation_type": "sibling",
+              "title": "Simplification of Arabic Masterpieces for Extensive Reading",
+              "uuid": "dfb3ca8b-20cb-484a-bd3c-d84821ca97af"
+          }
+      ],
+      "people": [
+        {
+          "pers_name": {
+            "text": "Familiar, Laila",
+            "ref": [
+              "https://orcid.org/0009-0001-6120-3798",
+              "https://d-nb.info/gnd/1206606274"
+            ]
+          },
+          "roles": [
+            "supervision"
+          ],
+          "websites": [
+            "https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/laila-familiar.html",
+            "https://lailafamiliar.com"
+          ]
+        }
+      ],
+      "research_data": {
+        "lang": [
+          "ara",
+          "eng"
+        ],
+        "sustainability_plan": null,
+        "publications": {
+          "open_access": 0,
+          "licensing": []
+        },
+        "data": {
+          "datatypes": [
+            {
+              "label": "",
+              "stage": "raw",
+              "licensing": [],
+              "open_access": 0
+            }
+          ],
+          "repositories": [
+            {
+              "label": "",
+              "accessibility": "public",
+              "ref": [],
+              "websites": [],
+              "licensing": [],
+              "description": ""
+            }
+          ]
+        }
+      },
+      "stack": {
+        "database": [],
+        "backend": [],
+        "frontend": [],
+        "tools": [
+          {
+            "label": "",
+            "self_developed": false,
+            "ref": [],
+            "websites": [],
+            "description": ""
+          }
+        ],
+        "languages": []
+      },
+      "policies": [
+        {
+          "description": "",
+          "ref": []
+        }
+      ],
+      "keywords": [
+        "arabic_studies",
+        "audio",
+        "e_learning",
+        "image",
+        "language_documentation",
+        "translation",
+        "video"
+      ],
+      "category": "tools_and_analysis",
+      "comment": "End date of the project is not defined"
+    }
+  }
