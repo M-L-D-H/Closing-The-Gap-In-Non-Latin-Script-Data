@@ -6,7 +6,7 @@
 
 <div class="mx-auto mb-4 max-w-[76rem] px-4 text-gray-50">
 	<div class="flex items-center space-x-4">
-
+		
 		<!-- Logo -->
 		<div class="h-24 w-24">
 			<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 429.9 410.2">
