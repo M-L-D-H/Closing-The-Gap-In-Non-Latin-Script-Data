@@ -12,8 +12,10 @@ const config = {
 		paths: {
 			base: '/Closing-The-Gap-In-Non-Latin-Script-Data'
 		},
+		appDir: '_app',
 		prerender: {
-			handleMissingId: 'ignore'
+			handleMissingId: 'ignore',
+			handleHttpError: 'warn',
 		}
 	}
 };
