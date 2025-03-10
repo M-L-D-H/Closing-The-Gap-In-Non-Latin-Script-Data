@@ -1,0 +1,24 @@
+{
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/about": [
+		"src/routes/+layout.ts"
+	],
+	"/contribute": [
+		"src/routes/+layout.ts"
+	],
+	"/entry": [
+		"src/routes/+layout.ts"
+	],
+	"/map": [
+		"src/routes/+layout.ts"
+	],
+	"/timeline": [
+		"src/routes/+layout.ts"
+	],
+	"/visualizations": [
+		"src/routes/+layout.ts"
+	]
+}
