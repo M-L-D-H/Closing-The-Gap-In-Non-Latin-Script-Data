@@ -315,6 +315,14 @@
     "title": "eScriptorium",
     "path": "/PROJECTS/e_scriptorium/"
   },
+  "aeac9470-1b19-41c7-9d16-4bd3d36b35c8": {
+    "title": "Endangered Languages Archive",
+    "path": "/PROJECTS/elar/"
+  },
+  "259b0831-bfc4-4857-84ab-d9562dd606ce": {
+    "title": "Endangered Languages Documentation Programme",
+    "path": "/PROJECTS/eldp/"
+  },
   "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5": {
     "title": "FDNext",
     "path": "/PROJECTS/fdnext/"
@@ -826,6 +834,10 @@
   "325a929a-6764-41e1-b452-6556209fa74f": {
     "title": "TUNOCENT",
     "path": "/PROJECTS/tunocent/"
+  },
+  "ddba8639-e6eb-4343-9557-0f0a968bf15f": {
+    "title": "T\u00fcbinger System von Textverarbeitungs-Programmen",
+    "path": "/PROJECTS/tustep/"
   },
   "9ca46873-3089-4a04-99fa-89c0c1b01213": {
     "title": "Understanding Written Artefacts",

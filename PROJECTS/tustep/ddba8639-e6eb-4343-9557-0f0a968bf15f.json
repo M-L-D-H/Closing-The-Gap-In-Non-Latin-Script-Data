@@ -1,0 +1,128 @@
+{
+    "schema_version": "0.2.6",
+    "record_metadata": {
+        "uuid": "ddba8639-e6eb-4343-9557-0f0a968bf15f",
+        "record_created_on": "2025-03-12",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2025-03-12",
+        "interviewed": false
+    },
+    "project": {
+        "title": "T\u00fcbinger System von Textverarbeitungs-Programmen",
+        "abbr": "TUSTEP",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "1966",
+                "to": ""
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://www.tustep.uni-tuebingen.de/",
+            "https://www.itug.de/index.html"
+        ],
+        "project_desc": "TUSTEP is a professional toolbox for scholarly processing textual data (including those in non-latin scripts) with a strong focus on humanities applications. It contains modules for all stages of scholarly text data processing, starting from data capture and including information retrieval, text collation, text analysis, sorting and ordering, rule-based text manipulation, and output in electronic or conventional form (including typesetting in professional quality).",
+        "places": [
+            {
+                "place_name": {
+                    "text": "T\u00fcbingen",
+                    "ref": [
+                        "https://www.geonames.org/2820860/tuebingen.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.52033",
+                    "lng": "9.0536"
+                }
+            }
+        ],
+        "lang": [
+            "eng",
+            "deu"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "University of T\u00fcbingen",
+                    "ref": [
+                        "https://ror.org/03a1kwz48",
+                        "https://www.wikidata.org/wiki/Q153978"
+                    ]
+                },
+                "websites": [
+                    "https://www.uni-tuebingen.de/en/university.html"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "cooperation",
+                "title": "Forschungsplattform f\u00fcr j\u00fcdische Grabsteinepigraphik",
+                "uuid": "1b58eb54-827e-4d01-9153-8c0bcb18205c"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "http://d-nb.info/gnd/1012669602",
+                        "https://www.wikidata.org/wiki/Q62123865"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://eadh.org/wilhelm-ott"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara",
+                "cop",
+                "deu",
+                "grc",
+                "heb",
+                "rus"
+            ],
+            "sustainability_plan": null,
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "computational_text_analysis",
+            "corpus_resource",
+            "lexicography",
+            "linguistics",
+            "manuscript",
+            "research_infrastructure",
+            "tei"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
+}
