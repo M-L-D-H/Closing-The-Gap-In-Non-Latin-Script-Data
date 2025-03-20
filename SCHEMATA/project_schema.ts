@@ -225,9 +225,9 @@ export const projectSchema = z
                   .max(1)
                   .describe("Indicates the accessibility of project data (0 = no data, 0.5 = partially accessible, 1 = fully accessible)"),
             
-                publications: z
-                  .union([
+                  publications: z.union([
                     z.literal(0).describe("No publications"),
+                    z.literal(1).describe("Has publications, but details unknown"),
                     z.object({
                       total: z
                         .number()
