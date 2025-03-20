@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 // Set version here, validate everywhere else!
-const schemaVersion = "0.2.6";
+const schemaVersion = "0.2.7";
 
 // Regular expressions
 const isoCode = /^[a-z]{3}$/; // Can we do better than this?
