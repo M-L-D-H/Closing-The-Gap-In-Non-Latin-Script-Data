@@ -1,157 +1,165 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "397a09d7-5307-43ba-a3ce-3faff1ea0e6c",
-    "record_created_on": "2024-02-14",
-    "record_created_by": "Romanov, Maxim",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Prosopografía de los ulemas de al-Andalus",
-    "abbr": "PUA",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2006",
-        "to": "2008"
-      },
-      {
-        "from": "2010",
-        "to": "2014"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.eea.csic.es/pua/"
-    ],
-    "project_desc": "This project is dedicated to the prosopography and biography of Andalusi scholars. It sourced information about approximately 11,600 scholars from Arabic biographical dictionaries and organized into a database, in a way that enables taking advantage of possibilities offered by electronic data processing. It also offers a setup of the necessary tools to organize and filter information, handle the data with quantitative criteria and present the results of the analysis with a variety of visualizations.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Granada",
-          "ref": [
-            "https://www.geonames.org/2517117/granada.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "37.18817",
-          "lng": "-3.60667"
-        }
-      }
-    ],
-    "lang": [
-      "eng",
-      "spa"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Escuela de Estudios Árabes",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q7432381",
-            "https://ror.org/0370sk906"
-          ]
-        },
-        "websites": [
-          "https://www.eea.csic.es/"
-        ]
-      }
-    ],
-    "related_entities": [],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0001-9261-7494",
-            "https://d-nb.info/gnd/1067890963"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.eea.csic.es/personal-de-la-eea/penelas-melendez-ma-teresa/"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/1057141895"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.eea.csic.es/personal-de-la-eea/avila-navarro-ma-luisa/"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
-        ],
-        "repositories": [
-          {
-            "label": "",
-            "accessibility": "public",
-            "ref": [],
-            "websites": [],
-            "licensing": [],
-            "description": ""
-          }
-        ]
-      }
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "397a09d7-5307-43ba-a3ce-3faff1ea0e6c",
+        "record_created_on": "2024-02-14",
+        "record_created_by": "Romanov, Maxim",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
     },
-    "stack": {
-      "database": [],
-      "backend": [],
-      "frontend": [],
-      "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "websites": [],
-          "description": ""
-        }
-      ],
-      "languages": []
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "biographical_data",
-      "islamic_studies",
-      "geodata",
-      "map",
-      "visualization"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+    "project": {
+        "title": "Prosopografía de los ulemas de al-Andalus",
+        "abbr": "PUA",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2006",
+                "to": "2008"
+            },
+            {
+                "from": "2010",
+                "to": "2014"
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://www.eea.csic.es/pua/"
+        ],
+        "project_desc": "This project is dedicated to the prosopography and biography of Andalusi scholars. It sourced information about approximately 11,600 scholars from Arabic biographical dictionaries and organized into a database, in a way that enables taking advantage of possibilities offered by electronic data processing. It also offers a setup of the necessary tools to organize and filter information, handle the data with quantitative criteria and present the results of the analysis with a variety of visualizations.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Granada",
+                    "ref": [
+                        "https://www.geonames.org/2517117/granada.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "37.18817",
+                    "lng": "-3.60667"
+                }
+            }
+        ],
+        "lang": [
+            "eng",
+            "spa"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Escuela de Estudios Árabes",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q7432381",
+                        "https://ror.org/0370sk906"
+                    ]
+                },
+                "websites": [
+                    "https://www.eea.csic.es/"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0001-9261-7494",
+                        "https://d-nb.info/gnd/1067890963"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.eea.csic.es/personal-de-la-eea/penelas-melendez-ma-teresa/"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://d-nb.info/gnd/1057141895"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.eea.csic.es/personal-de-la-eea/avila-navarro-ma-luisa/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [
+                    {
+                        "label": "",
+                        "stage": "raw",
+                        "licensing": [],
+                        "open_access": 0
+                    }
+                ],
+                "repositories": [
+                    {
+                        "label": "",
+                        "accessibility": "public",
+                        "ref": [],
+                        "websites": [],
+                        "licensing": [],
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [
+                {
+                    "label": "",
+                    "self_developed": false,
+                    "ref": [],
+                    "websites": [],
+                    "description": ""
+                }
+            ],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "biographical_data",
+            "islamic_studies",
+            "geodata",
+            "map",
+            "visualization"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }

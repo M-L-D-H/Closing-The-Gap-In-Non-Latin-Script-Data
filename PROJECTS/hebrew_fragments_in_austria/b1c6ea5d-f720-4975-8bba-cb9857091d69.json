@@ -1,5 +1,5 @@
 {
-    "schema_version": "0.2.6",
+    "schema_version": "0.2.7",
     "record_metadata": {
         "uuid": "b1c6ea5d-f720-4975-8bba-cb9857091d69",
         "record_created_on": "2025-03-02",
@@ -13,17 +13,28 @@
         "type": "project",
         "ref": [],
         "date": [
-            {"from": "1991", "to": "2002"},
-            {"from": "2004", "to": "2008"},
-            {"from": "2008", "to": ""}
+            {
+                "from": "1991",
+                "to": "2002"
+            },
+            {
+                "from": "2004",
+                "to": "2008"
+            },
+            {
+                "from": "2008",
+                "to": ""
+            }
         ],
         "maintained": true,
-        "websites": ["https://www.hebrewmanuscript.com/"],
+        "websites": [
+            "https://www.hebrewmanuscript.com/"
+        ],
         "project_desc": "The project aims at the collection, digitalisation, academic description and identification of all Hebrew fragments at Austrian libraries and archives.",
         "places": [
             {
                 "place_name": {
-                    "text": "St. P\u00f6lten",
+                    "text": "St. Pölten",
                     "ref": [
                         "https://www.geonames.org/2766429/sankt-poelten.html"
                     ]
@@ -34,15 +45,22 @@
                 }
             }
         ],
-        "lang": ["deu","eng"],
+        "lang": [
+            "deu",
+            "eng"
+        ],
         "related_institutions": [
             {
                 "relation_type": "host",
                 "org_name": {
                     "text": "Institute for Jewish History in Austria",
-                    "ref": ["https://ror.org/031kbs337" ]
+                    "ref": [
+                        "https://ror.org/031kbs337"
+                    ]
                 },
-                "websites": ["http://www.injoest.ac.at/en"]
+                "websites": [
+                    "http://www.injoest.ac.at/en"
+                ]
             },
             {
                 "relation_type": "cooperation",
@@ -53,7 +71,9 @@
                         "https://www.wikidata.org/wiki/Q299015"
                     ]
                 },
-                "websites": ["https://www.oeaw.ac.at/"]
+                "websites": [
+                    "https://www.oeaw.ac.at/"
+                ]
             }
         ],
         "related_entities": [
@@ -82,8 +102,18 @@
             }
         ],
         "research_data": {
-            "lang": ["heb"],
-            "sustainability_plan": null,
+            "lang": [
+                "heb"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
             "publications": {
                 "open_access": 0,
                 "licensing": []

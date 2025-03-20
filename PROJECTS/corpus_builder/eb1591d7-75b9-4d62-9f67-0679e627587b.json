@@ -1,176 +1,184 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b",
-    "record_created_on": "2022-09-07",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "CorpusBuilder",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2017",
-        "to": "2020"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://openiti.org/projects/CorpusBuilder.html"
-    ],
-    "project_desc": "The objective of this project is to develop a robust and user-friendly OCR pipeline for Islamic texts.",
-    "places": [
-      {
-        "place_name": {
-          "text": "College Park",
-          "ref": [
-            "https://www.geonames.org/4351977/college-park.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "38.98067",
-          "lng": "-76.93692"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Leipzig",
-          "ref": [
-            "https://www.geonames.org/2879139/leipzig.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
-      },
-      {
-        "place_name": {
-          "text": "London",
-          "ref": [
-            "https://www.geonames.org/2643743/london.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.50853",
-          "lng": "-0.12574"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Cambridge",
-          "ref": [
-            "https://www.geonames.org/4931972/cambridge.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "42.3751",
-          "lng": "-71.10561"
-        }
-      }
-    ],
-    "lang": [],
-    "related_institutions": [],
-    "related_entities": [
-      {
-        "relation_type": "parent",
-        "title": "SHARIAsource",
-        "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773"
-      },
-      {
-        "relation_type": "parent",
-        "title": "Open Islamicate Texts Initiative",
-        "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
-        "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Automatic Collation for Diversifying Corpora",
-        "uuid": "5e7ab61a-0c33-44fc-8175-a1930e6d08bc"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "roles": [
-          "investigation"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b",
+        "record_created_on": "2022-09-07",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
+    },
+    "project": {
+        "title": "CorpusBuilder",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2017",
+                "to": "2020"
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://sllc.umd.edu/directory/jonathan-allen"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "islamic_studies",
-      "machine_learning",
-      "ocr"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+            "https://openiti.org/projects/CorpusBuilder.html"
+        ],
+        "project_desc": "The objective of this project is to develop a robust and user-friendly OCR pipeline for Islamic texts.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "College Park",
+                    "ref": [
+                        "https://www.geonames.org/4351977/college-park.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "38.98067",
+                    "lng": "-76.93692"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Leipzig",
+                    "ref": [
+                        "https://www.geonames.org/2879139/leipzig.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.33962",
+                    "lng": "12.37129"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "London",
+                    "ref": [
+                        "https://www.geonames.org/2643743/london.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.50853",
+                    "lng": "-0.12574"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Vienna",
+                    "ref": [
+                        "https://www.geonames.org/2761369/vienna.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.20849",
+                    "lng": "16.37208"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Cambridge",
+                    "ref": [
+                        "https://www.geonames.org/4931972/cambridge.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "42.3751",
+                    "lng": "-71.10561"
+                }
+            }
+        ],
+        "lang": [],
+        "related_institutions": [],
+        "related_entities": [
+            {
+                "relation_type": "parent",
+                "title": "SHARIAsource",
+                "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773"
+            },
+            {
+                "relation_type": "parent",
+                "title": "Open Islamicate Texts Initiative",
+                "uuid": "bef2e507-b663-422e-9dd3-7e49ca299f05"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
+                "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Automatic Collation for Diversifying Corpora",
+                "uuid": "5e7ab61a-0c33-44fc-8175-a1930e6d08bc"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": []
+                },
+                "roles": [
+                    "investigation"
+                ],
+                "websites": [
+                    "https://sllc.umd.edu/directory/jonathan-allen"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "islamic_studies",
+            "machine_learning",
+            "ocr"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }

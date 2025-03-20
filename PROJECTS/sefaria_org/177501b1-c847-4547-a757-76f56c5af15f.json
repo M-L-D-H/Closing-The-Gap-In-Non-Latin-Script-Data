@@ -1,112 +1,122 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "177501b1-c847-4547-a757-76f56c5af15f",
-    "record_created_on": "2021-11-01",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Sefaria",
-    "abbr": "",
-    "type": "organization",
-    "ref": [
-      "https://www.wikidata.org/wiki/Q33424604"
-    ],
-    "date": [
-      {
-        "from": "2011",
-        "to": ""
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.sefaria.org/texts"
-    ],
-    "project_desc": "Sefaria in a non-profit organization which assembles a free-living library of Jewish texts and their interconnections, in Hebrew and in translation. The texts are available in a digital form with interactive interfaces allowing more people to engage with textual treasures and tradition.",
-    "places": [
-      {
-        "place_name": {
-          "text": "New York",
-          "ref": [
-            "https://www.geonames.org/5128638/new-york.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "43.00035",
-          "lng": "-75.4999"
-        }
-      }
-    ],
-    "lang": [
-      "eng",
-      "heb"
-    ],
-    "related_institutions": [],
-    "related_entities": [],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "177501b1-c847-4547-a757-76f56c5af15f",
+        "record_created_on": "2021-11-01",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Sefaria",
+        "abbr": "",
+        "type": "organization",
+        "ref": [
+            "https://www.wikidata.org/wiki/Q33424604"
         ],
-        "websites": ["https://www.sefaria.org/profile/daniel-septimus"]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "heb"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "digital_edition",
-      "digital_preservation",
-      "jewish_studies",
-      "religious_text",
-      "vre"
-    ],
-    "category": "digital_preservation",
-    "comment": ""
-  }
+        "date": [
+            {
+                "from": "2011",
+                "to": ""
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://www.sefaria.org/texts"
+        ],
+        "project_desc": "Sefaria in a non-profit organization which assembles a free-living library of Jewish texts and their interconnections, in Hebrew and in translation. The texts are available in a digital form with interactive interfaces allowing more people to engage with textual treasures and tradition.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "New York",
+                    "ref": [
+                        "https://www.geonames.org/5128638/new-york.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "43.00035",
+                    "lng": "-75.4999"
+                }
+            }
+        ],
+        "lang": [
+            "eng",
+            "heb"
+        ],
+        "related_institutions": [],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": []
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.sefaria.org/profile/daniel-septimus"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "heb"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "digital_edition",
+            "digital_preservation",
+            "jewish_studies",
+            "religious_text",
+            "vre"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
 }

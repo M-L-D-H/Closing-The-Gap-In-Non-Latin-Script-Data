@@ -1,5 +1,5 @@
 {
-    "schema_version": "0.2.6",
+    "schema_version": "0.2.7",
     "record_metadata": {
         "uuid": "ddba8639-e6eb-4343-9557-0f0a968bf15f",
         "record_created_on": "2025-03-12",
@@ -8,7 +8,7 @@
         "interviewed": false
     },
     "project": {
-        "title": "T\u00fcbinger System von Textverarbeitungs-Programmen",
+        "title": "Tübinger System von Textverarbeitungs-Programmen",
         "abbr": "TUSTEP",
         "type": "project",
         "ref": [],
@@ -27,7 +27,7 @@
         "places": [
             {
                 "place_name": {
-                    "text": "T\u00fcbingen",
+                    "text": "Tübingen",
                     "ref": [
                         "https://www.geonames.org/2820860/tuebingen.html"
                     ]
@@ -46,7 +46,7 @@
             {
                 "relation_type": "host",
                 "org_name": {
-                    "text": "University of T\u00fcbingen",
+                    "text": "University of Tübingen",
                     "ref": [
                         "https://ror.org/03a1kwz48",
                         "https://www.wikidata.org/wiki/Q153978"
@@ -60,7 +60,7 @@
         "related_entities": [
             {
                 "relation_type": "cooperation",
-                "title": "Forschungsplattform f\u00fcr j\u00fcdische Grabsteinepigraphik",
+                "title": "Forschungsplattform für jüdische Grabsteinepigraphik",
                 "uuid": "1b58eb54-827e-4d01-9153-8c0bcb18205c"
             }
         ],
@@ -90,7 +90,15 @@
                 "heb",
                 "rus"
             ],
-            "sustainability_plan": null,
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
             "publications": {
                 "open_access": 0,
                 "licensing": []

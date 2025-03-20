@@ -1,5 +1,5 @@
 {
-    "schema_version": "0.2.6",
+    "schema_version": "0.2.7",
     "record_metadata": {
         "uuid": "a12c0df1-1c1e-47b9-9465-f8c398b57b8a",
         "record_created_on": "2025-02-25",
@@ -13,21 +13,33 @@
         "type": "project",
         "ref": [],
         "date": [
-            { "from": "2013", "to": "2019"}
+            {
+                "from": "2013",
+                "to": "2019"
+            }
         ],
         "maintained": false,
-        "websites": ["https://www.st-andrews.ac.uk/modern-languages/research/projects/language-philology-culture/"],
-        "project_desc": "The project explored the pivotal role of language consciousness in the history of Arab culture. It aimed to study the semantic development of the vocabulary of the Arabic language, philological discourses on the semantic changes in the language in the classical Arabic philological tradition (8th \u2013 10th centuries A.D.), and the impact of Arabic philology in the wider historical and cultural context of the Judaeo-Arab neo-classical heritage (12th \u2013 13th centuries A.D.) and Christian-Arab intellectual history on the eve of modernity (19th century A.D.). ",
+        "websites": [
+            "https://www.st-andrews.ac.uk/modern-languages/research/projects/language-philology-culture/"
+        ],
+        "project_desc": "The project explored the pivotal role of language consciousness in the history of Arab culture. It aimed to study the semantic development of the vocabulary of the Arabic language, philological discourses on the semantic changes in the language in the classical Arabic philological tradition (8th – 10th centuries A.D.), and the impact of Arabic philology in the wider historical and cultural context of the Judaeo-Arab neo-classical heritage (12th – 13th centuries A.D.) and Christian-Arab intellectual history on the eve of modernity (19th century A.D.). ",
         "places": [
             {
                 "place_name": {
                     "text": "Saint Andrews",
-                    "ref": ["https://www.geonames.org/2638864/saint-andrews.html"]
+                    "ref": [
+                        "https://www.geonames.org/2638864/saint-andrews.html"
+                    ]
                 },
-                "coordinates": {"lat": "56.34039","lng": "-2.79558"}
+                "coordinates": {
+                    "lat": "56.34039",
+                    "lng": "-2.79558"
+                }
             }
         ],
-        "lang": ["eng"],
+        "lang": [
+            "eng"
+        ],
         "related_institutions": [
             {
                 "relation_type": "host",
@@ -38,7 +50,9 @@
                         "https://www.wikidata.org/wiki/Q216273"
                     ]
                 },
-                "websites": ["https://www.st-andrews.ac.uk/"]
+                "websites": [
+                    "https://www.st-andrews.ac.uk/"
+                ]
             }
         ],
         "related_entities": [
@@ -62,13 +76,27 @@
                         "https://d-nb.info/gnd/138140030"
                     ]
                 },
-                "roles": ["supervision"],
-                "websites": [ "https://www.st-andrews.ac.uk/modern-languages/people/arabic/kd25"]
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.st-andrews.ac.uk/modern-languages/people/arabic/kd25"
+                ]
             }
         ],
         "research_data": {
-            "lang": ["ara"],
-            "sustainability_plan": null,
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
             "publications": {
                 "open_access": 0,
                 "licensing": []

@@ -1,153 +1,161 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497",
-    "record_created_on": "2022-04-05",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2015",
-        "to": ""
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://coptot.manuscriptroom.com/",
-      "https://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/koptisches-altes-testament/"
-    ],
-    "project_desc": "In this long-term project, the objective is to digitally reconstruct the Coptic Old Testament composed in an extinct Coptic dialect, Sahidic. The vast majority of manuscripts of this text are scattered across institutions in Europe and North America, which until now made a complete edition impossible. Equipped with new technologies of digital scholarship, the project will aim at overcoming this challenge by recreating the Coptic Old Testament in the form of an online database, which will contain photos and descriptions of catalogued manuscripts or their fragments, as well as English, German, and Arabic translations. It will also develop a system of digital tools for research on Coptic literature.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
-      }
-    ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Akademie der Wissenschaften zu Göttingen",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q414188",
-            "https://ror.org/04hsa7a08"
-          ]
-        },
-        "websites": [
-          "https://adw-goe.de"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "sibling",
-        "title": "KOHD Coptica",
-        "uuid": "f67c8fcd-d190-4419-a85a-e6998da4f0ba"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "KOHD Digital",
-        "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Qumran Digital: Text und Lexikon",
-        "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",
-        "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-0930-4268",
-            "https://d-nb.info/gnd/1162448369",
-            "https://www.wikidata.org/wiki/Q126132633"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497",
+        "record_created_on": "2022-04-05",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2015",
+                "to": ""
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/koptisches-altes-testament/mitarbeiter/frank-feder/"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "cop"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "digital_edition",
-      "digital_preservation",
-      "egyptology",
-      "manuscript",
-      "religious_text",
-      "vre"
-    ],
-    "category": "digital_preservation",
-    "comment": ""
-  }
+            "https://coptot.manuscriptroom.com/",
+            "https://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/koptisches-altes-testament/"
+        ],
+        "project_desc": "In this long-term project, the objective is to digitally reconstruct the Coptic Old Testament composed in an extinct Coptic dialect, Sahidic. The vast majority of manuscripts of this text are scattered across institutions in Europe and North America, which until now made a complete edition impossible. Equipped with new technologies of digital scholarship, the project will aim at overcoming this challenge by recreating the Coptic Old Testament in the form of an online database, which will contain photos and descriptions of catalogued manuscripts or their fragments, as well as English, German, and Arabic translations. It will also develop a system of digital tools for research on Coptic literature.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Göttingen",
+                    "ref": [
+                        "https://www.geonames.org/2918632/goettingen.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.53443",
+                    "lng": "9.93228"
+                }
+            }
+        ],
+        "lang": [
+            "deu",
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Akademie der Wissenschaften zu Göttingen",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q414188",
+                        "https://ror.org/04hsa7a08"
+                    ]
+                },
+                "websites": [
+                    "https://adw-goe.de"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "KOHD Coptica",
+                "uuid": "f67c8fcd-d190-4419-a85a-e6998da4f0ba"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "KOHD Digital",
+                "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Qumran Digital: Text und Lexikon",
+                "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",
+                "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-0930-4268",
+                        "https://d-nb.info/gnd/1162448369",
+                        "https://www.wikidata.org/wiki/Q126132633"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/koptisches-altes-testament/mitarbeiter/frank-feder/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "cop"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "digital_edition",
+            "digital_preservation",
+            "egyptology",
+            "manuscript",
+            "religious_text",
+            "vre"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
 }

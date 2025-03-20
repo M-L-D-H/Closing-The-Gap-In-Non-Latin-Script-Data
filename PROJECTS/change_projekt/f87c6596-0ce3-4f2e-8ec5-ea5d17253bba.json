@@ -1,136 +1,146 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "f87c6596-0ce3-4f2e-8ec5-ea5d17253bba",
-    "record_created_on": "2021-11-11",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Change Projekt - Wandel@FU-Bib",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2019",
-        "to": "2021"
-      }
-    ],
-    "maintained": false,
-    "websites": [
-      "https://web.archive.org/web/20240412020940/www.fu-berlin.de/sites/ub/ueber-uns/wandel/index.html"
-    ],
-    "project_desc": "The Change Project’s objective was to reorganize and optimize library infrastructure at FU Berlin. Within the two years of its activity the project’s team worked at improving connection and communication between university libraries and CeDiS (Centre for Digital Systems), simplifying structures, enhancing user orientation and service quality as well as increasing general efficiency and ability to manage future challenges.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
-      }
-    ],
-    "lang": [
-      "deu"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Freie Universität Berlin",
-          "ref": [
-            "https://ror.org/046ak2485",
-            "https://www.wikidata.org/wiki/Q153006"
-          ]
-        },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
-      }
-    ],
-    "related_entities": [],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-7449-9209",
-            "https://www.wikidata.org/wiki/Q57684019"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://web.archive.org/web/20230402234810/www.fu-berlin.de/sites/ub/ueber-uns/team/riesenweber/"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "",
-          "ref": ["https://orcid.org/0000-0001-7550-7365"]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.ub.hu-berlin.de/de/ueber-uns/kontakt/ansprechpartner/ansprechpartner-leitende-mitarbeiterinnen-und-mitarbeiter/"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "deu"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "f87c6596-0ce3-4f2e-8ec5-ea5d17253bba",
+        "record_created_on": "2021-11-11",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
     },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "research_infrastructure"
-    ],
-    "category": "infrastructure",
-    "comment": "no website, last publication 2022"
-  }
+    "project": {
+        "title": "Change Projekt - Wandel@FU-Bib",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2019",
+                "to": "2021"
+            }
+        ],
+        "maintained": false,
+        "websites": [
+            "https://web.archive.org/web/20240412020940/www.fu-berlin.de/sites/ub/ueber-uns/wandel/index.html"
+        ],
+        "project_desc": "The Change Project’s objective was to reorganize and optimize library infrastructure at FU Berlin. Within the two years of its activity the project’s team worked at improving connection and communication between university libraries and CeDiS (Centre for Digital Systems), simplifying structures, enhancing user orientation and service quality as well as increasing general efficiency and ability to manage future challenges.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Berlin",
+                    "ref": [
+                        "https://www.geonames.org/2950159/berlin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.52437",
+                    "lng": "13.41053"
+                }
+            }
+        ],
+        "lang": [
+            "deu"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Freie Universität Berlin",
+                    "ref": [
+                        "https://ror.org/046ak2485",
+                        "https://www.wikidata.org/wiki/Q153006"
+                    ]
+                },
+                "websites": [
+                    "https://www.fu-berlin.de/"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-7449-9209",
+                        "https://www.wikidata.org/wiki/Q57684019"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://web.archive.org/web/20230402234810/www.fu-berlin.de/sites/ub/ueber-uns/team/riesenweber/"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0001-7550-7365"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.ub.hu-berlin.de/de/ueber-uns/kontakt/ansprechpartner/ansprechpartner-leitende-mitarbeiterinnen-und-mitarbeiter/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "deu"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "research_infrastructure"
+        ],
+        "category": "infrastructure",
+        "comment": "no website, last publication 2022"
+    }
 }

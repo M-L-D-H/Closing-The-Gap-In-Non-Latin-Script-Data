@@ -1,133 +1,143 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "827f5ce7-a331-44fe-b40a-5cd93f348a0a",
-    "record_created_on": "2022-03-25",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Synoptische Edition des kabbalistischen Traktats Keter Shem Ṭov",
-    "abbr": "Keter Shem Ṭov",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2019",
-        "to": "2022"
-      },
-      {
-        "from": "2022",
-        "to": "2025"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://kabbalaheditions.org",
-      "https://lera.uzi.uni-halle.de/editions/2?lang=en"
-    ],
-    "project_desc": "The research object of this project is the approximately 700 years old Hebrew treatise Keter Shem Tov, which constitutes one of the most important introductory texts into the Kabbalah. The purpose of the project to prepare a critical printed edition of the text as well as its online, interactive and openly accessible version along with an English translation. To reach this objective the project contributes to the further development of an interactive, digital tool LERA.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Halle (Saale)",
-          "ref": [
-            "https://www.geonames.org/2911522/halle-saale.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.48158",
-          "lng": "11.97947"
-        }
-      }
-    ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Martin-Luther-Universität Halle-Wittenberg",
-          "ref": [
-            "https://ror.org/05gqaka33",
-            "https://www.wikidata.org/wiki/Q32120"
-          ]
-        },
-        "websites": [
-          "https://www.uni-halle.de/?lang=en"
-        ]
-      }
-    ],
-    "related_entities": [],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": ["https://orcid.org/0000-0001-8718-1198"]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "827f5ce7-a331-44fe-b40a-5cd93f348a0a",
+        "record_created_on": "2022-03-25",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Synoptische Edition des kabbalistischen Traktats Keter Shem Ṭov",
+        "abbr": "Keter Shem Ṭov",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2019",
+                "to": "2022"
+            },
+            {
+                "from": "2022",
+                "to": "2025"
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://www.informatik.uni-halle.de/ti/mitarbeiter/poeckelmann/"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "heb"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "digital_edition",
-      "digital_preservation",
-      "jewish_studies",
-      "manuscript",
-      "religious_text",
-      "translation",
-      "vre"
-    ],
-    "category": "digital_preservation",
-    "comment": ""
-  }
+            "https://kabbalaheditions.org",
+            "https://lera.uzi.uni-halle.de/editions/2?lang=en"
+        ],
+        "project_desc": "The research object of this project is the approximately 700 years old Hebrew treatise Keter Shem Tov, which constitutes one of the most important introductory texts into the Kabbalah. The purpose of the project to prepare a critical printed edition of the text as well as its online, interactive and openly accessible version along with an English translation. To reach this objective the project contributes to the further development of an interactive, digital tool LERA.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Halle (Saale)",
+                    "ref": [
+                        "https://www.geonames.org/2911522/halle-saale.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.48158",
+                    "lng": "11.97947"
+                }
+            }
+        ],
+        "lang": [
+            "deu",
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Martin-Luther-Universität Halle-Wittenberg",
+                    "ref": [
+                        "https://ror.org/05gqaka33",
+                        "https://www.wikidata.org/wiki/Q32120"
+                    ]
+                },
+                "websites": [
+                    "https://www.uni-halle.de/?lang=en"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0001-8718-1198"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.informatik.uni-halle.de/ti/mitarbeiter/poeckelmann/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "heb"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "digital_edition",
+            "digital_preservation",
+            "jewish_studies",
+            "manuscript",
+            "religious_text",
+            "translation",
+            "vre"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
 }

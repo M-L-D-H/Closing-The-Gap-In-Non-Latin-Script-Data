@@ -1,123 +1,131 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "3c5fd869-4651-414c-a0f1-b1254712b689",
-    "record_created_on": "2022-04-05",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "SaxFDM-Fokusprojekt: Publikationsdienst für wissenschaftliche Datenmodelle und Vokabulare",
-    "abbr": "PUDEL",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2022-01-01",
-        "to": "2023-03-31"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.saw-leipzig.de/de/projekte/publikationsdienst-fuer-wissenschaftliche-datenmodelle-und-vokabulare-sax-fdm-fokusprojekt"
-    ],
-    "project_desc": "The purpose of this project is to standardize and optimize Research Data Management (RDM) in Humanities. The expected output is a new RDM service, which will allow to publish and document different data models in a uniform way. The is a part of SaxFDM initiative dedicated to RDM optimization on a level of Saxony state.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Leipzig",
-          "ref": [
-            "https://www.geonames.org/2879139/leipzig.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
-      }
-    ],
-    "lang": [
-      "deu"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q27891200",
-            "https://ror.org/03zxjdk07"
-          ]
-        },
-        "websites": [
-          "https://www.saw-leipzig.de/de"
-        ]
-      }
-    ],
-    "related_entities": [],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-5613-8127",
-            "https://d-nb.info/gnd/109432703"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "3c5fd869-4651-414c-a0f1-b1254712b689",
+        "record_created_on": "2022-04-05",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
+    },
+    "project": {
+        "title": "SaxFDM-Fokusprojekt: Publikationsdienst für wissenschaftliche Datenmodelle und Vokabulare",
+        "abbr": "PUDEL",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2022-01-01",
+                "to": "2023-03-31"
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://www.saw-leipzig.de/de/mitglieder/wiesmethh"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
-    "category": "infrastructure",
-    "comment": "The project is still ongoing (as of 05.04.2022)"
-  }
+            "https://www.saw-leipzig.de/de/projekte/publikationsdienst-fuer-wissenschaftliche-datenmodelle-und-vokabulare-sax-fdm-fokusprojekt"
+        ],
+        "project_desc": "The purpose of this project is to standardize and optimize Research Data Management (RDM) in Humanities. The expected output is a new RDM service, which will allow to publish and document different data models in a uniform way. The is a part of SaxFDM initiative dedicated to RDM optimization on a level of Saxony state.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Leipzig",
+                    "ref": [
+                        "https://www.geonames.org/2879139/leipzig.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.33962",
+                    "lng": "12.37129"
+                }
+            }
+        ],
+        "lang": [
+            "deu"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q27891200",
+                        "https://ror.org/03zxjdk07"
+                    ]
+                },
+                "websites": [
+                    "https://www.saw-leipzig.de/de"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-5613-8127",
+                        "https://d-nb.info/gnd/109432703"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.saw-leipzig.de/de/mitglieder/wiesmethh"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "research_data_management",
+            "research_infrastructure"
+        ],
+        "category": "infrastructure",
+        "comment": "The project is still ongoing (as of 05.04.2022)"
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "schema_version": "0.2.6",
+    "schema_version": "0.2.7",
     "record_metadata": {
         "uuid": "259b0831-bfc4-4857-84ab-d9562dd606ce",
         "record_created_on": "2025-03-12",
@@ -76,7 +76,15 @@
         ],
         "research_data": {
             "lang": [],
-            "sustainability_plan": null,
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
             "publications": {
                 "open_access": 0,
                 "licensing": [

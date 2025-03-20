@@ -1,188 +1,196 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505",
-    "record_created_on": "2023-11-02",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-11-15",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Memory Spaces: Mapping Oral History in Mosul",
-    "abbr": "MESMOM",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2023-08-01",
-        "to": "2024-02-29"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/forschung/MEMORY-SPACES/index.html"
-    ],
-    "project_desc": "The project aims to establish an online accessible digital platform where former and current residents of the Iraqi city of Mosul can contribute their personal and individual memories of their hometown. These memories can be inserted in the form of stories, images, and audio recordings, all placed on a digital and visually appealing map of Mosul and its surroundings (prior to 2014). After editorial processing and approval by a dedicated editorial team, these contributions will be accessible worldwide.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Amsterdam",
-          "ref": [
-            "https://www.geonames.org/2759794/amsterdam.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.37403",
-          "lng": "4.88969"
-        }
-      }
-    ],
-    "lang": [
-      "deu"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Freie Universität Berlin",
-          "ref": [
-            "https://ror.org/046ak2485",
-            "https://www.wikidata.org/wiki/Q153006"
-          ]
-        },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "University of Amsterdam",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q214341",
-            "https://ror.org/04dkp9463"
-          ]
-        },
-        "websites": [
-          "https://www.uva.nl/en"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "sibling",
-        "title": "Kalila and Dimna – AnonymClassic",
-        "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
-        "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
-        "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Arabic Literature Cosmopolitan",
-        "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Keywords for the Study of the Arabic Literary and Manuscript Tradition",
-        "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "Toral, Isabel",
-          "ref": [
-            "https://orcid.org/0009-0001-5188-7110",
-            "https://www.wikidata.org/wiki/Q113769323"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/team/Professuren/toral/index.html"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
-        ],
-        "repositories": [
-          {
-            "label": "",
-            "accessibility": "public",
-            "ref": [],
-            "websites": [],
-            "licensing": [],
-            "description": ""
-          }
-        ]
-      }
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505",
+        "record_created_on": "2023-11-02",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-11-15",
+        "interviewed": false
     },
-    "stack": {
-      "database": [],
-      "backend": [],
-      "frontend": [],
-      "tools": [
-        {
-          "label": "",
-          "self_developed": false,
-          "ref": [],
-          "websites": [],
-          "description": ""
-        }
-      ],
-      "languages": []
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "cultural_studies",
-      "digital_preservation",
-      "image",
-      "video"
-    ],
-    "category": "digital_preservation",
-    "comment": ""
-  }
+    "project": {
+        "title": "Memory Spaces: Mapping Oral History in Mosul",
+        "abbr": "MESMOM",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2023-08-01",
+                "to": "2024-02-29"
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/forschung/MEMORY-SPACES/index.html"
+        ],
+        "project_desc": "The project aims to establish an online accessible digital platform where former and current residents of the Iraqi city of Mosul can contribute their personal and individual memories of their hometown. These memories can be inserted in the form of stories, images, and audio recordings, all placed on a digital and visually appealing map of Mosul and its surroundings (prior to 2014). After editorial processing and approval by a dedicated editorial team, these contributions will be accessible worldwide.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Berlin",
+                    "ref": [
+                        "https://www.geonames.org/2950159/berlin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.52437",
+                    "lng": "13.41053"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Amsterdam",
+                    "ref": [
+                        "https://www.geonames.org/2759794/amsterdam.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.37403",
+                    "lng": "4.88969"
+                }
+            }
+        ],
+        "lang": [
+            "deu"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Freie Universität Berlin",
+                    "ref": [
+                        "https://ror.org/046ak2485",
+                        "https://www.wikidata.org/wiki/Q153006"
+                    ]
+                },
+                "websites": [
+                    "https://www.fu-berlin.de/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "University of Amsterdam",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q214341",
+                        "https://ror.org/04dkp9463"
+                    ]
+                },
+                "websites": [
+                    "https://www.uva.nl/en"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "Kalila and Dimna – AnonymClassic",
+                "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
+                "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
+                "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Arabic Literature Cosmopolitan",
+                "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Keywords for the Study of the Arabic Literary and Manuscript Tradition",
+                "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "Toral, Isabel",
+                    "ref": [
+                        "https://orcid.org/0009-0001-5188-7110",
+                        "https://www.wikidata.org/wiki/Q113769323"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/team/Professuren/toral/index.html"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [
+                    {
+                        "label": "",
+                        "stage": "raw",
+                        "licensing": [],
+                        "open_access": 0
+                    }
+                ],
+                "repositories": [
+                    {
+                        "label": "",
+                        "accessibility": "public",
+                        "ref": [],
+                        "websites": [],
+                        "licensing": [],
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [
+                {
+                    "label": "",
+                    "self_developed": false,
+                    "ref": [],
+                    "websites": [],
+                    "description": ""
+                }
+            ],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "cultural_studies",
+            "digital_preservation",
+            "image",
+            "video"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
 }

@@ -1,151 +1,159 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "a8ee7d05-56b3-4312-8e1a-a07a46fdc809",
-    "record_created_on": "2022-06-21",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Documentation of Endangered Languages / Dokumentation Bedrohter Sprachen",
-    "abbr": "DoBeS",
-    "type": "project",
-    "ref": [
-      "https://www.wikidata.org/wiki/Q28134351"
-    ],
-    "date": [
-      {
-        "from": "2000",
-        "to": "2011"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://dobes.mpi.nl/"
-    ],
-    "project_desc": "The DoBeS program was initiated in 2000 by the Volkswagen Foundation in order to document languages that are potentially in danger of becoming extinct within a few years' time. It consisted of one archiving team and several documentation teams recording language data through fieldwork. The teams carried out 67 documentation projects collecting audio and video data in a close cooperation with the speech communities. The data are described with a set of standardized metadata categories and digitally archived according to open standards and made accessible. In addition, the archive ensures the long-term persistency of the digital material.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Hanover",
-          "ref": [
-            "https://www.geonames.org/6559065/hannover-landeshauptstadt.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.37362",
-          "lng": "9.73711"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Nijmegen",
-          "ref": [
-            "https://www.geonames.org/2750053/nijmegen.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.8425",
-          "lng": "5.85278"
-        }
-      }
-    ],
-    "lang": [
-      "eng",
-      "fra",
-      "ind",
-      "por",
-      "rus",
-      "spa"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Volkswagen Stiftung",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1766743"
-          ]
-        },
-        "websites": [
-          "https://www.volkswagenstiftung.de/",
-          "https://www.volkswagenstiftung.de/en/funding/funding-offer/documentation-endangered-languages-completed"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "child",
-        "title": "Documentation of Gorani, an endangered language of West Iran",
-        "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-3180-0524",
-            "https://d-nb.info/gnd/133996271"
-          ]
-        },
-        "roles": [
-          "investigation"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "a8ee7d05-56b3-4312-8e1a-a07a46fdc809",
+        "record_created_on": "2022-06-21",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Documentation of Endangered Languages / Dokumentation Bedrohter Sprachen",
+        "abbr": "DoBeS",
+        "type": "project",
+        "ref": [
+            "https://www.wikidata.org/wiki/Q28134351"
         ],
+        "date": [
+            {
+                "from": "2000",
+                "to": "2011"
+            }
+        ],
+        "maintained": true,
         "websites": [
-          "https://www.soas.ac.uk/staff/staff30592.php"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "audio",
-      "language_documentation",
-      "linguistics",
-      "video",
-      "vre"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+            "https://dobes.mpi.nl/"
+        ],
+        "project_desc": "The DoBeS program was initiated in 2000 by the Volkswagen Foundation in order to document languages that are potentially in danger of becoming extinct within a few years' time. It consisted of one archiving team and several documentation teams recording language data through fieldwork. The teams carried out 67 documentation projects collecting audio and video data in a close cooperation with the speech communities. The data are described with a set of standardized metadata categories and digitally archived according to open standards and made accessible. In addition, the archive ensures the long-term persistency of the digital material.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Hanover",
+                    "ref": [
+                        "https://www.geonames.org/6559065/hannover-landeshauptstadt.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.37362",
+                    "lng": "9.73711"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Nijmegen",
+                    "ref": [
+                        "https://www.geonames.org/2750053/nijmegen.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.8425",
+                    "lng": "5.85278"
+                }
+            }
+        ],
+        "lang": [
+            "eng",
+            "fra",
+            "ind",
+            "por",
+            "rus",
+            "spa"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Volkswagen Stiftung",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q1766743"
+                    ]
+                },
+                "websites": [
+                    "https://www.volkswagenstiftung.de/",
+                    "https://www.volkswagenstiftung.de/en/funding/funding-offer/documentation-endangered-languages-completed"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "child",
+                "title": "Documentation of Gorani, an endangered language of West Iran",
+                "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-3180-0524",
+                        "https://d-nb.info/gnd/133996271"
+                    ]
+                },
+                "roles": [
+                    "investigation"
+                ],
+                "websites": [
+                    "https://www.soas.ac.uk/staff/staff30592.php"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "audio",
+            "language_documentation",
+            "linguistics",
+            "video",
+            "vre"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }

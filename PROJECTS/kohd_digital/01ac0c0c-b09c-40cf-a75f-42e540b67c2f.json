@@ -1,159 +1,167 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f",
-    "record_created_on": "2022-02-14",
-    "record_created_by": "Kudela, Monkia Xenia",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "KOHD Digital",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2022"
-      }
-    ],
-    "maintained": false,
-    "websites": [
-      "https://orient-kohd.dl.uni-leipzig.de/content/index.xml"
-    ],
-    "project_desc": "KOHD Digital is a databank of KODH (Die Katalogisierung der Orientalischen Handschriften in Deutschland) – a research project that aims at systematizing not yet cataloged manuscripts from various German libraries. Previously all texts were published in printed catalogues but since 2016 they appear mostly online in KHOD Digital databank.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
-      }
-    ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Akademie der Wissenschaften zu Göttingen",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q414188",
-            "https://ror.org/04hsa7a08"
-          ]
-        },
-        "websites": [
-          "https://adw-goe.de"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "sibling",
-        "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
-        "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "KOHD Coptica",
-        "uuid": "f67c8fcd-d190-4419-a85a-e6998da4f0ba"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Qumran Digital: Text und Lexikon",
-        "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",
-        "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/131508415",
-            "https://www.wikidata.org/wiki/Q112472167"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f",
+        "record_created_on": "2022-02-14",
+        "record_created_by": "Kudela, Monkia Xenia",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
+    },
+    "project": {
+        "title": "KOHD Digital",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2016",
+                "to": "2022"
+            }
         ],
+        "maintained": false,
         "websites": [
-          "https://www.gw.uni-jena.de/seidensticker-tilman"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara",
-        "bod",
-        "fas",
-        "khm",
-        "ota",
-        "san",
-        "tam",
-        "tur"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "catalog",
-      "digital_preservation",
-      "iranian_studies",
-      "manuscript",
-      "ottoman_studies",
-      "turkology"
-    ],
-    "category": "digital_preservation",
-    "comment": "website not accessible"
-  }
+            "https://orient-kohd.dl.uni-leipzig.de/content/index.xml"
+        ],
+        "project_desc": "KOHD Digital is a databank of KODH (Die Katalogisierung der Orientalischen Handschriften in Deutschland) – a research project that aims at systematizing not yet cataloged manuscripts from various German libraries. Previously all texts were published in printed catalogues but since 2016 they appear mostly online in KHOD Digital databank.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Göttingen",
+                    "ref": [
+                        "https://www.geonames.org/2918632/goettingen.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.53443",
+                    "lng": "9.93228"
+                }
+            }
+        ],
+        "lang": [
+            "deu",
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Akademie der Wissenschaften zu Göttingen",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q414188",
+                        "https://ror.org/04hsa7a08"
+                    ]
+                },
+                "websites": [
+                    "https://adw-goe.de"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
+                "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "KOHD Coptica",
+                "uuid": "f67c8fcd-d190-4419-a85a-e6998da4f0ba"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Qumran Digital: Text und Lexikon",
+                "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",
+                "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://d-nb.info/gnd/131508415",
+                        "https://www.wikidata.org/wiki/Q112472167"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.gw.uni-jena.de/seidensticker-tilman"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara",
+                "bod",
+                "fas",
+                "khm",
+                "ota",
+                "san",
+                "tam",
+                "tur"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "catalog",
+            "digital_preservation",
+            "iranian_studies",
+            "manuscript",
+            "ottoman_studies",
+            "turkology"
+        ],
+        "category": "digital_preservation",
+        "comment": "website not accessible"
+    }
 }

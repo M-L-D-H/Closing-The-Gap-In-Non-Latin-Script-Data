@@ -1,146 +1,156 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66",
-    "record_created_on": "2021-11-11",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "A Digital Typology of Arabic Documents",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2003",
-        "to": ""
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.apd.gwi.uni-muenchen.de/apd/project.jsp",
-      "https://daw.philhist.unibas.ch/en/ancienthistory/research/research-projects/ancient-history-goes-digital/arabic-papyrology/"
-    ],
-    "project_desc": "The latest phase of the project Arabic Papyrology Database (APD). Its aim is to create digital diplomatic charts for structuring formulaic and layout features of Arabic documents.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Basel",
-          "ref": [
-            "https://www.geonames.org/2661604/basel.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "47.55839",
-          "lng": "7.57327"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Munich",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Universität Basel",
-          "ref": [
-            "https://ror.org/02s6k3f65",
-            "https://www.wikidata.org/wiki/Q372608"
-          ]
-        },
-        "websites": [
-          "https://www.unibas.ch/de"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "parent",
-        "title": "Arabic Papyrology Database",
-        "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0009-0000-5271-5452",
-            "https://d-nb.info/gnd/115211942"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "72bf1192-8af5-4df0-bd88-cf4d62d13d66",
+        "record_created_on": "2021-11-11",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
+    },
+    "project": {
+        "title": "A Digital Typology of Arabic Documents",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2003",
+                "to": ""
+            }
         ],
-        "websites": ["https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "digital_edition",
-      "digital_preservation",
-      "lexicon",
-      "manuscript",
-      "translation"
-    ],
-    "category": "digital_preservation",
-    "comment": "The start date recorded for this project is approximate."
-  }
+        "maintained": true,
+        "websites": [
+            "https://www.apd.gwi.uni-muenchen.de/apd/project.jsp",
+            "https://daw.philhist.unibas.ch/en/ancienthistory/research/research-projects/ancient-history-goes-digital/arabic-papyrology/"
+        ],
+        "project_desc": "The latest phase of the project Arabic Papyrology Database (APD). Its aim is to create digital diplomatic charts for structuring formulaic and layout features of Arabic documents.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Basel",
+                    "ref": [
+                        "https://www.geonames.org/2661604/basel.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "47.55839",
+                    "lng": "7.57327"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Munich",
+                    "ref": [
+                        "https://www.geonames.org/2867714/munich.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.13743",
+                    "lng": "11.57549"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Universität Basel",
+                    "ref": [
+                        "https://ror.org/02s6k3f65",
+                        "https://www.wikidata.org/wiki/Q372608"
+                    ]
+                },
+                "websites": [
+                    "https://www.unibas.ch/de"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "parent",
+                "title": "Arabic Papyrology Database",
+                "uuid": "e9bf3427-1c16-4bec-9d2d-22836ae7a4b9"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0009-0000-5271-5452",
+                        "https://d-nb.info/gnd/115211942"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "digital_edition",
+            "digital_preservation",
+            "lexicon",
+            "manuscript",
+            "translation"
+        ],
+        "category": "digital_preservation",
+        "comment": "The start date recorded for this project is approximate."
+    }
 }

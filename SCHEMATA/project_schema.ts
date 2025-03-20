@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 // Set version here, validate everywhere else!
-const schemaVersion = "0.2.6";
+const schemaVersion = "0.2.7";
 
 // Regular expressions
 const isoCode = /^[a-z]{3}$/; // Can we do better than this?
@@ -205,12 +205,52 @@ export const projectSchema = z
               .describe(
                 "List of languages of the project's research data (ISO-639-3 codes)",
               ),
-            sustainability_plan: z
-              .boolean()
-              .nullable()
-              .describe(
-                "Is there a plan to ensure the sustainability and reusability of the project's research data and output?",
-              ),
+              sustainability_plan: z
+              .object({
+                project_website: z
+                  .number()
+                  .min(0)
+                  .max(1)
+                  .describe("Indicates whether there is a dedicated project website (0 = no, 1 = yes)"),
+                
+                Github: z
+                  .number()
+                  .min(0)
+                  .max(1)
+                  .describe("Indicates whether the project has a GitHub repository (0 = no, 1 = yes)"),
+                
+                data_accessibility: z
+                  .number()
+                  .min(0)
+                  .max(1)
+                  .describe("Indicates the accessibility of project data (0 = no data, 0.5 = partially accessible, 1 = fully accessible)"),
+            
+                publications: z
+                  .union([
+                    z.literal(0).describe("No publications"),
+                    z.object({
+                      total: z
+                        .number()
+                        .int()
+                        .min(1)
+                        .describe("Total number of project-related publications"),
+                      open_access: z
+                        .number()
+                        .int()
+                        .min(0)
+                        .describe("Number of publications available open-access"),
+                    }),
+                  ])
+                  .describe("Publications status: 0 if none, otherwise an object detailing total publications, open-access count, and percentage"),
+            
+                webhosting: z
+                  .number()
+                  .min(0)
+                  .max(1)
+                  .describe("Indicates web presence level (0 = no presence, 0.5 = mentioned on an institutional site, 1 = own website)"),
+              })
+              .describe("A dictionary defining the sustainability and reusability plan for the project"),
+            
             publications: z
               .object({
                 open_access: z

@@ -1,161 +1,169 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1",
-    "record_created_on": "2022-11-04",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Mesopotamian Royal Inscriptions",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2000",
-        "to": ""
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://cdli.ucla.edu/projects/royal/royal.html"
-    ],
-    "project_desc": "In this sub-project of the Cuneiform Digital Library Initiative (CDLI), the focus lies on the digitization of royal and monumental texts, which despite representing a small share of the overall CDLI catalogue (20,000 of 350 000 texts) assume a disproportionately large role in history, literature, and linguistics in the several sub-fields of cuneiform studies.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Los Angeles",
-          "ref": [
-            "https://www.geonames.org/5368361/los-angeles.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "34.05223",
-          "lng": "-118.24368"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Oxford",
-          "ref": [
-            "https://www.geonames.org/2640729/oxford.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.75222",
-          "lng": "-1.25596"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [],
-    "related_entities": [
-      {
-        "relation_type": "parent",
-        "title": "Cuneiform Digital Library Initiative",
-        "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Nimrud NW Palace",
-        "uuid": "bef67936-aeda-45ea-86fa-d06d79620459"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Mesopotamian Seals",
-        "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
-        "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/1077774133"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1",
+        "record_created_on": "2022-11-04",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Mesopotamian Royal Inscriptions",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2000",
+                "to": ""
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://cdli.mpiwg-berlin.mpg.de/authors/408"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "akk",
-        "sux"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "corpus_output",
-      "digital_preservation",
-      "epigraphy",
-      "image",
-      "inscription",
-      "semitic_studies",
-      "vre"
-    ],
-    "category": "digital_preservation",
-    "comment": "The start date recorded for this project is approximate."
-  }
+            "https://cdli.ucla.edu/projects/royal/royal.html"
+        ],
+        "project_desc": "In this sub-project of the Cuneiform Digital Library Initiative (CDLI), the focus lies on the digitization of royal and monumental texts, which despite representing a small share of the overall CDLI catalogue (20,000 of 350 000 texts) assume a disproportionately large role in history, literature, and linguistics in the several sub-fields of cuneiform studies.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Los Angeles",
+                    "ref": [
+                        "https://www.geonames.org/5368361/los-angeles.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "34.05223",
+                    "lng": "-118.24368"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Oxford",
+                    "ref": [
+                        "https://www.geonames.org/2640729/oxford.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.75222",
+                    "lng": "-1.25596"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Berlin",
+                    "ref": [
+                        "https://www.geonames.org/2950159/berlin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.52437",
+                    "lng": "13.41053"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [],
+        "related_entities": [
+            {
+                "relation_type": "parent",
+                "title": "Cuneiform Digital Library Initiative",
+                "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Nimrud NW Palace",
+                "uuid": "bef67936-aeda-45ea-86fa-d06d79620459"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Mesopotamian Seals",
+                "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
+                "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://d-nb.info/gnd/1077774133"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://cdli.mpiwg-berlin.mpg.de/authors/408"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "akk",
+                "sux"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "corpus_output",
+            "digital_preservation",
+            "epigraphy",
+            "image",
+            "inscription",
+            "semitic_studies",
+            "vre"
+        ],
+        "category": "digital_preservation",
+        "comment": "The start date recorded for this project is approximate."
+    }
 }

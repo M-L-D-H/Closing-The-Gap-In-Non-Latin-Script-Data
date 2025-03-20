@@ -1,152 +1,160 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec",
-    "record_created_on": "2022-06-16",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-11-15",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
-    "abbr": "BLDCIL",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": ""
-      }
-    ],
-    "maintained": false,
-    "websites": [
-      "https://www.uni-bamberg.de/en/oriental-studies/general-linguistics/research/projects/"
-    ],
-    "project_desc": "The aim of this project is the sub-classification of Iranian languages which has proven to be a particularly recalcitrant problem in historical linguistics. BLDCIL will complement and extend existing scholarship by applying a novel phylogenetic methodology to this old problem. The research will be based on a compilation of standardized lexical data sets, together with sound files, from a representative set of Iranian languages, focusing initially on the West Iranian languages.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Bamberg",
-          "ref": [
-            "https://www.geonames.org/2952984/bamberg.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "49.89873",
-          "lng": "10.90067"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Otto-Friedrich-Universität Bamberg",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q707272",
-            "https://ror.org/01c1w6d29"
-          ]
-        },
-        "websites": [
-          "https://www.uni-bamberg.de/"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "sibling",
-        "title": "Multilingual Corpus of Annotated Spoken Texts",
-        "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Documentation of Gorani, an endangered language of West Iran",
-        "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Compilation and critical edition of pre-19th century Kurmanji Kurdish",
-        "uuid": "d0bda69f-d8c4-4521-ab18-af2c097ffcfc"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Post-predicate Elements in Iranian: Inheritance, Contact, and Information Structure",
-        "uuid": "c1a2957b-0c24-46e6-9a67-381997525a87"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-5410-3692",
-            "https://d-nb.info/gnd/1016008090"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec",
+        "record_created_on": "2022-06-16",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-11-15",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
+        "abbr": "BLDCIL",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2016",
+                "to": ""
+            }
         ],
-        "websites": []
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "bqi",
-        "fas",
-        "kur",
-        "mzn",
-        "tks",
-        "zum"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "audio",
-      "corpus_resource",
-      "iranian_studies",
-      "language_documentation",
-      "linguistics"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+        "maintained": false,
+        "websites": [
+            "https://www.uni-bamberg.de/en/oriental-studies/general-linguistics/research/projects/"
+        ],
+        "project_desc": "The aim of this project is the sub-classification of Iranian languages which has proven to be a particularly recalcitrant problem in historical linguistics. BLDCIL will complement and extend existing scholarship by applying a novel phylogenetic methodology to this old problem. The research will be based on a compilation of standardized lexical data sets, together with sound files, from a representative set of Iranian languages, focusing initially on the West Iranian languages.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Bamberg",
+                    "ref": [
+                        "https://www.geonames.org/2952984/bamberg.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "49.89873",
+                    "lng": "10.90067"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Otto-Friedrich-Universität Bamberg",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q707272",
+                        "https://ror.org/01c1w6d29"
+                    ]
+                },
+                "websites": [
+                    "https://www.uni-bamberg.de/"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "Multilingual Corpus of Annotated Spoken Texts",
+                "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Documentation of Gorani, an endangered language of West Iran",
+                "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Compilation and critical edition of pre-19th century Kurmanji Kurdish",
+                "uuid": "d0bda69f-d8c4-4521-ab18-af2c097ffcfc"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Post-predicate Elements in Iranian: Inheritance, Contact, and Information Structure",
+                "uuid": "c1a2957b-0c24-46e6-9a67-381997525a87"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-5410-3692",
+                        "https://d-nb.info/gnd/1016008090"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": []
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "bqi",
+                "fas",
+                "kur",
+                "mzn",
+                "tks",
+                "zum"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "audio",
+            "corpus_resource",
+            "iranian_studies",
+            "language_documentation",
+            "linguistics"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }
