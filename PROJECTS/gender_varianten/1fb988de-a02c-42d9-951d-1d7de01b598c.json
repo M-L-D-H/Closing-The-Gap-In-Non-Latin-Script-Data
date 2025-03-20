@@ -4,7 +4,7 @@
         "uuid": "1fb988de-a02c-42d9-951d-1d7de01b598c",
         "record_created_on": "2024-07-12",
         "record_created_by": "Werner, Christoph",
-        "last_edited_on": "2024-10-31",
+        "last_edited_on": "2025-03-20",
         "interviewed": false
     },
     "project": {
@@ -261,7 +261,7 @@
                 "project_website": 0.0,
                 "Github": 0.0,
                 "data_accessibility": 0.0,
-                "webhosting": 0.0,
+                "webhosting": 0.5,
                 "publications": 0.0,
                 "publication_count": 0,
                 "open_access_count": 0

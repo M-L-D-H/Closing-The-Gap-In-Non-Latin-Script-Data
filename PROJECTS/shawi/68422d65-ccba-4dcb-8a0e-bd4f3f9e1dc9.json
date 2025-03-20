@@ -4,7 +4,7 @@
         "uuid": "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9",
         "record_created_on": "2022-05-10",
         "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2024-10-31",
+        "last_edited_on": "2025-03-20",
         "interviewed": false
     },
     "project": {
@@ -124,10 +124,10 @@
                 "ara"
             ],
             "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 0.0,
+                "project_website": 1.0,
+                "Github": 1.0,
                 "data_accessibility": 0.0,
-                "webhosting": 0.0,
+                "webhosting": 0.5,
                 "publications": 0.0,
                 "publication_count": 0,
                 "open_access_count": 0

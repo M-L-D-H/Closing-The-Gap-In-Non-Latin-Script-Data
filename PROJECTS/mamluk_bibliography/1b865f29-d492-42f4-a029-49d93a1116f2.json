@@ -4,7 +4,7 @@
         "uuid": "1b865f29-d492-42f4-a029-49d93a1116f2",
         "record_created_on": "2022-12-05",
         "record_created_by": "Sido Bozan, Joudy",
-        "last_edited_on": "2024-12-05",
+        "last_edited_on": "2025-03-20",
         "interviewed": false
     },
     "project": {
@@ -78,10 +78,10 @@
                 "ara"
             ],
             "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.0,
+                "project_website": 1.0,
+                "Github": 1.0,
+                "data_accessibility": 1.0,
+                "webhosting": 1.0,
                 "publications": 0.0,
                 "publication_count": 0,
                 "open_access_count": 0

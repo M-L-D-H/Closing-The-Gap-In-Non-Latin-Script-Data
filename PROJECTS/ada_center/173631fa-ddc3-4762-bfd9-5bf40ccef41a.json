@@ -4,7 +4,7 @@
         "uuid": "173631fa-ddc3-4762-bfd9-5bf40ccef41a",
         "record_created_on": "2021-10-29",
         "record_created_by": "Mueller-Laackman, Jonas",
-        "last_edited_on": "2024-10-31",
+        "last_edited_on": "2025-03-20",
         "interviewed": false
     },
     "project": {
@@ -77,10 +77,10 @@
         "research_data": {
             "lang": [],
             "sustainability_plan": {
-                "project_website": 0.0,
+                "project_website": 1.0,
                 "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.0,
+                "data_accessibility": 1.0,
+                "webhosting": 1.0,
                 "publications": 0.0,
                 "publication_count": 0,
                 "open_access_count": 0
