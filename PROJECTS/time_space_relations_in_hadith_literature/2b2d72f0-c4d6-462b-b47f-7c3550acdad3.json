@@ -1,135 +1,147 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "2b2d72f0-c4d6-462b-b47f-7c3550acdad3",
-    "record_created_on": "2022-11-20",
-    "record_created_by": "Bednarkiewicz, Maroussia",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Time, Space and Relations in Hadith Literature: A Machine Learning Approach",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": "2025"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://github.com/dhakarat"
-    ],
-    "project_desc": "The aim of this project is to achieve a broader perspective on the dynamics of narrative adaptation in ḥadīth literature by applying advanced data analysis. We now have digitized databases as well as sophisticated and efficient algorithms, which were the missing factors for large-scale studies of ḥadīth literature. Using comprehensive datasets and recent algorithmic advances in text processing and machine learning models, we will map the use, reuse, and adaptations of ḥadīth narratives to better apprehend regional and general patterns within the whole ḥadīth literature.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Tübingen",
-          "ref": [
-            "https://www.geonames.org/2820860/tuebingen.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "48.52266",
-          "lng": "9.05222"
-        }
-      }
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Eberhard Karls Universität Tübingen",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q153978",
-            "https://ror.org/03a1kwz48"
-          ]
-        },
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "2b2d72f0-c4d6-462b-b47f-7c3550acdad3",
+        "record_created_on": "2022-11-20",
+        "record_created_by": "Bednarkiewicz, Maroussia",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Time, Space and Relations in Hadith Literature: A Machine Learning Approach",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2020",
+                "to": "2025"
+            }
+        ],
+        "maintained": true,
         "websites": [
-          "https://uni-tuebingen.de/en/university.html"
-        ]
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_entities": [
-      {
-        "relation_type": "child",
-        "title": "Isnalyser",
-        "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0009-0009-0445-6578",
-            "https://viaf.org/viaf/9154380928130290538/"
-          ]
+            "https://github.com/dhakarat"
+        ],
+        "project_desc": "The aim of this project is to achieve a broader perspective on the dynamics of narrative adaptation in ḥadīth literature by applying advanced data analysis. We now have digitized databases as well as sophisticated and efficient algorithms, which were the missing factors for large-scale studies of ḥadīth literature. Using comprehensive datasets and recent algorithmic advances in text processing and machine learning models, we will map the use, reuse, and adaptations of ḥadīth narratives to better apprehend regional and general patterns within the whole ḥadīth literature.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Tübingen",
+                    "ref": [
+                        "https://www.geonames.org/2820860/tuebingen.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.52266",
+                    "lng": "9.05222"
+                }
+            }
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Eberhard Karls Universität Tübingen",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q153978",
+                        "https://ror.org/03a1kwz48"
+                    ]
+                },
+                "websites": [
+                    "https://uni-tuebingen.de/en/university.html"
+                ]
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_entities": [
+            {
+                "relation_type": "child",
+                "title": "Isnalyser",
+                "uuid": "da852d13-2483-443b-a2f3-77c0d19d08bd"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0009-0009-0445-6578",
+                        "https://viaf.org/viaf/9154380928130290538/"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/oriental-and-islamic-studies/department/staff/maroussia-bednarkiewicz/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 100,
+                "licensing": [
+                    "GPL 3.0"
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
         },
-        "roles": ["supervision"],
-        "websites": ["https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/asian-and-oriental-studies/oriental-and-islamic-studies/department/staff/maroussia-bednarkiewicz/"]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 100,
-        "licensing": [
-          "GPL 3.0"
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [],
-      "backend": [],
-      "frontend": [],
-      "tools": [
-        {
-          "label": "isnalyser",
-          "self_developed": true,
-          "ref": [],
-          "websites": [
-            "https://github.com/dhakarat/isnalyser"
-          ],
-          "description": "isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats."
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [
+                {
+                    "label": "isnalyser",
+                    "self_developed": true,
+                    "ref": [],
+                    "websites": [
+                        "https://github.com/dhakarat/isnalyser"
+                    ],
+                    "description": "isnalyser is a simple program for the automation of drawing isnād trees and for their customizable display in handy formats."
+                },
+                {
+                    "label": "isnalyserjs",
+                    "self_developed": true,
+                    "ref": [],
+                    "websites": [
+                        "https://github.com/dhakarat/isnalyserjs"
+                    ],
+                    "description": "isnalyserjs is an interactive isnalyser, i.e. isnād tree drawing application, which can be used over the network."
+                }
+            ],
+            "languages": [
+                "Python"
+            ]
         },
-        {
-          "label": "isnalyserjs",
-          "self_developed": true,
-          "ref": [],
-          "websites": [
-            "https://github.com/dhakarat/isnalyserjs"
-          ],
-          "description": "isnalyserjs is an interactive isnalyser, i.e. isnād tree drawing application, which can be used over the network."
-        }
-      ],
-      "languages": [
-        "Python"
-      ]
-    },
-    "policies": [],
-    "keywords": [
-      "computational_text_analysis",
-      "hadith",
-      "islamic_studies",
-      "machine_learning",
-      "nlp",
-      "religion_studies",
-      "text_reuse"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+        "policies": [],
+        "keywords": [
+            "computational_text_analysis",
+            "hadith",
+            "islamic_studies",
+            "machine_learning",
+            "nlp",
+            "religion_studies",
+            "text_reuse"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }

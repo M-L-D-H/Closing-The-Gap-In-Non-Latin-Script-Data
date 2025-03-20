@@ -1,185 +1,193 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "ce6e74fb-c872-4ab4-a6f2-908232d0099a",
-    "record_created_on": "2021-11-08",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "ARCHES",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2019",
-        "to": "2024"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.naher-osten.uni-muenchen.de/forschung/arches-projekt/index.html"
-    ],
-    "project_desc": "The main objective of this project is the identification and cataloguing of Arabic and Judaeo-Arabic manuscripts related to Bible exegesis and translation, known as the Firkovitch Collection. The series contains approximately 2700 manuscripts dating back to the Golden Age of Arabic lands (between 9th and 13th centuries), which provide an extraordinary window to the intellectual and religious life of the Jewish communities living in those areas in that time. The metadata of the manuscripts will be made accessible for further research.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Munich",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Jerusalem",
-          "ref": [
-            "https://www.geonames.org/281184/jerusalem.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "31.76904",
-          "lng": "35.21633"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Ludwig-Maximilians-Universität Munich",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q156598",
-            "https://ror.org/05591te55"
-          ]
-        },
-        "websites": [
-          "https://www.lmu.de/de/index.html"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "The Hebrew University of Jerusalem",
-          "ref": [
-            "https://ror.org/04d0szq68",
-            "https://www.wikidata.org/wiki/Q174158"
-          ]
-        },
-        "websites": [
-          "https://en.huji.ac.il/en"
-        ]
-      }
-    ],
-    "related_entities": [],
-    "people": [
-      {
-        "pers_name": {
-          "text": "Vollandt, Ronny",
-          "ref": [
-            "https://orcid.org/0000-0003-3701-9429",
-            "https://d-nb.info/gnd/1173742050"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-7629-4637",
-            "https://d-nb.info/gnd/1019351853"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://en.arabic-lang.huji.ac.il/people/miriam-goldstein"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/1158385684"
-          ]
-        },
-        "roles": [
-          "investigation"
-        ],
-        "websites": [
-          "https://biblia-arabica.com/team/david-sklare/"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara",
-        "heb"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "ce6e74fb-c872-4ab4-a6f2-908232d0099a",
+        "record_created_on": "2021-11-08",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
     },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "catalog",
-      "digital_preservation",
-      "jewish_studies",
-      "manuscript",
-      "religion_studies",
-      "religious_text"
-    ],
-    "category": "digital_preservation",
-    "comment": ""
-  }
+    "project": {
+        "title": "ARCHES",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2019",
+                "to": "2024"
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://www.naher-osten.uni-muenchen.de/forschung/arches-projekt/index.html"
+        ],
+        "project_desc": "The main objective of this project is the identification and cataloguing of Arabic and Judaeo-Arabic manuscripts related to Bible exegesis and translation, known as the Firkovitch Collection. The series contains approximately 2700 manuscripts dating back to the Golden Age of Arabic lands (between 9th and 13th centuries), which provide an extraordinary window to the intellectual and religious life of the Jewish communities living in those areas in that time. The metadata of the manuscripts will be made accessible for further research.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Munich",
+                    "ref": [
+                        "https://www.geonames.org/2867714/munich.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.13743",
+                    "lng": "11.57549"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Jerusalem",
+                    "ref": [
+                        "https://www.geonames.org/281184/jerusalem.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "31.76904",
+                    "lng": "35.21633"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Ludwig-Maximilians-Universität Munich",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q156598",
+                        "https://ror.org/05591te55"
+                    ]
+                },
+                "websites": [
+                    "https://www.lmu.de/de/index.html"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "The Hebrew University of Jerusalem",
+                    "ref": [
+                        "https://ror.org/04d0szq68",
+                        "https://www.wikidata.org/wiki/Q174158"
+                    ]
+                },
+                "websites": [
+                    "https://en.huji.ac.il/en"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "Vollandt, Ronny",
+                    "ref": [
+                        "https://orcid.org/0000-0003-3701-9429",
+                        "https://d-nb.info/gnd/1173742050"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-7629-4637",
+                        "https://d-nb.info/gnd/1019351853"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://en.arabic-lang.huji.ac.il/people/miriam-goldstein"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://d-nb.info/gnd/1158385684"
+                    ]
+                },
+                "roles": [
+                    "investigation"
+                ],
+                "websites": [
+                    "https://biblia-arabica.com/team/david-sklare/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara",
+                "heb"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "catalog",
+            "digital_preservation",
+            "jewish_studies",
+            "manuscript",
+            "religion_studies",
+            "religious_text"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
 }

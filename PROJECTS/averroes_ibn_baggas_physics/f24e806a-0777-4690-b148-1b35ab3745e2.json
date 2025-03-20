@@ -1,137 +1,145 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "f24e806a-0777-4690-b148-1b35ab3745e2",
-    "record_created_on": "2022-02-21",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Critical Edition of Ibn Bāǧǧa’s Commentary on Aristotle’s Physics",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": ""
-      }
-    ],
-    "maintained": false,
-    "websites": [
-      "https://averroes.uni-koeln.de/edition/current-editions/"
-    ],
-    "project_desc": "Ibn Bāǧǧa’s commentaries provide an exposition of the content of Aristotle’s “Physics,” which is partly incomplete. They also had a decisive impact on Averroes’s commentaries on the same work. The project’s objective is a critical edition of Ibn Bāǧǧa’s commentaries, the study of their genesis and structure as well as their first ever presentation in form of a complete and reliable text.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Köln",
-          "ref": [
-            "https://www.geonames.org/2886242/koeln.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "50.93333",
-          "lng": "6.95"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [],
-    "related_entities": [
-      {
-        "relation_type": "parent",
-        "title": "Averroes Edition",
-        "uuid": "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Study of Averroes’s Long Commentary on the Physics in Hebrew and Latin Transmission",
-        "uuid": "3992a23d-8426-4b73-8b30-844e471e76e2"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Critical Edition of Ibn Bāğğa’s Commentary on Aristotle’s De generatione et corruptione",
-        "uuid": "c3e206ec-9989-4500-ac20-4126e35871f2"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Critical Edition of the Fragmentary Latin Translation of Averroes’s Commentary on De Partibus Animalium and De Generatione Animalium",
-        "uuid": "7c7438e6-4172-4059-ad60-54a6d0d61f7c"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://viaf.org/viaf/209127583"
-          ]
-        },
-        "roles": [
-          "investigation"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "f24e806a-0777-4690-b148-1b35ab3745e2",
+        "record_created_on": "2022-02-21",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Critical Edition of Ibn Bāǧǧa’s Commentary on Aristotle’s Physics",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2016",
+                "to": ""
+            }
         ],
+        "maintained": false,
         "websites": [
-          "https://philosophie.univ-paris8.fr/Farah-CHERIF-ZAHAR"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "digital_edition",
-      "digital_preservation",
-      "image",
-      "jewish_studies",
-      "manuscript",
-      "philosophy",
-      "science_history"
-    ],
-    "category": "digital_preservation",
-    "comment": "no findings or publications yet"
-  }
+            "https://averroes.uni-koeln.de/edition/current-editions/"
+        ],
+        "project_desc": "Ibn Bāǧǧa’s commentaries provide an exposition of the content of Aristotle’s “Physics,” which is partly incomplete. They also had a decisive impact on Averroes’s commentaries on the same work. The project’s objective is a critical edition of Ibn Bāǧǧa’s commentaries, the study of their genesis and structure as well as their first ever presentation in form of a complete and reliable text.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Köln",
+                    "ref": [
+                        "https://www.geonames.org/2886242/koeln.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "50.93333",
+                    "lng": "6.95"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [],
+        "related_entities": [
+            {
+                "relation_type": "parent",
+                "title": "Averroes Edition",
+                "uuid": "a6e1fb68-e7a5-4125-8cfc-ec3aa16da73b"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Study of Averroes’s Long Commentary on the Physics in Hebrew and Latin Transmission",
+                "uuid": "3992a23d-8426-4b73-8b30-844e471e76e2"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Critical Edition of Ibn Bāğğa’s Commentary on Aristotle’s De generatione et corruptione",
+                "uuid": "c3e206ec-9989-4500-ac20-4126e35871f2"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Critical Edition of the Fragmentary Latin Translation of Averroes’s Commentary on De Partibus Animalium and De Generatione Animalium",
+                "uuid": "7c7438e6-4172-4059-ad60-54a6d0d61f7c"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://viaf.org/viaf/209127583"
+                    ]
+                },
+                "roles": [
+                    "investigation"
+                ],
+                "websites": [
+                    "https://philosophie.univ-paris8.fr/Farah-CHERIF-ZAHAR"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "digital_edition",
+            "digital_preservation",
+            "image",
+            "jewish_studies",
+            "manuscript",
+            "philosophy",
+            "science_history"
+        ],
+        "category": "digital_preservation",
+        "comment": "no findings or publications yet"
+    }
 }

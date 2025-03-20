@@ -1,135 +1,143 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "4a8c71d9-bdf0-4df1-9980-b13fb5b1af3b",
-    "record_created_on": "2021-11-11",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Arbeitsstelle Kleine Fächer",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2005",
-        "to": "2028"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.kleinefaecher.de/kartierung/arbeitsstelle-kleine-faecher"
-    ],
-    "project_desc": "This project focuses on “small subjects” or less known fields of study in German universities. Its main objective it to collect data about the current situation of small subjects in Germany as well as its documentation.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Mainz",
-          "ref": [
-            "https://www.geonames.org/2874224/mainz.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "50.00133",
-          "lng": "8.25865"
-        }
-      }
-    ],
-    "lang": [
-      "deu"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Johannes Gutenberg-Universität Mainz",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q161982",
-            "https://ror.org/023b0x485"
-          ]
-        },
-        "websites": [
-          "https://www.uni-mainz.de/"
-        ]
-      }
-    ],
-    "related_entities": [],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.zq.uni-mainz.de/ueber-uns/team/univ-prof-dr-uwe-schmidt/"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/1026820677"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.zq.uni-mainz.de/dr-katharina-bahlmann/"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "deu"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "4a8c71d9-bdf0-4df1-9980-b13fb5b1af3b",
+        "record_created_on": "2021-11-11",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
     },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "research_infrastructure"
-    ],
-    "category": "infrastructure",
-    "comment": ""
-  }
+    "project": {
+        "title": "Arbeitsstelle Kleine Fächer",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2005",
+                "to": "2028"
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://www.kleinefaecher.de/kartierung/arbeitsstelle-kleine-faecher"
+        ],
+        "project_desc": "This project focuses on “small subjects” or less known fields of study in German universities. Its main objective it to collect data about the current situation of small subjects in Germany as well as its documentation.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Mainz",
+                    "ref": [
+                        "https://www.geonames.org/2874224/mainz.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "50.00133",
+                    "lng": "8.25865"
+                }
+            }
+        ],
+        "lang": [
+            "deu"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Johannes Gutenberg-Universität Mainz",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q161982",
+                        "https://ror.org/023b0x485"
+                    ]
+                },
+                "websites": [
+                    "https://www.uni-mainz.de/"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": []
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.zq.uni-mainz.de/ueber-uns/team/univ-prof-dr-uwe-schmidt/"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://d-nb.info/gnd/1026820677"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.zq.uni-mainz.de/dr-katharina-bahlmann/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "deu"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "research_infrastructure"
+        ],
+        "category": "infrastructure",
+        "comment": ""
+    }
 }

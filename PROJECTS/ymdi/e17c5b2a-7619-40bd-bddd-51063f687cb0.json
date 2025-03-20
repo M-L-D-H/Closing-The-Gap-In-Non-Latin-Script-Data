@@ -1,187 +1,195 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "e17c5b2a-7619-40bd-bddd-51063f687cb0",
-    "record_created_on": "2022-07-26",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "The Yemeni Manuscript Digitization Initiative",
-    "abbr": "YMDI",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2010",
-        "to": "2013"
-      }
-    ],
-    "maintained": false,
-    "websites": [
-      "https://ymdi.uoregon.edu/projects/",
-      "https://dpul.princeton.edu/islamicmss/feature/yemeni-manuscripts-digitization-initiative",
-      "https://gepris.dfg.de/gepris/projekt/173778285"
-    ],
-    "project_desc": "The Yemen Manuscript Digitization Initiative (YMDI) is a collaborative project between Princeton University Library and the Freie Universität, Berlin. YMDI’s mission is the preservation and dissemination of the Arabic manuscripts in the private libraries of Yemen. The scope of the project is threefold: 1. preservation of three private libraries in Sana‘a, a total of 236 manuscripts. 2. digitization of 12 additional manuscripts in the rare book collections of the State Library Berlin and the Princeton University Library. 3 creation of a freely accessible repository of Islamic manuscripts based on the digital-library infrastructure developed at Princeton.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Princeton",
-          "ref": [
-            "https://www.geonames.org/5102922/princeton.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "40.34872",
-          "lng": "-74.65905"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Sanaa",
-          "ref": [
-            "https://www.geonames.org/71137/sanaa.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "15.35472",
-          "lng": "44.20667"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Freie Universität Berlin",
-          "ref": [
-            "https://ror.org/046ak2485",
-            "https://www.wikidata.org/wiki/Q153006"
-          ]
-        },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Princeton University",
-          "ref": [
-            "https://ror.org/00hx57361",
-            "https://www.wikidata.org/wiki/Q21578"
-          ]
-        },
-        "websites": [
-          "https://www.princeton.edu/"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "sibling",
-        "title": "Weaving the Humanities into the Web and the Web into the Humanities. Preserving the Cultural Heritage of Yemen by Creating an Universally Virtual Library of Manuscripts (HumanWeb)",
-        "uuid": "1a587e85-1385-40b0-b6eb-25ca8fa5042c"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-6181-5065",
-            "https://d-nb.info/gnd/143773771"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.ias.edu/scholars/schmidtke"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-4095-914X",
-            "https://d-nb.info/gnd/1050435206"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://library.princeton.edu/staff/dmagier"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "e17c5b2a-7619-40bd-bddd-51063f687cb0",
+        "record_created_on": "2022-07-26",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
     },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "catalog",
-      "digital_preservation",
-      "manuscript"
-    ],
-    "category": "digital_preservation",
-    "comment": ""
-  }
+    "project": {
+        "title": "The Yemeni Manuscript Digitization Initiative",
+        "abbr": "YMDI",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2010",
+                "to": "2013"
+            }
+        ],
+        "maintained": false,
+        "websites": [
+            "https://ymdi.uoregon.edu/projects/",
+            "https://dpul.princeton.edu/islamicmss/feature/yemeni-manuscripts-digitization-initiative",
+            "https://gepris.dfg.de/gepris/projekt/173778285"
+        ],
+        "project_desc": "The Yemen Manuscript Digitization Initiative (YMDI) is a collaborative project between Princeton University Library and the Freie Universität, Berlin. YMDI’s mission is the preservation and dissemination of the Arabic manuscripts in the private libraries of Yemen. The scope of the project is threefold: 1. preservation of three private libraries in Sana‘a, a total of 236 manuscripts. 2. digitization of 12 additional manuscripts in the rare book collections of the State Library Berlin and the Princeton University Library. 3 creation of a freely accessible repository of Islamic manuscripts based on the digital-library infrastructure developed at Princeton.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Princeton",
+                    "ref": [
+                        "https://www.geonames.org/5102922/princeton.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "40.34872",
+                    "lng": "-74.65905"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Berlin",
+                    "ref": [
+                        "https://www.geonames.org/2950159/berlin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.52437",
+                    "lng": "13.41053"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Sanaa",
+                    "ref": [
+                        "https://www.geonames.org/71137/sanaa.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "15.35472",
+                    "lng": "44.20667"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Freie Universität Berlin",
+                    "ref": [
+                        "https://ror.org/046ak2485",
+                        "https://www.wikidata.org/wiki/Q153006"
+                    ]
+                },
+                "websites": [
+                    "https://www.fu-berlin.de/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Princeton University",
+                    "ref": [
+                        "https://ror.org/00hx57361",
+                        "https://www.wikidata.org/wiki/Q21578"
+                    ]
+                },
+                "websites": [
+                    "https://www.princeton.edu/"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "Weaving the Humanities into the Web and the Web into the Humanities. Preserving the Cultural Heritage of Yemen by Creating an Universally Virtual Library of Manuscripts (HumanWeb)",
+                "uuid": "1a587e85-1385-40b0-b6eb-25ca8fa5042c"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-6181-5065",
+                        "https://d-nb.info/gnd/143773771"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.ias.edu/scholars/schmidtke"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-4095-914X",
+                        "https://d-nb.info/gnd/1050435206"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://library.princeton.edu/staff/dmagier"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "catalog",
+            "digital_preservation",
+            "manuscript"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
 }

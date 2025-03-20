@@ -1,234 +1,242 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "87d036b9-5145-47d0-8d0e-83bb6821f3fe",
-    "record_created_on": "2022-09-30",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Surayt-Aramaic Online Project",
-    "abbr": "SAOP",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2014",
-        "to": "2017"
-      },
-      {
-        "from": "2017",
-        "to": "2020"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "http://www.surayt.com/",
-      "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/forschung/abgeschlossene-forschungsprojekte/saop/index.html",
-      "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/forschung/abgeschlossene-forschungsprojekte/aramaic-online-project/index.html"
-    ],
-    "project_desc": "This project is a second phase of Aramaic Online Project, whose team developed online courses for Surayt language in levels A1, A2 and B1. The aim of this phase is to develop courses for intermediary and advanced levels (B1-2, C1 and C2) and producing additional linguistic material for the teaching of Surayt, such as a “Reader” (digital text corpus) which will address the needs of more advanced learners.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Stockholm",
-          "ref": [
-            "https://www.geonames.org/2673730/stockholm.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "59.32938",
-          "lng": "18.06871"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Glane",
-          "ref": [
-            "https://www.geonames.org/2755497/glane.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.2325",
-          "lng": "7.00278"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Piscataway",
-          "ref": [
-            "https://www.geonames.org/5102713/piscataway.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "40.49927",
-          "lng": "-74.39904"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Gölcük",
-          "ref": [
-            "https://www.geonames.org/746666/geulzuk.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "40.71501",
-          "lng": "29.81824"
-        }
-      }
-    ],
-    "lang": [
-      "ara",
-      "deu",
-      "eng",
-      "fra",
-      "nld",
-      "swe",
-      "tur"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Freie Universität Berlin",
-          "ref": [
-            "https://ror.org/046ak2485",
-            "https://www.wikidata.org/wiki/Q153006"
-          ]
-        },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Stockholm University",
-          "ref": [
-            "https://ror.org/05f0yaq80",
-            "https://www.wikidata.org/wiki/Q221645"
-          ]
-        },
-        "websites": [
-          "https://www.su.se/cmlink/stockholm-university"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "St Ephrem Syriac Orthodox Monastery",
-          "ref": []
-        },
-        "websites": [
-          "https://morephrem.com/klooster/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Beth Mardutho Syriac Institute",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q59535226#sitelinks-wikipedia",
-            "https://ror.org/01agawy76"
-          ]
-        },
-        "websites": [
-          "https://bethmardutho.org/surayt/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Midyat Süryani Kültür Dernegi",
-          "ref": []
-        },
-        "websites": [
-          "https://web.archive.org/web/20230203140710/http://midyatsuryanikulturdernegi.com/"
-        ]
-      }
-    ],
-    "related_entities": [],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-8080-5380",
-            "https://d-nb.info/gnd/120744414"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "87d036b9-5145-47d0-8d0e-83bb6821f3fe",
+        "record_created_on": "2022-09-30",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Surayt-Aramaic Online Project",
+        "abbr": "SAOP",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2014",
+                "to": "2017"
+            },
+            {
+                "from": "2017",
+                "to": "2020"
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://www.geschkult.fu-berlin.de/en/e/semiarab/semitistik/institut/mitarbeiterInnen/Professor_innen/talay/index.html"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "arc",
-        "tru"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "corpus_resource",
-      "e_learning",
-      "semitic_studies",
-      "tei"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+            "http://www.surayt.com/",
+            "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/forschung/abgeschlossene-forschungsprojekte/saop/index.html",
+            "https://www.geschkult.fu-berlin.de/e/semiarab/semitistik/forschung/abgeschlossene-forschungsprojekte/aramaic-online-project/index.html"
+        ],
+        "project_desc": "This project is a second phase of Aramaic Online Project, whose team developed online courses for Surayt language in levels A1, A2 and B1. The aim of this phase is to develop courses for intermediary and advanced levels (B1-2, C1 and C2) and producing additional linguistic material for the teaching of Surayt, such as a “Reader” (digital text corpus) which will address the needs of more advanced learners.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Berlin",
+                    "ref": [
+                        "https://www.geonames.org/2950159/berlin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.52437",
+                    "lng": "13.41053"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Stockholm",
+                    "ref": [
+                        "https://www.geonames.org/2673730/stockholm.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "59.32938",
+                    "lng": "18.06871"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Glane",
+                    "ref": [
+                        "https://www.geonames.org/2755497/glane.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.2325",
+                    "lng": "7.00278"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Piscataway",
+                    "ref": [
+                        "https://www.geonames.org/5102713/piscataway.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "40.49927",
+                    "lng": "-74.39904"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Gölcük",
+                    "ref": [
+                        "https://www.geonames.org/746666/geulzuk.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "40.71501",
+                    "lng": "29.81824"
+                }
+            }
+        ],
+        "lang": [
+            "ara",
+            "deu",
+            "eng",
+            "fra",
+            "nld",
+            "swe",
+            "tur"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Freie Universität Berlin",
+                    "ref": [
+                        "https://ror.org/046ak2485",
+                        "https://www.wikidata.org/wiki/Q153006"
+                    ]
+                },
+                "websites": [
+                    "https://www.fu-berlin.de/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Stockholm University",
+                    "ref": [
+                        "https://ror.org/05f0yaq80",
+                        "https://www.wikidata.org/wiki/Q221645"
+                    ]
+                },
+                "websites": [
+                    "https://www.su.se/cmlink/stockholm-university"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "St Ephrem Syriac Orthodox Monastery",
+                    "ref": []
+                },
+                "websites": [
+                    "https://morephrem.com/klooster/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Beth Mardutho Syriac Institute",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q59535226#sitelinks-wikipedia",
+                        "https://ror.org/01agawy76"
+                    ]
+                },
+                "websites": [
+                    "https://bethmardutho.org/surayt/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Midyat Süryani Kültür Dernegi",
+                    "ref": []
+                },
+                "websites": [
+                    "https://web.archive.org/web/20230203140710/http://midyatsuryanikulturdernegi.com/"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-8080-5380",
+                        "https://d-nb.info/gnd/120744414"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.geschkult.fu-berlin.de/en/e/semiarab/semitistik/institut/mitarbeiterInnen/Professor_innen/talay/index.html"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "arc",
+                "tru"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "corpus_resource",
+            "e_learning",
+            "semitic_studies",
+            "tei"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }

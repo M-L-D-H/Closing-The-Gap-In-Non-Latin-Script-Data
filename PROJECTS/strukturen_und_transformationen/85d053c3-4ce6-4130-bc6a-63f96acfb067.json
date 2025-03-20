@@ -1,165 +1,173 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067",
-    "record_created_on": "2022-02-09",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2013",
-        "to": "2035"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://aaew.bbaw.de/de",
-      "https://www.bbaw.de/forschung/wortschatz-der-aegyptischen-sprache",
-      "https://www.saw-leipzig.de/de/projekte/strukturen-und-transformationen-des-wortschatzes-der-aegyptischen-sprache"
-    ],
-    "project_desc": "The aim of the project is preparation of a diachronic corpus of Egyptian texts which, linked to a digital dictionary, enables online research of Coptic vocabulary throughout all epochs and stages of Egyptian language history. The results are accessible on Thesaurus Linguae Aegyptiae (TLA), a research and publishing platform developed by a previous BBAW project, “Altägyptisches Wörterbuch,” which expired 2012.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Leipzig",
-          "ref": [
-            "https://www.geonames.org/2879139/leipzig.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
-      }
-    ],
-    "lang": [
-      "deu"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Zentrum Grundlagenforschung Alte Welt",
-          "ref": []
-        },
-        "websites": [
-          "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q27891200",
-            "https://ror.org/03zxjdk07"
-          ]
-        },
-        "websites": [
-          "https://www.saw-leipzig.de/"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "sibling",
-        "title": "Altägyptisches Wörterbuch",
-        "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Corpus Coranicum",
-        "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/142266140"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067",
+        "record_created_on": "2022-02-09",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2013",
+                "to": "2035"
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Richter/",
-          "https://www.bbaw.de/die-akademie/bbaw-mitglieder/mitglied-tonio-sebastian-richter"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "cop"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "annotation",
-      "corpus_resource",
-      "egyptology",
-      "lexicography",
-      "lexicon",
-      "translation",
-      "vre"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+            "https://aaew.bbaw.de/de",
+            "https://www.bbaw.de/forschung/wortschatz-der-aegyptischen-sprache",
+            "https://www.saw-leipzig.de/de/projekte/strukturen-und-transformationen-des-wortschatzes-der-aegyptischen-sprache"
+        ],
+        "project_desc": "The aim of the project is preparation of a diachronic corpus of Egyptian texts which, linked to a digital dictionary, enables online research of Coptic vocabulary throughout all epochs and stages of Egyptian language history. The results are accessible on Thesaurus Linguae Aegyptiae (TLA), a research and publishing platform developed by a previous BBAW project, “Altägyptisches Wörterbuch,” which expired 2012.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Berlin",
+                    "ref": [
+                        "https://www.geonames.org/2950159/berlin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.52437",
+                    "lng": "13.41053"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Leipzig",
+                    "ref": [
+                        "https://www.geonames.org/2879139/leipzig.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.33962",
+                    "lng": "12.37129"
+                }
+            }
+        ],
+        "lang": [
+            "deu"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Zentrum Grundlagenforschung Alte Welt",
+                    "ref": []
+                },
+                "websites": [
+                    "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q27891200",
+                        "https://ror.org/03zxjdk07"
+                    ]
+                },
+                "websites": [
+                    "https://www.saw-leipzig.de/"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "Altägyptisches Wörterbuch",
+                "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Corpus Coranicum",
+                "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://d-nb.info/gnd/142266140"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Richter/",
+                    "https://www.bbaw.de/die-akademie/bbaw-mitglieder/mitglied-tonio-sebastian-richter"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "cop"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "annotation",
+            "corpus_resource",
+            "egyptology",
+            "lexicography",
+            "lexicon",
+            "translation",
+            "vre"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }

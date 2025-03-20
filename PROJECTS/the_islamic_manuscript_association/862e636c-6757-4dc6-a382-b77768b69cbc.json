@@ -1,126 +1,134 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "862e636c-6757-4dc6-a382-b77768b69cbc",
-    "record_created_on": "2022-09-06",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "The Islamic Manuscript Association",
-    "abbr": "",
-    "type": "organization",
-    "ref": [
-      "https://d-nb.info/gnd/10368977-1"
-    ],
-    "date": [
-      {
-        "from": "2008",
-        "to": ""
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.islamicmanuscript.org/home.aspx"
-    ],
-    "project_desc": "The Islamic Manuscript Association is an international non-profit organization dedicated to protecting Islamic manuscript collections and supporting those who work with them. Its main goal is to enhance the preservation and accessibility of many Islamic manuscript collections around the world. To this end, it articulates standards and guidelines for best practice in cataloguing, conservation, digitization, offers courses for professionals and awards grants to advance scholarship on Islamic manuscripts.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Cambridge",
-          "ref": [
-            "https://www.geonames.org/2653941/cambridge.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.2",
-          "lng": "0.11667"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "University of Cambridge",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q35794",
-            "https://ror.org/013meh722"
-          ]
-        },
-        "websites": [
-          "https://www.cam.ac.uk/"
-        ]
-      }
-    ],
-    "related_entities": [],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "roles": [
-          "investigation"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "862e636c-6757-4dc6-a382-b77768b69cbc",
+        "record_created_on": "2022-09-06",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
+    },
+    "project": {
+        "title": "The Islamic Manuscript Association",
+        "abbr": "",
+        "type": "organization",
+        "ref": [
+            "https://d-nb.info/gnd/10368977-1"
         ],
+        "date": [
+            {
+                "from": "2008",
+                "to": ""
+            }
+        ],
+        "maintained": true,
         "websites": [
-          "https://www.islamicmanuscript.org/DirectoryOfMembers/Person.aspx?mid=706"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara",
-        "fas",
-        "tur"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "collaboration_platform",
-      "islamic_studies"
-    ],
-    "category": "other",
-    "comment": ""
-  }
+            "https://www.islamicmanuscript.org/home.aspx"
+        ],
+        "project_desc": "The Islamic Manuscript Association is an international non-profit organization dedicated to protecting Islamic manuscript collections and supporting those who work with them. Its main goal is to enhance the preservation and accessibility of many Islamic manuscript collections around the world. To this end, it articulates standards and guidelines for best practice in cataloguing, conservation, digitization, offers courses for professionals and awards grants to advance scholarship on Islamic manuscripts.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Cambridge",
+                    "ref": [
+                        "https://www.geonames.org/2653941/cambridge.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.2",
+                    "lng": "0.11667"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "University of Cambridge",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q35794",
+                        "https://ror.org/013meh722"
+                    ]
+                },
+                "websites": [
+                    "https://www.cam.ac.uk/"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": []
+                },
+                "roles": [
+                    "investigation"
+                ],
+                "websites": [
+                    "https://www.islamicmanuscript.org/DirectoryOfMembers/Person.aspx?mid=706"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara",
+                "fas",
+                "tur"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "collaboration_platform",
+            "islamic_studies"
+        ],
+        "category": "other",
+        "comment": ""
+    }
 }

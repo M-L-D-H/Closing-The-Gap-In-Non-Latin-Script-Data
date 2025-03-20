@@ -1,153 +1,161 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "2860c96f-323e-4c33-97c6-4219bcf99f52",
-    "record_created_on": "2021-11-01",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Open Encyclopedia System",
-    "abbr": "OES",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2020"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.open-encyclopedia-system.org",
-      "https://www.cedis.fu-berlin.de/services/projektentwicklung/abgeschlossen/oes/index.html"
-    ],
-    "project_desc": "OES is a standardized publishing platform for humanities and social sciences. Contrary to existing academic encyclopedias the OES taps into the full potential of e-publishing by adding new solutions to the already available options: it offers flexible workflows, configurable participation models, various options for customizing the peer review process and features that facilitate the engagement and management of a community.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Munich",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
-      }
-    ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Freie Universität Berlin",
-          "ref": [
-            "https://ror.org/046ak2485",
-            "https://www.wikidata.org/wiki/Q153006"
-          ]
-        },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Bayerische Staatsbibliothek",
-          "ref": [
-            "https://ror.org/031h71w90",
-            "https://www.wikidata.org/wiki/Q256507"
-          ]
-        },
-        "websites": [
-          "https://www.bsb-muenchen.de/"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "cooperation",
-        "title": "Keywords for the Study of the Arabic Literary and Manuscript Tradition",
-        "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "2860c96f-323e-4c33-97c6-4219bcf99f52",
+        "record_created_on": "2021-11-01",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Open Encyclopedia System",
+        "abbr": "OES",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2016",
+                "to": "2020"
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/ageukes.html"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "digital_publishing",
-      "research_infrastructure"
-    ],
-    "category": "infrastructure",
-    "comment": ""
-  }
+            "https://www.open-encyclopedia-system.org",
+            "https://www.cedis.fu-berlin.de/services/projektentwicklung/abgeschlossen/oes/index.html"
+        ],
+        "project_desc": "OES is a standardized publishing platform for humanities and social sciences. Contrary to existing academic encyclopedias the OES taps into the full potential of e-publishing by adding new solutions to the already available options: it offers flexible workflows, configurable participation models, various options for customizing the peer review process and features that facilitate the engagement and management of a community.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Berlin",
+                    "ref": [
+                        "https://www.geonames.org/2950159/berlin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.52437",
+                    "lng": "13.41053"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Munich",
+                    "ref": [
+                        "https://www.geonames.org/2867714/munich.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.13743",
+                    "lng": "11.57549"
+                }
+            }
+        ],
+        "lang": [
+            "deu",
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Freie Universität Berlin",
+                    "ref": [
+                        "https://ror.org/046ak2485",
+                        "https://www.wikidata.org/wiki/Q153006"
+                    ]
+                },
+                "websites": [
+                    "https://www.fu-berlin.de/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Bayerische Staatsbibliothek",
+                    "ref": [
+                        "https://ror.org/031h71w90",
+                        "https://www.wikidata.org/wiki/Q256507"
+                    ]
+                },
+                "websites": [
+                    "https://www.bsb-muenchen.de/"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "cooperation",
+                "title": "Keywords for the Study of the Arabic Literary and Manuscript Tradition",
+                "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": []
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/ageukes.html"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "digital_publishing",
+            "research_infrastructure"
+        ],
+        "category": "infrastructure",
+        "comment": ""
+    }
 }

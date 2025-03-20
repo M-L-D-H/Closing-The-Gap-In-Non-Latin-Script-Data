@@ -1,128 +1,136 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "5755bad5-4162-48ce-84b4-997819fa61b7",
-    "record_created_on": "2021-11-01",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Kallimachos",
-    "abbr": "",
-    "type": "organization",
-    "ref": [],
-    "date": [
-      {
-        "from": "2014",
-        "to": "2017"
-      },
-      {
-        "from": "2017",
-        "to": "2019"
-      }
-    ],
-    "maintained": false,
-    "websites": [
-      "https://www.kallimachos.de/"
-    ],
-    "project_desc": "Kallimachos is a Digital Humanities center at the University of Würzburg. It was developed via a project by the same name funded between 2014 and 2019. The center supports humanities scholars in applying digital methods in their research by providing technical and social infrastructure, software, and prototypical workflows. The center also establishes an integral structure for research data management.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Würzburg",
-          "ref": [
-            "https://www.geonames.org/2805615/wuerzburg.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "49.79391",
-          "lng": "9.95121"
-        }
-      }
-    ],
-    "lang": [
-      "deu"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Julius Maximilian University of Würzburg",
-          "ref": [
-            "https://ror.org/00fbnyb24",
-            "https://www.wikidata.org/wiki/Q161976"
-          ]
-        },
-        "websites": [
-          "https://www.uni-wuerzburg.de/startseite/"
-        ]
-      }
-    ],
-    "related_entities": [],
-    "people": [
-      {
-        "pers_name": {
-          "text": "Hasse, Dag Nikolaus",
-          "ref": [
-            "https://orcid.org/0009-0002-8688-1218",
-            "https://d-nb.info/gnd/11800638X"
-        ]
-        },
-        "roles": [
-          "investigation"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "5755bad5-4162-48ce-84b4-997819fa61b7",
+        "record_created_on": "2021-11-01",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Kallimachos",
+        "abbr": "",
+        "type": "organization",
+        "ref": [],
+        "date": [
+            {
+                "from": "2014",
+                "to": "2017"
+            },
+            {
+                "from": "2017",
+                "to": "2019"
+            }
         ],
+        "maintained": false,
         "websites": [
-          "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "collaboration_platform",
-      "research_data_management",
-      "research_infrastructure"
-    ],
-    "category": "infrastructure",
-    "comment": "Website last updated in 2019"
-  }
+            "https://www.kallimachos.de/"
+        ],
+        "project_desc": "Kallimachos is a Digital Humanities center at the University of Würzburg. It was developed via a project by the same name funded between 2014 and 2019. The center supports humanities scholars in applying digital methods in their research by providing technical and social infrastructure, software, and prototypical workflows. The center also establishes an integral structure for research data management.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Würzburg",
+                    "ref": [
+                        "https://www.geonames.org/2805615/wuerzburg.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "49.79391",
+                    "lng": "9.95121"
+                }
+            }
+        ],
+        "lang": [
+            "deu"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Julius Maximilian University of Würzburg",
+                    "ref": [
+                        "https://ror.org/00fbnyb24",
+                        "https://www.wikidata.org/wiki/Q161976"
+                    ]
+                },
+                "websites": [
+                    "https://www.uni-wuerzburg.de/startseite/"
+                ]
+            }
+        ],
+        "related_entities": [],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "Hasse, Dag Nikolaus",
+                    "ref": [
+                        "https://orcid.org/0009-0002-8688-1218",
+                        "https://d-nb.info/gnd/11800638X"
+                    ]
+                },
+                "roles": [
+                    "investigation"
+                ],
+                "websites": [
+                    "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "collaboration_platform",
+            "research_data_management",
+            "research_infrastructure"
+        ],
+        "category": "infrastructure",
+        "comment": "Website last updated in 2019"
+    }
 }

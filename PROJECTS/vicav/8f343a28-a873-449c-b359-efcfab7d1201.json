@@ -1,175 +1,183 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "8f343a28-a873-449c-b359-efcfab7d1201",
-    "record_created_on": "2022-05-12",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-11-15",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Vienna Corpus of Arabic Varieties",
-    "abbr": "VICAV",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2013-01-01",
-        "to": "2028-12-31"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://vicav.acdh.oeaw.ac.at/#map=[biblMarkers,.*,geo]&1=[textQuery,vicavMission,MISSION,open]&2=[textQuery,vicavNews,NEWS,open]"
-    ],
-    "project_desc": "This project has two main purposes: firstly, it serves as a virtual research platform for Arabic dialectology, secondly, as a test bed for newly developed text technological methodologies and tools. In doing so, it gathers varying digital language resources for a number of different localities and offers information on the research history, available literature, salient grammatical features etc. of the particular variety. VICAV also makes accessible bibliographies, dictionaries, glossaries, and different types of transcribed texts. The project aims at providing a platform of exchange for a scientific community which is increasingly producing digital data but still lacks the infrastructure to make it widely available.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Österreichische Akademie der Wissenschaften",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q299015",
-            "https://ror.org/03anc3s24"
-          ]
-        },
-        "websites": [
-          "https://www.oeaw.ac.at/en/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Universität Wien",
-          "ref": [
-            "https://ror.org/04d836q62",
-            "https://www.wikidata.org/wiki/Q165980"
-          ]
-        },
-        "websites": [
-          "https://www.univie.ac.at/en/"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "sibling",
-        "title": "WIBARAB: What is Bedouin-Type Arabic?",
-        "uuid": "e9cb8ab1-2d2c-4cc3-a44d-a793220a8638"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Genesis Rabbah Loanwords",
-        "uuid": "94044a63-eae5-4e1d-ba04-64874109fc36"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Shawi",
-        "uuid": "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "NoMansLand: Nomads’ Manuscripts Landscape",
-        "uuid": "e050deba-6e1d-4d82-851b-cf6c1f7187a5"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Linguistic dynamics in the Greater Tunis Area: a corpus-based approach (TUNICO)",
-        "uuid": "79462111-75a7-4fa0-8e11-9d424293a074"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "TUNOCENT",
-        "uuid": "325a929a-6764-41e1-b452-6556209fa74f"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "8f343a28-a873-449c-b359-efcfab7d1201",
+        "record_created_on": "2022-05-12",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-11-15",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Vienna Corpus of Arabic Varieties",
+        "abbr": "VICAV",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2013-01-01",
+                "to": "2028-12-31"
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://www.oeaw.ac.at/de/acdh/institut/team/mitarbeitende/karlheinz-moerth"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "annotation",
-      "arabic_studies",
-      "dialectology",
-      "geodata",
-      "language_documentation",
-      "lexicon",
-      "linguistics",
-      "map",
-      "translation"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+            "https://vicav.acdh.oeaw.ac.at/#map=[biblMarkers,.*,geo]&1=[textQuery,vicavMission,MISSION,open]&2=[textQuery,vicavNews,NEWS,open]"
+        ],
+        "project_desc": "This project has two main purposes: firstly, it serves as a virtual research platform for Arabic dialectology, secondly, as a test bed for newly developed text technological methodologies and tools. In doing so, it gathers varying digital language resources for a number of different localities and offers information on the research history, available literature, salient grammatical features etc. of the particular variety. VICAV also makes accessible bibliographies, dictionaries, glossaries, and different types of transcribed texts. The project aims at providing a platform of exchange for a scientific community which is increasingly producing digital data but still lacks the infrastructure to make it widely available.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Vienna",
+                    "ref": [
+                        "https://www.geonames.org/2761369/vienna.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.20849",
+                    "lng": "16.37208"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Österreichische Akademie der Wissenschaften",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q299015",
+                        "https://ror.org/03anc3s24"
+                    ]
+                },
+                "websites": [
+                    "https://www.oeaw.ac.at/en/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Universität Wien",
+                    "ref": [
+                        "https://ror.org/04d836q62",
+                        "https://www.wikidata.org/wiki/Q165980"
+                    ]
+                },
+                "websites": [
+                    "https://www.univie.ac.at/en/"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "WIBARAB: What is Bedouin-Type Arabic?",
+                "uuid": "e9cb8ab1-2d2c-4cc3-a44d-a793220a8638"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Genesis Rabbah Loanwords",
+                "uuid": "94044a63-eae5-4e1d-ba04-64874109fc36"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Shawi",
+                "uuid": "68422d65-ccba-4dcb-8a0e-bd4f3f9e1dc9"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "NoMansLand: Nomads’ Manuscripts Landscape",
+                "uuid": "e050deba-6e1d-4d82-851b-cf6c1f7187a5"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Linguistic dynamics in the Greater Tunis Area: a corpus-based approach (TUNICO)",
+                "uuid": "79462111-75a7-4fa0-8e11-9d424293a074"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "TUNOCENT",
+                "uuid": "325a929a-6764-41e1-b452-6556209fa74f"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://viaf.org/viaf/8110691/#M%C3%B6rth,_Karlheinz."
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.oeaw.ac.at/de/acdh/institut/team/mitarbeitende/karlheinz-moerth"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "annotation",
+            "arabic_studies",
+            "dialectology",
+            "geodata",
+            "language_documentation",
+            "lexicon",
+            "linguistics",
+            "map",
+            "translation"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }

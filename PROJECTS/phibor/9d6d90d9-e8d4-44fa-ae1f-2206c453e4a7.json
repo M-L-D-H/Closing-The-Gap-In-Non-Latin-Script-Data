@@ -1,5 +1,5 @@
 {
-    "schema_version": "0.2.6",
+    "schema_version": "0.2.7",
     "record_metadata": {
         "uuid": "9d6d90d9-e8d4-44fa-ae1f-2206c453e4a7",
         "record_created_on": "2025-03-01",
@@ -8,23 +8,28 @@
         "interviewed": false
     },
     "project": {
-        "title": "Philosophy on the Border of Civilizations and Intellectual Endeavours: towards a Critical Edition of the Metaphysics (Il\u0101hiyy\u0101t of Kit\u0101b al-\u0160if\u0101\u02be) of Avicenna (Ibn S\u012bn\u0101)",
+        "title": "Philosophy on the Border of Civilizations and Intellectual Endeavours: towards a Critical Edition of the Metaphysics (Ilāhiyyāt of Kitāb al-Šifāʾ) of Avicenna (Ibn Sīnā)",
         "abbr": "PhiBor",
         "type": "project",
         "ref": [],
         "date": [
-            {"from": "2014", "to": "2019"}
+            {
+                "from": "2014",
+                "to": "2019"
+            }
         ],
         "maintained": true,
         "websites": [
             "https://www.avicennaproject.eu/#/"
         ],
-        "project_desc": "The project aims to provide an accurate knowledge of the historical significance and doctrinal impact of the Ilahiyyat (Metaphysics) of Ibn Sina (Avicenna)\u2019s Kitab al-Shifa' (Book of the Cure, or: of the Healing) \u2013 one of the masterpieces of Medieval Arabic philosophy in the Islamic world, and one of the most influential and widespread works of falsafa of all times \u2013 by means of a reconstruction of the manuscript tradition, a reliable edition, an English translation, and a doctrinal explanation of the text of the work.",
+        "project_desc": "The project aims to provide an accurate knowledge of the historical significance and doctrinal impact of the Ilahiyyat (Metaphysics) of Ibn Sina (Avicenna)’s Kitab al-Shifa' (Book of the Cure, or: of the Healing) – one of the masterpieces of Medieval Arabic philosophy in the Islamic world, and one of the most influential and widespread works of falsafa of all times – by means of a reconstruction of the manuscript tradition, a reliable edition, an English translation, and a doctrinal explanation of the text of the work.",
         "places": [
             {
                 "place_name": {
                     "text": "Pisa",
-                    "ref": ["https://www.geonames.org/3170647/pisa.html"]
+                    "ref": [
+                        "https://www.geonames.org/3170647/pisa.html"
+                    ]
                 },
                 "coordinates": {
                     "lat": "43.47147",
@@ -34,7 +39,9 @@
             {
                 "place_name": {
                     "text": "Lucca",
-                    "ref": ["https://www.geonames.org/3174530/lucca.html"]
+                    "ref": [
+                        "https://www.geonames.org/3174530/lucca.html"
+                    ]
                 },
                 "coordinates": {
                     "lat": "44.01776",
@@ -42,7 +49,9 @@
                 }
             }
         ],
-        "lang": ["eng"],
+        "lang": [
+            "eng"
+        ],
         "related_institutions": [
             {
                 "relation_type": "host",
@@ -53,7 +62,9 @@
                         "https://www.wikidata.org/wiki/Q672416"
                     ]
                 },
-                "websites": ["https://www.sns.it"]
+                "websites": [
+                    "https://www.sns.it"
+                ]
             },
             {
                 "relation_type": "host",
@@ -64,7 +75,9 @@
                         "https://www.wikidata.org/wiki/Q3788629"
                     ]
                 },
-                "websites": ["https://www.imtlucca.it/"]
+                "websites": [
+                    "https://www.imtlucca.it/"
+                ]
             }
         ],
         "related_entities": [
@@ -84,13 +97,27 @@
                         "https://www.wikidata.org/wiki/Q21033660"
                     ]
                 },
-                "roles": ["supervision"],
-                "websites": ["https://www.imtlucca.it/amos.bertolacci"]
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.imtlucca.it/amos.bertolacci"
+                ]
             }
         ],
         "research_data": {
-            "lang": ["ara"],
-            "sustainability_plan": null,
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
             "publications": {
                 "open_access": 0,
                 "licensing": []

@@ -1,263 +1,271 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e",
-    "record_created_on": "2021-11-12",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
-    "abbr": "ITIESE",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2021",
-        "to": "2024"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.csmc.uni-hamburg.de/research/current-projects/demarginalizing-medieval-africa.html",
-      "https://www.ucl.ac.uk/art-history/research/demarginalizing-medieval-africa-images-texts-and-identity-early-solomonic-ethiopia-1270"
-    ],
-    "project_desc": "The research object of the ITIESE project are manuscripts belonging to the literary tradition of the Ethiopian Orthodox Church, which until now unjustly remain at the periphery of academic interest. The project’s intention is to shed new light on the cultural heritage of Ethiopian Empire by examining manuscripts illuminations made by medieval Ethiopian artists with focus on the cultural, religious and socio-political significance of their activities. The project will furthermore set up a platform for exchange between scholars working on the history of manuscripts illumination.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
-      },
-      {
-        "place_name": {
-          "text": "London",
-          "ref": [
-            "https://www.geonames.org/2643743/london.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.50853",
-          "lng": "-0.12574"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Helmut-Schmidt-Universität",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q530991",
-            "https://ror.org/04e8jbs38"
-          ]
-        },
-        "websites": [
-          "https://www.hsu-hh.de/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Technische Universität Hamburg",
-          "ref": [
-            "https://ror.org/04bs1pb34",
-            "https://www.wikidata.org/wiki/Q1060"
-          ]
-        },
-        "websites": [
-          "https://www.tuhh.de/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "University College London",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q193196",
-            "https://ror.org/02jx3x895"
-          ]
-        },
-        "websites": [
-          "https://www.ucl.ac.uk"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Universität Hamburg",
-          "ref": [
-            "https://ror.org/00g30e956",
-            "https://www.wikidata.org/wiki/Q156725"
-          ]
-        },
-        "websites": [
-          "https://www.uni-hamburg.de/"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "sibling",
-        "title": "Understanding Written Artefacts",
-        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sixteenth Century",
-        "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
-        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
-        "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "The Evolution of Islamic Societies (c. 600–1600 CE): Algorithmic Analysis into Social History",
-        "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "The intertwined world of the oral and written transmission of sacred traditions in the Middle East",
-        "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Audition Certificates Platform",
-        "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
-        "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Datenrepositorium Manuskriptkulturen",
-        "uuid": "894dcf0c-7295-4fb8-b4ba-866a5ebe3310"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Documentation of Gorani, an endangered language of West Iran",
-        "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Islamic Painted Page",
-        "uuid": "31534c48-6b74-4cc5-8aff-ea8dbc60c445"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
-        "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "SfarData",
-        "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
-        "uuid": "20ee58f5-f699-4262-a473-7765e249c871"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
-        "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "From Translation to Creation: Changes in Ethiopic Style and Lexicon from Late Antiquity to the Middle Ages",
-        "uuid": "77ae1011-1b54-46b5-b676-02895e3300fc"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "Corpus dei Manoscritti Copti Letterari",
-        "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "Bausi, Alessandro",
-          "ref": [
-            "https://orcid.org/0000-0002-7575-7513",
-            "https://www.wikidata.org/wiki/Q62559559"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e",
+        "record_created_on": "2021-11-12",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
+        "abbr": "ITIESE",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2021",
+                "to": "2024"
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "african_studies",
-      "art_studies",
-      "collaboration_platform",
-      "image"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+            "https://www.csmc.uni-hamburg.de/research/current-projects/demarginalizing-medieval-africa.html",
+            "https://www.ucl.ac.uk/art-history/research/demarginalizing-medieval-africa-images-texts-and-identity-early-solomonic-ethiopia-1270"
+        ],
+        "project_desc": "The research object of the ITIESE project are manuscripts belonging to the literary tradition of the Ethiopian Orthodox Church, which until now unjustly remain at the periphery of academic interest. The project’s intention is to shed new light on the cultural heritage of Ethiopian Empire by examining manuscripts illuminations made by medieval Ethiopian artists with focus on the cultural, religious and socio-political significance of their activities. The project will furthermore set up a platform for exchange between scholars working on the history of manuscripts illumination.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Hamburg",
+                    "ref": [
+                        "https://www.geonames.org/2911298/hamburg.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "53.55073",
+                    "lng": "9.99302"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "London",
+                    "ref": [
+                        "https://www.geonames.org/2643743/london.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.50853",
+                    "lng": "-0.12574"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Helmut-Schmidt-Universität",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q530991",
+                        "https://ror.org/04e8jbs38"
+                    ]
+                },
+                "websites": [
+                    "https://www.hsu-hh.de/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Technische Universität Hamburg",
+                    "ref": [
+                        "https://ror.org/04bs1pb34",
+                        "https://www.wikidata.org/wiki/Q1060"
+                    ]
+                },
+                "websites": [
+                    "https://www.tuhh.de/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "University College London",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q193196",
+                        "https://ror.org/02jx3x895"
+                    ]
+                },
+                "websites": [
+                    "https://www.ucl.ac.uk"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Universität Hamburg",
+                    "ref": [
+                        "https://ror.org/00g30e956",
+                        "https://www.wikidata.org/wiki/Q156725"
+                    ]
+                },
+                "websites": [
+                    "https://www.uni-hamburg.de/"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "Understanding Written Artefacts",
+                "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sixteenth Century",
+                "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+                "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
+                "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "The Evolution of Islamic Societies (c. 600–1600 CE): Algorithmic Analysis into Social History",
+                "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "The intertwined world of the oral and written transmission of sacred traditions in the Middle East",
+                "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Audition Certificates Platform",
+                "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
+                "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Datenrepositorium Manuskriptkulturen",
+                "uuid": "894dcf0c-7295-4fb8-b4ba-866a5ebe3310"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Documentation of Gorani, an endangered language of West Iran",
+                "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Islamic Painted Page",
+                "uuid": "31534c48-6b74-4cc5-8aff-ea8dbc60c445"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
+                "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "SfarData",
+                "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
+                "uuid": "20ee58f5-f699-4262-a473-7765e249c871"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
+                "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "From Translation to Creation: Changes in Ethiopic Style and Lexicon from Late Antiquity to the Middle Ages",
+                "uuid": "77ae1011-1b54-46b5-b676-02895e3300fc"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "Corpus dei Manoscritti Copti Letterari",
+                "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "Bausi, Alessandro",
+                    "ref": [
+                        "https://orcid.org/0000-0002-7575-7513",
+                        "https://www.wikidata.org/wiki/Q62559559"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.aai.uni-hamburg.de/afrika/personen/bausi.html"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "african_studies",
+            "art_studies",
+            "collaboration_platform",
+            "image"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }

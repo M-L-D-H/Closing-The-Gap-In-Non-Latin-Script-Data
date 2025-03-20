@@ -1,646 +1,654 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb",
-    "record_created_on": "2022-05-19",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
-    "abbr": "DARIAH",
-    "type": "organization",
-    "ref": [
-      "https://www.wikidata.org/wiki/Q49103279"
-    ],
-    "date": [
-      {
-        "from": "2006",
-        "to": ""
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://www.dariah.eu/"
-    ],
-    "project_desc": "DARIAH is a pan-European research infrastructure with 20 Members, 1 Observer and several Cooperating Partners in six non-member countries. It aims to enhance and support digitally-enabled research and teaching across the arts and humanities. DARIAH is a network of people, expertise, information, knowledge, content, methods, tools and technologies from its member countries. It develops, maintains and operates an infrastructure in support of ICT-based research practices and sustains researchers in using them to build, analyze and interpret digital resources.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Paris",
-          "ref": [
-            "https://www.geonames.org/2988506/paris.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "48.85339",
-          "lng": "2.34864"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Dublin",
-          "ref": [
-            "https://www.geonames.org/2964574/dublin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "53.33306",
-          "lng": "-6.24889"
-        }
-      },
-      {
-        "place_name": {
-          "text": "The Hague",
-          "ref": [
-            "https://www.geonames.org/2747373/the-hague.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.07667",
-          "lng": "4.29861"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Lisbon",
-          "ref": [
-            "https://www.geonames.org/2267057/lisbon.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "38.71667",
-          "lng": "-9.13333"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Rome",
-          "ref": [
-            "https://www.geonames.org/3169070/rome.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "41.89193",
-          "lng": "12.51133"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Cork",
-          "ref": [
-            "https://www.geonames.org/2965140/cork.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.89797",
-          "lng": "-8.47061"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Luxembourg",
-          "ref": [
-            "https://www.geonames.org/2960316/luxembourg.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "49.61167",
-          "lng": "6.13"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Gent",
-          "ref": [
-            "https://www.geonames.org/2797656/gent.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.05",
-          "lng": "3.71667"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Amsterdam",
-          "ref": [
-            "https://www.geonames.org/2759794/amsterdam.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.37403",
-          "lng": "4.88969"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Copenhagen",
-          "ref": [
-            "https://www.geonames.org/2618424/kobenhavn.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "55.6711",
-          "lng": "12.56529"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Warsaw",
-          "ref": [
-            "https://www.geonames.org/756135/warsaw.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.22977",
-          "lng": "21.01178"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Prague",
-          "ref": [
-            "https://www.geonames.org/3067696/prague.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "50.08804",
-          "lng": "14.42076"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Ljubljana",
-          "ref": [
-            "https://www.geonames.org/3196359/ljubljana.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "46.05108",
-          "lng": "14.50513"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Centar",
-          "ref": [
-            "https://www.geonames.org/6618983/centar.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "45.81313",
-          "lng": "15.97753"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Sarajevo",
-          "ref": [
-            "https://www.geonames.org/3191281/sarajevo.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "43.84864",
-          "lng": "18.35644"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Belgrade",
-          "ref": [
-            "https://www.geonames.org/792680/belgrade.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "44.80401",
-          "lng": "20.46513"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Sofia",
-          "ref": [
-            "https://www.geonames.org/727011/sofia.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "42.69751",
-          "lng": "23.32415"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Athens",
-          "ref": [
-            "https://www.geonames.org/264371/athens.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "37.98376",
-          "lng": "23.72784"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Limassol",
-          "ref": [
-            "https://www.geonames.org/146384/limassol.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "34.68406",
-          "lng": "33.03794"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "French National Centre for Scientific Research",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q280413",
-            "https://ror.org/0331qyx19"
-          ]
-        },
-        "websites": [
-          "https://www.cnrs.fr/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Universidade Nova de Lisboa",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1979891",
-            "https://ror.org/012habm93"
-          ]
-        },
-        "websites": [
-          "https://www.unl.pt/en/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "National Research Council",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1340198",
-            "https://ror.org/03bjn0010"
-          ]
-        },
-        "websites": [
-          "https://www.cnr.it/it"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "University College Cork",
-          "ref": [
-            "https://ror.org/04q107642",
-            "https://www.wikidata.org/wiki/Q1574185"
-          ]
-        },
-        "websites": [
-          "https://www.ucc.ie/en/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "University of Luxembourg",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q59668",
-            "https://ror.org/036x5ad56"
-          ]
-        },
-        "websites": [
-          "https://wwwen.uni.lu/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Ghent University",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1137665",
-            "https://ror.org/00cv9y106"
-          ]
-        },
-        "websites": [
-          "https://www.ugent.be/en"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "International Institute of Social History",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1667757",
-            "https://ror.org/05dq4pp56"
-          ]
-        },
-        "websites": [
-          "https://iisg.amsterdam/en"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q564783"
-          ]
-        },
-        "websites": [
-          "https://www.sub.uni-goettingen.de/sub-aktuell/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Danish Agency for Science and Higher Education",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q50037707",
-            "https://ror.org/02sptwz63"
-          ]
-        },
-        "websites": [
-          "https://ufm.dk/en/the-ministry/organisation/danish-agency-for-higher-education-and-science"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "University of Warsaw",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q144488",
-            "https://ror.org/039bjqg32"
-          ]
-        },
-        "websites": [
-          "https://en.uw.edu.pl/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Charles University",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q31519",
-            "https://ror.org/024d6js02"
-          ]
-        },
-        "websites": [
-          "https://cuni.cz/UKEN-1.html"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Österreichische Akademie der Wissenschaften",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q299015",
-            "https://ror.org/03anc3s24"
-          ]
-        },
-        "websites": [
-          "https://www.oeaw.ac.at/en/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Institute of Contemporary History",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q12791409",
-            "https://ror.org/008pp7a77"
-          ]
-        },
-        "websites": [
-          "https://www.inz.si/en/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Institute of Ethnology and Folklore Research",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q30297130",
-            "https://ror.org/04mpn1847"
-          ]
-        },
-        "websites": [
-          "https://www.ief.hr/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "University of Sarajevo",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q572286",
-            "https://ror.org/02hhwgd43"
-          ]
-        },
-        "websites": [
-          "https://www.unsa.ba/en"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Serbian Academy of Sciences and Arts",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1132636",
-            "https://ror.org/02f2wk572"
-          ]
-        },
-        "websites": [
-          "https://www.sanu.ac.rs/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Sofia University",
-          "ref": [
-            "https://ror.org/05x358x43",
-            "https://www.wikidata.org/wiki/Q841581"
-          ]
-        },
-        "websites": [
-          "https://www.uni-sofia.bg/"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Academy of Athens",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q414403",
-            "https://ror.org/00qsdn986"
-          ]
-        },
-        "websites": [
-          "http://www.academyofathens.gr/en"
-        ]
-      },
-      {
-        "relation_type": "member",
-        "org_name": {
-          "text": "Cyprus University of Technology",
-          "ref": [
-            "https://ror.org/05qt8tf94",
-            "https://www.wikidata.org/wiki/Q1518320"
-          ]
-        },
-        "websites": [
-          "https://www.cut.ac.cy/?languageId=1"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "child",
-        "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
-        "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
-      },
-      {
-        "relation_type": "child",
-        "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
-        "uuid": "894f2c88-1713-480d-99cd-32d30f3c0ac2"
-      },
-      {
-        "relation_type": "cooperation",
-        "title": "European Lexicographic Infrastructure",
-        "uuid": "43f49ea7-ec28-4e08-9ff4-57de8c755acd"
-      },
-      {
-        "relation_type": "cooperation",
-        "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
-        "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0003-0501-9811"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.dariah.eu/network/we-are-dariah-team"
-        ]
-      },
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0001-8879-8798",
-            "https://d-nb.info/gnd/1024345688",
-            "https://www.wikidata.org/wiki/Q57414146"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.dariah.eu/network/we-are-dariah-team"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "1ae31b2f-5c67-49a7-9fba-c162b314bbcb",
+        "record_created_on": "2022-05-19",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
     },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
-    "category": "infrastructure",
-    "comment": ""
-  }
+    "project": {
+        "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
+        "abbr": "DARIAH",
+        "type": "organization",
+        "ref": [
+            "https://www.wikidata.org/wiki/Q49103279"
+        ],
+        "date": [
+            {
+                "from": "2006",
+                "to": ""
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://www.dariah.eu/"
+        ],
+        "project_desc": "DARIAH is a pan-European research infrastructure with 20 Members, 1 Observer and several Cooperating Partners in six non-member countries. It aims to enhance and support digitally-enabled research and teaching across the arts and humanities. DARIAH is a network of people, expertise, information, knowledge, content, methods, tools and technologies from its member countries. It develops, maintains and operates an infrastructure in support of ICT-based research practices and sustains researchers in using them to build, analyze and interpret digital resources.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Paris",
+                    "ref": [
+                        "https://www.geonames.org/2988506/paris.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.85339",
+                    "lng": "2.34864"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Berlin",
+                    "ref": [
+                        "https://www.geonames.org/2950159/berlin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.52437",
+                    "lng": "13.41053"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Dublin",
+                    "ref": [
+                        "https://www.geonames.org/2964574/dublin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "53.33306",
+                    "lng": "-6.24889"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "The Hague",
+                    "ref": [
+                        "https://www.geonames.org/2747373/the-hague.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.07667",
+                    "lng": "4.29861"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Lisbon",
+                    "ref": [
+                        "https://www.geonames.org/2267057/lisbon.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "38.71667",
+                    "lng": "-9.13333"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Rome",
+                    "ref": [
+                        "https://www.geonames.org/3169070/rome.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "41.89193",
+                    "lng": "12.51133"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Cork",
+                    "ref": [
+                        "https://www.geonames.org/2965140/cork.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.89797",
+                    "lng": "-8.47061"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Luxembourg",
+                    "ref": [
+                        "https://www.geonames.org/2960316/luxembourg.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "49.61167",
+                    "lng": "6.13"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Gent",
+                    "ref": [
+                        "https://www.geonames.org/2797656/gent.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.05",
+                    "lng": "3.71667"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Amsterdam",
+                    "ref": [
+                        "https://www.geonames.org/2759794/amsterdam.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.37403",
+                    "lng": "4.88969"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Göttingen",
+                    "ref": [
+                        "https://www.geonames.org/2918632/goettingen.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "51.53443",
+                    "lng": "9.93228"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Copenhagen",
+                    "ref": [
+                        "https://www.geonames.org/2618424/kobenhavn.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "55.6711",
+                    "lng": "12.56529"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Warsaw",
+                    "ref": [
+                        "https://www.geonames.org/756135/warsaw.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.22977",
+                    "lng": "21.01178"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Prague",
+                    "ref": [
+                        "https://www.geonames.org/3067696/prague.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "50.08804",
+                    "lng": "14.42076"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Vienna",
+                    "ref": [
+                        "https://www.geonames.org/2761369/vienna.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.20849",
+                    "lng": "16.37208"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Ljubljana",
+                    "ref": [
+                        "https://www.geonames.org/3196359/ljubljana.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "46.05108",
+                    "lng": "14.50513"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Centar",
+                    "ref": [
+                        "https://www.geonames.org/6618983/centar.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "45.81313",
+                    "lng": "15.97753"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Sarajevo",
+                    "ref": [
+                        "https://www.geonames.org/3191281/sarajevo.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "43.84864",
+                    "lng": "18.35644"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Belgrade",
+                    "ref": [
+                        "https://www.geonames.org/792680/belgrade.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "44.80401",
+                    "lng": "20.46513"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Sofia",
+                    "ref": [
+                        "https://www.geonames.org/727011/sofia.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "42.69751",
+                    "lng": "23.32415"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Athens",
+                    "ref": [
+                        "https://www.geonames.org/264371/athens.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "37.98376",
+                    "lng": "23.72784"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Limassol",
+                    "ref": [
+                        "https://www.geonames.org/146384/limassol.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "34.68406",
+                    "lng": "33.03794"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "French National Centre for Scientific Research",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q280413",
+                        "https://ror.org/0331qyx19"
+                    ]
+                },
+                "websites": [
+                    "https://www.cnrs.fr/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Universidade Nova de Lisboa",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q1979891",
+                        "https://ror.org/012habm93"
+                    ]
+                },
+                "websites": [
+                    "https://www.unl.pt/en/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "National Research Council",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q1340198",
+                        "https://ror.org/03bjn0010"
+                    ]
+                },
+                "websites": [
+                    "https://www.cnr.it/it"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "University College Cork",
+                    "ref": [
+                        "https://ror.org/04q107642",
+                        "https://www.wikidata.org/wiki/Q1574185"
+                    ]
+                },
+                "websites": [
+                    "https://www.ucc.ie/en/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "University of Luxembourg",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q59668",
+                        "https://ror.org/036x5ad56"
+                    ]
+                },
+                "websites": [
+                    "https://wwwen.uni.lu/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Ghent University",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q1137665",
+                        "https://ror.org/00cv9y106"
+                    ]
+                },
+                "websites": [
+                    "https://www.ugent.be/en"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "International Institute of Social History",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q1667757",
+                        "https://ror.org/05dq4pp56"
+                    ]
+                },
+                "websites": [
+                    "https://iisg.amsterdam/en"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q564783"
+                    ]
+                },
+                "websites": [
+                    "https://www.sub.uni-goettingen.de/sub-aktuell/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Danish Agency for Science and Higher Education",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q50037707",
+                        "https://ror.org/02sptwz63"
+                    ]
+                },
+                "websites": [
+                    "https://ufm.dk/en/the-ministry/organisation/danish-agency-for-higher-education-and-science"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "University of Warsaw",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q144488",
+                        "https://ror.org/039bjqg32"
+                    ]
+                },
+                "websites": [
+                    "https://en.uw.edu.pl/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Charles University",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q31519",
+                        "https://ror.org/024d6js02"
+                    ]
+                },
+                "websites": [
+                    "https://cuni.cz/UKEN-1.html"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Österreichische Akademie der Wissenschaften",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q299015",
+                        "https://ror.org/03anc3s24"
+                    ]
+                },
+                "websites": [
+                    "https://www.oeaw.ac.at/en/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Institute of Contemporary History",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q12791409",
+                        "https://ror.org/008pp7a77"
+                    ]
+                },
+                "websites": [
+                    "https://www.inz.si/en/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Institute of Ethnology and Folklore Research",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q30297130",
+                        "https://ror.org/04mpn1847"
+                    ]
+                },
+                "websites": [
+                    "https://www.ief.hr/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "University of Sarajevo",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q572286",
+                        "https://ror.org/02hhwgd43"
+                    ]
+                },
+                "websites": [
+                    "https://www.unsa.ba/en"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Serbian Academy of Sciences and Arts",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q1132636",
+                        "https://ror.org/02f2wk572"
+                    ]
+                },
+                "websites": [
+                    "https://www.sanu.ac.rs/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Sofia University",
+                    "ref": [
+                        "https://ror.org/05x358x43",
+                        "https://www.wikidata.org/wiki/Q841581"
+                    ]
+                },
+                "websites": [
+                    "https://www.uni-sofia.bg/"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Academy of Athens",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q414403",
+                        "https://ror.org/00qsdn986"
+                    ]
+                },
+                "websites": [
+                    "http://www.academyofathens.gr/en"
+                ]
+            },
+            {
+                "relation_type": "member",
+                "org_name": {
+                    "text": "Cyprus University of Technology",
+                    "ref": [
+                        "https://ror.org/05qt8tf94",
+                        "https://www.wikidata.org/wiki/Q1518320"
+                    ]
+                },
+                "websites": [
+                    "https://www.cut.ac.cy/?languageId=1"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "child",
+                "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
+                "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
+            },
+            {
+                "relation_type": "child",
+                "title": "Computational Literary Studies Infrastructure (CLS INFRA)",
+                "uuid": "894f2c88-1713-480d-99cd-32d30f3c0ac2"
+            },
+            {
+                "relation_type": "cooperation",
+                "title": "European Lexicographic Infrastructure",
+                "uuid": "43f49ea7-ec28-4e08-9ff4-57de8c755acd"
+            },
+            {
+                "relation_type": "cooperation",
+                "title": "CLARIN - European Research Infrastructure for Language Resources and Technology",
+                "uuid": "7e14a810-7d07-4e60-96eb-01fccf9323e8"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0003-0501-9811"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.dariah.eu/network/we-are-dariah-team"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0001-8879-8798",
+                        "https://d-nb.info/gnd/1024345688",
+                        "https://www.wikidata.org/wiki/Q57414146"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.dariah.eu/network/we-are-dariah-team"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "research_data_management",
+            "research_infrastructure"
+        ],
+        "category": "infrastructure",
+        "comment": ""
+    }
 }

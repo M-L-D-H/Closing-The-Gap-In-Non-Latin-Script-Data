@@ -1,195 +1,203 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "c523675a-0e54-4d1e-8d08-2395d58323e3",
-    "record_created_on": "2021-11-11",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Biblia Arabica: The Bible in Arabic among Jews, Christians and Muslims",
-    "abbr": "Biblia Arabica",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2012",
-        "to": "2018"
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://biblia-arabica.com/"
-    ],
-    "project_desc": "Biblia Arabica serves as a research consortium with focus on Arabic translations of Hebrew, Aramaic, Syriac, Greek and Coptic Bible versions. It examines their stylistic and didactic features, vocabulary, scripts and strategies, as well as the mutual religious and cultural influences between the different religious communities, which were reinforced by the translation movements. The project attempts to set methodological standards on this field of study, charts countless manuscripts from across the globe and analyzes different method of translation form the various source languages.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Tel Aviv",
-          "ref": [
-            "https://www.geonames.org/293397/tel-aviv.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "32.08088",
-          "lng": "34.78057"
-        }
-      },
-      {
-        "place_name": {
-          "text": "Munich",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Freie Universität Berlin",
-          "ref": [
-            "https://ror.org/046ak2485",
-            "https://www.wikidata.org/wiki/Q153006"
-          ]
-        },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Tel Aviv University",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q319239",
-            "https://ror.org/04mhzgx49"
-          ]
-        },
-        "websites": [
-          "https://english.tau.ac.il/"
-        ]
-      },
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Ludwig-Maximilians-Universität Munich",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q156598",
-            "https://ror.org/05591te55"
-          ]
-        },
-        "websites": [
-          "https://www.lmu.de/de/index.html"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "sibling",
-        "title": "The Hebrew Palaeography Album",
-        "uuid": "80ba021c-7f2e-421a-b897-71c3eadcca11"
-      },
-      {
-        "relation_type": "sibling",
-        "title": "MAJLIS. The Transformation of Jewish Literature in Arabic in the Islamicate World",
-        "uuid": "583ab46e-ccb8-4a49-9912-7771683cd605"
-      },
-      {
-        "relation_type": "cooperation",
-        "title": "Audition Certificates Platform",
-        "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "Vollandt, Ronny",
-          "ref": [
-            "https://orcid.org/0000-0003-3701-9429",
-            "https://d-nb.info/gnd/1173742050"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "c523675a-0e54-4d1e-8d08-2395d58323e3",
+        "record_created_on": "2021-11-11",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Biblia Arabica: The Bible in Arabic among Jews, Christians and Muslims",
+        "abbr": "Biblia Arabica",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2012",
+                "to": "2018"
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "religion_studies",
-      "religious_text",
-      "tei",
-      "translation",
-      "translation_studies"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+            "https://biblia-arabica.com/"
+        ],
+        "project_desc": "Biblia Arabica serves as a research consortium with focus on Arabic translations of Hebrew, Aramaic, Syriac, Greek and Coptic Bible versions. It examines their stylistic and didactic features, vocabulary, scripts and strategies, as well as the mutual religious and cultural influences between the different religious communities, which were reinforced by the translation movements. The project attempts to set methodological standards on this field of study, charts countless manuscripts from across the globe and analyzes different method of translation form the various source languages.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Berlin",
+                    "ref": [
+                        "https://www.geonames.org/2950159/berlin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.52437",
+                    "lng": "13.41053"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Tel Aviv",
+                    "ref": [
+                        "https://www.geonames.org/293397/tel-aviv.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "32.08088",
+                    "lng": "34.78057"
+                }
+            },
+            {
+                "place_name": {
+                    "text": "Munich",
+                    "ref": [
+                        "https://www.geonames.org/2867714/munich.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "48.13743",
+                    "lng": "11.57549"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Freie Universität Berlin",
+                    "ref": [
+                        "https://ror.org/046ak2485",
+                        "https://www.wikidata.org/wiki/Q153006"
+                    ]
+                },
+                "websites": [
+                    "https://www.fu-berlin.de/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Tel Aviv University",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q319239",
+                        "https://ror.org/04mhzgx49"
+                    ]
+                },
+                "websites": [
+                    "https://english.tau.ac.il/"
+                ]
+            },
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Ludwig-Maximilians-Universität Munich",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q156598",
+                        "https://ror.org/05591te55"
+                    ]
+                },
+                "websites": [
+                    "https://www.lmu.de/de/index.html"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "The Hebrew Palaeography Album",
+                "uuid": "80ba021c-7f2e-421a-b897-71c3eadcca11"
+            },
+            {
+                "relation_type": "sibling",
+                "title": "MAJLIS. The Transformation of Jewish Literature in Arabic in the Islamicate World",
+                "uuid": "583ab46e-ccb8-4a49-9912-7771683cd605"
+            },
+            {
+                "relation_type": "cooperation",
+                "title": "Audition Certificates Platform",
+                "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "Vollandt, Ronny",
+                    "ref": [
+                        "https://orcid.org/0000-0003-3701-9429",
+                        "https://d-nb.info/gnd/1173742050"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "religion_studies",
+            "religious_text",
+            "tei",
+            "translation",
+            "translation_studies"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }

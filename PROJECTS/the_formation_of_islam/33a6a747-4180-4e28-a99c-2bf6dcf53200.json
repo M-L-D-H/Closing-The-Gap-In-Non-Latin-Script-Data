@@ -1,135 +1,143 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "33a6a747-4180-4e28-a99c-2bf6dcf53200",
-    "record_created_on": "2021-11-01",
-    "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2024-10-31",
-    "interviewed": false
-  },
-  "project": {
-    "title": "The formation of Islam",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2009",
-        "to": "2015"
-      }
-    ],
-    "maintained": false,
-    "websites": [
-      "https://www.universiteitleiden.nl/en/research/research-projects/humanities/the-formation-of-islam-the-view-from-below#tab-1"
-    ],
-    "project_desc": "The purpose of this project is the examination of vastly important but largely neglected papyri from Egypt which preserve a minutely detailed transcription of daily life, as well as the only contemporary records of Islam’s rise and first wave of conquests. Based on this testimony the project aims to write the history of the formation of Islam through the striking newness of Islamic society and its debt to the diverse cultures it superseded. Beside stocktaking of the unedited papyri, the project’s team will crate a corpus of most significant texts and present the historical analysis through scholarly publications and a dedicated website.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Leiden",
-          "ref": [
-            "https://www.geonames.org/2751773/leiden.html"
-          ]
-        },
-        "coordinates": {
-          "lat": "52.15833",
-          "lng": "4.49306"
-        }
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Leiden University",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q156598",
-            "https://ror.org/027bh9e22"
-          ]
-        },
-        "websites": [
-          "https://www.universiteitleiden.nl/en"
-        ]
-      }
-    ],
-    "related_entities": [
-      {
-        "relation_type": "cooperation",
-        "title": "Moving frontiers",
-        "uuid": "d5dd164d-1887-473f-8282-584b8d09474d"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-6615-469X",
-            "https://www.wikidata.org/wiki/Q14084136"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "33a6a747-4180-4e28-a99c-2bf6dcf53200",
+        "record_created_on": "2021-11-01",
+        "record_created_by": "Kudela, Xenia Monika",
+        "last_edited_on": "2024-10-31",
+        "interviewed": false
+    },
+    "project": {
+        "title": "The formation of Islam",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2009",
+                "to": "2015"
+            }
         ],
+        "maintained": false,
         "websites": [
-          "https://www.universiteitleiden.nl/en/staffmembers/petra-sijpesteijn#tab-1"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "corpus_output",
-      "digital_preservation",
-      "islamic_studies",
-      "manuscript",
-      "religion_studies"
-    ],
-    "category": "digital_preservation",
-    "comment": ""
-  }
+            "https://www.universiteitleiden.nl/en/research/research-projects/humanities/the-formation-of-islam-the-view-from-below#tab-1"
+        ],
+        "project_desc": "The purpose of this project is the examination of vastly important but largely neglected papyri from Egypt which preserve a minutely detailed transcription of daily life, as well as the only contemporary records of Islam’s rise and first wave of conquests. Based on this testimony the project aims to write the history of the formation of Islam through the striking newness of Islamic society and its debt to the diverse cultures it superseded. Beside stocktaking of the unedited papyri, the project’s team will crate a corpus of most significant texts and present the historical analysis through scholarly publications and a dedicated website.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Leiden",
+                    "ref": [
+                        "https://www.geonames.org/2751773/leiden.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.15833",
+                    "lng": "4.49306"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Leiden University",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q156598",
+                        "https://ror.org/027bh9e22"
+                    ]
+                },
+                "websites": [
+                    "https://www.universiteitleiden.nl/en"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "cooperation",
+                "title": "Moving frontiers",
+                "uuid": "d5dd164d-1887-473f-8282-584b8d09474d"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-6615-469X",
+                        "https://www.wikidata.org/wiki/Q14084136"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.universiteitleiden.nl/en/staffmembers/petra-sijpesteijn#tab-1"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "corpus_output",
+            "digital_preservation",
+            "islamic_studies",
+            "manuscript",
+            "religion_studies"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
 }

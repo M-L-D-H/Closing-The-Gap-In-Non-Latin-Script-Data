@@ -1,140 +1,148 @@
 {
-  "schema_version": "0.2.6",
-  "record_metadata": {
-    "uuid": "6a7e308d-0588-40b5-9a22-09354d313806",
-    "record_created_on": "2022-09-01",
-    "record_created_by": "Müller-Laackman, Jonas",
-    "last_edited_on": "2025-01-17",
-    "interviewed": false
-  },
-  "project": {
-    "title": "Arabic and Latin Glossary",
-    "abbr": "",
-    "type": "project",
-    "ref": [],
-    "date": [
-      {
-        "from": "2005",
-        "to": "2013"
-      },
-      {
-        "from": "2013",
-        "to": ""
-      }
-    ],
-    "maintained": true,
-    "websites": [
-      "https://algloss.de.dariah.eu/"
-    ],
-    "project_desc": "The Arabic and Latin Glossary is a dictionary of medieval Arabic–Latin translations and corresponds to the project “Arabic and Latin Corpus” in terms of examining the Arabic influence on medieval Europe.",
-    "places": [
-      {
-        "place_name": {
-          "text": "Würzburg",
-          "ref": [
-            "https://www.geonames.org/2805615"
-          ]
-        },
-        "coordinates": {
-          "lat": "49.79391",
-          "lng": "9.95121"
-        }
-      }
-    ],
-    "related_institutions": [
-      {
-        "relation_type": "host",
-        "org_name": {
-          "text": "Julius Maximilian University of Würzburg",
-          "ref": [
-            "https://ror.org/00fbnyb24",
-            "https://www.wikidata.org/wiki/Q161976"
-          ]
-        },
-        "websites": [
-          "https://www.uni-wuerzburg.de/startseite"
-        ]
-      }
-    ],
-    "lang": [
-      "eng"
-    ],
-    "related_entities": [
-      {
-        "relation_type": "sibling",
-        "title": "Arabic and Latin Corpus",
-        "uuid": "e52825b6-9bd6-4206-b99c-964521b5e773"
-      }
-    ],
-    "people": [
-      {
-        "pers_name": {
-          "text": "Hasse, Dag Nikolaus",
-          "ref": [
-            "https://orcid.org/0009-0002-8688-1218",
-            "https://d-nb.info/gnd/11800638X"
-          ]
-        },
-        "roles": [
-          "supervision"
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "6a7e308d-0588-40b5-9a22-09354d313806",
+        "record_created_on": "2022-09-01",
+        "record_created_by": "Müller-Laackman, Jonas",
+        "last_edited_on": "2025-01-17",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Arabic and Latin Glossary",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2005",
+                "to": "2013"
+            },
+            {
+                "from": "2013",
+                "to": ""
+            }
         ],
+        "maintained": true,
         "websites": [
-          "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/"
-        ]
-      }
-    ],
-    "research_data": {
-      "lang": [
-        "ara",
-        "lat"
-      ],
-      "sustainability_plan": null,
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
-    },
-    "stack": {
-      "database": [
-        "sql",
-        "xml",
-        "json",
-        "nosql"
-      ],
-      "backend": [
-        "laravel"
-      ],
-      "frontend": [
-        "vue"
-      ],
-      "tools": [],
-      "languages": [
-        "php",
-        "javascript",
-        "python"
-      ]
-    },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "corpus_resource",
-      "lexicon",
-      "science_history",
-      "translation",
-      "translation_studies"
-    ],
-    "category": "tools_and_analysis",
-    "comment": ""
-  }
+            "https://algloss.de.dariah.eu/"
+        ],
+        "project_desc": "The Arabic and Latin Glossary is a dictionary of medieval Arabic–Latin translations and corresponds to the project “Arabic and Latin Corpus” in terms of examining the Arabic influence on medieval Europe.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Würzburg",
+                    "ref": [
+                        "https://www.geonames.org/2805615"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "49.79391",
+                    "lng": "9.95121"
+                }
+            }
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Julius Maximilian University of Würzburg",
+                    "ref": [
+                        "https://ror.org/00fbnyb24",
+                        "https://www.wikidata.org/wiki/Q161976"
+                    ]
+                },
+                "websites": [
+                    "https://www.uni-wuerzburg.de/startseite"
+                ]
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_entities": [
+            {
+                "relation_type": "sibling",
+                "title": "Arabic and Latin Corpus",
+                "uuid": "e52825b6-9bd6-4206-b99c-964521b5e773"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "Hasse, Dag Nikolaus",
+                    "ref": [
+                        "https://orcid.org/0009-0002-8688-1218",
+                        "https://d-nb.info/gnd/11800638X"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "ara",
+                "lat"
+            ],
+            "sustainability_plan": {
+                "project_website": 0.0,
+                "Github": 0.0,
+                "data_accessibility": 0.0,
+                "webhosting": 0.0,
+                "publications": 0.0,
+                "publication_count": 0,
+                "open_access_count": 0
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": [
+                    ""
+                ]
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [
+                "sql",
+                "xml",
+                "json",
+                "nosql"
+            ],
+            "backend": [
+                "laravel"
+            ],
+            "frontend": [
+                "vue"
+            ],
+            "tools": [],
+            "languages": [
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "arabic_studies",
+            "corpus_resource",
+            "lexicon",
+            "science_history",
+            "translation",
+            "translation_studies"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
 }
