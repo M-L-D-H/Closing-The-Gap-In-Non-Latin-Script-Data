@@ -4,7 +4,7 @@
         "uuid": "63f0bf9c-f8e4-4ce0-beff-fc8de68d05f2",
         "record_created_on": "2024-09-25",
         "record_created_by": "Sido Bozan, Joudy",
-        "last_edited_on": "2024-10-31",
+        "last_edited_on": "2025-03-20",
         "interviewed": false
     },
     "project": {
@@ -131,8 +131,8 @@
             "sustainability_plan": {
                 "project_website": 0.0,
                 "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.0,
+                "data_accessibility": 1.0,
+                "webhosting": 0.5,
                 "publications": 0.0,
                 "publication_count": 0,
                 "open_access_count": 0

@@ -4,7 +4,7 @@
         "uuid": "df954624-a860-4919-b233-cf91a0bf2024",
         "record_created_on": "2024-11-11",
         "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2024-11-15",
+        "last_edited_on": "2025-03-20",
         "interviewed": false
     },
     "project": {
@@ -114,13 +114,13 @@
                 "xsa"
             ],
             "sustainability_plan": {
-                "project_website": 0.0,
+                "project_website": 1.0,
                 "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.0,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
+                "data_accessibility": 1.0,
+                "webhosting": 1.0,
+                "publications": 1.0,
+                "publication_count": 1,
+                "open_access_count": 1
             },
             "publications": {
                 "open_access": 0,
