@@ -22,6 +22,7 @@
 	const keywordsMap = getKeywords(entries);
 	const keywordCats: Record<string, string[]> = fetchCategories(keywordsMap);
 	const languagesMap: Record<string, string[]> = getLanguages(entries);
+	const articles = ["a", "an", "the", "der", "die", "das"];
 
 	let searchTermValue: string;
 	searchTerm.subscribe((value) => {
@@ -88,7 +89,22 @@
 		return entries.filter(([url]) => matches.includes(url));
 	}
 
+	
+	function removeArticles(title: string): string {
+		return title
+			.toLowerCase()
+			.replace(/^(a |an |the |der |die |das |ein |eine |einen |einem |einer |eines )/i, "")
+			.trim();
+	}
+
+	function customSort(entries: [string, any][]) {
+		return entries.sort(([, aData], [, bData]) => 
+			removeArticles(aData.project.title).localeCompare(removeArticles(bData.project.title))
+		);
+	}
+	
 	$: filtered = filterEntries(entries, searchTermValue, selectedTabValue, selectedTermsValue);
+	$: sortedFiltered = customSort(filtered); 
 
 	afterNavigate(handleHash);
 </script>
@@ -109,7 +125,7 @@
 	</p>
 
 	<div class="flex flex-wrap justify-center gap-4 lg:justify-start">
-		{#each filtered as [url, data]}
+		{#each sortedFiltered as [url, data]}
 			<Card
 				title={data.project.title}
 				description={data.project.project_desc}
