@@ -1,131 +1,118 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "fcbda96b-0c65-4ac9-9047-bde2323a0cb4",
-        "record_created_on": "2022-04-05",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Virtuelle Archive für die geisteswissenschaftliche Forschung",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2017-05",
-                "to": "2020-01"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "fcbda96b-0c65-4ac9-9047-bde2323a0cb4",
+    "record_created_on": "2022-04-05",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Virtuelle Archive für die geisteswissenschaftliche Forschung",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2017-05",
+        "to": "2020-01"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.saw-leipzig.de/de/projekte/virtuelle-archive"
+    ],
+    "project_desc": "In this project is a cooperation of seven research institutions in Saxony (see project’s website) coordinated by Sächsische Akademie der Wisschenschaften (SAW). The institutions will exchange their expertise in the Digital Humanities in order to optimize research data management in human sciences. The focus of this projects lies on technical, legal and formal standardization of research data, long term archiving and accessibility.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
+      }
+    ],
+    "lang": [
+      "deu"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q27891200",
+            "https://ror.org/03zxjdk07"
+          ]
+        },
         "websites": [
-            "https://www.saw-leipzig.de/de/projekte/virtuelle-archive"
-        ],
-        "project_desc": "In this project is a cooperation of seven research institutions in Saxony (see project’s website) coordinated by Sächsische Akademie der Wisschenschaften (SAW). The institutions will exchange their expertise in the Digital Humanities in order to optimize research data management in human sciences. The focus of this projects lies on technical, legal and formal standardization of research data, long term archiving and accessibility.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Leipzig",
-                    "ref": [
-                        "https://www.geonames.org/2879139/leipzig.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.33962",
-                    "lng": "12.37129"
-                }
-            }
-        ],
-        "lang": [
-            "deu"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Sächsische Akademie der Wissenschaften zu Leipzig",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q27891200",
-                        "https://ror.org/03zxjdk07"
-                    ]
-                },
-                "websites": [
-                    "https://www.saw-leipzig.de/de"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-5613-8127",
-                        "https://d-nb.info/gnd/109432703"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.saw-leipzig.de/de/mitglieder/wiesmethh"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 0.5,
-                "webhosting": 0.5,
-                "publications": 1.0,
-                "publication_count": 1,
-                "open_access_count": 1
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.saw-leipzig.de/de"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-5613-8127",
+            "https://d-nb.info/gnd/109432703"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "research_data_management",
-            "research_infrastructure"
-        ],
-        "category": "infrastructure",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.saw-leipzig.de/de/mitglieder/wiesmethh"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 0.5,
+        "webhosting": 0.5,
+        "publications": 1.0,
+        "publication_count": 1,
+        "open_access_count": 1
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure"
+    ],
+    "category": "infrastructure",
+    "comment": ""
+  }
 }

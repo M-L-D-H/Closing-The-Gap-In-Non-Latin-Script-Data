@@ -1,296 +1,296 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968",
-        "record_created_on": "2022-02-28",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": true
-    },
-    "project": {
-        "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
-        "abbr": "AJAMI LAB",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2017",
-                "to": "2029"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "eaf36ccc-5ee4-4749-80ea-7f71f479c968",
+    "record_created_on": "2022-02-28",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": true
+  },
+  "project": {
+    "title": "Afrikanische Stimmen in islamischen Manuskripten aus Mali: Erschließung und Erforschung afrikanischer Sprachen in arabischer Schrift (Ajami)",
+    "abbr": "AJAMI LAB",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2017",
+        "to": "2029"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://gepris.dfg.de/gepris/projekt/344888349",
+      "https://www.gw.uni-hamburg.de/forschung/forschungsschwerpunkte/manuscript-cultures.html",
+      "https://www.csmc.uni-hamburg.de/ajami-lab/projects/ajami-2029.html"
+    ],
+    "project_desc": "This project is dedicated to research on manuscripts produced in African languages written in Arabic script (Ajami). The main focus of the study is the collection of rescued manuscripts form Timbuktu currently hosted in Bamako. The project aims at their historical and linguistic analyses, in-depth cataloguing, and establishment of a foundation for the interdisciplinary field of Ajami Studies.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Bamako",
+          "ref": [
+            "https://www.geonames.org/2460596/bamako.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "12.65",
+          "lng": "-8"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng",
+      "fra"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://ror.org/00g30e956",
+            "https://www.wikidata.org/wiki/Q156725"
+          ]
+        },
         "websites": [
-            "https://gepris.dfg.de/gepris/projekt/344888349",
-            "https://www.gw.uni-hamburg.de/forschung/forschungsschwerpunkte/manuscript-cultures.html",
-            "https://www.csmc.uni-hamburg.de/ajami-lab/projects/ajami-2029.html"
-        ],
-        "project_desc": "This project is dedicated to research on manuscripts produced in African languages written in Arabic script (Ajami). The main focus of the study is the collection of rescued manuscripts form Timbuktu currently hosted in Bamako. The project aims at their historical and linguistic analyses, in-depth cataloguing, and establishment of a foundation for the interdisciplinary field of Ajami Studies.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Bamako",
-                    "ref": [
-                        "https://www.geonames.org/2460596/bamako.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "12.65",
-                    "lng": "-8"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Hamburg",
-                    "ref": [
-                        "https://www.geonames.org/2911298/hamburg.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "53.55073",
-                    "lng": "9.99302"
-                }
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng",
-            "fra"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Universität Hamburg",
-                    "ref": [
-                        "https://ror.org/00g30e956",
-                        "https://www.wikidata.org/wiki/Q156725"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-hamburg.de/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "sibling",
-                "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
-                "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
-                "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "The Evolution of Islamic Societies (c. 600–1600 CE): Algorithmic Analysis into Social History",
-                "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "The intertwined world of the oral and written transmission of sacred traditions in the Middle East",
-                "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Understanding Written Artefacts",
-                "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Audition Certificates Platform",
-                "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
-                "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Datenrepositorium Manuskriptkulturen",
-                "uuid": "894dcf0c-7295-4fb8-b4ba-866a5ebe3310"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Documentation of Gorani, an endangered language of West Iran",
-                "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Islamic Painted Page",
-                "uuid": "31534c48-6b74-4cc5-8aff-ea8dbc60c445"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
-                "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "SfarData",
-                "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
-                "uuid": "20ee58f5-f699-4262-a473-7765e249c871"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
-                "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "From Translation to Creation: Changes in Ethiopic Style and Lexicon from Late Antiquity to the Middle Ages",
-                "uuid": "77ae1011-1b54-46b5-b676-02895e3300fc"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Corpus dei Manoscritti Copti Letterari",
-                "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Hill Museum & Manuscript Library",
-                "uuid": "52ce273e-7935-42fd-82e8-806f6aaa3049"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "Bondarev, Dmitry",
-                    "ref": [
-                        "https://orcid.org/0000-0001-9649-2625",
-                        "https://d-nb.info/gnd/1185835431"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.csmc.uni-hamburg.de/about/people/bondarev.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "mku",
-                "snk"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.5,
-                "publications": 1.0,
-                "publication_count": 1,
-                "open_access_count": 1
-            },
-            "publications": {
-                "open_access": 80,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "mdb",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    },
-                    {
-                        "label": "xlsx",
-                        "stage": "final",
-                        "licensing": [],
-                        "open_access": 0
-                    },
-                    {
-                        "label": "pdf",
-                        "stage": "final",
-                        "licensing": [],
-                        "open_access": 100
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "ZFDM Repository - Universität Hamburg",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [
-                            "https://www.fdr.uni-hamburg.de/"
-                        ],
-                        "licensing": [],
-                        "description": ""
-                    },
-                    {
-                        "label": "Microsoft Access",
-                        "accessibility": "private",
-                        "ref": [],
-                        "websites": [
-                            "https://www.microsoft.com/de-de/microsoft-365/access"
-                        ],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
+          "https://www.uni-hamburg.de/"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
+        "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "The Evolution of Islamic Societies (c. 600–1600 CE): Algorithmic Analysis into Social History",
+        "uuid": "659c0aba-3bdd-43eb-937d-dad4ad63e3fc"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "The intertwined world of the oral and written transmission of sacred traditions in the Middle East",
+        "uuid": "bb852d81-0c6d-4413-8c20-1bb38c4db4e7"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Audition Certificates Platform",
+        "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen",
+        "uuid": "eb8e91fe-952e-48b7-af0d-c026ebe37826"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Datenrepositorium Manuskriptkulturen",
+        "uuid": "894dcf0c-7295-4fb8-b4ba-866a5ebe3310"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Documentation of Gorani, an endangered language of West Iran",
+        "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Islamic Painted Page",
+        "uuid": "31534c48-6b74-4cc5-8aff-ea8dbc60c445"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Methoden der Manuskriptanalyse zur Wiedergewinnung verlorener Schrift",
+        "uuid": "892b783d-1788-451f-9efd-1c58bfb4b064"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "SfarData",
+        "uuid": "81d8ad85-5da8-457f-99a3-6ab11128ef03"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
+        "uuid": "20ee58f5-f699-4262-a473-7765e249c871"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",
+        "uuid": "fbf007e0-7eee-4bb1-801d-568785d43d04"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "From Translation to Creation: Changes in Ethiopic Style and Lexicon from Late Antiquity to the Middle Ages",
+        "uuid": "77ae1011-1b54-46b5-b676-02895e3300fc"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Corpus dei Manoscritti Copti Letterari",
+        "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Hill Museum & Manuscript Library",
+        "uuid": "52ce273e-7935-42fd-82e8-806f6aaa3049"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "Bondarev, Dmitry",
+          "ref": [
+            "https://orcid.org/0000-0001-9649-2625",
+            "https://d-nb.info/gnd/1185835431"
+          ]
         },
-        "stack": {
-            "database": [
-                "mdb",
-                "xlsx"
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://www.csmc.uni-hamburg.de/about/people/bondarev.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "mku",
+        "snk"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 0.0,
+        "webhosting": 0.5,
+        "publications": 1.0,
+        "publication_count": 1,
+        "open_access_count": 1
+      },
+      "publications": {
+        "open_access": 80,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "mdb",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          },
+          {
+            "label": "xlsx",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 0
+          },
+          {
+            "label": "pdf",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 100
+          }
+        ],
+        "repositories": [
+          {
+            "label": "ZFDM Repository - Universität Hamburg",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [
+              "https://www.fdr.uni-hamburg.de/"
             ],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "Tropy",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://tropy.org/"
-                    ],
-                    "description": "Open-source software for historians to sort and transcribe digital photos of documents and manuscripts"
-                },
-                {
-                    "label": "Toolbox",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://software.sil.org/toolbox/"
-                    ],
-                    "description": "Free data management and analysis tool for field linguists."
-                },
-                {
-                    "label": "FLEx",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://software.sil.org/fieldworks/"
-                    ],
-                    "description": "Free software for language and cultural data, with support for complex scripts."
-                }
+            "licensing": [],
+            "description": ""
+          },
+          {
+            "label": "Microsoft Access",
+            "accessibility": "private",
+            "ref": [],
+            "websites": [
+              "https://www.microsoft.com/de-de/microsoft-365/access"
             ],
-            "languages": []
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [
+        "mdb",
+        "xlsx"
+      ],
+      "backend": [],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "Tropy",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://tropy.org/"
+          ],
+          "description": "Open-source software for historians to sort and transcribe digital photos of documents and manuscripts"
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "african_studies",
-            "catalog",
-            "digital_preservation",
-            "islamic_studies",
-            "linguistics",
-            "manuscript"
-        ],
-        "category": "digital_preservation",
-        "comment": "The catalog will be made available in PDF format. The data and expertise acquired during the project will be utilized in partner projects to optimize OCR pipelines and AI models for the identification of Ajami in manuscripts. The research output of the project relevant to the History of West Africa, Islamic studies, and (socio)linguistics is available through publications of members, associates, and alumni of Ajami lab."
-    }
+        {
+          "label": "Toolbox",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://software.sil.org/toolbox/"
+          ],
+          "description": "Free data management and analysis tool for field linguists."
+        },
+        {
+          "label": "FLEx",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://software.sil.org/fieldworks/"
+          ],
+          "description": "Free software for language and cultural data, with support for complex scripts."
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "african_studies",
+      "catalog",
+      "digital_preservation",
+      "islamic_studies",
+      "linguistics",
+      "manuscript"
+    ],
+    "category": "digital_preservation",
+    "comment": "The catalog will be made available in PDF format. The data and expertise acquired during the project will be utilized in partner projects to optimize OCR pipelines and AI models for the identification of Ajami in manuscripts. The research output of the project relevant to the History of West Africa, Islamic studies, and (socio)linguistics is available through publications of members, associates, and alumni of Ajami lab."
+  }
 }

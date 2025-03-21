@@ -1,181 +1,168 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "e9e4a759-5a0c-4d7d-aa61-49051477ab2f",
-        "record_created_on": "2021-11-01",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "A Literary History of Medicine Online",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2013",
-                "to": "2017"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "e9e4a759-5a0c-4d7d-aa61-49051477ab2f",
+    "record_created_on": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "A Literary History of Medicine Online",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2013",
+        "to": "2017"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://scholarlyeditions.brill.com/lhom/"
+    ],
+    "project_desc": "A Literary History of Medicine Online offers a digital edition of The ‘Uyūn al-anbā’ fī ṭabaqāt al-aṭibbā’ written by famous Syrian physician Ibn Abī Uṣaybi‘ah (d. 1270) along with its annotated English translation.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Coventry",
+          "ref": [
+            "https://www.geonames.org/2652221/coventry.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.40656",
+          "lng": "-1.51217"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.75222",
+          "lng": "-1.25596"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Warwick University",
+          "ref": [
+            "https://ror.org/01a77tt86",
+            "https://www.wikidata.org/wiki/Q865528"
+          ]
+        },
         "websites": [
-            "https://scholarlyeditions.brill.com/lhom/"
-        ],
-        "project_desc": "A Literary History of Medicine Online offers a digital edition of The ‘Uyūn al-anbā’ fī ṭabaqāt al-aṭibbā’ written by famous Syrian physician Ibn Abī Uṣaybi‘ah (d. 1270) along with its annotated English translation.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Coventry",
-                    "ref": [
-                        "https://www.geonames.org/2652221/coventry.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.40656",
-                    "lng": "-1.51217"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Oxford",
-                    "ref": [
-                        "https://www.geonames.org/2640729/oxford.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.75222",
-                    "lng": "-1.25596"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Warwick University",
-                    "ref": [
-                        "https://ror.org/01a77tt86",
-                        "https://www.wikidata.org/wiki/Q865528"
-                    ]
-                },
-                "websites": [
-                    "https://www2.warwick.ac.uk/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Oxford",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q34433",
-                        "https://ror.org/052gg0110"
-                    ]
-                },
-                "websites": [
-                    "https://www.ox.ac.uk/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q64437299"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.orinst.ox.ac.uk/people/emilie-savage-smith"
-                ]
-            },
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q55386758"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://warwick.ac.uk/fac/arts/classics/intranets/staff/simonswain/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 0.5,
-                "publications": 1.0,
-                "publication_count": 1,
-                "open_access_count": 1
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www2.warwick.ac.uk/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Oxford",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q34433",
+            "https://ror.org/052gg0110"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
+        "websites": [
+          "https://www.ox.ac.uk/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q64437299"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "annotation",
-            "arabic_studies",
-            "classical_text",
-            "digital_edition",
-            "digital_preservation",
-            "history_studies",
-            "literary_studies",
-            "manuscript",
-            "medicine_history",
-            "science_history",
-            "translation",
-            "vre"
+        "websites": [
+          "https://www.orinst.ox.ac.uk/people/emilie-savage-smith"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q55386758"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "websites": [
+          "https://warwick.ac.uk/fac/arts/classics/intranets/staff/simonswain/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 0.5,
+        "publications": 1.0,
+        "publication_count": 1,
+        "open_access_count": 1
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "annotation",
+      "arabic_studies",
+      "classical_text",
+      "digital_edition",
+      "digital_preservation",
+      "history_studies",
+      "literary_studies",
+      "manuscript",
+      "medicine_history",
+      "science_history",
+      "translation",
+      "vre"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

@@ -1,155 +1,144 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "5d194da4-2d99-4793-9757-59a197059b9b",
-        "record_created_on": "2023-10-31",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Corpus der arabischen und syrischen Gnomologien",
-        "abbr": "CASG",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2009",
-                "to": "2011"
-            },
-            {
-                "from": "2023",
-                "to": ""
-            }
-        ],
-        "maintained": false,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "5d194da4-2d99-4793-9757-59a197059b9b",
+    "record_created_on": "2023-10-31",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Corpus der arabischen und syrischen Gnomologien",
+    "abbr": "CASG",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2009",
+        "to": "2011"
+      },
+      {
+        "from": "2023",
+        "to": ""
+      }
+    ],
+    "maintained": false,
+    "websites": [
+      "https://biblindex.hypotheses.org/files/2014/04/CASG_Lyon_02_06_2014.pdf"
+    ],
+    "project_desc": "The corpus represents an assemblage of proverbs, aphorisms, and sagacious declarations sourced from the literary traditions of Arabic and Syriac. Additionally, it encompasses Greek texts, facilitating the examination of knowledge transmission across these three distinct cultural spheres.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Halle (Saale)",
+          "ref": [
+            "https://www.geonames.org/6551220/halle-saale.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.48298",
+          "lng": "11.97202"
+        }
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Martin-Luther-Universität Halle-Wittenberg",
+          "ref": [
+            "https://ror.org/05gqaka33",
+            "https://www.wikidata.org/wiki/Q32120"
+          ]
+        },
         "websites": [
-            "https://biblindex.hypotheses.org/files/2014/04/CASG_Lyon_02_06_2014.pdf"
-        ],
-        "project_desc": "The corpus represents an assemblage of proverbs, aphorisms, and sagacious declarations sourced from the literary traditions of Arabic and Syriac. Additionally, it encompasses Greek texts, facilitating the examination of knowledge transmission across these three distinct cultural spheres.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Halle (Saale)",
-                    "ref": [
-                        "https://www.geonames.org/6551220/halle-saale.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.48298",
-                    "lng": "11.97202"
-                }
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Martin-Luther-Universität Halle-Wittenberg",
-                    "ref": [
-                        "https://ror.org/05gqaka33",
-                        "https://www.wikidata.org/wiki/Q32120"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-halle.de/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://d-nb.info/gnd/111231965"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.uni-goettingen.de/de/654951.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "grc",
-                "syr"
-            ],
-            "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.5,
-                "publications": 1.0,
-                "publication_count": 1,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
+          "https://www.uni-halle.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://d-nb.info/gnd/111231965"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml"
-            ],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "corpus_output",
-            "digital_preservation",
-            "image",
-            "literary_studies",
-            "semitic_studies",
-            "tei"
+        "websites": [
+          "https://www.uni-goettingen.de/de/654951.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "grc",
+        "syr"
+      ],
+      "sustainability_plan": {
+        "project_website": 0.0,
+        "Github": 0.0,
+        "data_accessibility": 0.0,
+        "webhosting": 0.5,
+        "publications": 1.0,
+        "publication_count": 1,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
-        "category": "digital_preservation",
-        "comment": "No website for the project, only a presentation of findings."
-    }
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "corpus_output",
+      "digital_preservation",
+      "image",
+      "literary_studies",
+      "semitic_studies",
+      "tei"
+    ],
+    "category": "digital_preservation",
+    "comment": "No website for the project, only a presentation of findings."
+  }
 }

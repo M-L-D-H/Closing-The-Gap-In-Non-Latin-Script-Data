@@ -1,201 +1,188 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "fdda3e43-e15b-4c64-a99d-924f37152cc9",
-        "record_created_on": "2021-11-01",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Syriaca.org: The Syriac Reference Portal",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2012",
-                "to": ""
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "fdda3e43-e15b-4c64-a99d-924f37152cc9",
+    "record_created_on": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Syriaca.org: The Syriac Reference Portal",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2012",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://syriaca.org/index.html"
+    ],
+    "project_desc": "Syriaca.org is a portal intended to document and preserve Syriac cultural heritage. It serves as an online hub (cyber-infrastructure) to assist research in the field of Syriac studies and to compile and organize core data related to the study of Syriac sources. The publications of Syriaca.org combine emerging methods of the Digital Humanities with traditional scholarship in history and philology, new digital tools are created for widely disseminating this data and facilitating further research.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Nashville",
+          "ref": [
+            "https://www.geonames.org/4644585/nashville.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "36.16589",
+          "lng": "-86.78444"
+        }
+      }
+    ],
+    "lang": [],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Texas A&M University",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q49212",
+            "https://ror.org/0034eay46"
+          ]
+        },
         "websites": [
-            "https://syriaca.org/index.html"
-        ],
-        "project_desc": "Syriaca.org is a portal intended to document and preserve Syriac cultural heritage. It serves as an online hub (cyber-infrastructure) to assist research in the field of Syriac studies and to compile and organize core data related to the study of Syriac sources. The publications of Syriaca.org combine emerging methods of the Digital Humanities with traditional scholarship in history and philology, new digital tools are created for widely disseminating this data and facilitating further research.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Nashville",
-                    "ref": [
-                        "https://www.geonames.org/4644585/nashville.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "36.16589",
-                    "lng": "-86.78444"
-                }
-            }
-        ],
-        "lang": [],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Texas A&M University",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q49212",
-                        "https://ror.org/0034eay46"
-                    ]
-                },
-                "websites": [
-                    "https://codhr.dh.tamu.edu/",
-                    "https://www.tamu.edu/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Vanderbilt University",
-                    "ref": [
-                        "https://ror.org/02vm5rt34",
-                        "https://www.wikidata.org/wiki/Q29052"
-                    ]
-                },
-                "websites": [
-                    "https://www.vanderbilt.edu/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Princeton University",
-                    "ref": [
-                        "https://ror.org/00hx57361",
-                        "https://www.wikidata.org/wiki/Q21578"
-                    ]
-                },
-                "websites": [
-                    "https://www.princeton.edu/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Marquette University",
-                    "ref": [
-                        "https://ror.org/04gr4te78",
-                        "https://www.wikidata.org/wiki/Q188370"
-                    ]
-                },
-                "websites": [
-                    "https://www.marquette.edu"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "New York University",
-                    "ref": [
-                        "https://ror.org/03v8adn41",
-                        "https://www.wikidata.org/wiki/Q49210"
-                    ]
-                },
-                "websites": [
-                    "https://www.nyu.edu/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Beth Mardutho Research Library",
-                    "ref": [
-                        "https://d-nb.info/gnd/1086900480"
-                    ]
-                },
-                "websites": [
-                    "https://bethmardutho.org/library/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0003-0786-8075",
-                        "https://viaf.org/viaf/59147905242279092527/#Gibson,_Nathan_P."
-                    ]
-                },
-                "roles": [
-                    "investigation"
-                ],
-                "websites": [
-                    "https://biblia-arabica.com/team/nathan-gibson/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "syr"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 3,
-                "open_access_count": 3
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://codhr.dh.tamu.edu/",
+          "https://www.tamu.edu/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Vanderbilt University",
+          "ref": [
+            "https://ror.org/02vm5rt34",
+            "https://www.wikidata.org/wiki/Q29052"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
+        "websites": [
+          "https://www.vanderbilt.edu/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Princeton University",
+          "ref": [
+            "https://ror.org/00hx57361",
+            "https://www.wikidata.org/wiki/Q21578"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "websites": [
+          "https://www.princeton.edu/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Marquette University",
+          "ref": [
+            "https://ror.org/04gr4te78",
+            "https://www.wikidata.org/wiki/Q188370"
+          ]
+        },
+        "websites": [
+          "https://www.marquette.edu"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "New York University",
+          "ref": [
+            "https://ror.org/03v8adn41",
+            "https://www.wikidata.org/wiki/Q49210"
+          ]
+        },
+        "websites": [
+          "https://www.nyu.edu/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Beth Mardutho Research Library",
+          "ref": [
+            "https://d-nb.info/gnd/1086900480"
+          ]
+        },
+        "websites": [
+          "https://bethmardutho.org/library/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0003-0786-8075",
+            "https://viaf.org/viaf/59147905242279092527/#Gibson,_Nathan_P."
+          ]
+        },
+        "roles": [
+          "investigation"
         ],
-        "keywords": [
-            "biographical_data",
-            "corpus_resource",
-            "geodata",
-            "map",
-            "semitic_studies",
-            "translation",
-            "visualization"
-        ],
-        "category": "tools_and_analysis",
-        "comment": "The start date recorded for this project is approximate."
-    }
+        "websites": [
+          "https://biblia-arabica.com/team/nathan-gibson/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "syr"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 3,
+        "open_access_count": 3
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "biographical_data",
+      "corpus_resource",
+      "geodata",
+      "map",
+      "semitic_studies",
+      "translation",
+      "visualization"
+    ],
+    "category": "tools_and_analysis",
+    "comment": "The start date recorded for this project is approximate."
+  }
 }

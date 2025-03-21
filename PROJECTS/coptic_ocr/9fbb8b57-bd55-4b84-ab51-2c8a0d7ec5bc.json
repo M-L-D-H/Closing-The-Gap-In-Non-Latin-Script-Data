@@ -1,173 +1,173 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "9fbb8b57-bd55-4b84-ab51-2c8a0d7ec5bc",
-        "record_created_on": "2023-01-02",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": true
-    },
-    "project": {
-        "title": "Coptic OCR",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2018",
-                "to": ""
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "9fbb8b57-bd55-4b84-ab51-2c8a0d7ec5bc",
+    "record_created_on": "2023-01-02",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": true
+  },
+  "project": {
+    "title": "Coptic OCR",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2018",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://kellia.uni-goettingen.de/digitalcoptic3/slides/CopticOCR_2020-12-07_Lincke.pdf",
+      "https://vcs.etrap.eu/Coptic-OCR/datasets"
+    ],
+    "project_desc": "The aim of this project is to improve the quality and accessibility of OCR software for Coptic texts and their different fonds using Machine Learning technologies.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Göttingen",
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Georg-August-Universität Göttingen",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152838",
+            "https://ror.org/01y9bpm73"
+          ]
+        },
         "websites": [
-            "https://kellia.uni-goettingen.de/digitalcoptic3/slides/CopticOCR_2020-12-07_Lincke.pdf",
-            "https://vcs.etrap.eu/Coptic-OCR/datasets"
-        ],
-        "project_desc": "The aim of this project is to improve the quality and accessibility of OCR software for Coptic texts and their different fonds using Machine Learning technologies.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Göttingen",
-                    "ref": [
-                        "https://www.geonames.org/2918632/goettingen.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.53443",
-                    "lng": "9.93228"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Georg-August-Universität Göttingen",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q152838",
-                        "https://ror.org/01y9bpm73"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-goettingen.de/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "Lincke, Eliese-Sophia",
-                    "ref": [
-                        "https://d-nb.info/gnd/1011716763"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Lincke"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "cop"
-            ],
-            "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 1.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 3,
-                "open_access_count": 2
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "tiff",
-                        "stage": "final",
-                        "licensing": [],
-                        "open_access": 80
-                    },
-                    {
-                        "label": "txt",
-                        "stage": "final",
-                        "licensing": [],
-                        "open_access": 80
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "GitLab",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [
-                            "https://vcs.etrap.eu/Coptic-OCR/datasets"
-                        ],
-                        "licensing": [],
-                        "description": "A collection of training and test data, OCR models, and documentation"
-                    }
-                ]
-            }
+          "https://www.uni-goettingen.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "Lincke, Eliese-Sophia",
+          "ref": [
+            "https://d-nb.info/gnd/1011716763"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [
-                "OCRopus",
-                "Calamari"
-            ],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "OCRopus",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://ocropus.github.io/"
-                    ],
-                    "description": ""
-                },
-                {
-                    "label": "Calamari",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://github.com/Calamari-OCR/calamari"
-                    ],
-                    "description": ""
-                },
-                {
-                    "label": "ScanTailor",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://scantailor.org/"
-                    ],
-                    "description": ""
-                }
-            ],
-            "languages": [
-                "python"
-            ]
-        },
-        "policies": [],
-        "keywords": [
-            "egyptology",
-            "machine_learning",
-            "ocr"
+        "roles": [
+          "supervision"
         ],
-        "category": "tools_and_analysis",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Lincke"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "cop"
+      ],
+      "sustainability_plan": {
+        "project_website": 0.0,
+        "Github": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 3,
+        "open_access_count": 2
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "tiff",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 80
+          },
+          {
+            "label": "txt",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 80
+          }
+        ],
+        "repositories": [
+          {
+            "label": "GitLab",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [
+              "https://vcs.etrap.eu/Coptic-OCR/datasets"
+            ],
+            "licensing": [],
+            "description": "A collection of training and test data, OCR models, and documentation"
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [
+        "OCRopus",
+        "Calamari"
+      ],
+      "frontend": [],
+      "tools": [
+        {
+          "label": "OCRopus",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://ocropus.github.io/"
+          ],
+          "description": ""
+        },
+        {
+          "label": "Calamari",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://github.com/Calamari-OCR/calamari"
+          ],
+          "description": ""
+        },
+        {
+          "label": "ScanTailor",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://scantailor.org/"
+          ],
+          "description": ""
+        }
+      ],
+      "languages": [
+        "python"
+      ]
+    },
+    "policies": [],
+    "keywords": [
+      "egyptology",
+      "machine_learning",
+      "ocr"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
 }

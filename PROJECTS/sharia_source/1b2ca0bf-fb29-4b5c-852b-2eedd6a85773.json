@@ -1,147 +1,134 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773",
-        "record_created_on": "2022-09-07",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "SHARIAsource",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2015",
-                "to": ""
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "1b2ca0bf-fb29-4b5c-852b-2eedd6a85773",
+    "record_created_on": "2022-09-07",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "SHARIAsource",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2015",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://pil.law.harvard.edu/shariasource-portal/",
+      "https://portal.shariasource.com/"
+    ],
+    "project_desc": "SHARIAsource is a project dedicated to digitalization of Islamic legal studies. To this end, the platform offers a growing library of primary sources for Islamic law, which were collected from all around the globe through digitization, partnerships, and individual contributions. It also uses data science and AI to curate and build digital humanities tools that make the Portal’s Islamic law sources more accessible and useful, and to facilitate new research and analysis.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Cambridge",
+          "ref": [
+            "https://www.geonames.org/4931972/cambridge.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "42.3751",
+          "lng": "-71.10561"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Harvard University",
+          "ref": [
+            "https://ror.org/03vek6s52",
+            "https://www.wikidata.org/wiki/Q13371"
+          ]
+        },
         "websites": [
-            "https://pil.law.harvard.edu/shariasource-portal/",
-            "https://portal.shariasource.com/"
-        ],
-        "project_desc": "SHARIAsource is a project dedicated to digitalization of Islamic legal studies. To this end, the platform offers a growing library of primary sources for Islamic law, which were collected from all around the globe through digitization, partnerships, and individual contributions. It also uses data science and AI to curate and build digital humanities tools that make the Portal’s Islamic law sources more accessible and useful, and to facilitate new research and analysis.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Cambridge",
-                    "ref": [
-                        "https://www.geonames.org/4931972/cambridge.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "42.3751",
-                    "lng": "-71.10561"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Harvard University",
-                    "ref": [
-                        "https://ror.org/03vek6s52",
-                        "https://www.wikidata.org/wiki/Q13371"
-                    ]
-                },
-                "websites": [
-                    "https://www.harvard.edu/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "child",
-                "title": "CorpusBuilder",
-                "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
-            },
-            {
-                "relation_type": "child",
-                "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
-                "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-1996-1149"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://pil.law.harvard.edu/fellow/yusuf-celik/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.harvard.edu/"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "child",
+        "title": "CorpusBuilder",
+        "uuid": "eb1591d7-75b9-4d62-9f67-0679e627587b"
+      },
+      {
+        "relation_type": "child",
+        "title": "Open Islamicate Texts Initiative Arabic-script OCR Catalyst Project",
+        "uuid": "786edd87-476e-42a6-bcc0-521833ec73e5"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-1996-1149"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "corpus_output",
-            "digital_preservation",
-            "history_studies",
-            "image",
-            "islamic_studies"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "websites": [
+          "https://pil.law.harvard.edu/fellow/yusuf-celik/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "corpus_output",
+      "digital_preservation",
+      "history_studies",
+      "image",
+      "islamic_studies"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

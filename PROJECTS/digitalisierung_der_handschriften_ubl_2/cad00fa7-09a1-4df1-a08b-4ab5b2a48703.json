@@ -1,155 +1,142 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "cad00fa7-09a1-4df1-a08b-4ab5b2a48703",
-        "record_created_on": "2022-03-29",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Project for the digitisation and online presentation of Arabic, Persian, and Turkish manuscripts at Leipzig University Library",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2012-10",
-                "to": "2015-01"
-            }
-        ],
-        "maintained": false,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "cad00fa7-09a1-4df1-a08b-4ab5b2a48703",
+    "record_created_on": "2022-03-29",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Project for the digitisation and online presentation of Arabic, Persian, and Turkish manuscripts at Leipzig University Library",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2012-10",
+        "to": "2015-01"
+      }
+    ],
+    "maintained": false,
+    "websites": [
+      "https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/arabische-persische-und-tuerkische-handschriften-digitalisierung/"
+    ],
+    "project_desc": "In this project all the remaining Arabic, Persian and Turkish manuscripts at Leipzig University Library that have not been yet catalogued and digitized in previous projects (Refaiya and Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig) will be made accessible online until 2015.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
+      }
+    ],
+    "lang": [
+      "ara",
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Leipzig",
+          "ref": [
+            "https://ror.org/03s7gtk40",
+            "https://www.wikidata.org/wiki/Q154804"
+          ]
+        },
         "websites": [
-            "https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/arabische-persische-und-tuerkische-handschriften-digitalisierung/"
-        ],
-        "project_desc": "In this project all the remaining Arabic, Persian and Turkish manuscripts at Leipzig University Library that have not been yet catalogued and digitized in previous projects (Refaiya and Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig) will be made accessible online until 2015.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Leipzig",
-                    "ref": [
-                        "https://www.geonames.org/2879139/leipzig.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.33962",
-                    "lng": "12.37129"
-                }
-            }
-        ],
-        "lang": [
-            "ara",
-            "deu",
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Universität Leipzig",
-                    "ref": [
-                        "https://ror.org/03s7gtk40",
-                        "https://www.wikidata.org/wiki/Q154804"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-leipzig.de/en/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "sibling",
-                "title": "Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig",
-                "uuid": "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Datenbankgestützte Erfassung, Erforschung und digitale Präsentation der Familienbibliothek Refaiya",
-                "uuid": "38e6dfb4-730a-4a80-8090-4b7ea551b3c7"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Qalamos",
-                "uuid": "3c5b84d0-791c-43bc-ab68-7372478bc568"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "Klemm, Verena",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q5675690"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "fas",
-                "tur"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 0.5,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.uni-leipzig.de/en/"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig",
+        "uuid": "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Datenbankgestützte Erfassung, Erforschung und digitale Präsentation der Familienbibliothek Refaiya",
+        "uuid": "38e6dfb4-730a-4a80-8090-4b7ea551b3c7"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Qalamos",
+        "uuid": "3c5b84d0-791c-43bc-ab68-7372478bc568"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "Klemm, Verena",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q5675690"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "catalog",
-            "digital_preservation",
-            "islamic_studies",
-            "manuscript",
-            "vre"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.gkr.uni-leipzig.de/orientalisches-institut/ueber-uns/team/prof-dr-verena-klemm"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "fas",
+        "tur"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 0.5,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "catalog",
+      "digital_preservation",
+      "islamic_studies",
+      "manuscript",
+      "vre"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

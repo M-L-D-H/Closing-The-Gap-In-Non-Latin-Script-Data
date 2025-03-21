@@ -1,140 +1,127 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "5f3c2fbb-ca17-41c9-acdb-d3e147869400",
-        "record_created_on": "2021-11-01",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybi‘a’s “History of the Physicians”",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2018",
-                "to": "2021"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "5f3c2fbb-ca17-41c9-acdb-d3e147869400",
+    "record_created_on": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybi‘a’s “History of the Physicians”",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2018",
+        "to": "2021"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://usaybia.net/"
+    ],
+    "project_desc": "This project’s objective is to digitally examine the social encounters of Christian, Muslim, and Jewish scholars in the Abbasid Near East (750–1258) engaged in exchange of medical knowledge as described by Ibn Abi Usaybi‘a (d. 1270), a Muslim physician from Syria in his history of medicine. The project will digitally record these interactions and use network analysis in order to identify the persons most frequently involved in scholar exchange and compare the results with representations from other sources.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Ludwig-Maximilians-Universität Munich",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q156598",
+            "https://ror.org/05591te55"
+          ]
+        },
         "websites": [
-            "https://usaybia.net/"
-        ],
-        "project_desc": "This project’s objective is to digitally examine the social encounters of Christian, Muslim, and Jewish scholars in the Abbasid Near East (750–1258) engaged in exchange of medical knowledge as described by Ibn Abi Usaybi‘a (d. 1270), a Muslim physician from Syria in his history of medicine. The project will digitally record these interactions and use network analysis in order to identify the persons most frequently involved in scholar exchange and compare the results with representations from other sources.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Munich",
-                    "ref": [
-                        "https://www.geonames.org/2867714/munich.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "48.13743",
-                    "lng": "11.57549"
-                }
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Ludwig-Maximilians-Universität Munich",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q156598",
-                        "https://ror.org/05591te55"
-                    ]
-                },
-                "websites": [
-                    "https://www.lmu.de/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0003-0786-8075",
-                        "https://viaf.org/viaf/59147905242279092527/#Gibson,_Nathan_P."
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://biblia-arabica.com/team/nathan-gibson/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 1,
-                "open_access_count": 1
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.lmu.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0003-0786-8075",
+            "https://viaf.org/viaf/59147905242279092527/#Gibson,_Nathan_P."
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "arabic_studies",
-            "biographical_data",
-            "geodata",
-            "map",
-            "network_analysis",
-            "science_history",
-            "tei",
-            "visualization"
-        ],
-        "category": "tools_and_analysis",
-        "comment": ""
-    }
+        "websites": [
+          "https://biblia-arabica.com/team/nathan-gibson/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 1,
+        "open_access_count": 1
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "biographical_data",
+      "geodata",
+      "map",
+      "network_analysis",
+      "science_history",
+      "tei",
+      "visualization"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
 }

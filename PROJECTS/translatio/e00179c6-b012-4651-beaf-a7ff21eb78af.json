@@ -1,213 +1,205 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "e00179c6-b012-4651-beaf-a7ff21eb78af",
-        "record_created_on": "2024-03-11",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Digitalisierungsprojekt Translatio",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2013-01-11",
-                "to": "2014-10-31"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "e00179c6-b012-4651-beaf-a7ff21eb78af",
+    "record_created_on": "2024-03-11",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Digitalisierungsprojekt Translatio",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2013-01-11",
+        "to": "2014-10-31"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://digitale-sammlungen.ulb.uni-bonn.de/topic/view/3085779",
+      "https://www.ioa.uni-bonn.de/translatio/de"
+    ],
+    "project_desc": "The digitization project “Translatio” focuses on Arabic, Persian and Ottoman-Turkish periodicals published during the Middle Eastern and Asian “saddle period” between 1860 and 1945 and making them digitally accessible.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Bonn",
+          "ref": [
+            "https://www.geonames.org/2946447/bonn.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "50.73438",
+          "lng": "7.09549"
+        }
+      }
+    ],
+    "lang": [
+      "eng",
+      "deu",
+      "fra"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Bonn",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152171",
+            "https://ror.org/041nas322"
+          ]
+        },
         "websites": [
-            "https://digitale-sammlungen.ulb.uni-bonn.de/topic/view/3085779",
-            "https://www.ioa.uni-bonn.de/translatio/de"
-        ],
-        "project_desc": "The digitization project “Translatio” focuses on Arabic, Persian and Ottoman-Turkish periodicals published during the Middle Eastern and Asian “saddle period” between 1860 and 1945 and making them digitally accessible.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Bonn",
-                    "ref": [
-                        "https://www.geonames.org/2946447/bonn.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "50.73438",
-                    "lng": "7.09549"
-                }
-            }
-        ],
-        "lang": [
-            "eng",
-            "deu",
-            "fra"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Universität Bonn",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q152171",
-                        "https://ror.org/041nas322"
-                    ]
-                },
-                "websites": [
-                    "https://www.ulb.uni-bonn.de/de"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Universitätsbibliothek Bamberg",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q23786596"
-                    ]
-                },
-                "websites": [
-                    "http://www.uni-bamberg.de/ub/"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Universität Freiburg",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q153987",
-                        "https://ror.org/022fs9h90"
-                    ]
-                },
-                "websites": [
-                    "https://www.unifr.ch/home/de/"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Universitätsbibliothek Mainz",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q2496319"
-                    ]
-                },
-                "websites": [
-                    "https://www.ub.uni-mainz.de/"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Bayerische Staatsbibliothek München",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q256507",
-                        "https://ror.org/031h71w90"
-                    ]
-                },
-                "websites": [
-                    "https://www.bsb-muenchen.de"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Universitätsbibliothek Tübingen",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q2496347"
-                    ]
-                },
-                "websites": [
-                    "http://www.ub.uni-tuebingen.de"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": []
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.dependency.uni-bonn.de/en/people/management/eteaching-coordinator"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "fas",
-                "ota",
-                "tur"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 0.5,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
+          "https://www.ulb.uni-bonn.de/de"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Universitätsbibliothek Bamberg",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q23786596"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
+        "websites": [
+          "http://www.uni-bamberg.de/ub/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Universität Freiburg",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q153987",
+            "https://ror.org/022fs9h90"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "websites": [
+          "https://www.unifr.ch/home/de/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Universitätsbibliothek Mainz",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q2496319"
+          ]
+        },
+        "websites": [
+          "https://www.ub.uni-mainz.de/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Bayerische Staatsbibliothek München",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q256507",
+            "https://ror.org/031h71w90"
+          ]
+        },
+        "websites": [
+          "https://www.bsb-muenchen.de"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Universitätsbibliothek Tübingen",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q2496347"
+          ]
+        },
+        "websites": [
+          "http://www.ub.uni-tuebingen.de"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": []
+        },
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "arabic_studies",
-            "catalog",
-            "digital_preservation",
-            "history_studies",
-            "image",
-            "iranian_studies",
-            "ottoman_studies",
-            "turkology"
+        "websites": [
+          "https://www.dependency.uni-bonn.de/en/people/management/eteaching-coordinator"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "fas",
+        "ota",
+        "tur"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 0.5,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "catalog",
+      "digital_preservation",
+      "history_studies",
+      "image",
+      "iranian_studies",
+      "ottoman_studies",
+      "turkology"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

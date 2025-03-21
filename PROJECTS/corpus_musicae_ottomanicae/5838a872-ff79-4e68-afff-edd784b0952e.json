@@ -1,195 +1,182 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "5838a872-ff79-4e68-afff-edd784b0952e",
-        "record_created_on": "2022-06-14",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Corpus Musicae Ottomanicae",
-        "abbr": "CMO",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2015",
-                "to": "2027"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "5838a872-ff79-4e68-afff-edd784b0952e",
+    "record_created_on": "2022-06-14",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Corpus Musicae Ottomanicae",
+    "abbr": "CMO",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2015",
+        "to": "2027"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.uni-muenster.de/CMO-Edition/cmo/cmo.html",
+      "https://corpus-musicae-ottomanicae.de/content/edition/browse.xml",
+      "https://gepris.dfg.de/gepris/projekt/265450857"
+    ],
+    "project_desc": "This long-term project is dedicated to the transcription and critical editing of nineteenth-century sources of Ottoman music written in Hampartsum and staff notations, as well as the accompanying song texts. The end results of the project will be made available through an online platform which will provide access to both music and text editions, as well as the source catalogue, which is a comprehensive database of printed, manuscript, and online sources. The materials of the edited corpus represent the multi-ethnic and multi-religious environment of the region and period.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Münster",
+          "ref": [
+            "https://www.geonames.org/2867543/muenster.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.96236",
+          "lng": "7.62571"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Bonn",
+          "ref": [
+            "https://www.geonames.org/2946447/bonn.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "50.73438",
+          "lng": "7.09549"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Istanbul",
+          "ref": [
+            "https://www.geonames.org/745044/istanbul.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "41.01384",
+          "lng": "28.94966"
+        }
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng",
+      "tur"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Westfälische Wilhelms-Universität Münster",
+          "ref": [
+            "https://ror.org/00pd74e08",
+            "https://www.wikidata.org/wiki/Q168426"
+          ]
+        },
         "websites": [
-            "https://www.uni-muenster.de/CMO-Edition/cmo/cmo.html",
-            "https://corpus-musicae-ottomanicae.de/content/edition/browse.xml",
-            "https://gepris.dfg.de/gepris/projekt/265450857"
-        ],
-        "project_desc": "This long-term project is dedicated to the transcription and critical editing of nineteenth-century sources of Ottoman music written in Hampartsum and staff notations, as well as the accompanying song texts. The end results of the project will be made available through an online platform which will provide access to both music and text editions, as well as the source catalogue, which is a comprehensive database of printed, manuscript, and online sources. The materials of the edited corpus represent the multi-ethnic and multi-religious environment of the region and period.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Münster",
-                    "ref": [
-                        "https://www.geonames.org/2867543/muenster.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.96236",
-                    "lng": "7.62571"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Bonn",
-                    "ref": [
-                        "https://www.geonames.org/2946447/bonn.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "50.73438",
-                    "lng": "7.09549"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Istanbul",
-                    "ref": [
-                        "https://www.geonames.org/745044/istanbul.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "41.01384",
-                    "lng": "28.94966"
-                }
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng",
-            "tur"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Westfälische Wilhelms-Universität Münster",
-                    "ref": [
-                        "https://ror.org/00pd74e08",
-                        "https://www.wikidata.org/wiki/Q168426"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-muenster.de/en/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Max Weber Foundation International Humanities",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q1913589"
-                    ]
-                },
-                "websites": [
-                    "https://www.maxweberstiftung.de/en/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Orient-Institut Istanbul",
-                    "ref": [
-                        "https://ror.org/05jm6kj71",
-                        "https://www.wikidata.org/wiki/Q15837722"
-                    ]
-                },
-                "websites": [
-                    "https://www.oiist.org/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-2628-2283",
-                        "https://d-nb.info/gnd/122654099",
-                        "https://www.wikidata.org/wiki/Q113716689"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.uni-muenster.de/CMO-Edition/mitarbeiter/leitung/ralf_martin_jaeger.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "ota",
-                "tur"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 0.5,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 56,
-                "open_access_count": 11
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.uni-muenster.de/en/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Max Weber Foundation International Humanities",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1913589"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
+        "websites": [
+          "https://www.maxweberstiftung.de/en/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Orient-Institut Istanbul",
+          "ref": [
+            "https://ror.org/05jm6kj71",
+            "https://www.wikidata.org/wiki/Q15837722"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "websites": [
+          "https://www.oiist.org/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-2628-2283",
+            "https://d-nb.info/gnd/122654099",
+            "https://www.wikidata.org/wiki/Q113716689"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "arabic_studies",
-            "corpus_output",
-            "digital_preservation",
-            "image",
-            "manuscript",
-            "music_studies",
-            "ottoman_studies",
-            "vre"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.uni-muenster.de/CMO-Edition/mitarbeiter/leitung/ralf_martin_jaeger.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "ota",
+        "tur"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 0.5,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 56,
+        "open_access_count": 11
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "corpus_output",
+      "digital_preservation",
+      "image",
+      "manuscript",
+      "music_studies",
+      "ottoman_studies",
+      "vre"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

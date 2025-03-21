@@ -1,131 +1,118 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "173631fa-ddc3-4762-bfd9-5bf40ccef41a",
-        "record_created_on": "2021-10-29",
-        "record_created_by": "Mueller-Laackman, Jonas",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Ada Lovelace Center for Digital Humanities",
-        "abbr": "ADA",
-        "type": "organization",
-        "ref": [],
-        "date": [
-            {
-                "from": "2021",
-                "to": ""
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "173631fa-ddc3-4762-bfd9-5bf40ccef41a",
+    "record_created_on": "2021-10-29",
+    "record_created_by": "Mueller-Laackman, Jonas",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Ada Lovelace Center for Digital Humanities",
+    "abbr": "ADA",
+    "type": "organization",
+    "ref": [],
+    "date": [
+      {
+        "from": "2021",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.ada.fu-berlin.de/"
+    ],
+    "project_desc": "The main objective of Ada Lovelace Center for Digital Humanities is to connect and promote all activities in the Digital Humanities taking place not only at the FU but also at the national and international level. By providing a social and communicative infrastructure for collaboration (co-working hours), developing interdisciplinary lab culture within the humanities (ADA.Labs) and bringing together all projects, teaching and training programs in the Digital Humanities at the FU it enhances and coordinates the transfer of project-based, personal expertise into a sustainable, interdisciplinary knowledge management.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
         "websites": [
-            "https://www.ada.fu-berlin.de/"
-        ],
-        "project_desc": "The main objective of Ada Lovelace Center for Digital Humanities is to connect and promote all activities in the Digital Humanities taking place not only at the FU but also at the national and international level. By providing a social and communicative infrastructure for collaboration (co-working hours), developing interdisciplinary lab culture within the humanities (ADA.Labs) and bringing together all projects, teaching and training programs in the Digital Humanities at the FU it enhances and coordinates the transfer of project-based, personal expertise into a sustainable, interdisciplinary knowledge management.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.52437",
-                    "lng": "13.41053"
-                }
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Freie Universität Berlin",
-                    "ref": [
-                        "https://ror.org/046ak2485",
-                        "https://www.wikidata.org/wiki/Q153006"
-                    ]
-                },
-                "websites": [
-                    "https://www.fu-berlin.de/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0001-8892-5419",
-                        "https://d-nb.info/gnd/1011172860"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.fu-berlin.de/en/sites/ub/ueber-uns/team/mischke/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.fu-berlin.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0001-8892-5419",
+            "https://d-nb.info/gnd/1011172860"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "collaboration_platform"
-        ],
-        "category": "other",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.fu-berlin.de/en/sites/ub/ueber-uns/team/mischke/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "collaboration_platform"
+    ],
+    "category": "other",
+    "comment": ""
+  }
 }

@@ -1,168 +1,155 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052",
-        "record_created_on": "2021-11-01",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2020",
-                "to": "2024"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "a2984fec-9396-488e-ad56-d3d21dc49052",
+    "record_created_on": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Verse und Sprueche: Impulse und Reichweiten wissenschaftlicher und popularisierender Diskurse im arabischen Sprachraum",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2024"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.sfb-episteme.de/teilprojekte/handeln/C10/index.html"
+    ],
+    "project_desc": "This projects studies micro-texts in poetry and gnomic texts in Arabic and related traditions. Single verses and maxims and the changes they underwent in their literary and scientific contexts bear important information about the intercultural transfer of knowledge. The project team will build a database of these minuscule texts and analyze them in order to trace the interaction of the multiple factors and impulses of epistemic change and embed it in a broader context.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
         "websites": [
-            "https://www.sfb-episteme.de/teilprojekte/handeln/C10/index.html"
-        ],
-        "project_desc": "This projects studies micro-texts in poetry and gnomic texts in Arabic and related traditions. Single verses and maxims and the changes they underwent in their literary and scientific contexts bear important information about the intercultural transfer of knowledge. The project team will build a database of these minuscule texts and analyze them in order to trace the interaction of the multiple factors and impulses of epistemic change and embed it in a broader context.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.52437",
-                    "lng": "13.41053"
-                }
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Freie Universität Berlin",
-                    "ref": [
-                        "https://ror.org/046ak2485",
-                        "https://www.wikidata.org/wiki/Q153006"
-                    ]
-                },
-                "websites": [
-                    "https://www.fu-berlin.de/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "child",
-                "title": "Glossarion",
-                "uuid": "ee6404e6-57f0-4e11-bb4a-1bbd13b08cb7"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
-                "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Kalila and Dimna – AnonymClassic",
-                "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Keywords for the Study of the Arabic Literary and Manuscript Tradition",
-                "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Arabic Literature Cosmopolitan",
-                "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Memory Spaces: Mapping Oral History in Mosul",
-                "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "Gruendler, Beatrice",
-                    "ref": [
-                        "https://orcid.org/0009-0002-3742-1733",
-                        "https://d-nb.info/gnd/111749344X"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/team/Professuren/Gruendler/index.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "grc",
-                "syr"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 0.5,
-                "webhosting": 0.5,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.fu-berlin.de/"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "child",
+        "title": "Glossarion",
+        "uuid": "ee6404e6-57f0-4e11-bb4a-1bbd13b08cb7"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present",
+        "uuid": "2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Kalila and Dimna – AnonymClassic",
+        "uuid": "d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Keywords for the Study of the Arabic Literary and Manuscript Tradition",
+        "uuid": "7050ac6d-523c-4ba0-b381-48ec200ff6c4"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Arabic Literature Cosmopolitan",
+        "uuid": "46aff246-b6ef-4632-90c2-0993a9f9b1f5"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Memory Spaces: Mapping Oral History in Mosul",
+        "uuid": "aec92ee9-7c8a-49ce-8491-46667fc75505"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "Gruendler, Beatrice",
+          "ref": [
+            "https://orcid.org/0009-0002-3742-1733",
+            "https://d-nb.info/gnd/111749344X"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "arabic_studies",
-            "corpus_output",
-            "digital_preservation"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/team/Professuren/Gruendler/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "grc",
+        "syr"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 0.5,
+        "webhosting": 0.5,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "corpus_output",
+      "digital_preservation"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

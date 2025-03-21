@@ -1,152 +1,144 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "43faf354-6069-4d15-9e04-bcb5813bc67a",
-        "record_created_on": "2023-12-04",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Localizing 4000 Years of Cultural History. Texts and Scripts from Elephantine Island in Egypt",
-        "abbr": "ELEPHANTINE",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2015",
-                "to": "2022"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "43faf354-6069-4d15-9e04-bcb5813bc67a",
+    "record_created_on": "2023-12-04",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Localizing 4000 Years of Cultural History. Texts and Scripts from Elephantine Island in Egypt",
+    "abbr": "ELEPHANTINE",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2015",
+        "to": "2022"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://elephantine.smb.museum/"
+    ],
+    "project_desc": "The Elephantine Manuscripts Project employs cutting-edge digital methodologies, integrating disciplines like digital humanities, physics, and mathematics. A central element is the development of an open-access online research database, housing 80% previously unpublished manuscripts in ten different languages and scripts. The database provides unprecedented insights into the medical, religious, legal, administrative, and literary aspects of Elephantine's history spanning 4000 years.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Staatliche Museen zu Berlin",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q700216",
+            "https://ror.org/02k3b8775"
+          ]
+        },
         "websites": [
-            "https://elephantine.smb.museum/"
-        ],
-        "project_desc": "The Elephantine Manuscripts Project employs cutting-edge digital methodologies, integrating disciplines like digital humanities, physics, and mathematics. A central element is the development of an open-access online research database, housing 80% previously unpublished manuscripts in ten different languages and scripts. The database provides unprecedented insights into the medical, religious, legal, administrative, and literary aspects of Elephantine's history spanning 4000 years.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.52437",
-                    "lng": "13.41053"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Staatliche Museen zu Berlin",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q700216",
-                        "https://ror.org/02k3b8775"
-                    ]
-                },
-                "websites": [
-                    "https://www.smb.museum/home/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q1619476",
-                        "https://d-nb.info/gnd/1027812333"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.geschkult.fu-berlin.de/en/e/aegyptologie/institut/mitarbeiter/weitere/Lepper/index.html",
-                    "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/lepper-verena"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "arc",
-                "cop",
-                "egy",
-                "grc"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 0.5,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 1,
-                "open_access_count": 1
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
+          "https://www.smb.museum/home/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1619476",
+            "https://d-nb.info/gnd/1027812333"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "annotation",
-            "digital_edition",
-            "digital_preservation",
-            "image",
-            "manuscript",
-            "tei",
-            "translation"
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/en/e/aegyptologie/institut/mitarbeiter/weitere/Lepper/index.html",
+          "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/lepper-verena"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "arc",
+        "cop",
+        "egy",
+        "grc"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 0.5,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 1,
+        "open_access_count": 1
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "annotation",
+      "digital_edition",
+      "digital_preservation",
+      "image",
+      "manuscript",
+      "tei",
+      "translation"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

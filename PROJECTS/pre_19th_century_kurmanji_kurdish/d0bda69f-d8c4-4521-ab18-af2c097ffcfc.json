@@ -1,158 +1,145 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "d0bda69f-d8c4-4521-ab18-af2c097ffcfc",
-        "record_created_on": "2022-06-16",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Compilation and critical edition of pre-19th century Kurmanji Kurdish",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2014-10",
-                "to": "2016-06"
-            }
-        ],
-        "maintained": false,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "d0bda69f-d8c4-4521-ab18-af2c097ffcfc",
+    "record_created_on": "2022-06-16",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Compilation and critical edition of pre-19th century Kurmanji Kurdish",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2014-10",
+        "to": "2016-06"
+      }
+    ],
+    "maintained": false,
+    "websites": [
+      "https://www.uni-bamberg.de/orientalistik/allgemeine-sprachwissenschaft/forschung/projekte/"
+    ],
+    "project_desc": "The main purpose of this project is to lay a foundation for serious academic research on the history of Kurdish, which until now is severely hampered due to the lack of written attestation prior to the 15th century. The project will thus compile a selection of 10 Kurdish texts from prior to 1800, transliterated in a standardized format and supplied with English translations and an authoritative critical apparatus. The texts will also be made fully accessible as a digital corpus, accompanied by a concordance, and the resulting two volumes will be published on the open-access portal of the University of Bamberg.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Bamberg",
+          "ref": [
+            "https://www.geonames.org/2952984/bamberg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.89873",
+          "lng": "10.90067"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Otto-Friedrich-Universität Bamberg",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q707272",
+            "https://ror.org/01c1w6d29"
+          ]
+        },
         "websites": [
-            "https://www.uni-bamberg.de/orientalistik/allgemeine-sprachwissenschaft/forschung/projekte/"
-        ],
-        "project_desc": "The main purpose of this project is to lay a foundation for serious academic research on the history of Kurdish, which until now is severely hampered due to the lack of written attestation prior to the 15th century. The project will thus compile a selection of 10 Kurdish texts from prior to 1800, transliterated in a standardized format and supplied with English translations and an authoritative critical apparatus. The texts will also be made fully accessible as a digital corpus, accompanied by a concordance, and the resulting two volumes will be published on the open-access portal of the University of Bamberg.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Bamberg",
-                    "ref": [
-                        "https://www.geonames.org/2952984/bamberg.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "49.89873",
-                    "lng": "10.90067"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Otto-Friedrich-Universität Bamberg",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q707272",
-                        "https://ror.org/01c1w6d29"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-bamberg.de/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "sibling",
-                "title": "Multilingual Corpus of Annotated Spoken Texts",
-                "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
-                "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Documentation of Gorani, an endangered language of West Iran",
-                "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Post-predicate Elements in Iranian: Inheritance, Contact, and Information Structure",
-                "uuid": "c1a2957b-0c24-46e6-9a67-381997525a87"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0001-6866-8371",
-                        "https://d-nb.info/gnd/1121608140"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.chu.cam.ac.uk/fellows/dr-ergin-opengin/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "kur"
-            ],
-            "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.5,
-                "publications": 1.0,
-                "publication_count": 2,
-                "open_access_count": 2
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.uni-bamberg.de/"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Multilingual Corpus of Annotated Spoken Texts",
+        "uuid": "b37c6bd1-90d3-4718-ab58-fb1d60873186"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Bamberg Lexical Database for Contemporary Iranian Languages",
+        "uuid": "614f4c99-0d96-48a9-baa5-48a402a8deec"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Documentation of Gorani, an endangered language of West Iran",
+        "uuid": "17fa004d-c9d2-4ce3-8116-b7bfff5d14ed"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Post-predicate Elements in Iranian: Inheritance, Contact, and Information Structure",
+        "uuid": "c1a2957b-0c24-46e6-9a67-381997525a87"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0001-6866-8371",
+            "https://d-nb.info/gnd/1121608140"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "corpus_output",
-            "digital_preservation",
-            "iranian_studies",
-            "linguistics",
-            "manuscript",
-            "translation"
-        ],
-        "category": "digital_preservation",
-        "comment": "The project website does not exist anymore"
-    }
+        "websites": [
+          "https://www.chu.cam.ac.uk/fellows/dr-ergin-opengin/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "kur"
+      ],
+      "sustainability_plan": {
+        "project_website": 0.0,
+        "Github": 0.0,
+        "data_accessibility": 0.0,
+        "webhosting": 0.5,
+        "publications": 1.0,
+        "publication_count": 2,
+        "open_access_count": 2
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "corpus_output",
+      "digital_preservation",
+      "iranian_studies",
+      "linguistics",
+      "manuscript",
+      "translation"
+    ],
+    "category": "digital_preservation",
+    "comment": "The project website does not exist anymore"
+  }
 }

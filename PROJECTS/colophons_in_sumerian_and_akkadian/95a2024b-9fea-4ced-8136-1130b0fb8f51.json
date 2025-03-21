@@ -1,139 +1,126 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "95a2024b-9fea-4ced-8136-1130b0fb8f51",
-        "record_created_on": "2022-02-28",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2019",
-                "to": "2025"
-            }
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "95a2024b-9fea-4ced-8136-1130b0fb8f51",
+    "record_created_on": "2022-02-28",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2025"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.csmc.uni-hamburg.de/written-artefacts/research-fields/field-i/rfi03.html"
+    ],
+    "project_desc": "The focus of this project are colophons of Sumerian and Akkadian manuscripts dating back to 3rd and 2nd millennium BC, which until now have been neglected in manuscript studies. The objective is to create a database containing a catalogue of respective manuscripts and an edition of the extant colophons. It should serve as solid base for the study of scribal practices in an ancient Mesopotamia and the relevance of colophons in its cultural history.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [],
+    "related_entities": [
+      {
+        "relation_type": "parent",
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sixteenth Century",
+        "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Audition Certificates Platform",
+        "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0009-0003-9864-0742",
+            "https://d-nb.info/gnd/1156345170"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "maintained": true,
         "websites": [
-            "https://www.csmc.uni-hamburg.de/written-artefacts/research-fields/field-i/rfi03.html"
-        ],
-        "project_desc": "The focus of this project are colophons of Sumerian and Akkadian manuscripts dating back to 3rd and 2nd millennium BC, which until now have been neglected in manuscript studies. The objective is to create a database containing a catalogue of respective manuscripts and an edition of the extant colophons. It should serve as solid base for the study of scribal practices in an ancient Mesopotamia and the relevance of colophons in its cultural history.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Hamburg",
-                    "ref": [
-                        "https://www.geonames.org/2911298/hamburg.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "53.55073",
-                    "lng": "9.99302"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [],
-        "related_entities": [
-            {
-                "relation_type": "parent",
-                "title": "Understanding Written Artefacts",
-                "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sixteenth Century",
-                "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Audition Certificates Platform",
-                "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0009-0003-9864-0742",
-                        "https://d-nb.info/gnd/1156345170"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.csmc.uni-hamburg.de/about/people/soevegjarto.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "akk",
-                "sux"
-            ],
-            "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 0.5,
-                "publications": 1.0,
-                "publication_count": 3,
-                "open_access_count": 1
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
-        },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "catalog",
-            "digital_preservation",
-            "epigraphy",
-            "inscription",
-            "semitic_studies"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+          "https://www.csmc.uni-hamburg.de/about/people/soevegjarto.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "akk",
+        "sux"
+      ],
+      "sustainability_plan": {
+        "project_website": 0.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 0.5,
+        "publications": 1.0,
+        "publication_count": 3,
+        "open_access_count": 1
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "catalog",
+      "digital_preservation",
+      "epigraphy",
+      "inscription",
+      "semitic_studies"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }
