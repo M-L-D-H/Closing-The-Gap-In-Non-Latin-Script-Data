@@ -1,176 +1,176 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "8682a8f5-b601-4a6c-808c-aa4b7ce8a7c4",
-        "record_created_on": "2022-10-31",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": true
-    },
-    "project": {
-        "title": "al-Ṯurayyā Project",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2013",
-                "to": ""
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "8682a8f5-b601-4a6c-808c-aa4b7ce8a7c4",
+    "record_created_on": "2022-10-31",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": true
+  },
+  "project": {
+    "title": "al-Ṯurayyā Project",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2013",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://althurayya.github.io/#home",
+      "https://alraqmiyyat.github.io/althurayya/"
+    ],
+    "project_desc": "This project aims to reconstruct the geospatial characteristics of the early Islamic world by creating a digital gazetteer with includes over 2,000 toponyms, their descriptions from Arabic sources and technical information which is used for placing them on the map. The visualization is enriched by a geospatial model which plots routes and itineraries as well as networks of reachable places from selected centers, allowing to find paths between two or more locations.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Vienna",
+          "ref": [
+            "https://www.geonames.org/2761369/vienna.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.20849",
+          "lng": "16.37208"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Wien",
+          "ref": [
+            "https://ror.org/04d836q62",
+            "https://www.wikidata.org/wiki/Q165980"
+          ]
+        },
         "websites": [
-            "https://althurayya.github.io/#home",
-            "https://alraqmiyyat.github.io/althurayya/"
-        ],
-        "project_desc": "This project aims to reconstruct the geospatial characteristics of the early Islamic world by creating a digital gazetteer with includes over 2,000 toponyms, their descriptions from Arabic sources and technical information which is used for placing them on the map. The visualization is enriched by a geospatial model which plots routes and itineraries as well as networks of reachable places from selected centers, allowing to find paths between two or more locations.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Vienna",
-                    "ref": [
-                        "https://www.geonames.org/2761369/vienna.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "48.20849",
-                    "lng": "16.37208"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Leipzig",
-                    "ref": [
-                        "https://www.geonames.org/2879139/leipzig.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.33962",
-                    "lng": "12.37129"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Universität Wien",
-                    "ref": [
-                        "https://ror.org/04d836q62",
-                        "https://www.wikidata.org/wiki/Q165980"
-                    ]
-                },
-                "websites": [
-                    "https://www.univie.ac.at/en/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "Romanov, Maxim",
-                    "ref": [
-                        "https://orcid.org/0000-0001-7331-3858"
-                    ]
-                },
-                "roles": [
-                    "investigation"
-                ],
-                "websites": [
-                    "https://www.aai.uni-hamburg.de/voror/personen/romanov.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 1,
-                "open_access_count": 1
-            },
-            "publications": {
-                "open_access": 100,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "JSON",
-                        "stage": "final",
-                        "licensing": [],
-                        "open_access": 100
-                    },
-                    {
-                        "label": "geoJSON",
-                        "stage": "final",
-                        "licensing": [],
-                        "open_access": 100
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "GitHub",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [
-                            "https://github.com/althurayya"
-                        ],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
+          "https://www.univie.ac.at/en/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "Romanov, Maxim",
+          "ref": [
+            "https://orcid.org/0000-0001-7331-3858"
+          ]
         },
-        "stack": {
-            "database": [
-                "JSON"
-            ],
-            "backend": [
-                "Python"
-            ],
-            "frontend": [
-                "D3",
-                "Leaflet"
-            ],
-            "tools": [
-                {
-                    "label": "QGIS",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://www.qgis.org/de/site/"
-                    ],
-                    "description": ""
-                }
-            ],
-            "languages": [
-                "JS",
-                "Python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "investigation"
         ],
-        "keywords": [
-            "geodata",
-            "geography",
-            "islamic_studies",
-            "visualization"
+        "websites": [
+          "https://www.aai.uni-hamburg.de/voror/personen/romanov.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 1,
+        "open_access_count": 1
+      },
+      "publications": {
+        "open_access": 100,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "JSON",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 100
+          },
+          {
+            "label": "geoJSON",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 100
+          }
         ],
-        "category": "tools_and_analysis",
-        "comment": ""
-    }
+        "repositories": [
+          {
+            "label": "GitHub",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [
+              "https://github.com/althurayya"
+            ],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [
+        "JSON"
+      ],
+      "backend": [
+        "Python"
+      ],
+      "frontend": [
+        "D3",
+        "Leaflet"
+      ],
+      "tools": [
+        {
+          "label": "QGIS",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://www.qgis.org/de/site/"
+          ],
+          "description": ""
+        }
+      ],
+      "languages": [
+        "JS",
+        "Python"
+      ]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "geodata",
+      "geography",
+      "islamic_studies",
+      "visualization"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
 }

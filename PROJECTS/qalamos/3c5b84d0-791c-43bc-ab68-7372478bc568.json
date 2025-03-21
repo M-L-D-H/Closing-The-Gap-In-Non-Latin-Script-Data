@@ -1,252 +1,252 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "3c5b84d0-791c-43bc-ab68-7372478bc568",
-        "record_created_on": "2022-07-12",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": true
-    },
-    "project": {
-        "title": "Qalamos",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2023",
-                "to": "2026"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "3c5b84d0-791c-43bc-ab68-7372478bc568",
+    "record_created_on": "2022-07-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": true
+  },
+  "project": {
+    "title": "Qalamos",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2023",
+        "to": "2026"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/aufgaben-profil/projekte/dfg-projekt-orient-digital",
+      "https://qalamos.net/"
+    ],
+    "project_desc": "Qalamos is the portal for manuscripts and block prints from Asian and African script traditions. It provides access to metadata and digitized copies of all of all collections kept in German memory institutions. In addition, it will create a research infrastructure that provides the international community with direct access to all relevant Oriental manuscript collections in Germany.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": [
+            "https://www.geonames.org/2879139/leipzig.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.33962",
+          "lng": "12.37129"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "München",
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
+      }
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Staatsbibliothek zu Berlin",
+          "ref": [
+            "https://ror.org/02ysgg478",
+            "https://www.wikidata.org/wiki/Q170109"
+          ]
+        },
         "websites": [
-            "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/aufgaben-profil/projekte/dfg-projekt-orient-digital",
-            "https://qalamos.net/"
-        ],
-        "project_desc": "Qalamos is the portal for manuscripts and block prints from Asian and African script traditions. It provides access to metadata and digitized copies of all of all collections kept in German memory institutions. In addition, it will create a research infrastructure that provides the international community with direct access to all relevant Oriental manuscript collections in Germany.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Leipzig",
-                    "ref": [
-                        "https://www.geonames.org/2879139/leipzig.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.33962",
-                    "lng": "12.37129"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.52437",
-                    "lng": "13.41053"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "München",
-                    "ref": [
-                        "https://www.geonames.org/2867714/munich.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "48.13743",
-                    "lng": "11.57549"
-                }
-            }
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Staatsbibliothek zu Berlin",
-                    "ref": [
-                        "https://ror.org/02ysgg478",
-                        "https://www.wikidata.org/wiki/Q170109"
-                    ]
-                },
-                "websites": [
-                    "https://staatsbibliothek-berlin.de/"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Universität Leipzig",
-                    "ref": [
-                        "https://ror.org/03s7gtk40",
-                        "https://www.wikidata.org/wiki/Q154804"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-leipzig.de/"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Bayerische Staatsbibliothek",
-                    "ref": [
-                        "https://ror.org/031h71w90",
-                        "https://www.wikidata.org/wiki/Q256507"
-                    ]
-                },
-                "websites": [
-                    "https://www.bsb-muenchen.de/"
-                ]
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng"
-        ],
-        "related_entities": [
-            {
-                "relation_type": "parent",
-                "title": "Orient-Digital",
-                "uuid": "a4fa5143-90d2-42ba-a8a1-424b09696b1c"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig",
-                "uuid": "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Project for the digitisation and online presentation of Arabic, Persian, and Turkish manuscripts at Leipzig University Library",
-                "uuid": "cad00fa7-09a1-4df1-a08b-4ab5b2a48703"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Datenbankgestützte Erfassung, Erforschung und digitale Präsentation der Familienbibliothek Refaiya",
-                "uuid": "38e6dfb4-730a-4a80-8090-4b7ea551b3c7"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "Rauch, Christoph",
-                    "ref": [
-                        "https://orcid.org/0000-0003-2635-1629",
-                        "https://d-nb.info/gnd/1102171662"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/kontakt"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "fas",
-                "tur"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 1,
-                "open_access_count": 1
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "XML",
-                        "stage": "final",
-                        "licensing": [
-                            "CC0"
-                        ],
-                        "open_access": 100
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "GitHub",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [
-                            "https://git.sc.uni-leipzig.de/mycore_applications"
-                        ],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
+          "https://staatsbibliothek-berlin.de/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Universität Leipzig",
+          "ref": [
+            "https://ror.org/03s7gtk40",
+            "https://www.wikidata.org/wiki/Q154804"
+          ]
         },
-        "stack": {
-            "database": [
-                "XML"
-            ],
-            "backend": [
-                "Solr",
-                "MyCoRe",
-                "Neo4J"
-            ],
-            "frontend": [
-                "MyCoRe, HTML",
-                "JS"
-            ],
-            "tools": [
-                {
-                    "label": "MyCoRe",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://www.mycore.de/"
-                    ],
-                    "description": "Used as a repository framework"
-                },
-                {
-                    "label": "Solr",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://solr.apache.org/"
-                    ],
-                    "description": "Used for indexation and data querying"
-                },
-                {
-                    "label": "Transliteration tool",
-                    "self_developed": true,
-                    "ref": [],
-                    "websites": [],
-                    "description": "Automatic transliteration of Arabic script"
-                }
-            ],
-            "languages": [
-                "JS",
-                "Java"
-            ]
+        "websites": [
+          "https://www.uni-leipzig.de/"
+        ]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Bayerische Staatsbibliothek",
+          "ref": [
+            "https://ror.org/031h71w90",
+            "https://www.wikidata.org/wiki/Q256507"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "websites": [
+          "https://www.bsb-muenchen.de/"
+        ]
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_entities": [
+      {
+        "relation_type": "parent",
+        "title": "Orient-Digital",
+        "uuid": "a4fa5143-90d2-42ba-a8a1-424b09696b1c"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Pilotprojekt zur datenbankgestützten Erschließung und digitalen Bereitstellung der neu erworbenen arabischen, persischen und türkischen Handschriften der Universitätsbibliothek Leipzig",
+        "uuid": "0a75cf74-9cbe-4ce2-9799-ee16dcc1e88e"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Project for the digitisation and online presentation of Arabic, Persian, and Turkish manuscripts at Leipzig University Library",
+        "uuid": "cad00fa7-09a1-4df1-a08b-4ab5b2a48703"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Datenbankgestützte Erfassung, Erforschung und digitale Präsentation der Familienbibliothek Refaiya",
+        "uuid": "38e6dfb4-730a-4a80-8090-4b7ea551b3c7"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "Rauch, Christoph",
+          "ref": [
+            "https://orcid.org/0000-0003-2635-1629",
+            "https://d-nb.info/gnd/1102171662"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "catalog",
-            "digital_preservation",
-            "manuscript"
+        "websites": [
+          "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/kontakt"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "fas",
+        "tur"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 1,
+        "open_access_count": 1
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "XML",
+            "stage": "final",
+            "licensing": [
+              "CC0"
+            ],
+            "open_access": 100
+          }
         ],
-        "category": "digital_preservation",
-        "comment": "The data is openly accessible through an OAI API: https://www.qalamos.net/oai2?verb=Identify"
-    }
+        "repositories": [
+          {
+            "label": "GitHub",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [
+              "https://git.sc.uni-leipzig.de/mycore_applications"
+            ],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [
+        "XML"
+      ],
+      "backend": [
+        "Solr",
+        "MyCoRe",
+        "Neo4J"
+      ],
+      "frontend": [
+        "MyCoRe, HTML",
+        "JS"
+      ],
+      "tools": [
+        {
+          "label": "MyCoRe",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://www.mycore.de/"
+          ],
+          "description": "Used as a repository framework"
+        },
+        {
+          "label": "Solr",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://solr.apache.org/"
+          ],
+          "description": "Used for indexation and data querying"
+        },
+        {
+          "label": "Transliteration tool",
+          "self_developed": true,
+          "ref": [],
+          "websites": [],
+          "description": "Automatic transliteration of Arabic script"
+        }
+      ],
+      "languages": [
+        "JS",
+        "Java"
+      ]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "catalog",
+      "digital_preservation",
+      "manuscript"
+    ],
+    "category": "digital_preservation",
+    "comment": "The data is openly accessible through an OAI API: https://www.qalamos.net/oai2?verb=Identify"
+  }
 }

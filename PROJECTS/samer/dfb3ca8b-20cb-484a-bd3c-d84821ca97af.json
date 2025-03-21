@@ -1,170 +1,162 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "dfb3ca8b-20cb-484a-bd3c-d84821ca97af",
-        "record_created_on": "2024-08-21",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Simplification of Arabic Masterpieces for Extensive Reading",
-        "abbr": "SAMER",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2016",
-                "to": "2018"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "dfb3ca8b-20cb-484a-bd3c-d84821ca97af",
+    "record_created_on": "2024-08-21",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Simplification of Arabic Masterpieces for Extensive Reading",
+    "abbr": "SAMER",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2018"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "http://samer.camel-lab.com/"
+    ],
+    "project_desc": "The aim of the SAMER project is to create standards and tools for simplifying modern Arabic fiction for school-age learners, including a readability scale, a curated readability list, a 36k-word thesaurus, and a simplification platform for Google Docs.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Abu Dhabi",
+          "ref": [
+            "https://www.geonames.org/292968/abu-dhabi.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "24.45384",
+          "lng": "54.37740"
+        }
+      }
+    ],
+    "lang": [],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "New York University Abu Dhabi",
+          "ref": [
+            "https://ror.org/00e5k0821",
+            "https://www.wikidata.org/wiki/Q566189"
+          ]
+        },
         "websites": [
-            "http://samer.camel-lab.com/"
-        ],
-        "project_desc": "The aim of the SAMER project is to create standards and tools for simplifying modern Arabic fiction for school-age learners, including a readability scale, a curated readability list, a 36k-word thesaurus, and a simplification platform for Google Docs.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Abu Dhabi",
-                    "ref": [
-                        "https://www.geonames.org/292968/abu-dhabi.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "24.45384",
-                    "lng": "54.37740"
-                }
-            }
-        ],
-        "lang": [],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "New York University Abu Dhabi",
-                    "ref": [
-                        "https://ror.org/00e5k0821",
-                        "https://www.wikidata.org/wiki/Q566189"
-                    ]
-                },
-                "websites": [
-                    "https://nyuad.nyu.edu/en/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "sibling",
-                "title": "Gumar Corpus",
-                "uuid": "74b74185-081c-40f7-86da-52bdf9f53105"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Multi-Arabic Dialect Applications and Resources",
-                "uuid": "693b7383-6f97-46a6-9023-6aae878c25e7"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0009-0006-5800-0558"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/muhamed-osman-al-khalil.html"
-                ]
-            },
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-1831-3457",
-                        "https://www.wikidata.org/wiki/Q93953901"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://nyuscholars.nyu.edu/en/persons/nizar-habash",
-                    "https://www.nizarhabash.com"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 9,
-                "open_access_count": 9
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
+          "https://nyuad.nyu.edu/en/"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Gumar Corpus",
+        "uuid": "74b74185-081c-40f7-86da-52bdf9f53105"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Multi-Arabic Dialect Applications and Resources",
+        "uuid": "693b7383-6f97-46a6-9023-6aae878c25e7"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0009-0006-5800-0558"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/muhamed-osman-al-khalil.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-1831-3457",
+            "https://www.wikidata.org/wiki/Q93953901"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "arabic_studies",
-            "corpus_output",
-            "e_learning",
-            "lexicon",
-            "machine_learning",
-            "nlp"
+        "websites": [
+          "https://nyuscholars.nyu.edu/en/persons/nizar-habash",
+          "https://www.nizarhabash.com"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 9,
+        "open_access_count": 9
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
-        "category": "tools_and_analysis",
-        "comment": ""
-    }
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "corpus_output",
+      "e_learning",
+      "lexicon",
+      "machine_learning",
+      "nlp"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
 }

@@ -1,140 +1,127 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53",
-        "record_created_on": "2021-11-01",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Edition des Gesamtwerkes von Ibn Nubātah al-Miṣrī",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2020",
-                "to": "2032"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "04ea57c8-69c7-4c83-8249-753850e9cc53",
+    "record_created_on": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Edition des Gesamtwerkes von Ibn Nubātah al-Miṣrī",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2032"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.uni-muenster.de/ALEA/",
+      "https://scdh.zivgitlabpages.uni-muenster.de/hees-alea/alea-hugo-website/",
+      "https://gepris.dfg.de/gepris/projekt/423723105"
+    ],
+    "project_desc": "Against the concept of the decline of Islamic cultures after the 11th century it becomes apparent that this period witnessed vast literal and cultural developments. One of these is a major impact of the most important poet of Mamluk era, Ibn Nubātah, on the Arabic literature for the centuries after him. The aim of this project is a complete digital edition of his diwan and twelve other works, most of with are available only in bad prints. Due to many revisions and rewritings made by the author the editing of his works is a great challenge. In order to represent his poetry correctly the edition will contain may versions of the poems enabling their comparison.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Münster",
+          "ref": [
+            "https://www.geonames.org/6553087/muenster.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.95973",
+          "lng": "7.63137"
+        }
+      }
+    ],
+    "lang": [
+      "deu"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Westfälische Wilhelms-Universität Münster",
+          "ref": [
+            "https://ror.org/00pd74e08",
+            "https://www.wikidata.org/wiki/Q168426"
+          ]
+        },
         "websites": [
-            "https://www.uni-muenster.de/ALEA/",
-            "https://scdh.zivgitlabpages.uni-muenster.de/hees-alea/alea-hugo-website/",
-            "https://gepris.dfg.de/gepris/projekt/423723105"
-        ],
-        "project_desc": "Against the concept of the decline of Islamic cultures after the 11th century it becomes apparent that this period witnessed vast literal and cultural developments. One of these is a major impact of the most important poet of Mamluk era, Ibn Nubātah, on the Arabic literature for the centuries after him. The aim of this project is a complete digital edition of his diwan and twelve other works, most of with are available only in bad prints. Due to many revisions and rewritings made by the author the editing of his works is a great challenge. In order to represent his poetry correctly the edition will contain may versions of the poems enabling their comparison.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Münster",
-                    "ref": [
-                        "https://www.geonames.org/6553087/muenster.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.95973",
-                    "lng": "7.63137"
-                }
-            }
-        ],
-        "lang": [
-            "deu"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Westfälische Wilhelms-Universität Münster",
-                    "ref": [
-                        "https://ror.org/00pd74e08",
-                        "https://www.wikidata.org/wiki/Q168426"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-muenster.de/de/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0009-0009-6369-4998",
-                        "https://d-nb.info/gnd/130608467/"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.5,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.uni-muenster.de/de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0009-0009-6369-4998",
+            "https://d-nb.info/gnd/130608467/"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "arabic_studies",
-            "digital_edition",
-            "digital_preservation",
-            "lexicon",
-            "literary_studies",
-            "manuscript",
-            "vre"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 0.0,
+        "webhosting": 0.5,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "digital_edition",
+      "digital_preservation",
+      "lexicon",
+      "literary_studies",
+      "manuscript",
+      "vre"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

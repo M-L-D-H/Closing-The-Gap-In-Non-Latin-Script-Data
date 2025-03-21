@@ -1,171 +1,158 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "7a287a76-c663-413d-9e3e-3191b1d6093e",
-        "record_created_on": "2022-09-26",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Glossarium Graeco-Arabicum",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "1994",
-                "to": "2006"
-            },
-            {
-                "from": "2010",
-                "to": "2015"
-            }
-        ],
-        "maintained": false,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "7a287a76-c663-413d-9e3e-3191b1d6093e",
+    "record_created_on": "2022-09-26",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Glossarium Graeco-Arabicum",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "1994",
+        "to": "2006"
+      },
+      {
+        "from": "2010",
+        "to": "2015"
+      }
+    ],
+    "maintained": false,
+    "websites": [
+      "https://glossga.bbaw.de/index.html",
+      "http://www.greekintoarabic.eu/indexdcfd.html"
+    ],
+    "project_desc": "Glossarium Græco-Arabicum serves as a database which makes available the files of a lexical project, intended to open up the lexicon of the medieval Arabic translations from the Greek in all the major disciplines of philosophy and the sciences. It provides information on vocabulary and syntax of Classical and Middle Arabic and Greek, on the development of scientific and technical vocabulary and on lexical consequences of the translation movement form Greek to Arabic. The sources of the projects are mainly complied form earlier glossaries, printed editions and manuscripts.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Bochum",
+          "ref": [
+            "https://www.geonames.org/2947416/bochum.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.48165",
+          "lng": "7.21648"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Pisa",
+          "ref": [
+            "https://www.geonames.org/3170647/pisa.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "43.70853",
+          "lng": "10.4036"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Ruhr-Universität Bochum",
+          "ref": [
+            "https://ror.org/04tsk2644",
+            "https://www.wikidata.org/wiki/Q309948"
+          ]
+        },
         "websites": [
-            "https://glossga.bbaw.de/index.html",
-            "http://www.greekintoarabic.eu/indexdcfd.html"
-        ],
-        "project_desc": "Glossarium Græco-Arabicum serves as a database which makes available the files of a lexical project, intended to open up the lexicon of the medieval Arabic translations from the Greek in all the major disciplines of philosophy and the sciences. It provides information on vocabulary and syntax of Classical and Middle Arabic and Greek, on the development of scientific and technical vocabulary and on lexical consequences of the translation movement form Greek to Arabic. The sources of the projects are mainly complied form earlier glossaries, printed editions and manuscripts.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Bochum",
-                    "ref": [
-                        "https://www.geonames.org/2947416/bochum.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.48165",
-                    "lng": "7.21648"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Pisa",
-                    "ref": [
-                        "https://www.geonames.org/3170647/pisa.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "43.70853",
-                    "lng": "10.4036"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Ruhr-Universität Bochum",
-                    "ref": [
-                        "https://ror.org/04tsk2644",
-                        "https://www.wikidata.org/wiki/Q309948"
-                    ]
-                },
-                "websites": [
-                    "https://www.ruhr-uni-bochum.de/de"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Pisa",
-                    "ref": [
-                        "https://ror.org/05xrcj819",
-                        "https://www.wikidata.org/wiki/Q645663"
-                    ]
-                },
-                "websites": [
-                    "https://www.unipi.it/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-5278-2978",
-                        "https://d-nb.info/gnd/115696954"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.ruhr-uni-bochum.de/islamwiss/personen/endress.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "grc"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 0.5,
-                "webhosting": 1.0,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.ruhr-uni-bochum.de/de"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Pisa",
+          "ref": [
+            "https://ror.org/05xrcj819",
+            "https://www.wikidata.org/wiki/Q645663"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
+        "websites": [
+          "https://www.unipi.it/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-5278-2978",
+            "https://d-nb.info/gnd/115696954"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "arabic_studies",
-            "corpus_resource",
-            "lexicography",
-            "lexicon",
-            "science_history",
-            "tei",
-            "translation",
-            "translation_studies",
-            "vre"
-        ],
-        "category": "tools_and_analysis",
-        "comment": "Glossarium is free accessible"
-    }
+        "websites": [
+          "https://www.ruhr-uni-bochum.de/islamwiss/personen/endress.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "grc"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 0.5,
+        "webhosting": 1.0,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "corpus_resource",
+      "lexicography",
+      "lexicon",
+      "science_history",
+      "tei",
+      "translation",
+      "translation_studies",
+      "vre"
+    ],
+    "category": "tools_and_analysis",
+    "comment": "Glossarium is free accessible"
+  }
 }

@@ -1,244 +1,231 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08",
-        "record_created_on": "2022-10-06",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Cuneiform Digital Library Initiative",
-        "abbr": "CDLI",
-        "type": "project",
-        "ref": [
-            "https://viaf.org/viaf/146927082/"
-        ],
-        "date": [
-            {
-                "from": "2000",
-                "to": "2003"
-            },
-            {
-                "from": "2004",
-                "to": "2006"
-            },
-            {
-                "from": "2009",
-                "to": "2011"
-            },
-            {
-                "from": "2011",
-                "to": "2013"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "b8097890-6eeb-43ba-890d-28e1490fde08",
+    "record_created_on": "2022-10-06",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Cuneiform Digital Library Initiative",
+    "abbr": "CDLI",
+    "type": "project",
+    "ref": [
+      "https://viaf.org/viaf/146927082/"
+    ],
+    "date": [
+      {
+        "from": "2000",
+        "to": "2003"
+      },
+      {
+        "from": "2004",
+        "to": "2006"
+      },
+      {
+        "from": "2009",
+        "to": "2011"
+      },
+      {
+        "from": "2011",
+        "to": "2013"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://cdli.ucla.edu/"
+    ],
+    "project_desc": "The main goal of this project it to make available through the internet the form and content of cuneiform inscriptions dating from the beginning of writing, ca. 3350 BC, until the end of the pre-Christian era. It already catalogued 320,00 of approximately more than 500,000 artefacts kept in public and private collections.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Los Angeles",
+          "ref": [
+            "https://www.geonames.org/5368361/los-angeles.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "34.05223",
+          "lng": "-118.24368"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Oxford",
+          "ref": [
+            "https://www.geonames.org/2640729/oxford.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.75222",
+          "lng": "-1.25596"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of California, Los Angeles",
+          "ref": [
+            "https://ror.org/025j2nd68",
+            "https://www.wikidata.org/wiki/Q174710"
+          ]
+        },
         "websites": [
-            "https://cdli.ucla.edu/"
-        ],
-        "project_desc": "The main goal of this project it to make available through the internet the form and content of cuneiform inscriptions dating from the beginning of writing, ca. 3350 BC, until the end of the pre-Christian era. It already catalogued 320,00 of approximately more than 500,000 artefacts kept in public and private collections.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Los Angeles",
-                    "ref": [
-                        "https://www.geonames.org/5368361/los-angeles.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "34.05223",
-                    "lng": "-118.24368"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Oxford",
-                    "ref": [
-                        "https://www.geonames.org/2640729/oxford.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.75222",
-                    "lng": "-1.25596"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.52437",
-                    "lng": "13.41053"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of California, Los Angeles",
-                    "ref": [
-                        "https://ror.org/025j2nd68",
-                        "https://www.wikidata.org/wiki/Q174710"
-                    ]
-                },
-                "websites": [
-                    "https://www.ucla.edu/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Oxford",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q34433",
-                        "https://ror.org/052gg0110"
-                    ]
-                },
-                "websites": [
-                    "https://www.ox.ac.uk/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Max-Planck-Institut für Wissenschaftsgeschichte",
-                    "ref": [
-                        "https://ror.org/0492sjc74",
-                        "https://www.wikidata.org/wiki/Q318118"
-                    ]
-                },
-                "websites": [
-                    "https://www.mpiwg-berlin.mpg.de/de"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "child",
-                "title": "Mesopotamian Royal Inscriptions",
-                "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1"
-            },
-            {
-                "relation_type": "child",
-                "title": "Nimrud NW Palace",
-                "uuid": "bef67936-aeda-45ea-86fa-d06d79620459"
-            },
-            {
-                "relation_type": "child",
-                "title": "Mesopotamian Seals",
-                "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Machine Translation and Automated Analysis of Cuneiform Language",
-                "uuid": "47a62965-3241-4531-b01a-a25e25dac602"
-            },
-            {
-                "relation_type": "child",
-                "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
-                "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
-                "uuid": "b0da2d75-183c-4fa4-8b12-47366c02ed7c"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Hethitologie Portal Mainz",
-                "uuid": "da4755a8-5d05-4bda-8d2e-afab81c7ce27"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "BABMED - Babylonische Medizin",
-                "uuid": "942e9692-8e2a-4060-84d8-c8db17eae689"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-3681-2188",
-                        "https://d-nb.info/gnd/121180719"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.gea.mpg.de/person/124530/29400"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "akk",
-                "sux"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 149,
-                "open_access_count": 149
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.ucla.edu/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Oxford",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q34433",
+            "https://ror.org/052gg0110"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
+        "websites": [
+          "https://www.ox.ac.uk/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Max-Planck-Institut für Wissenschaftsgeschichte",
+          "ref": [
+            "https://ror.org/0492sjc74",
+            "https://www.wikidata.org/wiki/Q318118"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "websites": [
+          "https://www.mpiwg-berlin.mpg.de/de"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "child",
+        "title": "Mesopotamian Royal Inscriptions",
+        "uuid": "9efa71cc-aaf8-4481-a155-caa8d9fe23c1"
+      },
+      {
+        "relation_type": "child",
+        "title": "Nimrud NW Palace",
+        "uuid": "bef67936-aeda-45ea-86fa-d06d79620459"
+      },
+      {
+        "relation_type": "child",
+        "title": "Mesopotamian Seals",
+        "uuid": "9497c5c0-0cdc-4f43-96de-4843bd246bac"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Machine Translation and Automated Analysis of Cuneiform Language",
+        "uuid": "47a62965-3241-4531-b01a-a25e25dac602"
+      },
+      {
+        "relation_type": "child",
+        "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
+        "uuid": "3e56a148-845f-4a39-a7d4-c05c75cabd31"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
+        "uuid": "b0da2d75-183c-4fa4-8b12-47366c02ed7c"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Hethitologie Portal Mainz",
+        "uuid": "da4755a8-5d05-4bda-8d2e-afab81c7ce27"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "BABMED - Babylonische Medizin",
+        "uuid": "942e9692-8e2a-4060-84d8-c8db17eae689"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-3681-2188",
+            "https://d-nb.info/gnd/121180719"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "digital_edition",
-            "digital_preservation",
-            "epigraphy",
-            "image",
-            "inscription",
-            "semitic_studies",
-            "vre"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.gea.mpg.de/person/124530/29400"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "akk",
+        "sux"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 149,
+        "open_access_count": 149
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "digital_edition",
+      "digital_preservation",
+      "epigraphy",
+      "image",
+      "inscription",
+      "semitic_studies",
+      "vre"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

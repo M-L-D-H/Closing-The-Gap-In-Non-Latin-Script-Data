@@ -1,140 +1,127 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "06cc3f44-f0b2-462e-b35e-859443d13242",
-        "record_created_on": "2024-11-14",
-        "record_created_by": "Sido Bozan, Joudy",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Rational Sciences in Islam: An Initiative for the Study of Philosophy and the Mathematical Sciences in Islam",
-        "abbr": "RASI",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2008",
-                "to": ""
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "06cc3f44-f0b2-462e-b35e-859443d13242",
+    "record_created_on": "2024-11-14",
+    "record_created_by": "Sido Bozan, Joudy",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Rational Sciences in Islam: An Initiative for the Study of Philosophy and the Mathematical Sciences in Islam",
+    "abbr": "RASI",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2008",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://islamsci.mcgill.ca/RASI/index.html",
+      "https://www.mcgill.ca/islamicstudies/research"
+    ],
+    "project_desc": "The project aims to develop an open-access digital gazetteer for place names in Hebrew script, creating a comprehensive and interoperable database of historical toponyms. By providing a stable digital reference accessible via its website and API, Kima facilitates scholarly research and integration with tools like the Pelagios annotation and mapping environment Recogito.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Montreal",
+          "ref": [
+            "https://www.geonames.org/6077243/"
+          ]
+        },
+        "coordinates": {
+          "lat": "45.50884",
+          "lng": "28.94966"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "McGill University",
+          "ref": [
+            "https://ror.org/01pxwe438",
+            "https://www.wikidata.org/wiki/Q201492"
+          ]
+        },
         "websites": [
-            "https://islamsci.mcgill.ca/RASI/index.html",
-            "https://www.mcgill.ca/islamicstudies/research"
-        ],
-        "project_desc": "The project aims to develop an open-access digital gazetteer for place names in Hebrew script, creating a comprehensive and interoperable database of historical toponyms. By providing a stable digital reference accessible via its website and API, Kima facilitates scholarly research and integration with tools like the Pelagios annotation and mapping environment Recogito.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Montreal",
-                    "ref": [
-                        "https://www.geonames.org/6077243/"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "45.50884",
-                    "lng": "28.94966"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "McGill University",
-                    "ref": [
-                        "https://ror.org/01pxwe438",
-                        "https://www.wikidata.org/wiki/Q201492"
-                    ]
-                },
-                "websites": [
-                    "https://www.mcgill.ca/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://d-nb.info/gnd/1116989573",
-                        "https://www.wikidata.org/wiki/Q113842885"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://islamsci.mcgill.ca/Jamil/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "heb",
-                "eng"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.mcgill.ca/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://d-nb.info/gnd/1116989573",
+            "https://www.wikidata.org/wiki/Q113842885"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "catalog",
-            "digital_preservation",
-            "geodata",
-            "jewish_studies",
-            "manuscript",
-            "map",
-            "visualization"
-        ],
-        "category": "digital_preservation",
-        "comment": "No place name for host found. Beginning of research project is unclear, the year mentioned is the year where the funding started."
-    }
+        "websites": [
+          "https://islamsci.mcgill.ca/Jamil/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "heb",
+        "eng"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "catalog",
+      "digital_preservation",
+      "geodata",
+      "jewish_studies",
+      "manuscript",
+      "map",
+      "visualization"
+    ],
+    "category": "digital_preservation",
+    "comment": "No place name for host found. Beginning of research project is unclear, the year mentioned is the year where the funding started."
+  }
 }

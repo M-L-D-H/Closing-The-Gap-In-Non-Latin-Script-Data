@@ -1,147 +1,139 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "097b0a4c-def6-4bf2-b1f8-eccccd0d7e78",
-        "record_created_on": "2024-09-30",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Corpus of Arabic Legal Documents",
-        "abbr": "CALD",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2022",
-                "to": "2024"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "097b0a4c-def6-4bf2-b1f8-eccccd0d7e78",
+    "record_created_on": "2024-09-30",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Corpus of Arabic Legal Documents",
+    "abbr": "CALD",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2022",
+        "to": "2024"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://cald.irht.cnrs.fr/"
+    ],
+    "project_desc": "CALD is a research tool developed for the study of Arabic legal documents from the 7th to 16th centuries C.E. It provides access to over 3,000 historical documents, facilitating the study of Islamic law. The platform offers a sample of these documents along with analytical tools, and users can create accounts to access images and resources.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Paris",
+          "ref": [
+            "https://www.geonames.org/2988507/paris.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.8535",
+          "lng": "2.34839"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Centre national de la recherche scientifique",
+          "ref": [
+            "https://ror.org/02feahw73",
+            "https://www.wikidata.org/wiki/Q280413"
+          ]
+        },
         "websites": [
-            "https://cald.irht.cnrs.fr/"
-        ],
-        "project_desc": "CALD is a research tool developed for the study of Arabic legal documents from the 7th to 16th centuries C.E. It provides access to over 3,000 historical documents, facilitating the study of Islamic law. The platform offers a sample of these documents along with analytical tools, and users can create accounts to access images and resources.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Paris",
-                    "ref": [
-                        "https://www.geonames.org/2988507/paris.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "48.8535",
-                    "lng": "2.34839"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Centre national de la recherche scientifique",
-                    "ref": [
-                        "https://ror.org/02feahw73",
-                        "https://www.wikidata.org/wiki/Q280413"
-                    ]
-                },
-                "websites": [
-                    "https://www.cnrs.fr"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-0686-4817",
-                        "http://viaf.org/viaf/113526270"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.irht.cnrs.fr/fr/annuaire/muller-christian"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 25,
-                "open_access_count": 25
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
+          "https://www.cnrs.fr"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-0686-4817",
+            "http://viaf.org/viaf/113526270"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "arabic_studies",
-            "digital_edition",
-            "digital_preservation",
-            "history_studies",
-            "islamic_studies",
-            "manuscript",
-            "vre"
+        "websites": [
+          "https://www.irht.cnrs.fr/fr/annuaire/muller-christian"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 25,
+        "open_access_count": 25
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "digital_edition",
+      "digital_preservation",
+      "history_studies",
+      "islamic_studies",
+      "manuscript",
+      "vre"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

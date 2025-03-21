@@ -1,124 +1,124 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "aeac9470-1b19-41c7-9d16-4bd3d36b35c8",
-        "record_created_on": "2025-03-12",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Endangered Languages Archive",
-        "abbr": "ELAR",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2002",
-                "to": ""
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "aeac9470-1b19-41c7-9d16-4bd3d36b35c8",
+    "record_created_on": "2025-03-12",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Endangered Languages Archive",
+    "abbr": "ELAR",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2002",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.elararchive.org"
+    ],
+    "project_desc": "The Endangered Languages Documentation Programme (ELDP) promotes the digital documentation and preservation of endangered languages worldwide. Each year, the program provides grants to approximately 30 to 40 speakers and early career scholars to work with language communities to create collections of digital audio and video recordings. These are archived in the Endangered Languages Archive (ELAR) and made available free of charge to language communities, scholars, and the public worldwide.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.51089",
+          "lng": "13.39894"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
+          "ref": [
+            "https://ror.org/05jgq9443",
+            "https://www.wikidata.org/wiki/Q219989"
+          ]
+        },
         "websites": [
-            "https://www.elararchive.org"
-        ],
-        "project_desc": "The Endangered Languages Documentation Programme (ELDP) promotes the digital documentation and preservation of endangered languages worldwide. Each year, the program provides grants to approximately 30 to 40 speakers and early career scholars to work with language communities to create collections of digital audio and video recordings. These are archived in the Endangered Languages Archive (ELAR) and made available free of charge to language communities, scholars, and the public worldwide.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.51089",
-                    "lng": "13.39894"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
-                    "ref": [
-                        "https://ror.org/05jgq9443",
-                        "https://www.wikidata.org/wiki/Q219989"
-                    ]
-                },
-                "websites": [
-                    "https://www.bbaw.de/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0001-8197-5368",
-                        "http://d-nb.info/gnd/131842250",
-                        "https://www.wikidata.org/wiki/Q54963580"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/seyfeddinipur-mandana"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [],
-            "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.0,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.bbaw.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0001-8197-5368",
+            "http://d-nb.info/gnd/131842250",
+            "https://www.wikidata.org/wiki/Q54963580"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "audio",
-            "digital_preservation",
-            "language_documentation",
-            "linguistics",
-            "research_data_management",
-            "research_infrastructure",
-            "video"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/seyfeddinipur-mandana"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [],
+      "sustainability_plan": {
+        "project_website": 0.0,
+        "Github": 0.0,
+        "data_accessibility": 0.0,
+        "webhosting": 0.0,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "audio",
+      "digital_preservation",
+      "language_documentation",
+      "linguistics",
+      "research_data_management",
+      "research_infrastructure",
+      "video"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

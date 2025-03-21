@@ -1,145 +1,132 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760",
-        "record_created_on": "2022-01-17",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Altägyptisches Wörterbuch",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "1992",
-                "to": "2012"
-            }
-        ],
-        "maintained": false,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760",
+    "record_created_on": "2022-01-17",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Altägyptisches Wörterbuch",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "1992",
+        "to": "2012"
+      }
+    ],
+    "maintained": false,
+    "websites": [
+      "https://www.bbaw.de/forschung/altaegyptisches-woerterbuch",
+      "https://aaew.bbaw.de/tla/index.html",
+      "https://thesaurus-linguae-aegyptiae.de/info/project"
+    ],
+    "project_desc": "Altägyptisches Wörterbuch is a digital corpus of religious, juristic and administrative texts form ancient Egypt which were originally found in temples, tombs or on papyrus documents and which cover over 3000 years of Egyptian language history. The corpus together with a vast documentation of vocabulary and the ways it was used has been made available by open access and is updated regularly.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": [
+      "deu"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Zentrum Grundlagenforschung Alte Welt",
+          "ref": []
+        },
         "websites": [
-            "https://www.bbaw.de/forschung/altaegyptisches-woerterbuch",
-            "https://aaew.bbaw.de/tla/index.html",
-            "https://thesaurus-linguae-aegyptiae.de/info/project"
-        ],
-        "project_desc": "Altägyptisches Wörterbuch is a digital corpus of religious, juristic and administrative texts form ancient Egypt which were originally found in temples, tombs or on papyrus documents and which cover over 3000 years of Egyptian language history. The corpus together with a vast documentation of vocabulary and the ways it was used has been made available by open access and is updated regularly.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.52437",
-                    "lng": "13.41053"
-                }
-            }
-        ],
-        "lang": [
-            "deu"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Zentrum Grundlagenforschung Alte Welt",
-                    "ref": []
-                },
-                "websites": [
-                    "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "sibling",
-                "title": "Corpus Coranicum",
-                "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
-                "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q2343850"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/seidlmayer/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "egy"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Corpus Coranicum",
+        "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Strukturen und Transformationen des Wortschatzes der ägyptischen Sprache: Text- und Wissenskultur im Alten Ägypten",
+        "uuid": "85d053c3-4ce6-4130-bc6a-63f96acfb067"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q2343850"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "annotation",
-            "corpus_resource",
-            "egyptology",
-            "lexicon",
-            "translation"
-        ],
-        "category": "tools_and_analysis",
-        "comment": "Database not maintained since 2014"
-    }
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/seidlmayer/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "egy"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "annotation",
+      "corpus_resource",
+      "egyptology",
+      "lexicon",
+      "translation"
+    ],
+    "category": "tools_and_analysis",
+    "comment": "Database not maintained since 2014"
+  }
 }

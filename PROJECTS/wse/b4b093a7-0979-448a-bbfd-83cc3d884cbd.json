@@ -1,178 +1,178 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "b4b093a7-0979-448a-bbfd-83cc3d884cbd",
-        "record_created_on": "2024-04-13",
-        "record_created_by": "Vyshantha Simha",
-        "last_edited_on": "2025-03-20",
-        "interviewed": true
-    },
-    "project": {
-        "title": "World Scripts Explorer: one stop to explore, learn and experience any graphical information system",
-        "abbr": "WSE",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2021",
-                "to": "2022"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "b4b093a7-0979-448a-bbfd-83cc3d884cbd",
+    "record_created_on": "2024-04-13",
+    "record_created_by": "Vyshantha Simha",
+    "last_edited_on": "2025-03-20",
+    "interviewed": true
+  },
+  "project": {
+    "title": "World Scripts Explorer: one stop to explore, learn and experience any graphical information system",
+    "abbr": "WSE",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2021",
+        "to": "2022"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://worldscriptsexplorer.page",
+      "https://github.com/Vyshantha/multiscripteditor"
+    ],
+    "project_desc": "The project enables digital writing in all scripts and graphical information systems, allowing users to explore and create content using standard or custom keyboard layouts. It facilitates learning about scripts, their categorization, and preservation. The modular design of the tool enables seamless integration of new languages or scripts.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Köln",
+          "ref": [
+            "https://www.geonames.org/2886242/koeln.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "50.93333",
+          "lng": "6.95"
+        }
+      }
+    ],
+    "lang": [],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität zu Köln",
+          "ref": [
+            "https://ror.org/00rcxh774",
+            "https://www.wikidata.org/wiki/Q54096"
+          ]
+        },
         "websites": [
-            "https://worldscriptsexplorer.page",
-            "https://github.com/Vyshantha/multiscripteditor"
-        ],
-        "project_desc": "The project enables digital writing in all scripts and graphical information systems, allowing users to explore and create content using standard or custom keyboard layouts. It facilitates learning about scripts, their categorization, and preservation. The modular design of the tool enables seamless integration of new languages or scripts.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Köln",
-                    "ref": [
-                        "https://www.geonames.org/2886242/koeln.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "50.93333",
-                    "lng": "6.95"
-                }
-            }
-        ],
-        "lang": [],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Universität zu Köln",
-                    "ref": [
-                        "https://ror.org/00rcxh774",
-                        "https://www.wikidata.org/wiki/Q54096"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-koeln.de/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "Simha, Vyshantha",
-                    "ref": [
-                        "https://orcid.org/0009-0002-3310-7763"
-                    ]
-                },
-                "roles": [
-                    "software"
-                ],
-                "websites": [
-                    "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen#",
-                    "https://github.com/Vyshantha/multiscripteditor"
-                ]
-            },
-            {
-                "pers_name": {
-                    "text": "Eide, Øyvind",
-                    "ref": [
-                        "https://orcid.org/0000-0002-7766-6287",
-                        "https://d-nb.info/gnd/1084655063"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/professorinnen/prof-dr-yvind-eide"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "JSON",
-                        "stage": "refined",
-                        "licensing": [
-                            "CC0-1.0"
-                        ],
-                        "open_access": 100
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "GitHub",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [
-                            "https://github.com/Vyshantha/multiscripteditor"
-                        ],
-                        "licensing": [
-                            "CC0-1.0"
-                        ],
-                        "description": ""
-                    }
-                ]
-            }
+          "https://www.uni-koeln.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "Simha, Vyshantha",
+          "ref": [
+            "https://orcid.org/0009-0002-3310-7763"
+          ]
         },
-        "stack": {
-            "database": [
-                "JSON"
-            ],
-            "backend": [
-                "Python"
-            ],
-            "frontend": [
-                "Angular",
-                "TS",
-                "JS"
-            ],
-            "tools": [
-                {
-                    "label": "FontForge",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://fontforge.org/docs/index.html"
-                    ],
-                    "description": "FontForge enables creation, modification, and manipulation of PostScript, TrueType, and OpenType fonts."
-                },
-                {
-                    "label": "Keyman",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://keyman.com/"
-                    ],
-                    "description": "Open-source platform for custom language keyboard layouts on multiple devices."
-                }
-            ],
-            "languages": []
+        "roles": [
+          "software"
+        ],
+        "websites": [
+          "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen#",
+          "https://github.com/Vyshantha/multiscripteditor"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "Eide, Øyvind",
+          "ref": [
+            "https://orcid.org/0000-0002-7766-6287",
+            "https://d-nb.info/gnd/1084655063"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "vre"
+        "websites": [
+          "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/professorinnen/prof-dr-yvind-eide"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "JSON",
+            "stage": "refined",
+            "licensing": [
+              "CC0-1.0"
+            ],
+            "open_access": 100
+          }
         ],
-        "category": "tools_and_analysis",
-        "comment": "The project supports all Unicode scripts and non-Unicode scripts. It can be used for any language."
-    }
+        "repositories": [
+          {
+            "label": "GitHub",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [
+              "https://github.com/Vyshantha/multiscripteditor"
+            ],
+            "licensing": [
+              "CC0-1.0"
+            ],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [
+        "JSON"
+      ],
+      "backend": [
+        "Python"
+      ],
+      "frontend": [
+        "Angular",
+        "TS",
+        "JS"
+      ],
+      "tools": [
+        {
+          "label": "FontForge",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://fontforge.org/docs/index.html"
+          ],
+          "description": "FontForge enables creation, modification, and manipulation of PostScript, TrueType, and OpenType fonts."
+        },
+        {
+          "label": "Keyman",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://keyman.com/"
+          ],
+          "description": "Open-source platform for custom language keyboard layouts on multiple devices."
+        }
+      ],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "vre"
+    ],
+    "category": "tools_and_analysis",
+    "comment": "The project supports all Unicode scripts and non-Unicode scripts. It can be used for any language."
+  }
 }

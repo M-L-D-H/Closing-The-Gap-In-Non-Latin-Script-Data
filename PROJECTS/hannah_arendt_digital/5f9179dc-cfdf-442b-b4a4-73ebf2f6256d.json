@@ -1,152 +1,139 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "5f9179dc-cfdf-442b-b4a4-73ebf2f6256d",
-        "record_created_on": "2021-11-12",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Hannah Arendt Digital",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2020-2",
-                "to": ""
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "5f9179dc-cfdf-442b-b4a4-73ebf2f6256d",
+    "record_created_on": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Hannah Arendt Digital",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020-2",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://hannah-arendt-edition.net/home",
+      "https://www.arendteditionprojekt.de/en/projekt/General-Information/index.html"
+    ],
+    "project_desc": "The objective of this long-term project is a first ever complete hybrid (print and online) edition of all Arendt’s published and unpublished works in their original languages. The digital edition offers commentaries and additional information about each text in the corpus as well as diverse search options. The project enables a new approach to the development of stile and thought of the author and her practice of writing between and across languages and audiences.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
         "websites": [
-            "https://hannah-arendt-edition.net/home",
-            "https://www.arendteditionprojekt.de/en/projekt/General-Information/index.html"
-        ],
-        "project_desc": "The objective of this long-term project is a first ever complete hybrid (print and online) edition of all Arendt’s published and unpublished works in their original languages. The digital edition offers commentaries and additional information about each text in the corpus as well as diverse search options. The project enables a new approach to the development of stile and thought of the author and her practice of writing between and across languages and audiences.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.52437",
-                    "lng": "13.41053"
-                }
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Freie Universität Berlin",
-                    "ref": [
-                        "https://ror.org/046ak2485",
-                        "https://www.wikidata.org/wiki/Q153006"
-                    ]
-                },
-                "websites": [
-                    "https://www.fu-berlin.de/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://d-nb.info/gnd/115655271"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://as.vanderbilt.edu/german-russian-studies/bio/barbara-hahn/"
-                ]
-            },
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": []
-                },
-                "roles": [
-                    "investigation"
-                ],
-                "websites": [
-                    "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "deu",
-                "eng",
-                "fra",
-                "yid"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 0.5,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 4,
-                "open_access_count": 3
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.fu-berlin.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://d-nb.info/gnd/115655271"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
+        "roles": [
+          "supervision"
+        ],
+        "websites": [
+          "https://as.vanderbilt.edu/german-russian-studies/bio/barbara-hahn/"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "",
+          "ref": []
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "investigation"
         ],
-        "keywords": [
-            "digital_edition",
-            "digital_preservation",
-            "image",
-            "literary_studies",
-            "vre"
-        ],
-        "category": "digital_preservation",
-        "comment": "Long-term project"
-    }
+        "websites": [
+          "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "deu",
+        "eng",
+        "fra",
+        "yid"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 0.5,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 4,
+        "open_access_count": 3
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "digital_edition",
+      "digital_preservation",
+      "image",
+      "literary_studies",
+      "vre"
+    ],
+    "category": "digital_preservation",
+    "comment": "Long-term project"
+  }
 }

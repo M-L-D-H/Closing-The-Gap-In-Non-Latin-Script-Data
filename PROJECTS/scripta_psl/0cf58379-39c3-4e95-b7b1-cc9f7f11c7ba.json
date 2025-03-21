@@ -1,155 +1,142 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba",
-        "record_created_on": "2022-09-08",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Scripta-PSL",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2016",
-                "to": "2019"
-            }
-        ],
-        "maintained": false,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "0cf58379-39c3-4e95-b7b1-cc9f7f11c7ba",
+    "record_created_on": "2022-09-08",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Scripta-PSL",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2019"
+      }
+    ],
+    "maintained": false,
+    "websites": [
+      "https://psl.eu/en/scripta",
+      "https://escripta.hypotheses.org/"
+    ],
+    "project_desc": "Scripta-PSL aims to integrate the fundamental sciences of the written word (paleography, codicology, epigraphy, history of the book, etc.) and other social and human sciences (linguistics, history, anthropology, etc.) into the digital and computational humanities. It will develop machine vision tools (for handwriting recognition and document analysis, for example) and tools for (semi)-automatic classification of symbols and texts, with a focus on pre-typographical and/or non-alphabetic cultures. It will also provide additional inquiry into written traditions of rare languages and writings, which are currently underrepresented at the University.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Paris",
+          "ref": [
+            "https://www.geonames.org/2988506/paris.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.85339",
+          "lng": "2.34864"
+        }
+      }
+    ],
+    "lang": [],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "PSL Research University Paris",
+          "ref": [
+            "https://ror.org/03k9z2963",
+            "https://www.wikidata.org/wiki/Q1163431"
+          ]
+        },
         "websites": [
-            "https://psl.eu/en/scripta",
-            "https://escripta.hypotheses.org/"
-        ],
-        "project_desc": "Scripta-PSL aims to integrate the fundamental sciences of the written word (paleography, codicology, epigraphy, history of the book, etc.) and other social and human sciences (linguistics, history, anthropology, etc.) into the digital and computational humanities. It will develop machine vision tools (for handwriting recognition and document analysis, for example) and tools for (semi)-automatic classification of symbols and texts, with a focus on pre-typographical and/or non-alphabetic cultures. It will also provide additional inquiry into written traditions of rare languages and writings, which are currently underrepresented at the University.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Paris",
-                    "ref": [
-                        "https://www.geonames.org/2988506/paris.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "48.85339",
-                    "lng": "2.34864"
-                }
-            }
-        ],
-        "lang": [],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "PSL Research University Paris",
-                    "ref": [
-                        "https://ror.org/03k9z2963",
-                        "https://www.wikidata.org/wiki/Q1163431"
-                    ]
-                },
-                "websites": [
-                    "https://psl.eu/en"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "child",
-                "title": "eScriptorium",
-                "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0001-6640-5543",
-                        "https://d-nb.info/gnd/13153503X"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.ephe.psl.eu/andreas-stauder"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "akk",
-                "ara",
-                "cop",
-                "fas",
-                "grc",
-                "heb",
-                "hye",
-                "jpn",
-                "lat",
-                "san",
-                "syr",
-                "tur",
-                "zho"
-            ],
-            "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 1.0,
-                "data_accessibility": 0.5,
-                "webhosting": 0.5,
-                "publications": 1.0,
-                "publication_count": 14,
-                "open_access_count": 13
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://psl.eu/en"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "child",
+        "title": "eScriptorium",
+        "uuid": "31ad93ff-ca97-4cf0-b30c-60685624e2c8"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0001-6640-5543",
+            "https://d-nb.info/gnd/13153503X"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "annotation",
-            "computational_text_analysis",
-            "corpus_resource",
-            "htr",
-            "machine_learning",
-            "ocr",
-            "vre"
-        ],
-        "category": "tools_and_analysis",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.ephe.psl.eu/andreas-stauder"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "akk",
+        "ara",
+        "cop",
+        "fas",
+        "grc",
+        "heb",
+        "hye",
+        "jpn",
+        "lat",
+        "san",
+        "syr",
+        "tur",
+        "zho"
+      ],
+      "sustainability_plan": {
+        "project_website": 0.0,
+        "Github": 1.0,
+        "data_accessibility": 0.5,
+        "webhosting": 0.5,
+        "publications": 1.0,
+        "publication_count": 14,
+        "open_access_count": 13
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "annotation",
+      "computational_text_analysis",
+      "corpus_resource",
+      "htr",
+      "machine_learning",
+      "ocr",
+      "vre"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
 }

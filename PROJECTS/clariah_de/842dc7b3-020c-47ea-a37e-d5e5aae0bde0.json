@@ -1,142 +1,129 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "842dc7b3-020c-47ea-a37e-d5e5aae0bde0",
-        "record_created_on": "2022-05-24",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "CLARIAH-DE",
-        "abbr": "",
-        "type": "organization",
-        "ref": [],
-        "date": [
-            {
-                "from": "2019",
-                "to": "2021"
-            }
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "842dc7b3-020c-47ea-a37e-d5e5aae0bde0",
+    "record_created_on": "2022-05-24",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "CLARIAH-DE",
+    "abbr": "",
+    "type": "organization",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2021"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://web.archive.org/web/20240103005507/https://www.clariah.de/"
+    ],
+    "project_desc": "CLARIAH-DE is the merger of the two research infrastructure networks CLARIN-D and DARIAH-DE. Over a period of two years, the project will merge the two established research infrastructures. In this way, researchers from the Humanities and cultural sciences will be able to work with complex digital tools and special data sets in a much easier manner.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Göttingen",
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Tübingen",
+          "ref": [
+            "https://www.geonames.org/2820860/tuebingen.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.52266",
+          "lng": "9.05222"
+        }
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [],
+    "related_entities": [
+      {
+        "relation_type": "parent",
+        "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
+        "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
+      },
+      {
+        "relation_type": "parent",
+        "title": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
+        "uuid": "b5604b8b-e9fa-43d3-af0d-ef287cc2fee7"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0009-0006-4192-7779",
+            "https://d-nb.info/gnd/143840657"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "maintained": true,
         "websites": [
-            "https://web.archive.org/web/20240103005507/https://www.clariah.de/"
-        ],
-        "project_desc": "CLARIAH-DE is the merger of the two research infrastructure networks CLARIN-D and DARIAH-DE. Over a period of two years, the project will merge the two established research infrastructures. In this way, researchers from the Humanities and cultural sciences will be able to work with complex digital tools and special data sets in a much easier manner.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Göttingen",
-                    "ref": [
-                        "https://www.geonames.org/2918632/goettingen.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.53443",
-                    "lng": "9.93228"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Tübingen",
-                    "ref": [
-                        "https://www.geonames.org/2820860/tuebingen.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "48.52266",
-                    "lng": "9.05222"
-                }
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng"
-        ],
-        "related_institutions": [],
-        "related_entities": [
-            {
-                "relation_type": "parent",
-                "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH-DE)",
-                "uuid": "ea8a1aa5-a2a1-4d4a-9254-f647158c66fa"
-            },
-            {
-                "relation_type": "parent",
-                "title": "CLARIN-D - European Research Infrastructure for Language Resources and Technology",
-                "uuid": "b5604b8b-e9fa-43d3-af0d-ef287cc2fee7"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0009-0006-4192-7779",
-                        "https://d-nb.info/gnd/143840657"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.ids-mannheim.de/digspra/personal/hinrichs/",
-                    "https://www.sfs.uni-tuebingen.de/~eh/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 126,
-                "open_access_count": 126
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
-        },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "research_data_management",
-            "research_infrastructure"
-        ],
-        "category": "infrastructure",
-        "comment": ""
-    }
+          "https://www.ids-mannheim.de/digspra/personal/hinrichs/",
+          "https://www.sfs.uni-tuebingen.de/~eh/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 126,
+        "open_access_count": 126
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure"
+    ],
+    "category": "infrastructure",
+    "comment": ""
+  }
 }

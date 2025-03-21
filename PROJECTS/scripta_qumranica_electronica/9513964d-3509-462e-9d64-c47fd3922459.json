@@ -1,238 +1,225 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "9513964d-3509-462e-9d64-c47fd3922459",
-        "record_created_on": "2022-03-28",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",
-        "abbr": "SQE",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2016",
-                "to": "2021"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "9513964d-3509-462e-9d64-c47fd3922459",
+    "record_created_on": "2022-03-28",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",
+    "abbr": "SQE",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2016",
+        "to": "2021"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://sqe.deadseascrolls.org.il/",
+      "https://gepris.dfg.de/gepris/projekt/282601852"
+    ],
+    "project_desc": "This project is dedicated to enhancing and standardizing the research on the Dead Sea Scrolls, famous manuscripts contacting over 1000 biblical and non-biblical text in Hebrew and Aramaic languages dating back to period between 3 c. BC and 2 AD. Next to the preparation of the pioneer Digital Scholarly Edition of Qumran Texts the main focus of the project lies on the creation of a standardized environment for collaborative production of Scrolls editions, advanced research tools and a robust dynamic interlinked database of texts, images and annotations.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Göttingen",
+          "ref": [
+            "https://www.geonames.org/2918632/goettingen.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.53443",
+          "lng": "9.93228"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Tel Aviv",
+          "ref": [
+            "https://www.geonames.org/293397/tel-aviv.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "32.08088",
+          "lng": "34.78057"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Jerusalem",
+          "ref": [
+            "https://www.geonames.org/281184/jerusalem.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "31.76904",
+          "lng": "35.21633"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Haifa",
+          "ref": [
+            "https://www.geonames.org/294801/haifa.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "32.81841",
+          "lng": "34.9885"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Akademie der Wissenschaften zu Göttingen",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q414188",
+            "https://ror.org/04hsa7a08"
+          ]
+        },
         "websites": [
-            "https://sqe.deadseascrolls.org.il/",
-            "https://gepris.dfg.de/gepris/projekt/282601852"
-        ],
-        "project_desc": "This project is dedicated to enhancing and standardizing the research on the Dead Sea Scrolls, famous manuscripts contacting over 1000 biblical and non-biblical text in Hebrew and Aramaic languages dating back to period between 3 c. BC and 2 AD. Next to the preparation of the pioneer Digital Scholarly Edition of Qumran Texts the main focus of the project lies on the creation of a standardized environment for collaborative production of Scrolls editions, advanced research tools and a robust dynamic interlinked database of texts, images and annotations.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Göttingen",
-                    "ref": [
-                        "https://www.geonames.org/2918632/goettingen.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.53443",
-                    "lng": "9.93228"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Tel Aviv",
-                    "ref": [
-                        "https://www.geonames.org/293397/tel-aviv.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "32.08088",
-                    "lng": "34.78057"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Jerusalem",
-                    "ref": [
-                        "https://www.geonames.org/281184/jerusalem.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "31.76904",
-                    "lng": "35.21633"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Haifa",
-                    "ref": [
-                        "https://www.geonames.org/294801/haifa.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "32.81841",
-                    "lng": "34.9885"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Akademie der Wissenschaften zu Göttingen",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q414188",
-                        "https://ror.org/04hsa7a08"
-                    ]
-                },
-                "websites": [
-                    "https://adw-goe.de"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Tel Aviv University",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q319239",
-                        "https://ror.org/04mhzgx49"
-                    ]
-                },
-                "websites": [
-                    "https://english.tau.ac.il/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Israel Antiquities Authority",
-                    "ref": [
-                        "https://ror.org/037fbyh64",
-                        "https://www.wikidata.org/wiki/Q2744135"
-                    ]
-                },
-                "websites": [
-                    "https://www.antiquities.org.il/default_en.aspx"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "sibling",
-                "title": "Qumran Digital: Text und Lexikon",
-                "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
-                "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "KOHD Coptica",
-                "uuid": "f67c8fcd-d190-4419-a85a-e6998da4f0ba"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "KOHD Digital",
-                "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://d-nb.info/gnd/115412700"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.uni-goettingen.de/de/56085.html"
-                ]
-            },
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-5346-6950",
-                        "https://www.wikidata.org/wiki/Q66087728"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://english.tau.ac.il/profile/028799815"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "arc",
-                "heb"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 0.5,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 2,
-                "open_access_count": 2
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://adw-goe.de"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Tel Aviv University",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q319239",
+            "https://ror.org/04mhzgx49"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
+        "websites": [
+          "https://english.tau.ac.il/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Israel Antiquities Authority",
+          "ref": [
+            "https://ror.org/037fbyh64",
+            "https://www.wikidata.org/wiki/Q2744135"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "websites": [
+          "https://www.antiquities.org.il/default_en.aspx"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Qumran Digital: Text und Lexikon",
+        "uuid": "99718590-5e1e-4a64-bf84-6e2213ad1836"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments",
+        "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "KOHD Coptica",
+        "uuid": "f67c8fcd-d190-4419-a85a-e6998da4f0ba"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "KOHD Digital",
+        "uuid": "01ac0c0c-b09c-40cf-a75f-42e540b67c2f"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://d-nb.info/gnd/115412700"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "annotation",
-            "catalog",
-            "digital_preservation",
-            "image",
-            "jewish_studies",
-            "manuscript",
-            "semitic_studies",
-            "vre"
+        "websites": [
+          "https://www.uni-goettingen.de/de/56085.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-5346-6950",
+            "https://www.wikidata.org/wiki/Q66087728"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "websites": [
+          "https://english.tau.ac.il/profile/028799815"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "arc",
+        "heb"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 0.5,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 2,
+        "open_access_count": 2
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "annotation",
+      "catalog",
+      "digital_preservation",
+      "image",
+      "jewish_studies",
+      "manuscript",
+      "semitic_studies",
+      "vre"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

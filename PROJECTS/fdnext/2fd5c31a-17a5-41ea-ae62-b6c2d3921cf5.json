@@ -1,233 +1,220 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5",
-        "record_created_on": "2021-11-12",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "FDNext",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2020",
-                "to": "2023"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5",
+    "record_created_on": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "FDNext",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2020",
+        "to": "2023"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.forschungsdaten.org/index.php/FDNext"
+    ],
+    "project_desc": "In this project six universities in Berlin and Brandenburg cooperate and exchange their expertise to optimize and improve Research Data Management (RDM) systems in their institutions. The focus of the project lies on the following aspects: 1) establishment of a contact point for legal questions concerning RDM (First-Level-Support), 2) fostering the qualifications of researchers by extending the offer on RDM training, 3) development of subject-specific RDM strategies and project-based RDM policies, 4) analyses and establishment of suitable services and central facilities as well as 5) enhancing the interoperability with external infrastructures and international cooperation.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Potsdam",
+          "ref": [
+            "https://www.geonames.org/2852458/potsdam.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.39886",
+          "lng": "13.06566"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Frankfurt (Oder)",
+          "ref": [
+            "https://www.geonames.org/2925535/frankfurt-oder.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.34714",
+          "lng": "14.55062"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Cottbus",
+          "ref": [
+            "https://www.geonames.org/2939811/cottbus.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "51.75769",
+          "lng": "14.32888"
+        }
+      }
+    ],
+    "lang": [
+      "deu",
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Humboldt-Universität zu Berlin",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152087",
+            "https://ror.org/01j818n92"
+          ]
+        },
         "websites": [
-            "https://www.forschungsdaten.org/index.php/FDNext"
-        ],
-        "project_desc": "In this project six universities in Berlin and Brandenburg cooperate and exchange their expertise to optimize and improve Research Data Management (RDM) systems in their institutions. The focus of the project lies on the following aspects: 1) establishment of a contact point for legal questions concerning RDM (First-Level-Support), 2) fostering the qualifications of researchers by extending the offer on RDM training, 3) development of subject-specific RDM strategies and project-based RDM policies, 4) analyses and establishment of suitable services and central facilities as well as 5) enhancing the interoperability with external infrastructures and international cooperation.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.52437",
-                    "lng": "13.41053"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Potsdam",
-                    "ref": [
-                        "https://www.geonames.org/2852458/potsdam.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.39886",
-                    "lng": "13.06566"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Frankfurt (Oder)",
-                    "ref": [
-                        "https://www.geonames.org/2925535/frankfurt-oder.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.34714",
-                    "lng": "14.55062"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Cottbus",
-                    "ref": [
-                        "https://www.geonames.org/2939811/cottbus.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "51.75769",
-                    "lng": "14.32888"
-                }
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Humboldt-Universität zu Berlin",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q152087",
-                        "https://ror.org/01j818n92"
-                    ]
-                },
-                "websites": [
-                    "https://www.hu-berlin.de/de"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Freie Universität Berlin",
-                    "ref": [
-                        "https://ror.org/046ak2485",
-                        "https://www.wikidata.org/wiki/Q153006"
-                    ]
-                },
-                "websites": [
-                    "https://www.fu-berlin.de/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Technische Universität Berlin",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q51985",
-                        "https://ror.org/03v4gjf40"
-                    ]
-                },
-                "websites": [
-                    "https://www.tu.berlin/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Universität Potsdam",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q153012",
-                        "https://ror.org/03bnmw459"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-potsdam.de/en/university-of-potsdam/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Europa-Universität Viadrina Frankfurt (Oder)",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q149481",
-                        "https://ror.org/02msan859"
-                    ]
-                },
-                "websites": [
-                    "https://www.europa-uni.de/en/index.html"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q149433",
-                        "https://ror.org/02wxx3e24"
-                    ]
-                },
-                "websites": [
-                    "https://www.b-tu.de/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-0841-2822",
-                        "https://d-nb.info/gnd/1227354606"
-                    ]
-                },
-                "roles": [
-                    "investigation"
-                ],
-                "websites": [
-                    "https://www.researchgate.net/profile/Simon-Schmiederer"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 19,
-                "open_access_count": 19
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.hu-berlin.de/de"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
+        "websites": [
+          "https://www.fu-berlin.de/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Technische Universität Berlin",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q51985",
+            "https://ror.org/03v4gjf40"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "websites": [
+          "https://www.tu.berlin/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Potsdam",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q153012",
+            "https://ror.org/03bnmw459"
+          ]
+        },
+        "websites": [
+          "https://www.uni-potsdam.de/en/university-of-potsdam/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Europa-Universität Viadrina Frankfurt (Oder)",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q149481",
+            "https://ror.org/02msan859"
+          ]
+        },
+        "websites": [
+          "https://www.europa-uni.de/en/index.html"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Brandenburgische Technische Universität Cottbus-Senftenberg",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q149433",
+            "https://ror.org/02wxx3e24"
+          ]
+        },
+        "websites": [
+          "https://www.b-tu.de/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-0841-2822",
+            "https://d-nb.info/gnd/1227354606"
+          ]
+        },
+        "roles": [
+          "investigation"
         ],
-        "keywords": [
-            "research_data_management",
-            "research_infrastructure"
-        ],
-        "category": "infrastructure",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.researchgate.net/profile/Simon-Schmiederer"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 19,
+        "open_access_count": 19
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "research_data_management",
+      "research_infrastructure"
+    ],
+    "category": "infrastructure",
+    "comment": ""
+  }
 }

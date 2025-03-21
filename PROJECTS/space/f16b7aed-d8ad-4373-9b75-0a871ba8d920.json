@@ -1,131 +1,131 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "f16b7aed-d8ad-4373-9b75-0a871ba8d920",
-        "record_created_on": "2025-03-01",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "The System of Philosophy in Arabic: Charting the Encyclopaedias",
-        "abbr": "SPACE",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2024",
-                "to": "2029"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "f16b7aed-d8ad-4373-9b75-0a871ba8d920",
+    "record_created_on": "2025-03-01",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "The System of Philosophy in Arabic: Charting the Encyclopaedias",
+    "abbr": "SPACE",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2024",
+        "to": "2029"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://space-project.imtlucca.it/"
+    ],
+    "project_desc": "The aim of SPACE is to explore in detail the neglected issue of the system of the sciences as instantiated in the earliest examples of philosophical encyclopaedias, those penned by the Arabophone Persian polymath Avicenna (Ibn Sīnā, d. 1037). SPACE will explore in detail the structure and format of three philosophical summae by Avicenna, written in different languages (Arabic and Persian), at different times in the master's career, with different aims and targets, and coming in very different sizes.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Lucca",
+          "ref": [
+            "https://www.geonames.org/3174530/lucca.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "44.01776",
+          "lng": "10.45443"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "IMT School for Advanced Studies Lucca",
+          "ref": [
+            "https://ror.org/035gh3a49",
+            "https://www.wikidata.org/wiki/Q3788629"
+          ]
+        },
         "websites": [
-            "https://space-project.imtlucca.it/"
-        ],
-        "project_desc": "The aim of SPACE is to explore in detail the neglected issue of the system of the sciences as instantiated in the earliest examples of philosophical encyclopaedias, those penned by the Arabophone Persian polymath Avicenna (Ibn Sīnā, d. 1037). SPACE will explore in detail the structure and format of three philosophical summae by Avicenna, written in different languages (Arabic and Persian), at different times in the master's career, with different aims and targets, and coming in very different sizes.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Lucca",
-                    "ref": [
-                        "https://www.geonames.org/3174530/lucca.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "44.01776",
-                    "lng": "10.45443"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "IMT School for Advanced Studies Lucca",
-                    "ref": [
-                        "https://ror.org/035gh3a49",
-                        "https://www.wikidata.org/wiki/Q3788629"
-                    ]
-                },
-                "websites": [
-                    "https://www.imtlucca.it/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "sibling",
-                "title": "Philosophy on the Border of Civilizations and Intellectual Endeavours: towards a Critical Edition of the Metaphysics (Ilāhiyyāt of Kitāb al-Šifāʾ) of Avicenna (Ibn Sīnā)",
-                "uuid": "9d6d90d9-e8d4-44fa-ae1f-2206c453e4a7"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0001-7375-8750",
-                        "http://d-nb.info/gnd/1170081800",
-                        "https://www.wikidata.org/wiki/Q21033660"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.imtlucca.it/amos.bertolacci"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "fas"
-            ],
-            "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.0,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.imtlucca.it/"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Philosophy on the Border of Civilizations and Intellectual Endeavours: towards a Critical Edition of the Metaphysics (Ilāhiyyāt of Kitāb al-Šifāʾ) of Avicenna (Ibn Sīnā)",
+        "uuid": "9d6d90d9-e8d4-44fa-ae1f-2206c453e4a7"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0001-7375-8750",
+            "http://d-nb.info/gnd/1170081800",
+            "https://www.wikidata.org/wiki/Q21033660"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "arabic_studies",
-            "classical_text",
-            "geodata",
-            "manuscript",
-            "network_analysis",
-            "philosophy",
-            "translation"
-        ],
-        "category": "tools_and_analysis",
-        "comment": ""
-    }
+        "websites": [
+          "https://www.imtlucca.it/amos.bertolacci"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "fas"
+      ],
+      "sustainability_plan": {
+        "project_website": 0.0,
+        "Github": 0.0,
+        "data_accessibility": 0.0,
+        "webhosting": 0.0,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "classical_text",
+      "geodata",
+      "manuscript",
+      "network_analysis",
+      "philosophy",
+      "translation"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
 }

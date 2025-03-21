@@ -1,183 +1,170 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "71ff37e4-7e16-4c1f-b0a9-9bf47778d41f",
-        "record_created_on": "2022-07-26",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "A Digital Synopsis of the Mishnah and Tosefta",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2015-01-12",
-                "to": "2018-01-12"
-            }
-        ],
-        "maintained": false,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "71ff37e4-7e16-4c1f-b0a9-9bf47778d41f",
+    "record_created_on": "2022-07-26",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "A Digital Synopsis of the Mishnah and Tosefta",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2015-01-12",
+        "to": "2018-01-12"
+      }
+    ],
+    "maintained": false,
+    "websites": [
+      "https://www.geschkult.fu-berlin.de/e/judaistik/Forschung/Digitalization/index.html",
+      "https://gepris.dfg.de/gepris/projekt/273844901"
+    ],
+    "project_desc": "The aim of this project is to provide scholars and students of early rabbinic literature with digital tools to study and determine relationships between two central texts of rabbinic Judaism: the Mishnah (200 CE) and the Tosefta (250 CE) which share the same overall structure, the parallel organization, similar language and terminology and yet their relationship is tantalizingly problematic. The Synopsis Project will build upon and test computational methods for identifying “text reuse”; it will develop strategies and tools for presentation and visualization of overlapping texts which will provide access to the parallel and interrelated traditions of both texts.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": [
+            "https://www.geonames.org/2950159/berlin.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "52.52437",
+          "lng": "13.41053"
+        }
+      },
+      {
+        "place_name": {
+          "text": "College Park",
+          "ref": [
+            "https://www.geonames.org/4351977/college-park.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "38.98067",
+          "lng": "-76.93692"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
         "websites": [
-            "https://www.geschkult.fu-berlin.de/e/judaistik/Forschung/Digitalization/index.html",
-            "https://gepris.dfg.de/gepris/projekt/273844901"
-        ],
-        "project_desc": "The aim of this project is to provide scholars and students of early rabbinic literature with digital tools to study and determine relationships between two central texts of rabbinic Judaism: the Mishnah (200 CE) and the Tosefta (250 CE) which share the same overall structure, the parallel organization, similar language and terminology and yet their relationship is tantalizingly problematic. The Synopsis Project will build upon and test computational methods for identifying “text reuse”; it will develop strategies and tools for presentation and visualization of overlapping texts which will provide access to the parallel and interrelated traditions of both texts.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.52437",
-                    "lng": "13.41053"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "College Park",
-                    "ref": [
-                        "https://www.geonames.org/4351977/college-park.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "38.98067",
-                    "lng": "-76.93692"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Freie Universität Berlin",
-                    "ref": [
-                        "https://ror.org/046ak2485",
-                        "https://www.wikidata.org/wiki/Q153006"
-                    ]
-                },
-                "websites": [
-                    "https://www.fu-berlin.de/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Maryland, College Park",
-                    "ref": [
-                        "https://ror.org/047s2c258",
-                        "https://www.wikidata.org/wiki/Q503415"
-                    ]
-                },
-                "websites": [
-                    "https://www.umd.edu/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "sibling",
-                "title": "Patterns of Knowledge Circulation: The Transmission and Reception of Jewish Esoteric Knowledge in Manuscript and Print in Early Modern East-Central Europe (1500-1750)",
-                "uuid": "c2c309a5-923c-4759-ae83-f870b10dceff"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0003-1909-2788",
-                        "https://d-nb.info/gnd/121164306"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.geschkult.fu-berlin.de/e/judaistik/Forschung/talmudbavli/contacts/contacts_tal/"
-                ]
-            },
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://d-nb.info/gnd/1026148820"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://history.umd.edu/directory/hayim-lapin"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "heb"
-            ],
-            "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 0.5,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.fu-berlin.de/"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Maryland, College Park",
+          "ref": [
+            "https://ror.org/047s2c258",
+            "https://www.wikidata.org/wiki/Q503415"
+          ]
         },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
+        "websites": [
+          "https://www.umd.edu/"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Patterns of Knowledge Circulation: The Transmission and Reception of Jewish Esoteric Knowledge in Manuscript and Print in Early Modern East-Central Europe (1500-1750)",
+        "uuid": "c2c309a5-923c-4759-ae83-f870b10dceff"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0003-1909-2788",
+            "https://d-nb.info/gnd/121164306"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "computational_text_analysis",
-            "jewish_studies",
-            "machine_learning",
-            "nlp",
-            "religion_studies",
-            "text_reuse"
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/judaistik/Forschung/talmudbavli/contacts/contacts_tal/"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://d-nb.info/gnd/1026148820"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "category": "tools_and_analysis",
-        "comment": ""
-    }
+        "websites": [
+          "https://history.umd.edu/directory/hayim-lapin"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "heb"
+      ],
+      "sustainability_plan": {
+        "project_website": 0.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 0.5,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "computational_text_analysis",
+      "jewish_studies",
+      "machine_learning",
+      "nlp",
+      "religion_studies",
+      "text_reuse"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
 }

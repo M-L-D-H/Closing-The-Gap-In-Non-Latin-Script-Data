@@ -1,154 +1,146 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "4c23561d-aba3-426c-a9ae-4763ccff615a",
-        "record_created_on": "2024-11-28",
-        "record_created_by": "Sido Bozan, Joudy",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Islam in the Horn of Africa: A comparative Literary Approach",
-        "abbr": "IslHornAfr",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2013",
-                "to": "2018"
-            }
-        ],
-        "maintained": false,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "4c23561d-aba3-426c-a9ae-4763ccff615a",
+    "record_created_on": "2024-11-28",
+    "record_created_by": "Sido Bozan, Joudy",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Islam in the Horn of Africa: A comparative Literary Approach",
+    "abbr": "IslHornAfr",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2013",
+        "to": "2018"
+      }
+    ],
+    "maintained": false,
+    "websites": [
+      "https://islhornafr.tors.ku.dk/"
+    ],
+    "project_desc": "The project focuses on the Islamic culture of the Horn of Africa, exploring the region's rich but under-researched literary heritage. It applies digital humanities approaches to catalog, digitize, and analyze manuscripts written in Arabic and local languages using Arabic script. The project has created a comprehensive database that documents over 4,000 texts, shedding light on the region's Islamic traditions and intellectual history while enhancing the preservation of its written heritage​.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Copenhagen",
+          "ref": [
+            "https://www.geonames.org/2618425/"
+          ]
+        },
+        "coordinates": {
+          "lat": "55.67594",
+          "lng": "12.56553"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Copenhagen",
+          "ref": [
+            "https://ror.org/035b05819",
+            "http://www.wikidata.org/entity/Q186285"
+          ]
+        },
         "websites": [
-            "https://islhornafr.tors.ku.dk/"
-        ],
-        "project_desc": "The project focuses on the Islamic culture of the Horn of Africa, exploring the region's rich but under-researched literary heritage. It applies digital humanities approaches to catalog, digitize, and analyze manuscripts written in Arabic and local languages using Arabic script. The project has created a comprehensive database that documents over 4,000 texts, shedding light on the region's Islamic traditions and intellectual history while enhancing the preservation of its written heritage​.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Copenhagen",
-                    "ref": [
-                        "https://www.geonames.org/2618425/"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "55.67594",
-                    "lng": "12.56553"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Copenhagen",
-                    "ref": [
-                        "https://ror.org/035b05819",
-                        "http://www.wikidata.org/entity/Q186285"
-                    ]
-                },
-                "websites": [
-                    "https://ccrs.ku.dk"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "cooperation",
-                "title": "Hill Museum & Manuscript Library",
-                "uuid": "52ce273e-7935-42fd-82e8-806f6aaa3049"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0009-0009-7953-5211",
-                        "https://d-nb.info/gnd/132297582"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "http://ccrs.ku.dk/staff/?id=475264&vis=medarbejder"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "eng"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 57,
-                "open_access_count": 34
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "",
-                        "stage": "raw",
-                        "licensing": [],
-                        "open_access": 0
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "",
-                        "accessibility": "public",
-                        "ref": [],
-                        "websites": [],
-                        "licensing": [],
-                        "description": ""
-                    }
-                ]
-            }
+          "https://ccrs.ku.dk"
+        ]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "Hill Museum & Manuscript Library",
+        "uuid": "52ce273e-7935-42fd-82e8-806f6aaa3049"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0009-0009-7953-5211",
+            "https://d-nb.info/gnd/132297582"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [
-                {
-                    "label": "",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [],
-                    "description": ""
-                }
-            ],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "african_studies",
-            "biographical_data",
-            "digital_edition",
-            "islamic_studies",
-            "geodata",
-            "literary_studies",
-            "manuscript"
+        "websites": [
+          "http://ccrs.ku.dk/staff/?id=475264&vis=medarbejder"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "eng"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 57,
+        "open_access_count": 34
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "",
+            "stage": "raw",
+            "licensing": [],
+            "open_access": 0
+          }
         ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "african_studies",
+      "biographical_data",
+      "digital_edition",
+      "islamic_studies",
+      "geodata",
+      "literary_studies",
+      "manuscript"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

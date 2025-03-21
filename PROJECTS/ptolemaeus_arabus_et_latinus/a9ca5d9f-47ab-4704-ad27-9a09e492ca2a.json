@@ -1,274 +1,274 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "a9ca5d9f-47ab-4704-ad27-9a09e492ca2a",
-        "record_created_on": "2021-11-01",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": true
-    },
-    "project": {
-        "title": "Ptolemaeus Arabus et Latinus",
-        "abbr": "PAL",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2013",
-                "to": "2037"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "a9ca5d9f-47ab-4704-ad27-9a09e492ca2a",
+    "record_created_on": "2021-11-01",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": true
+  },
+  "project": {
+    "title": "Ptolemaeus Arabus et Latinus",
+    "abbr": "PAL",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2013",
+        "to": "2037"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://ptolemaeus.badw.de/start",
+      "https://badw.de/forschungseinrichtung/forschungsvorhaben.html?tx_badwdb_projects%5Baction%5D=show&tx_badwdb_projects%5Bcontroller%5D=Projects&tx_badwdb_projects%5Bproject_id%5D=100&cHash=ffb2790d003b9abde6b3b1c6da4a55b3"
+    ],
+    "project_desc": "Ptolemaeus Arabus et Latinus (PAL) is a long-term project dedicated to the edition and study of the Arabic and Latin versions of Ptolemy’s astronomical and astrological texts and related material. The texts are made available in an online database containing catalogues of Arabic and Latin works, images of manuscripts, searchable transcriptions, critically edited texts and a Greek-Arabic-Latin-English glossary of astronomical and astrological terms.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Munich",
+          "ref": [
+            "https://www.geonames.org/2867714/munich.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "48.13743",
+          "lng": "11.57549"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Würzburg",
+          "ref": [
+            "https://www.geonames.org/6556942/wuerzburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "49.79708",
+          "lng": "9.93365"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Bayerische Akademie der Wissenschaften",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q8898015",
+            "https://ror.org/001rdaz60"
+          ]
+        },
         "websites": [
-            "https://ptolemaeus.badw.de/start",
-            "https://badw.de/forschungseinrichtung/forschungsvorhaben.html?tx_badwdb_projects%5Baction%5D=show&tx_badwdb_projects%5Bcontroller%5D=Projects&tx_badwdb_projects%5Bproject_id%5D=100&cHash=ffb2790d003b9abde6b3b1c6da4a55b3"
-        ],
-        "project_desc": "Ptolemaeus Arabus et Latinus (PAL) is a long-term project dedicated to the edition and study of the Arabic and Latin versions of Ptolemy’s astronomical and astrological texts and related material. The texts are made available in an online database containing catalogues of Arabic and Latin works, images of manuscripts, searchable transcriptions, critically edited texts and a Greek-Arabic-Latin-English glossary of astronomical and astrological terms.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Munich",
-                    "ref": [
-                        "https://www.geonames.org/2867714/munich.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "48.13743",
-                    "lng": "11.57549"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Würzburg",
-                    "ref": [
-                        "https://www.geonames.org/6556942/wuerzburg.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "49.79708",
-                    "lng": "9.93365"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Bayerische Akademie der Wissenschaften",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q8898015",
-                        "https://ror.org/001rdaz60"
-                    ]
-                },
-                "websites": [
-                    "https://badw.de/die-akademie.html"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Julius Maximilian University of Würzburg",
-                    "ref": [
-                        "https://ror.org/00fbnyb24",
-                        "https://www.wikidata.org/wiki/Q161976"
-                    ]
-                },
-                "websites": [
-                    "https://www.uni-wuerzburg.de/startseite/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "Hasse, Dag Nikolaus",
-                    "ref": [
-                        "https://orcid.org/0009-0002-8688-1218",
-                        "https://d-nb.info/gnd/11800638X"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/",
-                    "https://ptolemaeus.badw.de/team/3"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "grc",
-                "lat"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 6,
-                "open_access_count": 6
-            },
-            "publications": {
-                "open_access": 100,
-                "licensing": [
-                    "CC BY-NC-ND 4.0"
-                ]
-            },
-            "data": {
-                "datatypes": [
-                    {
-                        "label": "xml",
-                        "stage": "final",
-                        "licensing": [
-                            "CC BY",
-                            "Reserved"
-                        ],
-                        "open_access": 100
-                    },
-                    {
-                        "label": "json",
-                        "stage": "final",
-                        "licensing": [
-                            "CC BY"
-                        ],
-                        "open_access": 100
-                    }
-                ],
-                "repositories": [
-                    {
-                        "label": "LRZ",
-                        "accessibility": "private",
-                        "ref": [
-                            "https://www.wikidata.org/wiki/Q872555"
-                        ],
-                        "websites": [
-                            "https://daten.badw.de/pal-texts"
-                        ],
-                        "licensing": [],
-                        "description": "Das zentrale Rechenzentrum der Münchner Universitäten, institutionell Teil der BADW"
-                    }
-                ]
-            }
+          "https://badw.de/die-akademie.html"
+        ]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Julius Maximilian University of Würzburg",
+          "ref": [
+            "https://ror.org/00fbnyb24",
+            "https://www.wikidata.org/wiki/Q161976"
+          ]
         },
-        "stack": {
-            "database": [
-                "MariaDB"
-            ],
-            "backend": [
-                "Nginx",
-                "Python"
-            ],
-            "frontend": [
-                "CSS",
-                "JS",
-                "Bottle.py",
-                "HTML"
-            ],
-            "tools": [
-                {
-                    "label": "Calamari",
-                    "self_developed": false,
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q124348079"
-                    ],
-                    "websites": [
-                        "https://github.com/Calamari-OCR/calamari"
-                    ],
-                    "description": "Line based ATR/ OCR Engine based on OCRopy"
-                },
-                {
-                    "label": "Nashi",
-                    "self_developed": false,
-                    "ref": [],
-                    "websites": [
-                        "https://github.com/andbue/nashi/tree/master"
-                    ],
-                    "description": "Tool for the OCR-Aided Transcription of ted Text"
-                },
-                {
-                    "label": "Classical Text Editor",
-                    "self_developed": false,
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q116949834"
-                    ],
-                    "websites": [
-                        "https://cte.oeaw.ac.at/"
-                    ],
-                    "description": "Software for editing printable scholarly editions of classical texts"
-                },
-                {
-                    "label": "TinyMCE",
-                    "self_developed": false,
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q572792"
-                    ],
-                    "websites": [
-                        "https://www.tiny.cloud/"
-                    ],
-                    "description": "Customizable WYSIWYG rich text editor"
-                },
-                {
-                    "label": "JabRef ",
-                    "self_developed": false,
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q1676802"
-                    ],
-                    "websites": [
-                        "https://www.jabref.org/"
-                    ],
-                    "description": "Reference management software"
-                },
-                {
-                    "label": "LAREX",
-                    "self_developed": false,
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q124348103"
-                    ],
-                    "websites": [
-                        "https://github.com/OCR4all/LAREX"
-                    ],
-                    "description": "Semi-automatic open-source tool for Layout Analysis and Region EXtraction on early printed books."
-                },
-                {
-                    "label": "FontForge",
-                    "self_developed": false,
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q687332"
-                    ],
-                    "websites": [
-                        "https://fontforge.org/en-US/"
-                    ],
-                    "description": "Free font editor"
-                }
-            ],
-            "languages": [
-                "Python",
-                "JS"
-            ]
+        "websites": [
+          "https://www.uni-wuerzburg.de/startseite/"
+        ]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "Hasse, Dag Nikolaus",
+          "ref": [
+            "https://orcid.org/0009-0002-8688-1218",
+            "https://d-nb.info/gnd/11800638X"
+          ]
         },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
+        "roles": [
+          "supervision"
         ],
-        "keywords": [
-            "arabic_studies",
-            "digital_edition",
-            "digital_preservation",
-            "lexicon",
-            "manuscript",
-            "philosophy",
-            "science_history"
+        "websites": [
+          "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/",
+          "https://ptolemaeus.badw.de/team/3"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "grc",
+        "lat"
+      ],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 6,
+        "open_access_count": 6
+      },
+      "publications": {
+        "open_access": 100,
+        "licensing": [
+          "CC BY-NC-ND 4.0"
+        ]
+      },
+      "data": {
+        "datatypes": [
+          {
+            "label": "xml",
+            "stage": "final",
+            "licensing": [
+              "CC BY",
+              "Reserved"
+            ],
+            "open_access": 100
+          },
+          {
+            "label": "json",
+            "stage": "final",
+            "licensing": [
+              "CC BY"
+            ],
+            "open_access": 100
+          }
         ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+        "repositories": [
+          {
+            "label": "LRZ",
+            "accessibility": "private",
+            "ref": [
+              "https://www.wikidata.org/wiki/Q872555"
+            ],
+            "websites": [
+              "https://daten.badw.de/pal-texts"
+            ],
+            "licensing": [],
+            "description": "Das zentrale Rechenzentrum der Münchner Universitäten, institutionell Teil der BADW"
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [
+        "MariaDB"
+      ],
+      "backend": [
+        "Nginx",
+        "Python"
+      ],
+      "frontend": [
+        "CSS",
+        "JS",
+        "Bottle.py",
+        "HTML"
+      ],
+      "tools": [
+        {
+          "label": "Calamari",
+          "self_developed": false,
+          "ref": [
+            "https://www.wikidata.org/wiki/Q124348079"
+          ],
+          "websites": [
+            "https://github.com/Calamari-OCR/calamari"
+          ],
+          "description": "Line based ATR/ OCR Engine based on OCRopy"
+        },
+        {
+          "label": "Nashi",
+          "self_developed": false,
+          "ref": [],
+          "websites": [
+            "https://github.com/andbue/nashi/tree/master"
+          ],
+          "description": "Tool for the OCR-Aided Transcription of ted Text"
+        },
+        {
+          "label": "Classical Text Editor",
+          "self_developed": false,
+          "ref": [
+            "https://www.wikidata.org/wiki/Q116949834"
+          ],
+          "websites": [
+            "https://cte.oeaw.ac.at/"
+          ],
+          "description": "Software for editing printable scholarly editions of classical texts"
+        },
+        {
+          "label": "TinyMCE",
+          "self_developed": false,
+          "ref": [
+            "https://www.wikidata.org/wiki/Q572792"
+          ],
+          "websites": [
+            "https://www.tiny.cloud/"
+          ],
+          "description": "Customizable WYSIWYG rich text editor"
+        },
+        {
+          "label": "JabRef ",
+          "self_developed": false,
+          "ref": [
+            "https://www.wikidata.org/wiki/Q1676802"
+          ],
+          "websites": [
+            "https://www.jabref.org/"
+          ],
+          "description": "Reference management software"
+        },
+        {
+          "label": "LAREX",
+          "self_developed": false,
+          "ref": [
+            "https://www.wikidata.org/wiki/Q124348103"
+          ],
+          "websites": [
+            "https://github.com/OCR4all/LAREX"
+          ],
+          "description": "Semi-automatic open-source tool for Layout Analysis and Region EXtraction on early printed books."
+        },
+        {
+          "label": "FontForge",
+          "self_developed": false,
+          "ref": [
+            "https://www.wikidata.org/wiki/Q687332"
+          ],
+          "websites": [
+            "https://fontforge.org/en-US/"
+          ],
+          "description": "Free font editor"
+        }
+      ],
+      "languages": [
+        "Python",
+        "JS"
+      ]
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "digital_edition",
+      "digital_preservation",
+      "lexicon",
+      "manuscript",
+      "philosophy",
+      "science_history"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }

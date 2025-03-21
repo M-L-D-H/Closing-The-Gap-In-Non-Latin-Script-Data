@@ -1,152 +1,139 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e",
-        "record_created_on": "2021-11-12",
-        "record_created_by": "Kudela, Xenia Monika",
-        "last_edited_on": "2025-03-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sixteenth Century",
-        "abbr": "",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2019",
-                "to": "2022"
-            }
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "d1f743f2-7e94-4e00-a8bf-f46e56c7508e",
+    "record_created_on": "2021-11-12",
+    "record_created_by": "Kudela, Xenia Monika",
+    "last_edited_on": "2025-03-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Grasping the World in Ottoman Istanbul: Visual Negotiation and Reading in Practices in Geographic Literature from the Sixteenth Century",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2019",
+        "to": "2022"
+      }
+    ],
+    "maintained": true,
+    "websites": [
+      "https://www.csmc.uni-hamburg.de/written-artefacts/completed-projects/rfi02.html"
+    ],
+    "project_desc": "This project examines how geographical literature in sixteenth-century Istanbul was impacted by the vast cultural and political expiation of the Ottoman Empire in that time. As the city became a new center for scholarship and art, the elites began circulating Arabic and Persian geographical manuscripts. The project asks how this exchange was received by artists and cartographers who in turn negotiated and transformed geographic knowledge through images. Besides that, the project will also build a comprehensive online database of geographic manuscripts and their illustrations.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": [
+            "https://www.geonames.org/2911298/hamburg.html"
+          ]
+        },
+        "coordinates": {
+          "lat": "53.55073",
+          "lng": "9.99302"
+        }
+      }
+    ],
+    "lang": [
+      "eng"
+    ],
+    "related_institutions": [],
+    "related_entities": [
+      {
+        "relation_type": "parent",
+        "title": "Understanding Written Artefacts",
+        "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
+        "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
+        "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
+        "uuid": "95a2024b-9fea-4ced-8136-1130b0fb8f51"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Audition Certificates Platform",
+        "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-0984-2285",
+            "https://d-nb.info/gnd/1195099657"
+          ]
+        },
+        "roles": [
+          "supervision"
         ],
-        "maintained": true,
         "websites": [
-            "https://www.csmc.uni-hamburg.de/written-artefacts/completed-projects/rfi02.html"
-        ],
-        "project_desc": "This project examines how geographical literature in sixteenth-century Istanbul was impacted by the vast cultural and political expiation of the Ottoman Empire in that time. As the city became a new center for scholarship and art, the elites began circulating Arabic and Persian geographical manuscripts. The project asks how this exchange was received by artists and cartographers who in turn negotiated and transformed geographic knowledge through images. Besides that, the project will also build a comprehensive online database of geographic manuscripts and their illustrations.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Hamburg",
-                    "ref": [
-                        "https://www.geonames.org/2911298/hamburg.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "53.55073",
-                    "lng": "9.99302"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [],
-        "related_entities": [
-            {
-                "relation_type": "parent",
-                "title": "Understanding Written Artefacts",
-                "uuid": "9ca46873-3089-4a04-99fa-89c0c1b01213"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Beta maṣāḥǝft Manuscripts of Ethiopia and Eritrea",
-                "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Demarginalizing Medieval Africa: Images, Texts, and Identity in Early Solomonic Ethiopia",
-                "uuid": "46121edb-516b-4dbf-ba49-e2c5f07cec2e"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Colophons in Sumerian and Akkadian Literary Manuscripts from 3rd and 2nd Millennium BCE Mesopotamia",
-                "uuid": "95a2024b-9fea-4ced-8136-1130b0fb8f51"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Audition Certificates Platform",
-                "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-0984-2285",
-                        "https://d-nb.info/gnd/1195099657"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.bgsmcs.fu-berlin.de/about/alumni_doctoral_fellows/nadja_danilenko.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "ara",
-                "fas",
-                "lat",
-                "ota",
-                "tur"
-            ],
-            "sustainability_plan": {
-                "project_website": 0.0,
-                "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.5,
-                "publications": 1.0,
-                "publication_count": 2,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
-        },
-        "stack": {
-            "database": [
-                "sql",
-                "xml",
-                "json",
-                "nosql"
-            ],
-            "backend": [
-                "laravel"
-            ],
-            "frontend": [
-                "vue"
-            ],
-            "tools": [],
-            "languages": [
-                "php",
-                "javascript",
-                "python"
-            ]
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "corpus_output",
-            "digital_preservation",
-            "geography",
-            "islamic_studies",
-            "manuscript"
-        ],
-        "category": "digital_preservation",
-        "comment": ""
-    }
+          "https://www.bgsmcs.fu-berlin.de/about/alumni_doctoral_fellows/nadja_danilenko.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": [
+        "ara",
+        "fas",
+        "lat",
+        "ota",
+        "tur"
+      ],
+      "sustainability_plan": {
+        "project_website": 0.0,
+        "Github": 0.0,
+        "data_accessibility": 0.0,
+        "webhosting": 0.5,
+        "publications": 1.0,
+        "publication_count": 2,
+        "open_access_count": 0
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": [
+          ""
+        ]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "corpus_output",
+      "digital_preservation",
+      "geography",
+      "islamic_studies",
+      "manuscript"
+    ],
+    "category": "digital_preservation",
+    "comment": ""
+  }
 }
