@@ -5,7 +5,7 @@
     "record_created_on": "2022-08-12",
     "record_created_by": "Kudela, Xenia Monika",
     "last_edited_on": "2025-03-20",
-    "interviewed": false
+    "interviewed": true
   },
   "project": {
     "title": "SfarData",
@@ -213,8 +213,8 @@
         ]
       },
       "data": {
-        "datatypes": [],
-        "repositories": []
+        "datatypes": [{ "label": "PDF", "stage": "final", "licensing": [], "open_access": 0 }],
+        "repositories": ["Server of the BadW"]
       }
     },
     "stack": {
