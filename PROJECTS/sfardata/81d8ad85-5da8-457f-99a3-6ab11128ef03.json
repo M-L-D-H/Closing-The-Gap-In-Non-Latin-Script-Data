@@ -214,7 +214,16 @@
       },
       "data": {
         "datatypes": [{ "label": "PDF", "stage": "final", "licensing": [], "open_access": 0 }],
-        "repositories": ["Server of the BadW"]
+        "repositories": [
+          {
+          "label": "Institutional repository of the BAdW",
+          "accessibility": "private",
+          "ref": [],
+          "websites": ["https://badw.de/en/digital-academy/institutional-repository.html"],
+          "licensing": [],
+          "description": ""
+          }
+        ]
       }
     },
     "stack": {
