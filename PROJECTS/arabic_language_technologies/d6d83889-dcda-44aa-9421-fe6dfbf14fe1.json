@@ -1,0 +1,139 @@
+{
+    "schema_version": "0.2.7",
+    "record_metadata": {
+      "uuid": "d6d83889-dcda-44aa-9421-fe6dfbf14fe1",
+      "record_created_on": "2025-03-12",
+      "record_created_by": "Alieva, Aibaniz",
+      "last_edited_on": "2025-03-28",
+      "interviewed": false
+    },
+    "project": {
+      "title": "Arabic Language Technologies",
+      "abbr": "ALT",
+      "type": "organization",
+      "ref": [],
+      "date": [
+        {
+          "from": "2011",
+          "to": ""
+        }
+      ],
+      "maintained": true,
+      "websites": [
+        "https://alt.qcri.org"
+      ],
+      "project_desc": "ALT Group was formed in 2011 as a flagship Qatar Computing Research Institute (QCRI) research initiative, addressing challenging problems in machine learning, computational linguistics and NLP in the context of machine translation, Arabic NLP, multi-lingual speech processing, model interpretability, and fake news detection.",
+      "places": [
+        {
+          "place_name": {
+            "text": "Doha",
+            "ref": [
+              "https://www.geonames.org/290030/doha.html"
+            ]
+          },
+          "coordinates": {
+            "lat": "25.28563",
+            "lng": "51.52642"
+          }
+        }
+      ],
+      "lang": [
+        "eng"
+      ],
+      "related_institutions": [
+        {
+          "relation_type": "host",
+          "org_name": {
+            "text": "Hamad bin Khalifa University",
+            "ref": [
+              "https://ror.org/03eyq4y97",
+              "https://www.wikidata.org/wiki/Q24911975"
+            ]
+          },
+          "websites": [
+            "http://www.hbku.edu.qa/en"
+          ]
+        }
+      ],
+      "related_entities": [],
+      "people": [
+        {
+          "pers_name": {
+            "text": "",
+            "ref": [
+              "https://orcid.org/0000-0003-1244-1973",
+              "http://viaf.org/viaf/173467191"
+            ]
+          },
+          "roles": [
+            "supervision"
+          ],
+          "websites": [
+            "https://researchportal.hbku.edu.qa/en/persons/natasa-milic-frayling"
+          ]
+        },
+        {
+          "pers_name": {
+              "text": "",
+              "ref": [
+                  "https://orcid.org/0000-0003-2506-5647"
+              ]
+          },
+          "roles": [
+              "software"
+          ],
+          "websites": [
+              "https://www.researchgate.net/profile/Ahmed-Ali-59"
+          ]
+      }
+      ],
+      "research_data": {
+        "lang": [
+          "ara"
+        ],
+        "sustainability_plan": {
+          "project_website": 1.0,
+          "Github": 0.0,
+          "data_accessibility": 1.0,
+          "webhosting": 0.0,
+          "publications": 1.0,
+          "publication_count": 406,
+          "open_access_count": 81
+        },
+        "publications": {
+          "open_access": 0,
+          "licensing": []
+        },
+        "data": {
+          "datatypes": [],
+          "repositories": []
+        }
+      },
+      "stack": {
+        "database": [],
+        "backend": [],
+        "frontend": [],
+        "tools": [],
+        "languages": []
+      },
+      "policies": [
+        {
+          "description": "",
+          "ref": []
+        }
+      ],
+      "keywords": [
+        "arabic_studies",
+        "computational_text_analysis",
+        "digital_publishing",
+        "lexicography",
+        "linguistics",
+        "machine_learning",
+        "nlp",
+        "ocr",
+        "research_infrastructure"
+        ],
+      "category": "other",
+      "comment": ""
+    }
+  }

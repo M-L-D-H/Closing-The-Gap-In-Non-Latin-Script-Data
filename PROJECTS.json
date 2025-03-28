@@ -43,6 +43,10 @@
     "title": "APSearch",
     "path": "/PROJECTS/apsearch/"
   },
+  "d6d83889-dcda-44aa-9421-fe6dfbf14fe1": {
+    "title": "Arabic Language Technologies",
+    "path": "/PROJECTS/arabic_language_technologies/"
+  },
   "e52825b6-9bd6-4206-b99c-964521b5e773": {
     "title": "Arabic and Latin Corpus",
     "path": "/PROJECTS/arabic_latin_corpus/"
@@ -462,6 +466,10 @@
   "d4d49850-4711-4d43-97e9-c3563626d8df": {
     "title": "Knowledge, Information Technology, and the Arabic Book",
     "path": "/PROJECTS/kitab/"
+  },
+  "89dd1397-c15c-45e3-b271-0722926a6abd": {
+    "title": "Kitāb Sībawayhi in Electronic Form",
+    "path": "/PROJECTS/kitab_sibawayhi/"
   },
   "f67c8fcd-d190-4419-a85a-e6998da4f0ba": {
     "title": "KOHD Coptica",
