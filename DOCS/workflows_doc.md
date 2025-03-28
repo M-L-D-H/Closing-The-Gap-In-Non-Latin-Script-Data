@@ -102,16 +102,48 @@ By following these steps, we guarantee that all projects comply with the latest 
 
 ## Adding contributors 
 
-## Rebuilding Site Manually
+## Rebuilding the Site Manually  
 
-*To be done each week*
+Our website is hosted on **GitHub Pages**. Given our strong emphasis on **sustainability**, we have designed it to be fully **static**. All data is consolidated into a JSON file (**`ENTRIES.json`**), which serves as the foundation for rendering the site. This file requires **manual updates**, which we perform **once a week**.  
 
-### Brief instructions
+To manually deploy the website, follow these steps:  
 
-    npm run archive
-    git add .
-    git commit -m "Regenerate static data"
-    npm run deploy
+**1. Ensure `npm` is Installed**  
+Before proceeding, verify that **Node.js** and its package manager (`npm`) are installed on your local machine.  
 
+**2. Switch to the `frontend` Branch**  
+Navigate to the **frontend branch** of the repository using Git:  
 
+```bash
+git checkout frontend
+```
 
+**3. Update `ENTRIES.json`**  
+Run the following command in **Bash** to trigger the script that updates the `ENTRIES.json` file:  
+
+```bash
+npm run archive
+```
+
+**4. Commit and Push the Changes**  
+After updating the data, commit and push the changes to the `frontend` branch:  
+
+```bash
+git add .
+git commit -m "Regenerate static data"
+git push
+```
+
+**5. Build and Deploy the Website**  
+To rebuild and deploy the website, execute the following commands:  
+
+```bash
+npm run build
+npm run deploy
+```
+
+- Running **`npm run build`** is **optional** but recommended, as it verifies whether the website can be built correctly.  
+- If there are any issues, the command will return an **error** without publishing the changes.  
+- If successful, **`npm run deploy`** will publish the updated website.  
+
+By following these steps, you ensure that the site remains **up-to-date** while maintaining its **static structure** for sustainability and efficiency.
