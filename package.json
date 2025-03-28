@@ -16,6 +16,7 @@
 		"test": "deno test --allow-read deno/date_test.ts"
 	},
 	"dependencies": {
+		"deno": "^2.2.6",
 		"leaflet": "^1.9.4",
 		"vega-embed": "^6.29.0"
 	},
