@@ -49,7 +49,47 @@
 				on the needs and demands of the community.
 			</p>
 		</div>
-
+		<div class="mt-8">
+			<h3 class="text-center text-2xl mb-6">The Team</h3>
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+				<!-- Profile 1 -->
+				<div class="bg-white rounded-lg shadow p-4 text-center">
+					<a href="https://www.caseyegyptologist.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow">
+						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/christian.png" alt="Christian Casey" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
+						<h4 class="text-xl font-semibold">Dr. Christian Casey</h4>
+						<p class="text-sm mt-2">Digital Humanist and Project Lead</p>
+					</a>
+				</div>
+		
+				<!-- Profile 2 -->
+				<div class="bg-white rounded-lg shadow p-4 text-center">
+					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
+						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/xenia.jpg" alt="M. Xenia Kudela" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
+						<h4 class="text-xl font-semibold">M. Xenia Kudela</h4>
+						<p class="text-sm mt-2">[About Xenia]</p>
+					<!-- </a> -->
+				</div>
+		
+				<!-- Profile 3 -->
+				<div class="bg-white rounded-lg shadow p-4 text-center">
+					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
+						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/aya.jpg" alt="Aibaniz Alieva" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
+						<h4 class="text-xl font-semibold">Aibaniz Alieva</h4>
+						<p class="text-sm mt-2">Junior Researcher – Arabic Studies</p>
+					<!-- </a> -->
+				</div>
+		
+				<!-- Profile 4 -->
+				<div class="bg-white rounded-lg shadow p-4 text-center">
+					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
+						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/joudy.jpg" alt="Joudy Sido-Bozan" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
+						<h4 class="text-xl font-semibold">Joudy Sido-Bozan</h4>
+						<p class="text-sm mt-2">Junior Researcher – Digital Humanities</p>
+					<!-- </a> -->
+				</div>
+			</div>
+		</div>
+		
 		<div class="space-y-4 text-center">
 			<p class="text-xl">
 				If you want to contribute in any way, to work on a localization of this service or to report
