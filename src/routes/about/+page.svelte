@@ -57,7 +57,7 @@
 					<a href="https://www.caseyegyptologist.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow">
 						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/christian.png" alt="Christian Casey" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
 						<h4 class="text-xl font-semibold">Dr. Christian Casey</h4>
-						<p class="text-sm mt-2">Digital Humanist and Project Lead</p>
+						<p class="text-sm mt-2">Project Lead – Digital Humanities</p>
 					</a>
 				</div>
 		
@@ -66,7 +66,7 @@
 					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
 						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/xenia.jpg" alt="M. Xenia Kudela" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
 						<h4 class="text-xl font-semibold">M. Xenia Kudela</h4>
-						<p class="text-sm mt-2">[About Xenia]</p>
+						<p class="text-sm mt-2">Researcher – Digital Humanities</p>
 					<!-- </a> -->
 				</div>
 		
