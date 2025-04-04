@@ -90,9 +90,48 @@ To ensure the **consistency and integrity** of our data, we implement **schema v
 
 By following these steps, we guarantee that all projects comply with the latest schema version, preventing **validation errors** and ensuring **data standardization**.
 
-## Running schema tests locally
+## Running Schema Tests Locally  
 
-## Fixing broken links 
+To ensure that all our data entries adhere to the **schema**, we have implemented a **GitHub Action** that automatically triggers schema validation for every **pull request**.  
+
+For contributors who commit regularly, we have also enabled the ability to run these tests **locally**, eliminating the need to push changes before validating them.  
+
+Steps to Run the Tests Locally
+
+1. **Ensure Deno is Installed**  
+   - Make sure you have **[Deno installed globally](https://docs.deno.com/runtime/getting_started/installation/)** on your machine.  
+   - Verify the installation by running:  
+     ```bash
+     deno --version
+     ```
+
+2. **Navigate to the Repository Root**  
+
+3. **Run the Test Command**  
+   You can use either of the following commands to execute the schema tests:  
+   
+   ```bash
+   npm run test
+
+   ```markdown
+   or  
+
+   ```bash
+   deno test --allow-read TESTS/schema_tests.ts   ```
+
+   Both commands execute the same validation process.  
+
+4. **Review the Output**  
+   - The test will check all relevant files against the schema.  
+   - Any files that fail the validation will be listed in the terminal output.  
+   ```
+
+## Fixing broken links Lychee
+
+We use link verification toolto extract hyperlinks from all of our JSON files, and then to check whether they resolve. In the context of "Closing the Gap," this usually means links to other projects' websites, to researchers' homepages, etc. Checking these links on a regular basis allows us to replace them as URLs change and websites go down.
+
+command
+lychee --max-concurrency 16 -m 3 *.json
 
 ## Sending the frontend copy to Wayback Machine 
 
