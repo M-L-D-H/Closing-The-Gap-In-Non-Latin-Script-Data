@@ -126,12 +126,33 @@ Steps to Run the Tests Locally
    - Any files that fail the validation will be listed in the terminal output.  
    ```
 
-## Fixing broken links Lychee
 
-We use link verification toolto extract hyperlinks from all of our JSON files, and then to check whether they resolve. In the context of "Closing the Gap," this usually means links to other projects' websites, to researchers' homepages, etc. Checking these links on a regular basis allows us to replace them as URLs change and websites go down.
+## Fixing Broken Links with Lychee
 
-command
-lychee --max-concurrency 16 -m 3 *.json
+For comprehensive documentation on our link-checking workflow using [Lychee](https://lychee.cli.rs/), refer to the detailed [blog post](https://ctg.hypotheses.org/203) authored by Theodore Beers.
+
+In our repository, the Lychee configuration file is named `lychee.toml`. This file includes:
+
+- **Excluded Links**: A list of URLs intentionally omitted from checks, typically those not rendering due to reasons other than being broken or unavailable.
+- **Additional Paths**: Specifies paths to JSON files beyond the standard project entries.
+
+To utilize Lychee for checking broken links in our data:
+
+1. **Install Lychee**: If you haven't already, install Lychee globally by following the instructions on the [Lychee installation page](https://lychee.cli.rs/usage/cli/).
+
+2. **Run the Link Check**:
+   - Open your terminal.
+   - Navigate to the root directory of the repository:
+   - Execute one of the following commands:
+     ```bash
+     npm run check-links
+     ```
+
+3. **Review the Results**:
+   - Lychee will display the scan results directly in your terminal.
+   - Links that fail to render will be highlighted as errors and should be addressed manually.
+
+
 
 ## Sending the frontend copy to Wayback Machine 
 
