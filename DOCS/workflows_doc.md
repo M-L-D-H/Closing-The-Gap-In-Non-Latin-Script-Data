@@ -158,9 +158,29 @@ To utilize Lychee for checking broken links in our data:
 
 ## Monthly releases to Zenodo 
 
-## Updating dependencies
+## Updating Dependencies
 
-## Adding contributors 
+The functionality of our project relies on several external dependencies. To ensure long-term stability and sustainability, we deliberately use only well-established and actively maintained packages. Among these are: `prettier`, `zod`, and `lychee`. These dependencies are not automatically updated and must be managed manually.
+
+To update the dependencies:
+
+1. Open a terminal and navigate to the root directory of the project.
+2. Run the following command to update all dependencies listed in `package.json`:
+
+   ```bash
+   npm update
+   ```
+
+   This will update your local `node_modules` and overwrite the `package-lock.json` file, which is responsible for ensuring consistent installations across different environments.
+
+> 🛈 Note: Some tools used in the project, like `deno` and `lychee`, are not managed via npm and must be updated separately using their respective package managers or installers.
+
+## Adding Contributors
+
+Our project acknowledges all internal and external contributors. Every team member is listed in the `CONTRIBUTORS.md` file. We utilize the [CRediT Taxonomy](https://credit.niso.org/) to appropriately categorize each member's contributions. This file should be updated each time a new researcher joins the team.
+
+External contributions primarily involve providing project data to our dataset. In such cases, the contribution is recorded in the `record_created_by` element of our data entry, with the contributor's name as the value.
+
 
 ## Rebuilding the Site Manually  
 
