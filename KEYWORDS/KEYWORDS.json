@@ -18,6 +18,7 @@
     "literary_studies",
     "medicine_history",
     "music_studies",
+    "numismatics",
     "ottoman_studies",
     "philosophy",
     "religion_studies",
@@ -61,6 +62,7 @@
     "vre"
   ],
   "resources": [
+    "artefact",
     "corpus_resource",
     "geodata",
     "inscription",

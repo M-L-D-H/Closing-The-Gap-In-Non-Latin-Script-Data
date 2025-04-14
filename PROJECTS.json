@@ -219,9 +219,17 @@
     "title": "Corpus Musicae Ottomanicae",
     "path": "/PROJECTS/corpus_musicae_ottomanicae/"
   },
+  "56b45211-cf80-4cd6-bb94-bb77a01d19ba": {
+    "title": "Corpus Nummorum Online",
+    "path": "/PROJECTS/corpus_nummorum_online/"
+  },
   "df954624-a860-4919-b233-cf91a0bf2024": {
     "title": "Corpus of South Arabian Inscriptions",
     "path": "/PROJECTS/csai/"
+  },
+  "d2cca1f4-779f-4780-ae70-39d55a4ee8a9": {
+    "title": "Data quality for Numismatics based on Natural language processing and Neural Networks",
+    "path": "/PROJECTS/d4n4/"
   },
   "1ae31b2f-5c67-49a7-9fba-c162b314bbcb": {
     "title": "Digital Research Infrastructure for the Arts and Humanities (DARIAH)",
@@ -411,6 +419,10 @@
     "title": "Edition des Gesamtwerkes von Ibn Nubātah al-Miṣrī ",
     "path": "/PROJECTS/ibn_nubata_gesamtedition/"
   },
+  "aa08a691-4d2f-45e0-933f-9c9fb8462069": {
+    "title": "Imagines Nummorum: Thesaurus Iconographicus Nummorum Graecorum Online",
+    "path": "/PROJECTS/imagines_nummorum/"
+  },
   "3c022636-d84c-4997-8237-91120d9ebc12": {
     "title": "Inscriptions of Israel/Palestine",
     "path": "/PROJECTS/inscriptions_of_israel_palestine/"
@@ -570,6 +582,10 @@
   "e050deba-6e1d-4d82-851b-cf6c1f7187a5": {
     "title": "NoMansLand: Nomads’ Manuscripts Landscape",
     "path": "/PROJECTS/nomansland/"
+  },
+  "9ed8f4af-a0d6-4d4c-b250-b172106e0224": {
+    "title": "Nomisma.org",
+    "path": "/PROJECTS/nomisma_org/"
   },
   "3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6": {
     "title": "Online Corpus of the Inscriptions of Ancient North Arabia",

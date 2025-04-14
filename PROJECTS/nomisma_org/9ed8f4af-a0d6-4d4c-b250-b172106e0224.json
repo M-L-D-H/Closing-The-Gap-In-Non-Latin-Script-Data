@@ -1,0 +1,161 @@
+{
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "9ed8f4af-a0d6-4d4c-b250-b172106e0224",
+        "record_created_on": "2025-04-14",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2025-04-14",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Nomisma.org",
+        "abbr": "",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2010",
+                "to": ""
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://nomisma.org"
+        ],
+        "project_desc": "Nomisma.org is an international, collaborative project to provide stable digital representations of numismatic concepts according to the principles of Linked Open Data (LOD). These take the form of HTTP URIs that also provide access to reusable information about those concepts, along with links to other resources.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "New York",
+                    "ref": [
+                        "https://www.geonames.org/5128581/new-york-city.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "40.71273",
+                    "lng": "-74.00602"
+                }
+            }
+        ],
+        "lang": [
+            "eng"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "American Numismatic Society",
+                    "ref": [
+                        "https://ror.org/05pv2w409",
+                        "https://www.wikidata.org/wiki/Q1256518"
+                    ]
+                },
+                "websites": [
+                    "https://numismatics.org/"
+                ]
+            },
+            {
+                "relation_type": "cooperation",
+                "org_name": {
+                    "text": "Staatliche Museen zu Berlin",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q700216",
+                        "https://ror.org/02k3b8775"
+                    ]
+                },
+                "websites": [
+                    "https://www.smb.museum/home/"
+                ]
+            },
+            {
+                "relation_type": "cooperation",
+                "org_name": {
+                    "text": "Goethe-Universit\u00e4t Frankfurt am Main",
+                    "ref": [
+                        "https://ror.org/04cvxnb49",
+                        "https://www.wikidata.org/wiki/Q50662"
+                    ]
+                },
+                "websites": [
+                    "https://www.goethe-university-frankfurt.de/en?"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "cooperation",
+                "title": "Corpus Nummorum Online",
+                "uuid": "56b45211-cf80-4cd6-bb94-bb77a01d19ba"
+            },
+            {
+                "relation_type": "cooperation",
+                "title": "Data quality for Numismatics based on Natural language processing and Neural Networks",
+                "uuid": "d2cca1f4-779f-4780-ae70-39d55a4ee8a9"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-4691-9747",
+                        "https://www.wikidata.org/wiki/Q57432992"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://numismatics.org/ethan-gruber/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "grc"
+            ],
+            "sustainability_plan": {
+                "project_website": 1.0,
+                "Github": 1.0,
+                "data_accessibility": 1.0,
+                "webhosting": 1.0,
+                "publications": 1.0,
+                "publication_count": 5,
+                "open_access_count": 4
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "archaeology",
+            "catalog",
+            "digital_preservation",
+            "geodata",
+            "map",
+            "numismatics",
+            "research_data_management",
+            "research_infrastructure"
+        ],
+        "category": "tools_and_analysis",
+        "comment": ""
+    }
+}
