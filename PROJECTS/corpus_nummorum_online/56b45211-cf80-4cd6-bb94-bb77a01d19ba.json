@@ -1,0 +1,214 @@
+{
+    "schema_version": "0.2.7",
+    "record_metadata": {
+        "uuid": "56b45211-cf80-4cd6-bb94-bb77a01d19ba",
+        "record_created_on": "2025-04-13",
+        "record_created_by": "Alieva, Aibaniz",
+        "last_edited_on": "2025-04-14",
+        "interviewed": false
+    },
+    "project": {
+        "title": "Corpus Nummorum Online",
+        "abbr": "CN",
+        "type": "project",
+        "ref": [],
+        "date": [
+            {
+                "from": "2013",
+                "to": "2016"
+            },
+            {
+                "from": "2016",
+                "to": "2021"
+            },
+            {
+                "from": "2021",
+                "to": "2025"
+            }
+        ],
+        "maintained": true,
+        "websites": [
+            "https://www.corpus-nummorum.eu"
+        ],
+        "project_desc": "Corpus Nummorum Online is a web portal devoted to the ancient coins of Lower Moesia, Thrace, Mysia, and the Troad. This is a pilot project for assembling ancient Greek coinage by region and mint for the various purposes of research and cultural heritage preservation.",
+        "places": [
+            {
+                "place_name": {
+                    "text": "Berlin",
+                    "ref": [
+                        "https://www.geonames.org/2950159/berlin.html"
+                    ]
+                },
+                "coordinates": {
+                    "lat": "52.51089",
+                    "lng": "13.39894"
+                }
+            }
+        ],
+        "lang": [
+            "bul",
+            "deu",
+            "ell",
+            "eng",
+            "ron",
+            "rus",
+            "tur"
+        ],
+        "related_institutions": [
+            {
+                "relation_type": "host",
+                "org_name": {
+                    "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
+                    "ref": [
+                        "https://ror.org/05jgq9443",
+                        "https://www.wikidata.org/wiki/Q219989"
+                    ]
+                },
+                "websites": [
+                    "https://www.bbaw.de/"
+                ]
+            },
+            {
+                "relation_type": "cooperation",
+                "org_name": {
+                    "text": "Staatliche Museen zu Berlin",
+                    "ref": [
+                        "https://www.wikidata.org/wiki/Q700216",
+                        "https://ror.org/02k3b8775"
+                    ]
+                },
+                "websites": [
+                    "https://www.smb.museum/home/"
+                ]
+            },
+            {
+                "relation_type": "cooperation",
+                "org_name": {
+                    "text": "Goethe-Universit\u00e4t Frankfurt am Main",
+                    "ref": [
+                        "https://ror.org/04cvxnb49",
+                        "https://www.wikidata.org/wiki/Q50662"
+                    ]
+                },
+                "websites": [
+                    "https://www.goethe-university-frankfurt.de/en?"
+                ]
+            }
+        ],
+        "related_entities": [
+            {
+                "relation_type": "child",
+                "title": "Data quality for Numismatics based on Natural language processing and Neural Networks",
+                "uuid": "d2cca1f4-779f-4780-ae70-39d55a4ee8a9"
+            },
+            {
+                "relation_type": "child",
+                "title": "Imagines Nummorum: Thesaurus Iconographicus Nummorum Graecorum Online",
+                "uuid": "aa08a691-4d2f-45e0-933f-9c9fb8462069"
+            },
+            {
+                "relation_type": "cooperation",
+                "title": "Nomisma.org",
+                "uuid": "9ed8f4af-a0d6-4d4c-b250-b172106e0224"
+            }
+        ],
+        "people": [
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0003-0954-4322",
+                        "https://d-nb.info/gnd/133098508",
+                        "https://www.wikidata.org/wiki/Q26839360"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/peter-ulrike"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0001-5262-2731",
+                        "https://d-nb.info/gnd/123429587",
+                        "https://www.wikidata.org/wiki/Q26839360"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "https://www.smb.museum/ueber-uns/mitarbeit/detail/bernhard-weisser/"
+                ]
+            },
+            {
+                "pers_name": {
+                    "text": "",
+                    "ref": [
+                        "https://orcid.org/0000-0002-9953-7638",
+                        "https://d-nb.info/gnd/131793543",
+                        "https://www.wikidata.org/wiki/Q115727486"
+                    ]
+                },
+                "roles": [
+                    "supervision"
+                ],
+                "websites": [
+                    "http://www.bigdata.uni-frankfurt.de/tolle/"
+                ]
+            }
+        ],
+        "research_data": {
+            "lang": [
+                "grc"
+            ],
+            "sustainability_plan": {
+                "project_website": 1.0,
+                "Github": 1.0,
+                "data_accessibility": 1.0,
+                "webhosting": 1.0,
+                "publications": 1.0,
+                "publication_count": 42,
+                "open_access_count": 13
+            },
+            "publications": {
+                "open_access": 0,
+                "licensing": []
+            },
+            "data": {
+                "datatypes": [],
+                "repositories": []
+            }
+        },
+        "stack": {
+            "database": [],
+            "backend": [],
+            "frontend": [],
+            "tools": [],
+            "languages": []
+        },
+        "policies": [
+            {
+                "description": "",
+                "ref": []
+            }
+        ],
+        "keywords": [
+            "archaeology",
+            "artefact",
+            "catalog",
+            "digital_preservation",
+            "geodata",
+            "history_studies",
+            "image",
+            "map",
+            "numismatics"
+        ],
+        "category": "digital_preservation",
+        "comment": ""
+    }
+}

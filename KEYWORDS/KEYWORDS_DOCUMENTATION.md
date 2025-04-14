@@ -43,6 +43,7 @@ In order to help us maintain consistency, please refrain from including keywords
    - [literary_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept31)
    - medicine_history
    - music_studies
+   - numismatics
    - ottoman_studies
    - [philosophy](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept26)
    - religion_studies
@@ -89,6 +90,7 @@ In order to help us maintain consistency, please refrain from including keywords
 
 4. **Resources**
 
+   - artefact
    - corpus_resource (large and structured set of texts of multiple authors electronically stored and processed)
    - [geodata](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept36)
    - inscription
