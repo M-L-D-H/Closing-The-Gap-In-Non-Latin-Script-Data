@@ -57,7 +57,7 @@
 					<a href="https://www.caseyegyptologist.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow">
 						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/christian.png" alt="Christian Casey" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
 						<h4 class="text-xl font-semibold">Dr. Christian Casey</h4>
-						<p class="text-sm mt-2">Project Lead – Digital Humanities</p>
+						<p class="text-sm mt-2">Christian is an Egyptologist with wide interest in the digital humanities, especially data sustainability. As the leader of the Closing the Gap team, his role is getting out of the way and letting Xenia, Aibaniz, and Joudy do amazing work curating our collection of DH projects.</p>
 					</a>
 				</div>
 		
@@ -66,7 +66,7 @@
 					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
 						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/xenia.jpg" alt="M. Xenia Kudela" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
 						<h4 class="text-xl font-semibold">M. Xenia Kudela</h4>
-						<p class="text-sm mt-2">Researcher – Digital Humanities</p>
+						<p class="text-sm mt-2">Xenia is responsible for supervising the database and workflows of the project. Her current interests include the sustainability of human heritage in the digital era, workflow optimization with AI, exploring the limits of NLP, and as much tech-related stuff as she can still fit into her schedule.</p>
 					<!-- </a> -->
 				</div>
 		
@@ -84,7 +84,7 @@
 					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
 						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/joudy.jpg" alt="Joudy Sido-Bozan" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
 						<h4 class="text-xl font-semibold">Joudy Sido-Bozan</h4>
-						<p class="text-sm mt-2">Junior Researcher – Digital Humanities</p>
+						<p class="text-sm mt-2">Joudy Sido Bozan works at the intersection of digital humanities and programming, developing tools to collect, organize, and visualize research projects in non-Latin scripts. Her work focuses on automating data extraction and creating visual representations, ensuring accessibility, sustainability and structured analysis of research in underrepresented languages.</p>
 					<!-- </a> -->
 				</div>
 			</div>
