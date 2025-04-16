@@ -26,14 +26,14 @@
     "places": [
       {
         "place_name": {
-          "text": "Fife",
+          "text": "Saint Andrews",
           "ref": [
-            "https://www.geonames.org/2649469/fife.html"
+            "https://www.geonames.org/2638864/saint-andrews.html"
           ]
         },
         "coordinates": {
-          "lat": "56.25",
-          "lng": "-3.16667"
+          "lat": "56.33871",
+          "lng": "-2.79902"
         }
       }
     ],

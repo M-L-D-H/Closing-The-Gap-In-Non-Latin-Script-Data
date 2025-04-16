@@ -88,12 +88,12 @@
         "place_name": {
           "text": "Düsseldorf",
           "ref": [
-            "https://www.wikidata.org/wiki/Q320642"
+            "https://www.geonames.org/2934246/duesseldorf.html"
           ]
         },
         "coordinates": {
-          "lat": "36.61393",
-          "lng": "29.23698"
+          "lat": "51.22172",
+          "lng": "6.77616"
         }
       }
     ],
