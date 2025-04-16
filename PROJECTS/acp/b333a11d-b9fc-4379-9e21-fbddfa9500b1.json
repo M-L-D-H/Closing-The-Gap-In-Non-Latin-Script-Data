@@ -4,7 +4,7 @@
     "uuid": "b333a11d-b9fc-4379-9e21-fbddfa9500b1",
     "record_created_on": "2023-10-26",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-03-20",
+    "last_edited_on": "2025-04-16",
     "interviewed": true
   },
   "project": {
@@ -147,6 +147,11 @@
         "relation_type": "sibling",
         "title": "Corpus dei Manoscritti Copti Letterari",
         "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "The Persian Documents from al-\u1e24aram al-Shar\u012bf in Jerusalem, 1300\u20131353",
+        "uuid": "5d52a387-f88b-44d8-a79b-3225e5ca5030"
       },
       {
         "relation_type": "cooperation",

@@ -4,7 +4,7 @@
     "uuid": "169677fd-14f9-46e7-b8f1-2202fb91397c",
     "record_created_on": "2021-11-11",
     "record_created_by": "Kudela, Xenia Monika",
-    "last_edited_on": "2025-03-20",
+    "last_edited_on": "2025-04-16",
     "interviewed": true
   },
   "project": {
@@ -147,6 +147,11 @@
         "relation_type": "sibling",
         "title": "SIHAFA: The Ideosphere of the Late Ottoman Arabic Press: Mapping the Discursive Field of Authors and Texts through Computational Approaches",
         "uuid": "20ee58f5-f699-4262-a473-7765e249c871"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "The Persian Documents from al-\u1e24aram al-Shar\u012bf in Jerusalem, 1300\u20131353",
+        "uuid": "5d52a387-f88b-44d8-a79b-3225e5ca5030"
       },
       {
         "relation_type": "cooperation",
