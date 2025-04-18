@@ -8,6 +8,7 @@
 
 	const { projects, siblingDependencies, parentChildDependencies, cooperationDependencies } =
 		createData();
+	let sustainabilityChartEl: HTMLDivElement;
 
 	const spec1: VisualizationSpec = {
 		$schema: 'https://vega.github.io/schema/vega/v5.json',
@@ -568,13 +569,167 @@
 	onMount(() => {
 		vegaEmbed('#vis2', spec2, {});
 		vegaEmbed('#vis1', spec1, {});
-	});
+		const res = await fetch('https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/PROJECTS.json');
+  		const allProjects = await res.json();
+
+  		const rawBasePath = 'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master';
+
+  		const rawProjects = await Promise.all(
+    		Object.entries(allProjects).map(async ([uuid, project]: any) => {
+      			const folderPath = project.path;
+      			const filePath = rawBasePath + (folderPath.endsWith('/')
+        			? folderPath + uuid + '.json'
+        			: folderPath + '/' + uuid + '.json');
+
+      			try {
+        			const res = await fetch(filePath);
+        			const data = await res.json();
+        			const s = data.project?.research_data?.sustainability_plan ?? {};
+
+        			return {
+          				website: s.project_website ?? 'N/A',
+         				github: s.Github ?? 'N/A',
+          				data_accessibility: s.data_accessibility ?? 'N/A',
+          				publications: s.publications ?? 'N/A',
+          				publication_count: s.publication_count ?? 0,
+          				open_access_count: s.open_access_count ?? 0,
+          				webhosting: s.webhosting ?? 'N/A'
+        			};
+      			} catch (err) {
+        			console.warn(`⚠️ Failed to load project ${uuid}:`, err);
+        			return null;
+      			}
+   			})
+  		);
+    	const projects = rawProjects.filter((p) => p !== null);
+    	const total = projects.length;
+    	const countBy = (key: string, val: number) => projects.filter((p) => p[key] === val).length;
+    	const bar = (cat: string, label: string, count: number) => ({
+      		Category: cat,
+      		'Score Label': label,
+      		Count: count,
+      		Tooltip: `From ${total} total projects, ${count} projects are in category "${label}".`
+    		});
+
+    	const values = [
+ 			{ Category: "Website", "Score Label": "Full / Yes", Count: 184, Tooltip: "From 226 total projects, 184 projects have a project website." },
+  			{ Category: "Website", "Score Label": "No / None", Count: 42, Tooltip: "From 226 total projects, 42 projects have no project website." },
+  			{ Category: "Github", "Score Label": "Full / Yes", Count: 83, Tooltip: "From 226 total projects, 83 projects have a GitHub repository." },
+  			{ Category: "Github", "Score Label": "No / None", Count: 143, Tooltip: "From 226 total projects, 143 projects have no GitHub repository." },
+  			{ Category: "Data Accessibility", "Score Label": "Full / Yes", Count: 149, Tooltip: "From 226 total projects, 149 projects have fully accessible data." },
+  			{ Category: "Data Accessibility", "Score Label": "Partial / Mentioned", Count: 38, Tooltip: "From 226 total projects, 38 projects have partially accessible data." },
+  			{ Category: "Data Accessibility", "Score Label": "No / None", Count: 39, Tooltip: "From 226 total projects, 39 projects have no accessible data." },
+  			{ Category: "Publications", "Score Label": "Full / Yes", Count: 135, Tooltip: "From 226 total projects, 135 projects have publications." },
+  			{ Category: "Publications", "Score Label": "No / None", Count: 91, Tooltip: "From 226 total projects, 91 projects have no publications." },
+  			{ Category: "Open Access Publications", "Score Label": "Full / Yes", Count: 81, Tooltip: "From 226 total projects, 81 projects have all publications in open access." },
+  			{ Category: "Open Access Publications", "Score Label": "Partial / Mentioned", Count: 27, Tooltip: "From 226 total projects, 27 projects have some publications in open access." },
+  			{ Category: "Open Access Publications", "Score Label": "No / None", Count: 118, Tooltip: "From 226 total projects, 118 projects have no open access publications." },
+  			{ Category: "Webhosting", "Score Label": "Full / Yes", Count: 173, Tooltip: "From 226 total projects, 173 projects have independent webhosting." },
+  			{ Category: "Webhosting", "Score Label": "Partial / Mentioned", Count: 48, Tooltip: "From 226 total projects, 48 projects are mentioned on an institutional website." },
+  			{ Category: "Webhosting", "Score Label": "No / None", Count: 5, Tooltip: "From 226 total projects, 5 projects have no webhosting." }
+			];
+   		const sustainabilitySpec: VisualizationSpec = {
+     		$schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+			padding: 44,
+			title: {
+				text: 'Sustainabiliy Overview',
+				orient: 'top',
+				fontSize: 35,
+				fontWeight: 'bold',
+				offset: 50,
+				color: 'black',
+				subtitle: [
+				'This chart visualizes sustainability-related metadata for each project in our database, including their web presence, data accessibility, publications,',
+				'open accessibility of their publications and their usage of GitHub',
+				],
+				anchor: 'middle',
+				subtitleFontSize: 17,
+				subtitleFontWeight: 'normal',
+				subtitleColor: 'black',
+				subtitlePadding: 30
+			},
+			axis: {
+				labelFont: 'Inter',
+				titleFont: 'Inter',
+				labelFontSize: 16,
+				titleFontSize: 14,
+				labelColor: '#2F4A60',
+				titleColor: '#2F4A60'
+			},
+			legend: {
+				labelFont: 'bold',
+				titleFont: 'bold',
+				labelFontSize: 16,
+				titleFontSize: 14
+			},
+      		data: { values },
+      		selection: {
+        		highlight: { type: 'single', on: 'mouseover', empty: 'all', clear: 'mouseout' }
+      		},
+      		mark: 'bar',
+      		encoding: {
+        		x: {
+  					field: 'Category',
+  					type: 'nominal',
+ 					title: 'Category',
+  					axis: { labelAngle: 30 },
+  					sort: [
+    					'Github',
+    					'Data Accessibility',
+    					'Publications',
+    					'Open Access Publications',
+    					'Website',
+    					'Webhosting'
+  					]
+				},
+        		xOffset: { field: 'Score Label', type: 'nominal' },
+        		y: { field: 'Count', type: 'quantitative', title: 'Number of Projects' },
+        		color: {
+          			field: 'Score Label',
+          			type: 'nominal',
+          			legend: { title: 'Values', titleFontSize: 16, labelFontSize: 14},
+          			scale: {
+            			domain: ['Full / Yes', 'Partial / Mentioned', 'No / None'],
+            			range: ['#2F4A60', '#F29559', '#B8B18F'],
+          			},
+					
+       			},
+        		opacity: {
+          			condition: { selection: 'highlight', value: 1 },
+          			value: 0.5
+       			},
+				tooltip: [
+  					{ field: 'Tooltip', type: 'nominal', title: 'Details' }
+				]
+      		},
+      		width: 'container',
+      		height: 400,
+			config: {
+  				legend: {
+   					orient: 'bottom',
+   					direction: 'horizontal',
+    				padding: 20
+ 				},
+			},	
+    	};
+
+    	vegaEmbed(sustainabilityChartEl, sustainabilitySpec);
+  });
 </script>
 
 <div class="flex justify-center px-4">
-	<div id="vis1" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
+  <div id="vis1" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
 </div>
 
 <div class="flex justify-center px-4">
-	<div id="vis2" class="rounded-lg bg-gray-50 p-4"></div>
+  <div id="vis2" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
+</div>
+
+<div class="flex justify-center px-4">
+	<div
+		bind:this={sustainabilityChartEl}
+		id="vis3"
+		class="mb-4 rounded-lg bg-gray-50 p-4"
+		style="width: 100%; max-width: 1220px;"
+	></div>
 </div>
