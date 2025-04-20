@@ -27,13 +27,11 @@
       {
         "place_name": {
           "text": "Lucca",
-          "ref": [
-            "https://www.geonames.org/3174530/lucca.html"
-          ]
+          "ref": ["https://www.geonames.org/3174530/lucca.html"]
         },
         "coordinates": {
-          "lat": "44.01776",
-          "lng": "10.45443"
+          "lat": "43.84369",
+          "lng": "10.50447"
         }
       }
     ],
