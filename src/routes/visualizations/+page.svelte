@@ -718,14 +718,6 @@
 </script>
 
 <div class="flex justify-center px-4">
-  <div id="vis1" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
-</div>
-
-<div class="flex justify-center px-4">
-  <div id="vis2" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
-</div>
-
-<div class="flex justify-center px-4">
 	<div
 		bind:this={sustainabilityChartEl}
 		id="vis3"
@@ -733,3 +725,13 @@
 		style="width: 100%; max-width: 1220px;"
 	></div>
 </div>
+
+<div class="flex justify-center px-4">
+  <div id="vis1" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
+</div>
+
+<div class="flex justify-center px-4">
+  <div id="vis2" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
+</div>
+
+
