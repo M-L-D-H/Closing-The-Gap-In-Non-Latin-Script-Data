@@ -75,7 +75,7 @@
 					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
 						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/aya.jpg" alt="Aibaniz Alieva" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
 						<h4 class="text-xl font-semibold">Aibaniz Alieva</h4>
-						<p class="text-sm mt-2">Aibaniz brings a background in Arabic Studies and digital humanities. In Closing the Gap, she researches projects—especially Arabic-related ones and those in overlooked disciplines—collecting accurate metadata to ensure their visibility and representation in the database. She uses coding to develop tools that help organise and structure project metadata, gathers data for ongoing research on the sustainability of digital humanities projects, and is responsible for the project’s logo and logotype design.</p>
+						<p class="text-sm mt-2">Aibaniz, with a background in Arabic Studies and digital humanities, works on Closing the Gap by identifying Arabic-focused and underrepresented projects, collecting accurate metadata, and developing tools to structure it. She also contributes to research on DH project sustainability and designed the project’s logo and logotype.</p>
 					<!-- </a> -->
 				</div>
 		
