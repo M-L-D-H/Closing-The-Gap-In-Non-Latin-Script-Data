@@ -4,7 +4,6 @@
 	import Logotype from '$lib/svg/Logotype.svelte';
 
 	import LogotypeURL from '$lib/svg/Logotype.svg?url';
-	console.log(LogotypeURL);
 </script>
 
 
