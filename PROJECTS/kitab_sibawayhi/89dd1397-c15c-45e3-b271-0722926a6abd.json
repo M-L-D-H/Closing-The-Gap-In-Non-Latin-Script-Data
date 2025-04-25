@@ -55,7 +55,13 @@
           ]
         }
       ],
-      "related_entities": [],
+      "related_entities": [
+        {
+          "relation_type": "sibling",
+          "title": "The Kit\u0101b al-\u02beIn\u1e63\u0101f by Ibn al-Anb\u0101r\u012b in Electronic Form",
+          "uuid": "755808c9-9177-4c09-991e-0ec172d0d41b"
+        }
+      ],
       "people": [
         {
           "pers_name": {
@@ -125,15 +131,14 @@
         }
       ],
       "keywords": [
-        "audio",
-            "digital_preservation",
-            "language_documentation",
-            "linguistics",
-            "research_data_management",
-            "research_infrastructure",
-            "video"
+        "arabic_studies",
+        "digital_edition",
+        "digital_preservation",
+        "manuscript",
+        "tei",
+        "visualization"
       ],
-      "category": "tools_and_analysis",
+      "category": "digital_preservation",
       "comment": ""
     }
   }
