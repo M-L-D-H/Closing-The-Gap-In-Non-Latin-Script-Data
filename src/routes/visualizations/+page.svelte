@@ -14,10 +14,10 @@
 		$schema: 'https://vega.github.io/schema/vega/v5.json',
 		description:
 			'A network diagram of software dependencies, with edges grouped via hierarchical edge bundling',
+		autosize: 'pad',
 		width: 1000,
 		height: 1000,
 		padding: 12,
-		autosize: 'pad',
 		title: {
 			text: 'Relations',
 			orient: 'top',
@@ -410,10 +410,10 @@
 	const spec2: VisualizationSpec = {
 		$schema: 'https://vega.github.io/schema/vega/v5.json',
 		description: 'An example of a space-fulling radial layout for hierarchical data.',
+		autosize: 'pad',
 		width: 750,
 		height: 750,
 		padding: 44,
-		autosize: 'pad',
 		title: {
 			text: 'Categories',
 			orient: 'top',
@@ -612,29 +612,29 @@
     		});
 
     	const values = [
- 			{ Category: "Website", "Score Label": "Full / Yes", Count: 184, Tooltip: "From 226 total projects, 184 projects have a project website." },
-  			{ Category: "Website", "Score Label": "No / None", Count: 42, Tooltip: "From 226 total projects, 42 projects have no project website." },
-  			{ Category: "Github", "Score Label": "Full / Yes", Count: 83, Tooltip: "From 226 total projects, 83 projects have a GitHub repository." },
-  			{ Category: "Github", "Score Label": "No / None", Count: 143, Tooltip: "From 226 total projects, 143 projects have no GitHub repository." },
-  			{ Category: "Data Accessibility", "Score Label": "Full / Yes", Count: 149, Tooltip: "From 226 total projects, 149 projects have fully accessible data." },
-  			{ Category: "Data Accessibility", "Score Label": "Partial / Mentioned", Count: 38, Tooltip: "From 226 total projects, 38 projects have partially accessible data." },
-  			{ Category: "Data Accessibility", "Score Label": "No / None", Count: 39, Tooltip: "From 226 total projects, 39 projects have no accessible data." },
-  			{ Category: "Publications", "Score Label": "Full / Yes", Count: 135, Tooltip: "From 226 total projects, 135 projects have publications." },
-  			{ Category: "Publications", "Score Label": "No / None", Count: 91, Tooltip: "From 226 total projects, 91 projects have no publications." },
-  			{ Category: "Open Access Publications", "Score Label": "Full / Yes", Count: 81, Tooltip: "From 226 total projects, 81 projects have all publications in open access." },
-  			{ Category: "Open Access Publications", "Score Label": "Partial / Mentioned", Count: 27, Tooltip: "From 226 total projects, 27 projects have some publications in open access." },
-  			{ Category: "Open Access Publications", "Score Label": "No / None", Count: 118, Tooltip: "From 226 total projects, 118 projects have no open access publications." },
-  			{ Category: "Webhosting", "Score Label": "Full / Yes", Count: 173, Tooltip: "From 226 total projects, 173 projects have independent webhosting." },
-  			{ Category: "Webhosting", "Score Label": "Partial / Mentioned", Count: 48, Tooltip: "From 226 total projects, 48 projects are mentioned on an institutional website." },
-  			{ Category: "Webhosting", "Score Label": "No / None", Count: 5, Tooltip: "From 226 total projects, 5 projects have no webhosting." }
-			];
+  			bar('Github', 'Full / Yes', countBy('github', 1.0)),
+  			bar('Github', 'No / None', countBy('github', 0.0)),
+  			bar('Data Accessibility', 'Full / Yes', countBy('data_accessibility', 1.0)),
+  			bar('Data Accessibility', 'Partial / Mentioned', countBy('data_accessibility', 0.5)),
+  			bar('Data Accessibility', 'No / None', countBy('data_accessibility', 0.0)),
+  			bar('Publications', 'Full / Yes', countBy('publications', 1.0)),
+  			bar('Publications', 'No / None', countBy('publications', 0.0)),
+			bar('Open Access Publications', 'Full / Yes', projects.filter((p) => p.publication_count > 0 && p.publication_count === p.open_access_count).length),
+			bar('Open Access Publications', 'Partial / Mentioned', projects.filter((p) => p.open_access_count > 0 && p.open_access_count < p.publication_count).length),
+  			bar('Open Access Publications', 'No / None', projects.filter((p) => p.publication_count > 0 && p.open_access_count === 0).length),
+  			bar('Website', 'Full / Yes', countBy('website', 1.0)),
+  			bar('Website', 'No / None', countBy('website', 0.0)),
+  			bar('Webhosting', 'Full / Yes', countBy('webhosting', 1.0)),
+  			bar('Webhosting', 'Partial / Mentioned', countBy('webhosting', 0.5)),
+  			bar('Webhosting', 'No / None', countBy('webhosting', 0.0))
+		];
+
    		const sustainabilitySpec: VisualizationSpec = {
      		$schema: 'https://vega.github.io/schema/vega-lite/v5.json',
-			padding: 44,
 			title: {
-				text: 'Sustainabiliy Overview',
+				text: 'Sustainability Overview',
 				orient: 'top',
-				fontSize: 35,
+				fontSize: 24,
 				fontWeight: 'bold',
 				offset: 50,
 				color: 'black',
@@ -643,7 +643,7 @@
 				'open accessibility of their publications and their usage of GitHub',
 				],
 				anchor: 'middle',
-				subtitleFontSize: 17,
+				subtitleFontSize: 14,
 				subtitleFontWeight: 'normal',
 				subtitleColor: 'black',
 				subtitlePadding: 30
@@ -672,7 +672,7 @@
   					field: 'Category',
   					type: 'nominal',
  					title: 'Category',
-  					axis: { labelAngle: 30 },
+  					axis: { labelAngle: 15 },
   					sort: [
     					'Github',
     					'Data Accessibility',
@@ -687,7 +687,7 @@
         		color: {
           			field: 'Score Label',
           			type: 'nominal',
-          			legend: { title: 'Values', titleFontSize: 16, labelFontSize: 14},
+          			legend: { title: 'Values', titleFontSize: 16, labelFontSize: 14, orient: 'bottom', direction: 'horizontal', columns: 2 },
           			scale: {
             			domain: ['Full / Yes', 'Partial / Mentioned', 'No / None'],
             			range: ['#2F4A60', '#F29559', '#B8B18F'],
@@ -702,27 +702,27 @@
   					{ field: 'Tooltip', type: 'nominal', title: 'Details' }
 				]
       		},
-      		width: 'container',
-      		height: 400,
+      		autosize: { type: 'pad', contains: 'padding' },
+			width: 1050,
+			height: 450,
+			padding: 44,
 			config: {
-  				legend: {
-   					orient: 'bottom',
-   					direction: 'horizontal',
-    				padding: 20
- 				},
-			},	
+  				bar: {
+   				 innerPadding: 5,
+ 				}
+			}				
     	};
 
     	vegaEmbed(sustainabilityChartEl, sustainabilitySpec);
   });
 </script>
 
-<div class="flex justify-center px-4">
+<div class="flex justify-center overflow-auto px-4">
 	<div
-		bind:this={sustainabilityChartEl}
-		id="vis3"
-		class="mb-4 rounded-lg bg-gray-50 p-4"
-		style="width: 100%; max-width: 1220px;"
+	  bind:this={sustainabilityChartEl}
+	  id="vis3"
+	  class="mb-4 rounded-lg bg-gray-50 p-4"
+	  style="min-width: 750px; max-width: 1220px;"
 	></div>
 </div>
 
@@ -733,5 +733,3 @@
 <div class="flex justify-center px-4">
   <div id="vis2" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
 </div>
-
-
