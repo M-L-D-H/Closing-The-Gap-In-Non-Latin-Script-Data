@@ -57,7 +57,8 @@
   };
 </script>
 
-<form on:submit|preventDefault={sendContributorRequest} class="max-w-3xl mx-auto p-6 bg-white rounded-xl shadow space-y-6">
+<div class="flex justify-center px-4">
+<form on:submit|preventDefault={sendContributorRequest} class="w-full mx-auto p-6 bg-white rounded-xl shadow space-y-6">
   <h2 class="text-2xl font-semibold text-gray-800">Become a Contributor</h2>
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -107,6 +108,7 @@
     <p class="text-red-600 mt-4">{error}</p>
   {/if}
 </form>
+</div>
 
 <style>
   form {
