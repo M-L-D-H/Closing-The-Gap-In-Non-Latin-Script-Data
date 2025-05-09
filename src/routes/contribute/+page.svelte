@@ -96,7 +96,7 @@
     <textarea id="comments" bind:value={comments} rows="4" class="mt-1 w-full rounded border border-gray-300 p-2"></textarea>
   </div>
 
-  <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 disabled:opacity-50" disabled={sending}>
+  <button type="submit" class="bg-ctgorange text-white px-4 py-2 rounded hover:bg-indigo-700 disabled:opacity-50" disabled={sending}>
     {sending ? 'Sending...' : 'Submit'}
   </button>
 
