@@ -14,6 +14,7 @@
   let error = '';
   let sending = false;
 
+  /** @param {Event} event */
   const sendContributorRequest = async (event) => {
     event.preventDefault();
     success = false;
