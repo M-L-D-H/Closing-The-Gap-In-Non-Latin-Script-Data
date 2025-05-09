@@ -1,4 +1,4 @@
-import{s as d,n}from"../chunks/PgBBsDxm.js";import{S as c,i as h,d as s,a as o,k as u,l as g,g as m,c as p,m as f,j as b,h as w}from"../chunks/CBMSsibu.js";function v(l){let a,e,r=`<div class="space-y-4 rounded-lg bg-ctgtan p-4 text-lg"><h2 class="text-center text-2xl">About Us</h2> <div class="space-y-4"><p>This database was created as part of the project
+import{s as d,n}from"../chunks/DnlpFiKk.js";import{S as c,i as h,d as s,a as o,k as u,l as g,g as m,c as p,m as f,j as b,h as w}from"../chunks/CU6z1VLM.js";function v(l){let a,e,r=`<div class="space-y-4 rounded-lg bg-ctgtan p-4 text-lg"><h2 class="text-center text-2xl">About Us</h2> <div class="space-y-4"><p>This database was created as part of the project
 				<a class="font-medium hover:underline" href="https://www.berlin-university-alliance.de/commitments/research-quality/forschung/ongoing/closing-the-gap/index.html" target="_blank" rel="noreferrer">Closing the Gap in Non-Latin-Script Data</a>
 				under the auspices of the
 				<a class="font-medium hover:underline" href="https://www.berlin-university-alliance.de/index.html" target="_blank" rel="noreferrer">Berlin University Alliance</a>
