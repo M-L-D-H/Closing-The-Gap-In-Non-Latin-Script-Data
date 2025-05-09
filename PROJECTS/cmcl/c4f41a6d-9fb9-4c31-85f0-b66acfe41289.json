@@ -173,7 +173,12 @@
         "relation_type": "sibling",
         "title": "The Persian Documents from al-\u1e24aram al-Shar\u012bf in Jerusalem, 1300\u20131353",
         "uuid": "5d52a387-f88b-44d8-a79b-3225e5ca5030"
-      }
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Coptic Scriptorium: Digital Research in Coptic Language and Literature",
+        "uuid": "0250aa46-2fc2-44cb-8b08-87b40d1fc3a5"
+    }
     ],
     "people": [
       {

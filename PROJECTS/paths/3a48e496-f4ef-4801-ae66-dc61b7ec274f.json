@@ -150,7 +150,13 @@
         ]
       }
     ],
-    "related_entities": [],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "Coptic Scriptorium: Digital Research in Coptic Language and Literature",
+        "uuid": "0250aa46-2fc2-44cb-8b08-87b40d1fc3a5"
+      }
+    ],
     "people": [
       {
         "pers_name": {
