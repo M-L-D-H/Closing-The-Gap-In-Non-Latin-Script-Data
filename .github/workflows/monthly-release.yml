@@ -1,0 +1,48 @@
+name: Monthly Release
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' 
+  workflow_dispatch:      
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Get latest version tag
+        id: get_latest_tag
+        run: |
+          latest_tag=$(git tag --sort=-v:refname | grep '^v' | head -n 1)
+          echo "Latest tag: $latest_tag"
+          echo "tag=$latest_tag" >> $GITHUB_OUTPUT
+
+      - name: Compute next minor version
+        id: compute_version
+        run: |
+          IFS='.' read -r major minor patch <<< "${{ steps.get_latest_tag.outputs.tag#v }}"
+          minor=$((minor + 1))
+          new_tag="v$major.$minor.0"
+          echo "New tag: $new_tag"
+          echo "new_tag=$new_tag" >> $GITHUB_OUTPUT
+
+      - name: Generate release notes
+        id: generate_notes
+        run: |
+          previous_tag="${{ steps.get_latest_tag.outputs.tag }}"
+          new_tag="${{ steps.compute_version.outputs.new_tag }}"
+          notes_url="https://github.com/${{ github.repository }}/compare/${previous_tag}...${new_tag}"
+          echo "Release notes: Comparison between $previous_tag and $new_tag"
+          echo "release_notes=See changes: $notes_url" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.compute_version.outputs.new_tag }}
+          name: Release ${{ steps.compute_version.outputs.new_tag }}
+          body: ${{ steps.generate_notes.outputs.release_notes }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
