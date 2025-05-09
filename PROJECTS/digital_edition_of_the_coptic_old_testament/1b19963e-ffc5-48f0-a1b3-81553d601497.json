@@ -77,7 +77,12 @@
         "relation_type": "sibling",
         "title": "Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer",
         "uuid": "9513964d-3509-462e-9d64-c47fd3922459"
-      }
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Coptic Scriptorium: Digital Research in Coptic Language and Literature",
+        "uuid": "0250aa46-2fc2-44cb-8b08-87b40d1fc3a5"
+    }
     ],
     "people": [
       {
