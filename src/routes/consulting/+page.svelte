@@ -9,6 +9,7 @@
     let projectDescription = '';
     let discipline = '';
     let geoTemporalFocus = '';
+    /** @type {string[]} */
     let supportNeeds = [];
     let supportOther = '';
     let consultationGoals = '';
@@ -23,6 +24,7 @@
     let error = '';
     let sending = false;
   
+    /** @param {Event} event */
     const sendConsultationRequest = async (event) => {
       event.preventDefault();
       success = false;
