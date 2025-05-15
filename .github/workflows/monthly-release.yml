@@ -35,5 +35,13 @@ jobs:
           echo "New tag: $new_tag"
           echo "new_tag=$new_tag" >> $GITHUB_ENV
 
+      - name: Generate release notes
+        id: generate_notes
+        run: |
+          previous_tag="${{ env.tag }}"
+          new_tag="${{ env.new_tag }}"
+          notes_url="https://github.com/${{ github.repository }}/compare/${previous_tag}...${new_tag}"
+          echo "Release notes: Comparison between $previous_tag and $new_tag"
+          echo "release_notes=See changes: $notes_url" >> $GITHUB_ENV
      
         
