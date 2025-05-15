@@ -17,12 +17,23 @@ jobs:
 
       - name: Get latest version tag
         id: get_latest_tag
-        run: |
-          echo "All tags:"
-          git tag --sort=-v:refname
+        run: |          
           latest_tag=$(git tag --sort=-v:refname | grep '^v' | head -n 1)
           echo "Latest tag: $latest_tag"
           echo "tag=$latest_tag" >> $GITHUB_ENV  
+
+      - name: Compute next minor version
+        id: compute_version
+        env:
+          tag: ${{ env.tag }} 
+        run: |
+          tag="$tag"
+          tag="${tag#v}"  # Strip the 'v' from the beginning
+          IFS='.' read -r major minor patch <<< "$tag"
+          minor=$((minor + 1))
+          new_tag="v$major.$minor.0"
+          echo "New tag: $new_tag"
+          echo "new_tag=$new_tag" >> $GITHUB_ENV
 
      
         
