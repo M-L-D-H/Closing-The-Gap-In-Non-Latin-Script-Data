@@ -1,3 +1,4 @@
+
 name: Monthly Release
 
 on:
@@ -44,15 +45,6 @@ jobs:
           git tag ${{ env.new_tag }}
           git push origin ${{ env.new_tag }}
 
-      - name: Generate release notes
-        id: generate_notes
-        run: |
-          previous_tag="${{ env.tag }}"
-          new_tag="${{ env.new_tag }}"
-          notes_url="https://github.com/${{ github.repository }}/compare/${previous_tag}...${new_tag}"
-          echo "Release notes: Comparison between $previous_tag and $new_tag"
-          echo "release_notes=See changes: $notes_url" >> $GITHUB_ENV
-
       - name: Get merged PRs between tags
         id: get_prs
         env:
@@ -62,7 +54,7 @@ jobs:
           new=${{ env.new_tag }}
       
           previous_date=$(git log -1 --format=%cI $previous)
-          new_date=$(git log -1 --format=%cI $new)
+          new_date=$(date -Iseconds)  # Use current timestamp for tag just pushed
       
           echo "Previous tag date: $previous_date"
           echo "New tag date: $new_date"
@@ -81,7 +73,15 @@ jobs:
           echo "Pull requests merged between $previous ($previous_date) and $new ($new_date):"
           echo "$prs"
       
-    
           echo "release_notes<<EOF" >> $GITHUB_OUTPUT
           echo "$prs" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.new_tag }}
+          name: Release ${{ env.new_tag }}
+          body: ${{ steps.get_prs.outputs.release_notes }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
