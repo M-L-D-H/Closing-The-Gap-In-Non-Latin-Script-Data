@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-            fetch-depth: 0
+          fetch-depth: 0
 
       - name: Get latest version tag
         id: get_latest_tag
@@ -67,7 +67,7 @@ jobs:
           echo "Previous tag date: $previous_date"
           echo "New tag date: $new_date"
 
-          prs=$(gh pr list --state merged --base main --json number,title,mergedAt --jq \
+          prs=$(gh pr list --state merged --base master --json number,title,mergedAt --jq \
             ".[] | select(.mergedAt >= \"$previous_date\" and .mergedAt < \"$new_date\") | \"- #\(.number): \(.title)\"")
 
           if [ -z "$prs" ]; then
