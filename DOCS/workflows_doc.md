@@ -39,8 +39,8 @@ One possible contribution to our project is the addition of new research initiat
 2. **Via Email**  
 - Visit our **[project website](https://m-l-d-h.github.io/Closing-The-Gap-In-Non-Latin-Script-Data/)**.  
 - Select the **"Contribute"** tab from the main menu.  
-- Fill out the submission form and download the **automatically generated JSON file**.  
-- Send the file to **ctg@geschkult.fu-berlin.de**.  
+- Fill out the submission form 
+- It will be forwarded to our team and added to the database 
 
 This method is more straightforward; however, the online form only captures **basic project details**. If you wish to provide more comprehensive information, we recommend using the **GitHub submission method**.
 
@@ -154,9 +154,15 @@ To utilize Lychee for checking broken links in our data:
 
 
 
+## Monthly releases to Zenodo 
+
+To ensure long-term **sustainability**, **findability**, and proper **archiving** of our data, we publish a new version of the dataset to [Zenodo](https://zenodo.org/) on the **first day of each month**. This guarantees that all changes, including new projects, updated metadata, and schema improvements, are publicly preserved with a DOI.
+
+We use a **GitHub Action** to automatically create a new [GitHub release](https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/releases), generate markdown-formatted release notes, and trigger Zenodo’s integration. This process minimizes manual work while ensuring consistent versioning and documentation.
+
+
 ## Sending the frontend copy to Wayback Machine 
 
-## Monthly releases to Zenodo 
 
 ## Updating Dependencies
 
