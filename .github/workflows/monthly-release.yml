@@ -43,5 +43,26 @@ jobs:
           notes_url="https://github.com/${{ github.repository }}/compare/${previous_tag}...${new_tag}"
           echo "Release notes: Comparison between $previous_tag and $new_tag"
           echo "release_notes=See changes: $notes_url" >> $GITHUB_ENV
+
+      - name: Get merged PRs between tags
+        id: get_prs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          previous=${{ env.tag }}
+          new=${{ env.new_tag }}
+      
+          prs=$(gh pr list --state merged --base main --json number,title,mergedAt --jq \
+            ".[] | select(.mergedAt >= \"$previous\" and .mergedAt < \"$new\") | \"- #\(.number): \(.title)\"")
+      
+          if [ -z "$prs" ]; then
+            prs="No pull requests merged."
+          fi
+      
+          echo "Pull requests merged between $previous and $new:"
+          echo "$prs"
+      
+          echo "release_notes=$prs" >> $GITHUB_ENV
+
      
         
