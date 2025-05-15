@@ -52,29 +52,29 @@ jobs:
         run: |
           previous=${{ env.tag }}
           new=${{ env.new_tag }}
-      
+
           previous_date=$(git log -1 --format=%cI $previous)
-          new_date=$(date -Iseconds)  # Use current timestamp for tag just pushed
-      
+          new_date=$(date -Iseconds)  # Use current time for just-created tag
+
           echo "Previous tag date: $previous_date"
           echo "New tag date: $new_date"
-      
-          prs=$(gh pr list --state merged --base master --json number,title,mergedAt,author,url --jq \
+
+          changelog=$(gh pr list --state merged --base master --json number,title,mergedAt,author,url --jq \
             ".[] 
              | select(.mergedAt >= \"$previous_date\" and .mergedAt < \"$new_date\") 
-             | \"\(.title) by @\(.author.login) in \(.url)\"")
-      
-          if [ -z "$prs" ]; then
-            prs="No pull requests merged."
+             | \"- \(.title) by [@\(.author.login)](https://github.com/\(.author.login)) in [#\(.number)](\(.url))\"")
+
+          if [ -z "$changelog" ]; then
+            changelog="No pull requests merged."
           else
-            prs="What's Changed"$'\n'"$prs"
+            changelog="## What's Changed"$'\n'"$changelog"
           fi
-      
-          echo "Pull requests merged between $previous ($previous_date) and $new ($new_date):"
-          echo "$prs"
-      
+
+          echo "Changelog for release:"
+          echo "$changelog"
+
           echo "release_notes<<EOF" >> $GITHUB_OUTPUT
-          echo "$prs" >> $GITHUB_OUTPUT
+          echo "$changelog" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Create GitHub release
@@ -85,3 +85,4 @@ jobs:
           body: ${{ steps.get_prs.outputs.release_notes }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
