@@ -60,21 +60,23 @@ jobs:
         run: |
           previous=${{ env.tag }}
           new=${{ env.new_tag }}
-
+      
           previous_date=$(git log -1 --format=%cI $previous)
           new_date=$(git log -1 --format=%cI $new)
-
+      
           echo "Previous tag date: $previous_date"
           echo "New tag date: $new_date"
-
+      
           prs=$(gh pr list --state merged --base master --json number,title,mergedAt --jq \
             ".[] | select(.mergedAt >= \"$previous_date\" and .mergedAt < \"$new_date\") | \"- #\(.number): \(.title)\"")
-
+      
           if [ -z "$prs" ]; then
             prs="No pull requests merged."
           fi
-
+      
           echo "Pull requests merged between $previous ($previous_date) and $new ($new_date):"
           echo "$prs"
-
-          echo "release_notes=$prs" >> $GITHUB_ENV
+      
+          echo "release_notes<<EOF" >> $GITHUB_OUTPUT
+          echo "$prs" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
