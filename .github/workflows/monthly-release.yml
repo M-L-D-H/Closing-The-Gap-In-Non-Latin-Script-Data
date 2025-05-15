@@ -20,26 +20,5 @@ jobs:
           echo "Latest tag: $latest_tag"
           echo "tag=$latest_tag" >> $GITHUB_ENV  
 
-      - name: Compute next minor version
-        id: compute_version
-        run: |
-          tag="$tag"
-          tag="${tag#v}"  # Strip the 'v' from the beginning
-          IFS='.' read -r major minor patch <<< "$tag"
-          minor=$((minor + 1))
-          new_tag="v$major.$minor.0"
-          echo "New tag: $new_tag"
-          echo "new_tag=$new_tag" >> $GITHUB_ENV
-        env:
-          tag: ${{ env.tag }}
-
-      - name: Generate release notes
-        id: generate_notes
-        run: |
-          previous_tag="${{ env.tag }}"
-          new_tag="${{ env.new_tag }}"
-          notes_url="https://github.com/${{ github.repository }}/compare/${previous_tag}...${new_tag}"
-          echo "Release notes: Comparison between $previous_tag and $new_tag"
-          echo "release_notes=See changes: $notes_url" >> $GITHUB_ENV  # Set output to GITHUB_ENV
-
-   
+     
+        
