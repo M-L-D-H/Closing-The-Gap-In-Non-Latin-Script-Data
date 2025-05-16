@@ -163,6 +163,10 @@ We use a **GitHub Action** to automatically create a new [GitHub release](https:
 
 ## Sending the frontend copy to Wayback Machine 
 
+To support **sustainability**, **traceability**, and **public access**, we archive the frontend of the *Closing the Gap* website monthly using the [Wayback Machine](https://web.archive.org/). This is done automatically via a **GitHub Action** on the 1st of each month.
+
+Archived versions can be viewed at [web.archive.org](https://web.archive.org) by entering the site URL and selecting a snapshot.
+
 
 ## Updating Dependencies
 
