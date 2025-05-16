@@ -196,6 +196,10 @@ External contributions primarily involve providing project data to our dataset. 
 
 Our website is hosted on **GitHub Pages**. Given our strong emphasis on **sustainability**, we have designed it to be fully **static**. All data is consolidated into a JSON file (**`ENTRIES.json`**), which serves as the foundation for rendering the site. This file requires **manual updates**, which we perform **once a week**.  
 
+> **Automated Check**  
+> A GitHub Action runs every **Monday and Thursday** to verify whether the frontend is up to date.  
+> While this workflow checks for outdated data, it **does not update** the site automatically. Manual deployment is still required.
+
 To manually deploy the website, follow these steps:  
 
 **1. Ensure `npm` is Installed**  
@@ -206,34 +210,3 @@ Navigate to the **frontend branch** of the repository using Git:
 
 ```bash
 git checkout frontend
-```
-
-**3. Update `ENTRIES.json`**  
-Run the following command in **Bash** to trigger the script that updates the `ENTRIES.json` file:  
-
-```bash
-npm run archive
-```
-
-**4. Commit and Push the Changes**  
-After updating the data, commit and push the changes to the `frontend` branch:  
-
-```bash
-git add .
-git commit -m "Regenerate static data"
-git push
-```
-
-**5. Build and Deploy the Website**  
-To rebuild and deploy the website, execute the following commands:  
-
-```bash
-npm run build
-npm run deploy
-```
-
-- Running **`npm run build`** is **optional** but recommended, as it verifies whether the website can be built correctly.  
-- If there are any issues, the command will return an **error** without publishing the changes.  
-- If successful, **`npm run deploy`** will publish the updated website.  
-
-By following these steps, you ensure that the site remains **up-to-date** while maintaining its **static structure** for sustainability and efficiency.
