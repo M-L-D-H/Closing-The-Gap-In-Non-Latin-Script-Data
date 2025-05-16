@@ -80,18 +80,18 @@
   </script>
   
   <div class="flex justify-center px-4">
-    <div class="w-full max-w-6xl mb-4 rounded-lg bg-gray-50 p-4">
+    <div class="w-full max-w-6xl mb-4 rounded-lg bg-ctgtan p-4">
       <form on:submit|preventDefault={sendConsultationRequest} class="">
-        <h2 class="text-2xl font-semibold text-gray-800">Consultation Request Form</h2>
+        <h2 class="mb-3 text-xl font-medium">Consultation Request Form</h2>
       
         <!-- Personal Info -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label for="name" class="block text-sm font-medium text-gray-700">Your Name*</label>
+            <label for="name" class="mb-3.5">Your Name*</label>
             <input id="name" type="text" bind:value={name} required class="mt-1 w-full rounded border border-gray-300 p-2" />
           </div>
           <div>
-            <label for="email" class="block text-sm font-medium text-gray-700">Your Email*</label>
+            <label for="email" class="mb-3.5">Your Email*</label>
             <input id="email" type="email" bind:value={email} required class="mt-1 w-full rounded border border-gray-300 p-2" />
           </div>
         </div>
@@ -99,40 +99,40 @@
         <!-- Institution & Role -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label for="institution" class="block text-sm font-medium text-gray-700">Institution</label>
+            <label for="institution" class="mb-3.5">Institution</label>
             <input id="institution" type="text" bind:value={institution} class="mt-1 w-full rounded border border-gray-300 p-2" />
           </div>
           <div>
-            <label for="role" class="block text-sm font-medium text-gray-700">Role / Position</label>
+            <label for="role" class="mb-3.5">Role / Position</label>
             <input id="role" type="text" bind:value={role} class="mt-1 w-full rounded border border-gray-300 p-2" />
           </div>
         </div>
       
         <!-- Project Title & Description -->
         <div>
-          <label for="projectTitle" class="block text-sm font-medium text-gray-700">Project Title</label>
+          <label for="projectTitle" class="mb-3.5">Project Title</label>
           <input id="projectTitle" type="text" bind:value={projectTitle} class="mt-1 w-full rounded border border-gray-300 p-2" />
         </div>
         <div>
-          <label for="projectDescription" class="block text-sm font-medium text-gray-700">Project Description</label>
+          <label for="projectDescription" class="mb-3.5">Project Description</label>
           <textarea id="projectDescription" bind:value={projectDescription} rows="4" class="mt-1 w-full rounded border border-gray-300 p-2"></textarea>
         </div>
       
         <!-- Discipline & Geo-Temporal Focus -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label for="discipline" class="block text-sm font-medium text-gray-700">Discipline / Field</label>
+            <label for="discipline" class="mb-3.5">Discipline / Field</label>
             <input id="discipline" type="text" bind:value={discipline} class="mt-1 w-full rounded border border-gray-300 p-2" />
           </div>
           <div>
-            <label for="geoTemporalFocus" class="block text-sm font-medium text-gray-700">Geographic / Temporal Focus</label>
+            <label for="geoTemporalFocus" class="mb-3.5">Geographic / Temporal Focus</label>
             <input id="geoTemporalFocus" type="text" bind:value={geoTemporalFocus} class="mt-1 w-full rounded border border-gray-300 p-2" />
           </div>
         </div>
       
         <!-- Support Needs -->
         <div>
-          <label class="block text-sm font-medium text-gray-700">What kind of support are you looking for?*</label>
+          <label class="mb-3.5">What kind of support are you looking for?*</label>
           <div class="mt-2 space-y-1 text-sm text-gray-700">
             <label class="block"><input type="checkbox" value="Finding related DH projects" bind:group={supportNeeds} /> Finding related DH projects</label>
             <label class="block"><input type="checkbox" value="Technical guidance" bind:group={supportNeeds} /> Technical guidance</label>
@@ -144,20 +144,20 @@
       
         {#if supportNeeds.includes('Other')}
           <div>
-            <label for="supportOther" class="block text-sm font-medium text-gray-700">If Other, please specify:</label>
+            <label for="supportOther" class="mb-3.5">If Other, please specify:</label>
             <input id="supportOther" type="text" bind:value={supportOther} class="mt-1 w-full rounded border border-gray-300 p-2" />
           </div>
         {/if}
       
         <!-- Consultation Goals -->
         <div>
-          <label for="consultationGoals" class="block text-sm font-medium text-gray-700">What do you hope to get from this consultation?*</label>
+          <label for="consultationGoals" class="mb-3.5">What do you hope to get from this consultation?*</label>
           <textarea id="consultationGoals" bind:value={consultationGoals} required rows="3" class="mt-1 w-full rounded border border-gray-300 p-2"></textarea>
         </div>
       
         <!-- DH Experience -->
         <div>
-          <label for="dhExperience" class="block text-sm font-medium text-gray-700">Digital Humanities Experience*</label>
+          <label for="dhExperience" class="mb-3.5">Digital Humanities Experience*</label>
           <select id="dhExperience" bind:value={dhExperience} required class="mt-1 w-full rounded border border-gray-300 p-2">
             <option value="">-- Select --</option>
             <option value="Software Developer">Software Developer</option>
@@ -171,13 +171,13 @@
       
         <!-- Tools or Methods Used -->
         <div>
-          <label for="toolsUsed" class="block text-sm font-medium text-gray-700">Tools or Methods Used</label>
+          <label for="toolsUsed" class="mb-3.5">Tools or Methods Used</label>
           <input id="toolsUsed" type="text" bind:value={toolsUsed} placeholder="e.g., Voyant, GIS, Python" class="mt-1 w-full rounded border border-gray-300 p-2" />
         </div>
       
         <!-- Follow-Up Method -->
         <div>
-          <label class="block text-sm font-medium text-gray-700">Preferred Follow-Up Method</label>
+          <label class="mb-3.5">Preferred Follow-Up Method</label>
           <div class="mt-1 space-x-4 text-sm text-gray-700">
             <label><input type="radio" name="followUpMethod" value="Email reply" bind:group={followUpMethod} /> Email</label>
             <label><input type="radio" name="followUpMethod" value="Video call" bind:group={followUpMethod} /> Video call</label>
@@ -187,13 +187,13 @@
       
         <!-- Preferred Times -->
         <div>
-          <label for="preferredTimes" class="block text-sm font-medium text-gray-700">Preferred Days / Times</label>
+          <label for="preferredTimes" class="mb-3.5">Preferred Days / Times</label>
           <input id="preferredTimes" type="text" bind:value={preferredTimes} class="mt-1 w-full rounded border border-gray-300 p-2" />
         </div>
       
         <!-- Additional Comments -->
         <div>
-          <label for="comments" class="block text-sm font-medium text-gray-700">Additional Comments</label>
+          <label for="comments" class="mb-3.5">Additional Comments</label>
           <textarea id="comments" bind:value={comments} rows="2" class="mt-1 w-full rounded border border-gray-300 p-2"></textarea>
         </div>
       

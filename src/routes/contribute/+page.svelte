@@ -58,44 +58,44 @@
 </script>
 
 <div class="flex justify-center px-4">
-  <div class="w-full max-w-6xl mb-4 rounded-lg bg-gray-50 p-4">
+  <div class="w-full max-w-6xl mb-4 rounded-lg bg-ctgtan p-4">
     <form on:submit|preventDefault={sendContributorRequest}>
-      <h2 class="text-2xl font-semibold text-gray-800">Become a Contributor</h2>
+      <h2 class="mb-3 text-xl font-medium">Become a Contributor</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label for="name" class="block text-sm font-medium text-gray-700">Your Name*</label>
+          <label for="name" class="mb-3.5">Your Name*</label>
           <input id="name" type="text" bind:value={name} required class="mt-1 w-full rounded border border-gray-300 p-2" />
         </div>
         <div>
-          <label for="email" class="block text-sm font-medium text-gray-700">Your Email*</label>
+          <label for="email" class="mb-3.5">Your Email*</label>
           <input id="email" type="email" bind:value={email} required class="mt-1 w-full rounded border border-gray-300 p-2" />
         </div>
       </div>
 
       <div>
-        <label for="project" class="block text-sm font-medium text-gray-700">Project Name*</label>
+        <label for="project" class="mb-3.5">Project Name*</label>
         <input id="project" type="text" bind:value={project} required class="mt-1 w-full rounded border border-gray-300 p-2" />
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label for="institution" class="block text-sm font-medium text-gray-700">Institution</label>
+          <label for="institution" class="mb-3.5">Institution</label>
           <input id="institution" type="text" bind:value={institution} class="mt-1 w-full rounded border border-gray-300 p-2" />
         </div>
         <div>
-          <label for="pi" class="block text-sm font-medium text-gray-700">Principal Investigator</label>
+          <label for="pi" class="mb-3.5">Principal Investigator</label>
           <input id="pi" type="text" bind:value={pi} class="mt-1 w-full rounded border border-gray-300 p-2" />
         </div>
       </div>
 
       <div>
-        <label for="url" class="block text-sm font-medium text-gray-700">Project URL</label>
+        <label for="url" class="mb-3.5">Project URL</label>
         <input id="url" type="url" bind:value={url} placeholder="https://example.com (optional)" class="mt-1 w-full rounded border border-gray-300 p-2" />
       </div>
 
       <div>
-        <label for="comments" class="block text-sm font-medium text-gray-700">Additional Comments</label>
+        <label for="comments" class="mb-3.5">Additional Comments</label>
         <textarea id="comments" bind:value={comments} rows="4" class="mt-1 w-full rounded border border-gray-300 p-2"></textarea>
       </div>
 
