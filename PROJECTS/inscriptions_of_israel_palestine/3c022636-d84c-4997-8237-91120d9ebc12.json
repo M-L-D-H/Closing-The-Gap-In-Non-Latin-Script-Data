@@ -28,7 +28,7 @@
     ],
     "maintained": true,
     "websites": [
-      "https://www.inscriptionsisraelpalestine.org/"
+      "https://www.inscriptionsisraelpalestine.org"
     ],
     "project_desc": "The Inscriptions of Israel/Palestine project seeks to collect and make freely accessible all of the previously published inscriptions (and their English translations) of Israel/Palestine from the Persian period through the Islamic conquest (ca. 500 BCE – 640 CE).",
     "places": [
@@ -36,7 +36,7 @@
         "place_name": {
           "text": "Charlottesville",
           "ref": [
-            "https://www.geonames.org/4752031/charlottesville.html/"
+            "https://www.geonames.org/4752031/charlottesville.html"
           ]
         },
         "coordinates": {
@@ -48,7 +48,7 @@
         "place_name": {
           "text": "Bloomington",
           "ref": [
-            "https://www.geonames.org/4254679/bloomington.html/"
+            "https://www.geonames.org/4254679/bloomington.html"
           ]
         },
         "coordinates": {
@@ -83,7 +83,7 @@
           ]
         },
         "websites": [
-          "https://www.virginia.edu/"
+          "https://www.virginia.edu"
         ]
       },
       {
