@@ -122,16 +122,53 @@
         ]
       },
       "data": {
-        "datatypes": [],
-        "repositories": []
+        "datatypes": [
+          { "label": "PDF", "stage": "raw", "licensing": [], "open_access": 0 },
+          { "label": "XML", "stage": "refined", "licensing": [], "open_access": 0 },
+          { "label": "JSON", "stage": "final", "licensing": [], "open_access": 0 }
+        ],
+        "repositories": [
+          {
+            "label": "GitHub",
+            "accessibility": "private",
+            "ref": ["https://www.wikidata.org/wiki/Q364"],
+            "websites": ["https://github.com/"],
+            "licensing": [],
+            "description": ""
+          },
+          {
+            "label": "AWS Cloud",
+            "accessibility": "private",
+            "ref": ["https://www.wikidata.org/wiki/Q456157"],
+            "websites": ["https://aws.amazon.com/de/"],
+            "licensing": [],
+            "description": ""
+          },
+          {
+            "label": "FUB-IT",
+            "accessibility": "private",
+            "ref": [],
+            "websites": ["https://www.it.fu-berlin.de/"],
+            "licensing": [],
+            "description": ""
+          }
+        ]
       }
     },
     "stack": {
-      "database": [],
-      "backend": [],
-      "frontend": [],
-      "tools": [],
-      "languages": []
+      "database": ["Amazon DynamoDB"],
+      "backend": ["Amazon Web Services (AWS)"],
+      "frontend": ["Angular", "Next.js", "Svelte"],
+      "tools": [
+        {
+          "label": "Editing Platform",
+          "self_developed": true,
+          "ref": [],
+          "websites": [],
+          "description": "Editing platform was developed for transcription and segmentation of manuscripts. It can be accessed only by project’s members."
+        }
+      ],
+      "languages": ["TS", "Python", "HTML", "CSS"]
     },
     "policies": [
       {
