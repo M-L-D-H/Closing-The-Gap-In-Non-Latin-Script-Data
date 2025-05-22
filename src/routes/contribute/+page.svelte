@@ -65,41 +65,41 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label for="name" class="mb-3.5">Your Name*</label>
-          <input id="name" type="text" bind:value={name} required class="mt-1 w-full rounded border border-gray-300 p-2" />
+          <input id="name" type="text" bind:value={name} required class="mt-1 w-full rounded border-ctgblue p-2" />
         </div>
         <div>
           <label for="email" class="mb-3.5">Your Email*</label>
-          <input id="email" type="email" bind:value={email} required class="mt-1 w-full rounded border border-gray-300 p-2" />
+          <input id="email" type="email" bind:value={email} required class="mt-1 w-full rounded border-ctgblue p-2" />
         </div>
       </div>
 
       <div>
         <label for="project" class="mb-3.5">Project Name*</label>
-        <input id="project" type="text" bind:value={project} required class="mt-1 w-full rounded border border-gray-300 p-2" />
+        <input id="project" type="text" bind:value={project} required class="mt-1 w-full rounded border-ctgblue p-2" />
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label for="institution" class="mb-3.5">Institution</label>
-          <input id="institution" type="text" bind:value={institution} class="mt-1 w-full rounded border border-gray-300 p-2" />
+          <input id="institution" type="text" bind:value={institution} class="mt-1 w-full rounded border-ctgblue p-2" />
         </div>
         <div>
           <label for="pi" class="mb-3.5">Principal Investigator</label>
-          <input id="pi" type="text" bind:value={pi} class="mt-1 w-full rounded border border-gray-300 p-2" />
+          <input id="pi" type="text" bind:value={pi} class="mt-1 w-full rounded border-ctgblue p-2" />
         </div>
       </div>
 
       <div>
         <label for="url" class="mb-3.5">Project URL</label>
-        <input id="url" type="url" bind:value={url} placeholder="https://example.com (optional)" class="mt-1 w-full rounded border border-gray-300 p-2" />
+        <input id="url" type="url" bind:value={url} placeholder="https://example.com (optional)" class="mt-1 w-full rounded border-ctgblue p-2" />
       </div>
 
       <div>
         <label for="comments" class="mb-3.5">Additional Comments</label>
-        <textarea id="comments" bind:value={comments} rows="4" class="mt-1 w-full rounded border border-gray-300 p-2"></textarea>
+        <textarea id="comments" bind:value={comments} rows="4" class="mt-1 w-full rounded border-ctgblue p-2"></textarea>
       </div>
 
-      <button type="submit" class="bg-ctgorange text-white px-4 py-2 rounded hover:bg-ctgblue disabled:opacity-50" disabled={sending}>
+      <button type="submit" class="rounded-md border px-4 py-2  font-mono border-slate-800 bg-ctgorange border-ctgblue hover:underline" disabled={sending}>
         {sending ? 'Sending...' : 'Submit'}
       </button>
 
@@ -123,11 +123,6 @@
   input, textarea {
     padding: 0.5rem;
     font-size: 1rem;
-  }
-  button {
-    padding: 0.5rem;
-    font-size: 1rem;
-    cursor: pointer;
   }
   label, p {
     color: black;

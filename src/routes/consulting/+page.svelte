@@ -88,11 +88,11 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
             <label for="name" class="mb-3.5">Your Name*</label>
-            <input id="name" type="text" bind:value={name} required class="mt-1 w-full rounded border border-gray-300 p-2" />
+            <input id="name" type="text" bind:value={name} required class="mt-1 w-full rounded border-ctgblue p-2" />
           </div>
           <div>
             <label for="email" class="mb-3.5">Your Email*</label>
-            <input id="email" type="email" bind:value={email} required class="mt-1 w-full rounded border border-gray-300 p-2" />
+            <input id="email" type="email" bind:value={email} required class="mt-1 w-full rounded border-ctgblue p-2" />
           </div>
         </div>
       
@@ -100,33 +100,33 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
             <label for="institution" class="mb-3.5">Institution</label>
-            <input id="institution" type="text" bind:value={institution} class="mt-1 w-full rounded border border-gray-300 p-2" />
+            <input id="institution" type="text" bind:value={institution} class="mt-1 w-full rounded border-ctgblue p-2" />
           </div>
           <div>
             <label for="role" class="mb-3.5">Role / Position</label>
-            <input id="role" type="text" bind:value={role} class="mt-1 w-full rounded border border-gray-300 p-2" />
+            <input id="role" type="text" bind:value={role} class="mt-1 w-full rounded border-ctgblue p-2" />
           </div>
         </div>
       
         <!-- Project Title & Description -->
         <div>
           <label for="projectTitle" class="mb-3.5">Project Title</label>
-          <input id="projectTitle" type="text" bind:value={projectTitle} class="mt-1 w-full rounded border border-gray-300 p-2" />
+          <input id="projectTitle" type="text" bind:value={projectTitle} class="mt-1 w-full rounded border-ctgblue p-2" />
         </div>
         <div>
           <label for="projectDescription" class="mb-3.5">Project Description</label>
-          <textarea id="projectDescription" bind:value={projectDescription} rows="4" class="mt-1 w-full rounded border border-gray-300 p-2"></textarea>
+          <textarea id="projectDescription" bind:value={projectDescription} rows="4" class="mt-1 w-full rounded border-ctgblue p-2"></textarea>
         </div>
       
         <!-- Discipline & Geo-Temporal Focus -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
             <label for="discipline" class="mb-3.5">Discipline / Field</label>
-            <input id="discipline" type="text" bind:value={discipline} class="mt-1 w-full rounded border border-gray-300 p-2" />
+            <input id="discipline" type="text" bind:value={discipline} class="mt-1 w-full rounded border-ctgblue p-2" />
           </div>
           <div>
             <label for="geoTemporalFocus" class="mb-3.5">Geographic / Temporal Focus</label>
-            <input id="geoTemporalFocus" type="text" bind:value={geoTemporalFocus} class="mt-1 w-full rounded border border-gray-300 p-2" />
+            <input id="geoTemporalFocus" type="text" bind:value={geoTemporalFocus} class="mt-1 w-full rounded border-ctgblue p-2" />
           </div>
         </div>
       
@@ -145,20 +145,20 @@
         {#if supportNeeds.includes('Other')}
           <div>
             <label for="supportOther" class="mb-3.5">If Other, please specify:</label>
-            <input id="supportOther" type="text" bind:value={supportOther} class="mt-1 w-full rounded border border-gray-300 p-2" />
+            <input id="supportOther" type="text" bind:value={supportOther} class="mt-1 w-full rounded border-ctgblue p-2" />
           </div>
         {/if}
       
         <!-- Consultation Goals -->
         <div>
           <label for="consultationGoals" class="mb-3.5">What do you hope to get from this consultation?*</label>
-          <textarea id="consultationGoals" bind:value={consultationGoals} required rows="3" class="mt-1 w-full rounded border border-gray-300 p-2"></textarea>
+          <textarea id="consultationGoals" bind:value={consultationGoals} required rows="3" class="mt-1 w-full rounded border-ctgblue p-2"></textarea>
         </div>
       
         <!-- DH Experience -->
         <div>
           <label for="dhExperience" class="mb-3.5">Digital Humanities Experience*</label>
-          <select id="dhExperience" bind:value={dhExperience} required class="mt-1 w-full rounded border border-gray-300 p-2">
+          <select id="dhExperience" bind:value={dhExperience} required class="mt-1 w-full rounded border-ctgblue p-2">
             <option value="">-- Select --</option>
             <option value="Software Developer">Software Developer</option>
             <option value="Data Scientist">Data Scientist</option>
@@ -172,7 +172,7 @@
         <!-- Tools or Methods Used -->
         <div>
           <label for="toolsUsed" class="mb-3.5">Tools or Methods Used</label>
-          <input id="toolsUsed" type="text" bind:value={toolsUsed} placeholder="e.g., Voyant, GIS, Python" class="mt-1 w-full rounded border border-gray-300 p-2" />
+          <input id="toolsUsed" type="text" bind:value={toolsUsed} placeholder="e.g., Voyant, GIS, Python" class="mt-1 w-full rounded border-ctgblue p-2" />
         </div>
       
         <!-- Follow-Up Method -->
@@ -188,17 +188,17 @@
         <!-- Preferred Times -->
         <div>
           <label for="preferredTimes" class="mb-3.5">Preferred Days / Times</label>
-          <input id="preferredTimes" type="text" bind:value={preferredTimes} class="mt-1 w-full rounded border border-gray-300 p-2" />
+          <input id="preferredTimes" type="text" bind:value={preferredTimes} class="mt-1 w-full rounded border-ctgblue p-2" />
         </div>
       
         <!-- Additional Comments -->
         <div>
           <label for="comments" class="mb-3.5">Additional Comments</label>
-          <textarea id="comments" bind:value={comments} rows="2" class="mt-1 w-full rounded border border-gray-300 p-2"></textarea>
+          <textarea id="comments" bind:value={comments} rows="2" class="mt-1 w-full rounded border-ctgblue p-2"></textarea>
         </div>
       
         <!-- Submit -->
-        <button type="submit" class="bg-ctgorange text-white px-4 py-2 rounded hover:bg-ctgblue disabled:opacity-50" disabled={sending}>
+        <button type="submit" class="rounded-md border px-4 py-2  font-mono border-slate-800 bg-ctgorange border-ctgblue hover:underline disabled:opacity-50" disabled={sending}>
           {sending ? 'Sending...' : 'Submit'}
         </button>
       
@@ -223,11 +223,6 @@
     input, textarea, select {
       padding: 0.5rem;
       font-size: 1rem;
-    }
-    button {
-      padding: 0.5rem;
-      font-size: 1rem;
-      cursor: pointer;
     }
     label, p {
       color: black;
