@@ -38,6 +38,11 @@
 			class:underline={$page.route.id === '/visualizations'}>Visualizations</a
 		>
 		<a
+			href="{base}/research/"
+			class="underline-offset-2 hover:underline"
+			class:underline={$page.route.id === '/research'}>Research</a
+		>
+		<a
 			href="{base}/contribute/"
 			class="underline-offset-2 hover:underline"
 			class:underline={$page.route.id === '/contribute'}>Contribute</a
