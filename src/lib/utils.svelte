@@ -197,18 +197,16 @@
 				continue; // Not needed at the moment, but maybe later
 			}
 
-			// Principal Investigator (pers_name)
-			if (entry.project.pers_name?.toLowerCase().includes(termLower)) {
-			matches.push([url, entry]);
-			continue;
-			}
-
 			// University / Related Institution
-			if (entry.project.related_institution?.toLowerCase().includes(termLower)) {
-			matches.push([url, entry]);
-			continue;
+			if (project.related_institutions) {
+			for (const inst of project.related_institutions) {
+				const name = inst.org_name?.text?.toLowerCase();
+				if (name && name.includes(termLower)) {
+					matches.push([url, entry]);
+					break;
+				}
 			}
-
+		
 		}
 
 		return matches;
