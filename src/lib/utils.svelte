@@ -196,6 +196,19 @@
 				matches.push([url, entry]);
 				continue; // Not needed at the moment, but maybe later
 			}
+
+			// Principal Investigator (pers_name)
+			if (entry.project.pers_name?.toLowerCase().includes(termLower)) {
+			matches.push([url, entry]);
+			continue;
+			}
+
+			// University / Related Institution
+			if (entry.project.related_institution?.toLowerCase().includes(termLower)) {
+			matches.push([url, entry]);
+			continue;
+			}
+
 		}
 
 		return matches;
