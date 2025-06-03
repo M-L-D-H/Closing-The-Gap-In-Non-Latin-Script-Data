@@ -4,7 +4,7 @@
     "uuid": "85e367b3-1703-4ea5-95e0-7401b05580fe",
     "record_created_on": "2024-12-16",
     "record_created_by": "Rabus, Achim; Beimesche, Franz",
-    "last_edited_on": "2025-05-15",
+    "last_edited_on": "2025-06-02",
     "interviewed": false
   },
   "project": {
@@ -22,7 +22,7 @@
     "websites": [
       "https://www.slavistik.uni-freiburg.de/personal/univ-prof-dr-achim-rabus"
     ],
-    "project_desc": "The project is meant to improve softwares skills of Transkribus in modern Bulgarian. Still there is no model for modern bulgarian language. Transkribus is about to get enabled to read bulgarian handwritten textes from the 1960s until today. As of now up to 50.000 Bulgarian words recognised by the current model for transcribing modern Bulgarian textes. The model is now able to recognise some whole sentences without making mistakes. The final model will be published on Transkribus since the training is over and complete for public using.",
+    "project_desc": "The following project is meant to improve softwares skills of Transkribus in modern Bulgarian. Transkribus is about to get enabled to read Bulgarian handwritten texts from the 1960s until today. Since the start of the project the number of Bulgarian words recognized by the current model reached up to 55.000. It is now able to recognise some whole sentences without making mistakes. The current error quote is calculated by about 6%. At the end it is planned to reach up to 100.000 Bulgarian words trained by Transkribus. The final model will be published on Transkribus.",
     "places": [
       {
         "place_name": {
