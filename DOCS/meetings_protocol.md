@@ -1,121 +1,116 @@
 ﻿# Protocol of CtG Team Meetings
 
+##2025-01-17
 
- ##2025-01-17
- 
-**Time**: 15:00-16:00 (Berlin) 
+**Time**: 15:00-16:00 (Berlin)
 **Participants** (alphabetical): Alieva, Aibaniz; Beers, Theo; Casey, Christian; Kudela, M. Xenia; Müller-Laackman, Jonas; Sido Bozan, Joudy
 
-
 Research Presentation Opportunities
+
 - Opportunities Discussed: The team explored various avenues for presenting research findings and increasing project visibility
-  
+
 Strategic Goal 2025 for CtG
+
 - Main Objective: Achieve high project visibility by 2025, serving two key purposes:
-    - Funding Justification: Demonstrate the project's impact to secure future funding.
-    - Practical Project Goals: Highlight how the project contributes to academia and the broader digital humanities field.
-      
+  - Funding Justification: Demonstrate the project's impact to secure future funding.
+  - Practical Project Goals: Highlight how the project contributes to academia and the broader digital humanities field.
+
 Data Maintenance and Sustainability
+
 - Sustainability Plans and Data Maintenance:
-    - Addressing the tension between maintaining datasets and long-term sustainability goals for digital humanities projects.
-    - Encourage the use of open-source tools and public datasets to enhance accessibility and collaboration.
+  - Addressing the tension between maintaining datasets and long-term sustainability goals for digital humanities projects.
+  - Encourage the use of open-source tools and public datasets to enhance accessibility and collaboration.
 - Evaluation Process: Developing criteria to assess project adherence to sustainability best practices:
-    - Do projects follow through on their commitments to sustainable practices?
-    - How do these practices contribute to achieving long-term goals?
-    - Use unit tests or automated tools to measure compliance.
+  - Do projects follow through on their commitments to sustainable practices?
+  - How do these practices contribute to achieving long-term goals?
+  - Use unit tests or automated tools to measure compliance.
 - Metrics for Assessment:
-    - Calculate the percentage of output data that adheres to sustainability standards.
-    - Develop a score system to quantify adherence and impact.
+  - Calculate the percentage of output data that adheres to sustainability standards.
+  - Develop a score system to quantify adherence and impact.
 - Economic Reward Systems:
-    - Analyze how economic incentives or constraints influence sustainability efforts.
-    - Could offering tangible rewards improve sustainability adherence?
+  - Analyze how economic incentives or constraints influence sustainability efforts.
+  - Could offering tangible rewards improve sustainability adherence?
 - Comparative Analysis:
-    - Evaluate how initial sustainability plans compare to actual results, identifying discrepancies and lessons learned.
-      
+  - Evaluate how initial sustainability plans compare to actual results, identifying discrepancies and lessons learned.
+
 Blog Post
+
 - Christian Casey is contributing a blog post discussing good practices and bad practices considering sustainability plans of DH projects
-  
+
 Speaker Invitations
 Inviting Experts:
+
 - Identify and invite project members or collaborators to speak on:
-     - Best practices in digital humanities.
-     - Case studies or lessons from the current project.
-     - Broader discussions on sustainability in research.
- 
+  - Best practices in digital humanities.
+  - Case studies or lessons from the current project.
+  - Broader discussions on sustainability in research.
+
 Social Media Presence
+
 - Bluesky:
-    - Focus on building a presence on Bluesky, a decentralized social media platform.
-    - Leverage it to connect with niche academic and tech-savvy communities.
-    - Share project updates, blog posts, and event information.
-    - Increase visibility and engagement with digital humanities scholars globally.
-      
+  - Focus on building a presence on Bluesky, a decentralized social media platform.
+  - Leverage it to connect with niche academic and tech-savvy communities.
+  - Share project updates, blog posts, and event information.
+  - Increase visibility and engagement with digital humanities scholars globally.
+
 Collaborations
+
 - ISAW Library Collaboration: Explore potential partnerships with the Institute for the Study of the Ancient World (ISAW) library, while maintaining a shared focus on research projects within the DACH region.
 - Collaboration focus areas:
   - Shared datasets.
   - Joint events or publications.
-    
+
 Interview Participation
+
 - Enhancing Attractivity: Encourage broader participation in project-related interviews by offering flexible formats:
   - Online Interviews:
-       - Increase visibility for both the project and participants.
-       - Remove geographical barriers, enabling international collaboration.
+    - Increase visibility for both the project and participants.
+    - Remove geographical barriers, enabling international collaboration.
   - Offline Interviews:
-       - Provide opportunities for in-depth discussions and personal interaction.
-       - Emphasize the value of participation to potential interviewees by highlighting benefits such as networking, visibility, and contribution to meaningful research.
-
+    - Provide opportunities for in-depth discussions and personal interaction.
+    - Emphasize the value of participation to potential interviewees by highlighting benefits such as networking, visibility, and contribution to meaningful research.
 
 ##2024-11-22
 
 **Time**: 12:00 - 13:30 (Berlin)
 **Participants** (alphabetical): Alieva, Aibaniz, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman, Sido Bozan, Joudy
 
-
 - Names of Places in the Dataset
-  - We have both English names and names in the original language in the dataset. How should we standardize it so that it does not reinforce the hegemony of the English language while still making the places findable by their English names? The name of the city should be an array of objects with two names. Both should be findable, but the name displayed on the frontend will be the name in the original language.  
 
+  - We have both English names and names in the original language in the dataset. How should we standardize it so that it does not reinforce the hegemony of the English language while still making the places findable by their English names? The name of the city should be an array of objects with two names. Both should be findable, but the name displayed on the frontend will be the name in the original language.
 
+- Personal Data
 
-- Personal Data 
-  - We should remove names and surnames from the dataset unless someone explicitly asks us to include their name. Instead, we should add ORCID. If there is no ORCID, we should create a snapshot of their university webpage and upload it to the Wayback Machine. Alternatively, we can contact individuals directly to ask for permission to publish their name or include it in the GND database.  
-  - We should rename the "contacts" object as "people" and modify it according to the above-mentioned guidelines.  
-  - Open question: How should we handle deceased contacts? We could discuss this at the DHD meeting. 
+  - We should remove names and surnames from the dataset unless someone explicitly asks us to include their name. Instead, we should add ORCID. If there is no ORCID, we should create a snapshot of their university webpage and upload it to the Wayback Machine. Alternatively, we can contact individuals directly to ask for permission to publish their name or include it in the GND database.
+  - We should rename the "contacts" object as "people" and modify it according to the above-mentioned guidelines.
+  - Open question: How should we handle deceased contacts? We could discuss this at the DHD meeting.
 
+- Publications.
 
-
-- Publications. 
-  - We have written a new blog post and a paper for the *Transformation* journal. The paper is currently under review. *Transformation* requires preprints to be uploaded to Zenodo, which is good for open science. Preprints should become more widely accepted in our field, as they are already a standard in medicine.  
-  - Planned entries for the blog post:  
-    - Christian: one for when he joined the team.  
-    - Joudy and Aybaniz: a blog post for students containing a list of digital tools useful for Arabic studies. We should also include Wikidata IDs for the tools in the blog post or create new Wikidata entries for tools that are not yet listed. We should use the students' enthusiasm for AI to introduce more digital solutions that promote transparent and reusable research. While enthusiasm for AI is great, students should also understand its limitations.  
-
-
+  - We have written a new blog post and a paper for the _Transformation_ journal. The paper is currently under review. _Transformation_ requires preprints to be uploaded to Zenodo, which is good for open science. Preprints should become more widely accepted in our field, as they are already a standard in medicine.
+  - Planned entries for the blog post:
+    - Christian: one for when he joined the team.
+    - Joudy and Aybaniz: a blog post for students containing a list of digital tools useful for Arabic studies. We should also include Wikidata IDs for the tools in the blog post or create new Wikidata entries for tools that are not yet listed. We should use the students' enthusiasm for AI to introduce more digital solutions that promote transparent and reusable research. While enthusiasm for AI is great, students should also understand its limitations.
 
 - Networking
-  - We spoke with the director of the HU Library and now have a list of names for networking. At HU, the cooperation between IT and the library works very well, and they have managed to build a lot for the DH community.  
 
+  - We spoke with the director of the HU Library and now have a list of names for networking. At HU, the cooperation between IT and the library works very well, and they have managed to build a lot for the DH community.
 
+- Conferences
 
-- Conferences  
-  - What should we do for the DHD and DOT conferences?  
-  - For DOT: We should focus on raising awareness about digital workflows and open science.  
-
-
+  - What should we do for the DHD and DOT conferences?
+  - For DOT: We should focus on raising awareness about digital workflows and open science.
 
 - BUA
-  - There is a meeting of the steering committee on either February 18 or 21, between 10:00 and 14:30. We should attend and present our project.  
 
+  - There is a meeting of the steering committee on either February 18 or 21, between 10:00 and 14:30. We should attend and present our project.
 
+- DH Workshop
 
-- DH Workshop   
-  - We have received around 30 registrations for the workshop. Unfortunately, we cannot accept everyone due to limited space, but this shows how strongly students are interested in digital research methods.  
-
-
+  - We have received around 30 registrations for the workshop. Unfortunately, we cannot accept everyone due to limited space, but this shows how strongly students are interested in digital research methods.
 
 - Idea for a new paper
-  - A review of hosting strategies in German research institutions or a closer, more detailed look at specific universities. It would be good to address the main challenges.  
-
-
+  - A review of hosting strategies in German research institutions or a closer, more detailed look at specific universities. It would be good to address the main challenges.
 
 ##2024-08-23
 
