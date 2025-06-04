@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": [
-            "https://www.geonames.org/2879139/leipzig.html"
-          ]
+          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -37,9 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "deu"
-    ],
+    "lang": ["deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +46,7 @@
             "https://ror.org/03zxjdk07"
           ]
         },
-        "websites": [
-          "https://www.saw-leipzig.de/de"
-        ]
+        "websites": ["https://www.saw-leipzig.de/de"]
       }
     ],
     "related_entities": [],
@@ -65,12 +59,8 @@
             "https://d-nb.info/gnd/109432703"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.saw-leipzig.de/de/mitglieder/wiesmethh"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.saw-leipzig.de/de/mitglieder/wiesmethh"]
       }
     ],
     "research_data": {
@@ -86,9 +76,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -108,10 +96,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
+    "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": "The project is still ongoing (as of 05.04.2022)"
   }

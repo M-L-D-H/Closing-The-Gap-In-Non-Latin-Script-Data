@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://multicast.aspra.uni-bamberg.de/"
-    ],
+    "websites": ["https://multicast.aspra.uni-bamberg.de/"],
     "project_desc": "Multi-CAST is a collection of annotated texts from a typologically diverse selection of 15 languages including endangered ones. The corpus is freely accessible via an online platform which provides multiple levels of parallel annotations, time-aligned with audio recordings, chiefly monologic, natural narrative texts from 15 languages, encompassing roughly 25,000 clause units available in multiple file formats, including as EAF files for the linguistic annotation software ELAN, as XML and TSV files, and via the multicastR package for R.",
     "places": [
       {
         "place_name": {
           "text": "Bamberg",
-          "ref": [
-            "https://www.geonames.org/2952984/bamberg.html"
-          ]
+          "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
         "coordinates": {
           "lat": "49.89873",
@@ -37,10 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +44,7 @@
             "https://ror.org/01c1w6d29"
           ]
         },
-        "websites": [
-          "https://www.uni-bamberg.de/"
-        ]
+        "websites": ["https://www.uni-bamberg.de/"]
       }
     ],
     "related_entities": [
@@ -87,9 +78,7 @@
             "https://d-nb.info/gnd/1016008090"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": []
       }
     ],
@@ -122,9 +111,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

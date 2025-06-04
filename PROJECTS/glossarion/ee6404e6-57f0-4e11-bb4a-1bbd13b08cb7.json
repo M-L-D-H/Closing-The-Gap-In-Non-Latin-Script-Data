@@ -25,9 +25,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -35,10 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -53,9 +48,7 @@
           "text": "",
           "ref": []
         },
-        "roles": [
-          "investigation"
-        ],
+        "roles": ["investigation"],
         "websites": [
           "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
         ]
@@ -74,9 +67,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -96,9 +87,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_infrastructure"
-    ],
+    "keywords": ["research_infrastructure"],
     "category": "infrastructure",
     "comment": ""
   }

@@ -19,17 +19,13 @@
       }
     ],
     "maintained": false,
-    "websites": [
-      "https://averroes.uni-koeln.de/edition/current-editions/"
-    ],
+    "websites": ["https://averroes.uni-koeln.de/edition/current-editions/"],
     "project_desc": "This project is a preparation for the critical edition of Hebrew and Latin translations of Averroes’s Long Commentary on Aristotle’s Physics. While the Arabic original is lost, the aim of collation of its extant Latin and Hebrew translations is to reconstruct it.",
     "places": [
       {
         "place_name": {
           "text": "Köln",
-          "ref": [
-            "https://www.geonames.org/2886242/koeln.html"
-          ]
+          "ref": ["https://www.geonames.org/2886242/koeln.html"]
         },
         "coordinates": {
           "lat": "50.93333",
@@ -37,9 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -67,38 +61,24 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0009-0006-0068-7879"
-          ]
+          "ref": ["https://orcid.org/0009-0006-0068-7879"]
         },
-        "roles": [
-          "investigation"
-        ],
-        "websites": [
-          "https://uni-koeln.academia.edu/OdedHorezky"
-        ]
+        "roles": ["investigation"],
+        "websites": ["https://uni-koeln.academia.edu/OdedHorezky"]
       },
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://viaf.org/viaf/48155707096822411871/"
-          ]
+          "ref": ["https://viaf.org/viaf/48155707096822411871/"]
         },
-        "roles": [
-          "investigation"
-        ],
+        "roles": ["investigation"],
         "websites": [
           "https://uclouvain.academia.edu/Gr%C3%A9goryClesse/CurriculumVitae"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "heb",
-        "lat"
-      ],
+      "lang": ["ara", "heb", "lat"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -110,9 +90,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

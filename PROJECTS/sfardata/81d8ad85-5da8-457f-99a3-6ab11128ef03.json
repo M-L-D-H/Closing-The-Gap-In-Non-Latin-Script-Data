@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": [
-            "https://www.geonames.org/281184/jerusalem.html"
-          ]
+          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
         },
         "coordinates": {
           "lat": "31.76904",
@@ -40,9 +38,7 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -50,10 +46,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "heb"
-    ],
+    "lang": ["eng", "heb"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -64,9 +57,7 @@
             "https://www.wikidata.org/wiki/Q209184"
           ]
         },
-        "websites": [
-          "https://www.academy.ac.il/english.aspx"
-        ]
+        "websites": ["https://www.academy.ac.il/english.aspx"]
       },
       {
         "relation_type": "host",
@@ -77,9 +68,7 @@
             "https://www.wikidata.org/wiki/Q188915"
           ]
         },
-        "websites": [
-          "https://www.nli.org.il/en"
-        ]
+        "websites": ["https://www.nli.org.il/en"]
       },
       {
         "relation_type": "host",
@@ -90,9 +79,7 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": [
-          "https://www.uni-hamburg.de/"
-        ]
+        "websites": ["https://www.uni-hamburg.de/"]
       }
     ],
     "related_entities": [
@@ -186,22 +173,16 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/104345179"
-          ]
+          "ref": ["https://d-nb.info/gnd/104345179"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/beitarie.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "heb"
-      ],
+      "lang": ["heb"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -213,20 +194,27 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
-        "datatypes": [{ "label": "PDF", "stage": "final", "licensing": [], "open_access": 0 }],
+        "datatypes": [
+          {
+            "label": "PDF",
+            "stage": "final",
+            "licensing": [],
+            "open_access": 0
+          }
+        ],
         "repositories": [
           {
-          "label": "Institutional repository of the BAdW",
-          "accessibility": "private",
-          "ref": [],
-          "websites": ["https://badw.de/en/digital-academy/institutional-repository.html"],
-          "licensing": [],
-          "description": ""
+            "label": "Institutional repository of the BAdW",
+            "accessibility": "private",
+            "ref": [],
+            "websites": [
+              "https://badw.de/en/digital-academy/institutional-repository.html"
+            ],
+            "licensing": [],
+            "description": ""
           }
         ]
       }

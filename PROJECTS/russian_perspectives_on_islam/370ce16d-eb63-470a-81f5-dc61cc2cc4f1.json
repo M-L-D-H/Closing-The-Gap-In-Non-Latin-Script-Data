@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://islamperspectives.org/rpi/"
-    ],
+    "websites": ["https://islamperspectives.org/rpi/"],
     "project_desc": "Russian Perspectives on Islam documents the encounter and evolving relationship between the Orthodox/secular state and the Islamic regions, groups, individuals, and ideologies on the territory of the former Soviet Union and neighboring countries. The digital archive is designed to disseminate these documents to the widest possible scholarly community and general readership.",
     "places": [
       {
         "place_name": {
           "text": "Fairfax",
-          "ref": [
-            "https://www.geonames.org/4758023"
-          ]
+          "ref": ["https://www.geonames.org/4758023"]
         },
         "coordinates": {
           "lat": "38.84622",
@@ -37,9 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +44,7 @@
             "https://www.wikidata.org/wiki/Q1411222"
           ]
         },
-        "websites": [
-          "https://www.gmu.edu/"
-        ]
+        "websites": ["https://www.gmu.edu/"]
       }
     ],
     "related_entities": [],
@@ -60,30 +52,14 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "http://viaf.org/viaf/167201814"
-          ]
+          "ref": ["http://viaf.org/viaf/167201814"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://historyarthistory.gmu.edu/people/vstaklo/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://historyarthistory.gmu.edu/people/vstaklo/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "aze",
-        "hye",
-        "kat",
-        "rus",
-        "tat",
-        "tgk",
-        "tuk",
-        "uzb"
-      ],
+      "lang": ["ara", "aze", "hye", "kat", "rus", "tat", "tgk", "tuk", "uzb"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,

@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Tübingen",
-          "ref": [
-            "https://www.geonames.org/2820860/tuebingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
         },
         "coordinates": {
           "lat": "48.52033",
@@ -38,10 +36,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "deu"
-    ],
+    "lang": ["eng", "deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,9 +47,7 @@
             "https://www.wikidata.org/wiki/Q153978"
           ]
         },
-        "websites": [
-          "https://www.uni-tuebingen.de/en/university.html"
-        ]
+        "websites": ["https://www.uni-tuebingen.de/en/university.html"]
       }
     ],
     "related_entities": [
@@ -73,23 +66,12 @@
             "https://www.wikidata.org/wiki/Q62123865"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://eadh.org/wilhelm-ott"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://eadh.org/wilhelm-ott"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "cop",
-        "deu",
-        "grc",
-        "heb",
-        "rus"
-      ],
+      "lang": ["ara", "cop", "deu", "grc", "heb", "rus"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,

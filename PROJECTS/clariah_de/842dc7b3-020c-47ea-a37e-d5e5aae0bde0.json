@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -39,9 +37,7 @@
       {
         "place_name": {
           "text": "Tübingen",
-          "ref": [
-            "https://www.geonames.org/2820860/tuebingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
         },
         "coordinates": {
           "lat": "48.52266",
@@ -49,10 +45,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -75,9 +68,7 @@
             "https://d-nb.info/gnd/143840657"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.ids-mannheim.de/digspra/personal/hinrichs/",
           "https://www.sfs.uni-tuebingen.de/~eh/"
@@ -97,9 +88,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -119,10 +108,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
+    "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": ""
   }

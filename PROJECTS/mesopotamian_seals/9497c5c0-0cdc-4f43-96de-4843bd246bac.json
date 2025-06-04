@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://cdli.ucla.edu/projects/seals/seals.html"
-    ],
+    "websites": ["https://cdli.ucla.edu/projects/seals/seals.html"],
     "project_desc": "This sub-project of the Cuneiform Digital Library Initiative (CDLI) focuses explicitly on inscriptions on the Mesopotamian stamp and cylinder seals for which, despite their substantial role in the development of writing, the online resources are still difficult to be found. This project is offered to bring attention to the admittedly limited text annotation files of the CDLI as one of several avenues of research available in this field.",
     "places": [
       {
         "place_name": {
           "text": "Los Angeles",
-          "ref": [
-            "https://www.geonames.org/5368361/los-angeles.html"
-          ]
+          "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
         },
         "coordinates": {
           "lat": "34.05223",
@@ -39,9 +35,7 @@
       {
         "place_name": {
           "text": "Oxford",
-          "ref": [
-            "https://www.geonames.org/2640729/oxford.html"
-          ]
+          "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
         "coordinates": {
           "lat": "51.75222",
@@ -51,9 +45,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -61,9 +53,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -96,19 +86,12 @@
             "https://d-nb.info/gnd/121180719"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.gea.mpg.de/person/124530/29400/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.gea.mpg.de/person/124530/29400/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "akk",
-        "sux"
-      ],
+      "lang": ["akk", "sux"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -120,9 +103,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

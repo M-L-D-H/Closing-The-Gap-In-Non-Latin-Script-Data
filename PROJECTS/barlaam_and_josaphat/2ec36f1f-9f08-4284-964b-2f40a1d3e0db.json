@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://barlaamandjosaphat.wp.st-andrews.ac.uk/"
-    ],
+    "websites": ["https://barlaamandjosaphat.wp.st-andrews.ac.uk/"],
     "project_desc": "The focus of this project lies on Arabic manuscripts of Barlaam and Josaphat, an outstanding work of world literature, and the rich history of its transmission in Arabic sources. In the course of the project the manuscripts will be published online in an open-access research platform ediarum developed at the Berlin Brandenburg Academy of Sciences and Humanities (Berlin, Germany). Along with the photocopies of the manuscripts, the platform will feature full transcriptions of the Arabic texts, an English translation of selected manuscripts as well as analytical metadata and bibliography. This will result in the creation of a comprehensive research tool on the history of Barlaam and Josaphat in Arabic literature.",
     "places": [
       {
         "place_name": {
           "text": "Saint Andrews",
-          "ref": [
-            "https://www.geonames.org/2638864/saint-andrews.html"
-          ]
+          "ref": ["https://www.geonames.org/2638864/saint-andrews.html"]
         },
         "coordinates": {
           "lat": "56.33871",
@@ -37,9 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +44,7 @@
             "https://ror.org/02wn5qz54"
           ]
         },
-        "websites": [
-          "https://www.st-andrews.ac.uk/"
-        ]
+        "websites": ["https://www.st-andrews.ac.uk/"]
       }
     ],
     "related_entities": [],
@@ -65,9 +57,7 @@
             "https://d-nb.info/gnd/138140030"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.st-andrews.ac.uk/modern-languages/people/arabic/kd25"
         ]
@@ -75,13 +65,9 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/140143777"
-          ]
+          "ref": ["https://d-nb.info/gnd/140143777"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.bilalorfali.com/en",
           "https://www.aub.edu.lb/fas/arabic/Pages/Bilal-Orfali-Par.aspx"
@@ -89,9 +75,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -103,9 +87,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

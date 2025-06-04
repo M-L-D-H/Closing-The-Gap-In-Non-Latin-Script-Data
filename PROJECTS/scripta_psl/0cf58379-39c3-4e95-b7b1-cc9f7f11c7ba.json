@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": [
-            "https://www.geonames.org/2988506/paris.html"
-          ]
+          "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -49,9 +47,7 @@
             "https://www.wikidata.org/wiki/Q1163431"
           ]
         },
-        "websites": [
-          "https://psl.eu/en"
-        ]
+        "websites": ["https://psl.eu/en"]
       }
     ],
     "related_entities": [
@@ -70,12 +66,8 @@
             "https://d-nb.info/gnd/13153503X"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.ephe.psl.eu/andreas-stauder"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.ephe.psl.eu/andreas-stauder"]
       }
     ],
     "research_data": {
@@ -105,9 +97,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

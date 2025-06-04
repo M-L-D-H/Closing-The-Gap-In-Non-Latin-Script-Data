@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Basel",
-          "ref": [
-            "https://www.geonames.org/2661604/basel.html"
-          ]
+          "ref": ["https://www.geonames.org/2661604/basel.html"]
         },
         "coordinates": {
           "lat": "47.55839",
@@ -40,9 +38,7 @@
       {
         "place_name": {
           "text": "München",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -50,9 +46,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -63,9 +57,7 @@
             "https://www.wikidata.org/wiki/Q372608"
           ]
         },
-        "websites": [
-          "https://www.unibas.ch/de"
-        ]
+        "websites": ["https://www.unibas.ch/de"]
       }
     ],
     "related_entities": [
@@ -84,18 +76,14 @@
             "https://d-nb.info/gnd/115211942"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -107,9 +95,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

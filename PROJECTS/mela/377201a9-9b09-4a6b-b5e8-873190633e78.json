@@ -11,9 +11,7 @@
     "title": "Middle East Librarians Association",
     "abbr": "MELA",
     "type": "organization",
-    "ref": [
-      "https://www.wikidata.org/wiki/Q100320015"
-    ],
+    "ref": ["https://www.wikidata.org/wiki/Q100320015"],
     "date": [
       {
         "from": "1972",
@@ -21,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://www.mela.us/"
-    ],
+    "websites": ["https://www.mela.us/"],
     "project_desc": "MELA is an association of Middle East library specialists. Its mission is to facilitate communication and encourage cooperation among its members and Middle East libraries. It aims at improving area librarianship through the development of standards for the profession and education of Middle East librarians. It also compiles and disseminates information concerning Middle East libraries through various meeting and publications.",
     "places": [
       {
         "place_name": {
           "text": "US",
-          "ref": [
-            "https://www.geonames.org/6252001/united-states.html"
-          ]
+          "ref": ["https://www.geonames.org/6252001/united-states.html"]
         },
         "coordinates": {
           "lat": "39.76",
@@ -39,25 +33,17 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [],
     "related_entities": [],
     "people": [
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0001-6649-6027"
-          ]
+          "ref": ["https://orcid.org/0000-0001-6649-6027"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.mcgill.ca/library/librarians/anais-salamon"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.mcgill.ca/library/librarians/anais-salamon"]
       }
     ],
     "research_data": {
@@ -73,9 +59,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -95,9 +79,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "collaboration_platform"
-    ],
+    "keywords": ["collaboration_platform"],
     "category": "other",
     "comment": ""
   }

@@ -29,9 +29,7 @@
       {
         "place_name": {
           "text": "Bamberg",
-          "ref": [
-            "https://www.geonames.org/2952984/bamberg.html"
-          ]
+          "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
         "coordinates": {
           "lat": "49.89873",
@@ -41,9 +39,7 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -53,9 +49,7 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -63,9 +57,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -76,9 +68,7 @@
             "https://ror.org/01c1w6d29"
           ]
         },
-        "websites": [
-          "https://www.uni-bamberg.de/"
-        ]
+        "websites": ["https://www.uni-bamberg.de/"]
       },
       {
         "relation_type": "host",
@@ -89,9 +79,7 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": [
-          "https://www.uni-hamburg.de/"
-        ]
+        "websites": ["https://www.uni-hamburg.de/"]
       },
       {
         "relation_type": "host",
@@ -102,9 +90,7 @@
             "https://ror.org/01y9bpm73"
           ]
         },
-        "websites": [
-          "https://www.uni-goettingen.de/en/1.html"
-        ]
+        "websites": ["https://www.uni-goettingen.de/en/1.html"]
       }
     ],
     "related_entities": [
@@ -228,24 +214,16 @@
             "https://d-nb.info/gnd/1016008090"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": []
       },
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q24043463"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q24043463"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.aai.uni-hamburg.de/voror/personen/paul.html"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.aai.uni-hamburg.de/voror/personen/paul.html"]
       },
       {
         "pers_name": {
@@ -255,19 +233,12 @@
             "https://d-nb.info/gnd/130880825"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.uni-goettingen.de/de/133087.html"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.uni-goettingen.de/de/133087.html"]
       }
     ],
     "research_data": {
-      "lang": [
-        "hac",
-        "kur"
-      ],
+      "lang": ["hac", "kur"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -279,9 +250,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

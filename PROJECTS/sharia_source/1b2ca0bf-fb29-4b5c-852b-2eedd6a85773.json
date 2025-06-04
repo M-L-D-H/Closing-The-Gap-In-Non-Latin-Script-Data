@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Cambridge",
-          "ref": [
-            "https://www.geonames.org/4931972/cambridge.html"
-          ]
+          "ref": ["https://www.geonames.org/4931972/cambridge.html"]
         },
         "coordinates": {
           "lat": "42.3751",
@@ -38,9 +36,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +47,7 @@
             "https://www.wikidata.org/wiki/Q13371"
           ]
         },
-        "websites": [
-          "https://www.harvard.edu/"
-        ]
+        "websites": ["https://www.harvard.edu/"]
       }
     ],
     "related_entities": [
@@ -72,22 +66,14 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-1996-1149"
-          ]
+          "ref": ["https://orcid.org/0000-0002-1996-1149"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://pil.law.harvard.edu/fellow/yusuf-celik/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://pil.law.harvard.edu/fellow/yusuf-celik/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -99,9 +85,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

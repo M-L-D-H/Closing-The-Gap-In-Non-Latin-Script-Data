@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://camel.abudhabi.nyu.edu/gumar/"
-    ],
+    "websites": ["https://camel.abudhabi.nyu.edu/gumar/"],
     "project_desc": "The aim of the GUMAR project is to automatically annotate a 100M-word Gulf Arabic corpus and develop gold standard data annotations for 200,000 words from eight novels, improving tools for Gulf Arabic automatic analysis.",
     "places": [
       {
         "place_name": {
           "text": "Abu Dhabi",
-          "ref": [
-            "https://www.geonames.org/292968/abu-dhabi.html"
-          ]
+          "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
         },
         "coordinates": {
           "lat": "24.45384",
@@ -37,9 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +44,7 @@
             "https://www.wikidata.org/wiki/Q566189"
           ]
         },
-        "websites": [
-          "https://nyuad.nyu.edu/en/"
-        ]
+        "websites": ["https://nyuad.nyu.edu/en/"]
       }
     ],
     "related_entities": [
@@ -76,9 +68,7 @@
             "https://www.wikidata.org/wiki/Q93953901"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://nyuscholars.nyu.edu/en/persons/nizar-habash",
           "https://www.nizarhabash.com"
@@ -86,9 +76,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,

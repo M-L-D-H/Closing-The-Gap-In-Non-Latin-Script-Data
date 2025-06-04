@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://www.menalib.de/en/"
-    ],
+    "websites": ["https://www.menalib.de/en/"],
     "project_desc": "The project acquires difficult to access literature from countries of the MENA region in their original languages, allowing them to be permanently available. The subjects of literature are numerous, access to the materials is either traditional interlibrary loan or through digitized materials with Open Access.",
     "places": [
       {
         "place_name": {
           "text": "Halle (Saale)",
-          "ref": [
-            "https://www.geonames.org/2911522/"
-          ]
+          "ref": ["https://www.geonames.org/2911522/"]
         },
         "coordinates": {
           "lat": "51.48158",
@@ -37,10 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng",
-      "deu"
-    ],
+    "lang": ["eng", "deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +44,7 @@
             "https://ror.org/03c241w53"
           ]
         },
-        "websites": [
-          "https://bibliothek.uni-halle.de/"
-        ]
+        "websites": ["https://bibliothek.uni-halle.de/"]
       },
       {
         "relation_type": "cooperation",
@@ -77,20 +68,14 @@
             "https://d-nb.info/gnd/123956951"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://bibliothek.uni-halle.de/mitarbeiter-in/dr-volker-adam/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "tur",
-        "fas"
-      ],
+      "lang": ["ara", "tur", "fas"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,

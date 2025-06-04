@@ -29,9 +29,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -39,9 +37,7 @@
         }
       }
     ],
-    "lang": [
-      "deu"
-    ],
+    "lang": ["deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -49,9 +45,7 @@
           "text": "Zentrum Grundlagenforschung Alte Welt",
           "ref": []
         },
-        "websites": [
-          "https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"
-        ]
+        "websites": ["https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"]
       }
     ],
     "related_entities": [
@@ -70,22 +64,16 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q2343850"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q2343850"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/seidlmayer/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "egy"
-      ],
+      "lang": ["egy"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -97,9 +85,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

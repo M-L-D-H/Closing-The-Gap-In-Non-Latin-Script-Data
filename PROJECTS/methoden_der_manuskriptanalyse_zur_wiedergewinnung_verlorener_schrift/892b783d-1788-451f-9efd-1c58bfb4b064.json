@@ -29,9 +29,7 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -39,10 +37,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -53,9 +48,7 @@
             "https://www.wikidata.org/wiki/Q156725"
           ]
         },
-        "websites": [
-          "https://www.uni-hamburg.de/"
-        ]
+        "websites": ["https://www.uni-hamburg.de/"]
       }
     ],
     "related_entities": [
@@ -154,9 +147,7 @@
             "https://d-nb.info/gnd/137576218"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/brockmann.html",
           "https://www.slm.uni-hamburg.de/igrlatphil/personen/brockmann.html"
@@ -176,9 +167,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -198,9 +187,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_infrastructure"
-    ],
+    "keywords": ["research_infrastructure"],
     "category": "infrastructure",
     "comment": "The website of the project may not work, you can find further information on the website of the funding institution (DFG:GEPRIS)."
   }

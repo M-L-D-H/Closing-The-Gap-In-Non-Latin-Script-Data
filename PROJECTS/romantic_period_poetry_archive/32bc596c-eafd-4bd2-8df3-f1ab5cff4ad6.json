@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://www.romanticperiodpoetry.org/"
-    ],
+    "websites": ["https://www.romanticperiodpoetry.org/"],
     "project_desc": "The Romantic Period Poetry Archive, or RPPA for short, is an open access digital platform of global Romantic-period poetry. It comprises a full-text poetry database and an open scholarship platform. Over 600 poets from 70 countries will be included in the database by the end of the alpha phase of the project (2020-2025).",
     "places": [
       {
         "place_name": {
           "text": "Oxford",
-          "ref": [
-            "https://www.geonames.org/2640729/oxford.html"
-          ]
+          "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
         "coordinates": {
           "lat": "51.75222",
@@ -38,24 +34,16 @@
       }
     ],
     "related_institutions": [],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_entities": [],
     "people": [
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-2151-6415"
-          ]
+          "ref": ["https://orcid.org/0000-0002-2151-6415"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://c18ah.hcommons.org/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://c18ah.hcommons.org/"]
       }
     ],
     "research_data": {
@@ -71,9 +59,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

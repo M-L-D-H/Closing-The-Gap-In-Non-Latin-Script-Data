@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://diconab.huma-num.fr/"
-    ],
+    "websites": ["https://diconab.huma-num.fr/"],
     "project_desc": "DiCoNab aims at recording in a database easily accessible online the Nabataean and Developing Arabic inscriptions from the various countries and regions where they have been discovered since the mid-nineteenth century, primarily Syria, Jordan, Saudi Arabia, Yemen, and Egypt.",
     "places": [
       {
         "place_name": {
           "text": "Paris",
-          "ref": [
-            "https://www.geonames.org/2988507/paris.html"
-          ]
+          "ref": ["https://www.geonames.org/2988507/paris.html"]
         },
         "coordinates": {
           "lat": "48.8535",
@@ -37,9 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,21 +44,15 @@
             "https://www.wikidata.org/wiki/Q30262398"
           ]
         },
-        "websites": [
-          "https://www.orient-mediterranee.com/"
-        ]
+        "websites": ["https://www.orient-mediterranee.com/"]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
           "text": "Académie des Inscriptions et Belles-Lettres",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q337526"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q337526"]
         },
-        "websites": [
-          "https://aibl.fr/"
-        ]
+        "websites": ["https://aibl.fr/"]
       }
     ],
     "related_entities": [
@@ -99,18 +87,12 @@
             "https://www.wikidata.org/wiki/Q3220115"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.orient-mediterranee.com/member/nehme-laila/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.orient-mediterranee.com/member/nehme-laila/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "arc"
-      ],
+      "lang": ["arc"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,

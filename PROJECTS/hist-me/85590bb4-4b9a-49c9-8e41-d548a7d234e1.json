@@ -19,9 +19,7 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://github.com/Hist-ME"
-    ],
+    "websites": ["https://github.com/Hist-ME"],
     "project_desc": "An informal alliance for exchanging research data related to the historical Middle East.",
     "places": [
       {
@@ -47,12 +45,8 @@
             "https://viaf.org/viaf/308232467/#Grossner,_Karl,_1950-"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.worldhistory.pitt.edu/people/ant-23"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.worldhistory.pitt.edu/people/ant-23"]
       },
       {
         "pers_name": {
@@ -62,23 +56,15 @@
             "https://viaf.org/viaf/59147905242279092527/#Gibson,_Nathan_P."
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://biblia-arabica.com/team/nathan-gibson/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://biblia-arabica.com/team/nathan-gibson/"]
       },
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-5129-5748"
-          ]
+          "ref": ["https://orcid.org/0000-0002-5129-5748"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/team/bua/beers/index.html"
         ]
@@ -91,9 +77,7 @@
             "https://www.wikidata.org/wiki/Q110952396"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/personen/till-grallert"
         ]
@@ -112,9 +96,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -134,10 +116,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "collaboration_platform",
-      "research_data_management"
-    ],
+    "keywords": ["collaboration_platform", "research_data_management"],
     "category": "other",
     "comment": ""
   }

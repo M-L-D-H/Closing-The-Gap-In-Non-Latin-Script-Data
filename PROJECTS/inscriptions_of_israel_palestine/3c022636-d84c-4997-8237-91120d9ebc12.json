@@ -27,17 +27,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://www.inscriptionsisraelpalestine.org"
-    ],
+    "websites": ["https://www.inscriptionsisraelpalestine.org"],
     "project_desc": "The Inscriptions of Israel/Palestine project seeks to collect and make freely accessible all of the previously published inscriptions (and their English translations) of Israel/Palestine from the Persian period through the Islamic conquest (ca. 500 BCE – 640 CE).",
     "places": [
       {
         "place_name": {
           "text": "Charlottesville",
-          "ref": [
-            "https://www.geonames.org/4752031/charlottesville.html"
-          ]
+          "ref": ["https://www.geonames.org/4752031/charlottesville.html"]
         },
         "coordinates": {
           "lat": "38.02931",
@@ -47,9 +43,7 @@
       {
         "place_name": {
           "text": "Bloomington",
-          "ref": [
-            "https://www.geonames.org/4254679/bloomington.html"
-          ]
+          "ref": ["https://www.geonames.org/4254679/bloomington.html"]
         },
         "coordinates": {
           "lat": "39.16704",
@@ -59,9 +53,7 @@
       {
         "place_name": {
           "text": "Providence",
-          "ref": [
-            "https://www.geonames.org/5224151/providence.html"
-          ]
+          "ref": ["https://www.geonames.org/5224151/providence.html"]
         },
         "coordinates": {
           "lat": "41.82399",
@@ -69,9 +61,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -82,9 +72,7 @@
             "https://www.wikidata.org/wiki/Q213439"
           ]
         },
-        "websites": [
-          "https://www.virginia.edu"
-        ]
+        "websites": ["https://www.virginia.edu"]
       },
       {
         "relation_type": "host",
@@ -95,9 +83,7 @@
             "https://www.wikidata.org/wiki/Q6608367"
           ]
         },
-        "websites": [
-          "https://www.iu.edu/"
-        ]
+        "websites": ["https://www.iu.edu/"]
       },
       {
         "relation_type": "host",
@@ -108,9 +94,7 @@
             "https://www.wikidata.org/wiki/Q49114"
           ]
         },
-        "websites": [
-          "https://www.brown.edu/"
-        ]
+        "websites": ["https://www.brown.edu/"]
       }
     ],
     "related_entities": [],
@@ -124,20 +108,12 @@
             "https://d-nb.info/gnd/1053196598"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://vivo.brown.edu/display/msatlow"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://vivo.brown.edu/display/msatlow"]
       }
     ],
     "research_data": {
-      "lang": [
-        "arc",
-        "grc",
-        "heb"
-      ],
+      "lang": ["arc", "grc", "heb"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,

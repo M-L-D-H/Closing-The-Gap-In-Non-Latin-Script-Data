@@ -11,9 +11,7 @@
     "title": "Oracc: The Open Richly Annotated Cuneiform Corpus",
     "abbr": "Oracc",
     "type": "project",
-    "ref": [
-      "https://urn.fi/urn:nbn:fi:lb-2022031705"
-    ],
+    "ref": ["https://urn.fi/urn:nbn:fi:lb-2022031705"],
     "date": [
       {
         "from": "2012",
@@ -21,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "http://oracc.museum.upenn.edu/"
-    ],
+    "websites": ["http://oracc.museum.upenn.edu/"],
     "project_desc": "Oracc emerged from the CDLI project. It is a is a collaborative effort to develop a complete multilingual corpus of cuneiform whose rich annotation and open licensing support the next generation of scholarly research.",
     "places": [
       {
         "place_name": {
           "text": "Los Angeles",
-          "ref": [
-            "https://www.geonames.org/5368361/los-angeles.html"
-          ]
+          "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
         },
         "coordinates": {
           "lat": "34.05223",
@@ -41,9 +35,7 @@
       {
         "place_name": {
           "text": "Oxford",
-          "ref": [
-            "https://www.geonames.org/2640729/oxford.html"
-          ]
+          "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
         "coordinates": {
           "lat": "51.75222",
@@ -53,9 +45,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -63,9 +53,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -93,16 +81,10 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://viaf.org/viaf/18932290"
-          ]
+          "ref": ["https://viaf.org/viaf/18932290"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.ling.upenn.edu/people/tinney"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.ling.upenn.edu/people/tinney"]
       }
     ],
     "research_data": {
@@ -129,9 +111,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

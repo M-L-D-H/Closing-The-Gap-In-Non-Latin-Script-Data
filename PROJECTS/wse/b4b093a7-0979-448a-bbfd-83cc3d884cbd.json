@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Köln",
-          "ref": [
-            "https://www.geonames.org/2886242/koeln.html"
-          ]
+          "ref": ["https://www.geonames.org/2886242/koeln.html"]
         },
         "coordinates": {
           "lat": "50.93333",
@@ -49,9 +47,7 @@
             "https://www.wikidata.org/wiki/Q54096"
           ]
         },
-        "websites": [
-          "https://www.uni-koeln.de/"
-        ]
+        "websites": ["https://www.uni-koeln.de/"]
       }
     ],
     "related_entities": [],
@@ -59,13 +55,9 @@
       {
         "pers_name": {
           "text": "Simha, Vyshantha",
-          "ref": [
-            "https://orcid.org/0009-0002-3310-7763"
-          ]
+          "ref": ["https://orcid.org/0009-0002-3310-7763"]
         },
-        "roles": [
-          "software"
-        ],
+        "roles": ["software"],
         "websites": [
           "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen#",
           "https://github.com/Vyshantha/multiscripteditor"
@@ -79,9 +71,7 @@
             "https://d-nb.info/gnd/1084655063"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/professorinnen/prof-dr-yvind-eide"
         ]
@@ -107,9 +97,7 @@
           {
             "label": "JSON",
             "stage": "refined",
-            "licensing": [
-              "CC0-1.0"
-            ],
+            "licensing": ["CC0-1.0"],
             "open_access": 100
           }
         ],
@@ -118,46 +106,30 @@
             "label": "GitHub",
             "accessibility": "public",
             "ref": [],
-            "websites": [
-              "https://github.com/Vyshantha/multiscripteditor"
-            ],
-            "licensing": [
-              "CC0-1.0"
-            ],
+            "websites": ["https://github.com/Vyshantha/multiscripteditor"],
+            "licensing": ["CC0-1.0"],
             "description": ""
           }
         ]
       }
     },
     "stack": {
-      "database": [
-        "JSON"
-      ],
-      "backend": [
-        "Python"
-      ],
-      "frontend": [
-        "Angular",
-        "TS",
-        "JS"
-      ],
+      "database": ["JSON"],
+      "backend": ["Python"],
+      "frontend": ["Angular", "TS", "JS"],
       "tools": [
         {
           "label": "FontForge",
           "self_developed": false,
           "ref": [],
-          "websites": [
-            "https://fontforge.org/docs/index.html"
-          ],
+          "websites": ["https://fontforge.org/docs/index.html"],
           "description": "FontForge enables creation, modification, and manipulation of PostScript, TrueType, and OpenType fonts."
         },
         {
           "label": "Keyman",
           "self_developed": false,
           "ref": [],
-          "websites": [
-            "https://keyman.com/"
-          ],
+          "websites": ["https://keyman.com/"],
           "description": "Open-source platform for custom language keyboard layouts on multiple devices."
         }
       ],
@@ -169,9 +141,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "vre"
-    ],
+    "keywords": ["vre"],
     "category": "tools_and_analysis",
     "comment": "The project supports all Unicode scripts and non-Unicode scripts. It can be used for any language."
   }

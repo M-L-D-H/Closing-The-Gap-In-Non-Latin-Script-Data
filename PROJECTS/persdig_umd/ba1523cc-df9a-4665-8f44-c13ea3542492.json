@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "College Park",
-          "ref": [
-            "https://www.geonames.org/4351977/college-park.html"
-          ]
+          "ref": ["https://www.geonames.org/4351977/college-park.html"]
         },
         "coordinates": {
           "lat": "38.98067",
@@ -37,9 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +46,7 @@
             "https://www.wikidata.org/wiki/Q503415"
           ]
         },
-        "websites": [
-          "https://umd.edu"
-        ]
+        "websites": ["https://umd.edu"]
       }
     ],
     "related_entities": [
@@ -83,18 +77,12 @@
           "text": "",
           "ref": []
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://sllc.umd.edu/directory/matthew-miller"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://sllc.umd.edu/directory/matthew-miller"]
       }
     ],
     "research_data": {
-      "lang": [
-        "fas"
-      ],
+      "lang": ["fas"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -142,10 +130,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "digital_preservation",
-      "iranian_studies"
-    ],
+    "keywords": ["digital_preservation", "iranian_studies"],
     "category": "digital_preservation",
     "comment": ""
   }

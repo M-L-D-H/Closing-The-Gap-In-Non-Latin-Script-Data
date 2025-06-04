@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": [
-            "https://www.geonames.org/2879139/leipzig.html"
-          ]
+          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
         "coordinates": {
           "lat": "51.33962",
@@ -40,9 +38,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -52,9 +48,7 @@
       {
         "place_name": {
           "text": "München",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -72,9 +66,7 @@
             "https://www.wikidata.org/wiki/Q170109"
           ]
         },
-        "websites": [
-          "https://staatsbibliothek-berlin.de/"
-        ]
+        "websites": ["https://staatsbibliothek-berlin.de/"]
       },
       {
         "relation_type": "cooperation",
@@ -85,9 +77,7 @@
             "https://www.wikidata.org/wiki/Q154804"
           ]
         },
-        "websites": [
-          "https://www.uni-leipzig.de/"
-        ]
+        "websites": ["https://www.uni-leipzig.de/"]
       },
       {
         "relation_type": "cooperation",
@@ -98,15 +88,10 @@
             "https://www.wikidata.org/wiki/Q256507"
           ]
         },
-        "websites": [
-          "https://www.bsb-muenchen.de/"
-        ]
+        "websites": ["https://www.bsb-muenchen.de/"]
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_entities": [
       {
         "relation_type": "parent",
@@ -138,20 +123,14 @@
             "https://d-nb.info/gnd/1102171662"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/orient/kontakt"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "fas",
-        "tur"
-      ],
+      "lang": ["ara", "fas", "tur"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -170,9 +149,7 @@
           {
             "label": "XML",
             "stage": "final",
-            "licensing": [
-              "CC0"
-            ],
+            "licensing": ["CC0"],
             "open_access": 100
           }
         ],
@@ -181,9 +158,7 @@
             "label": "GitHub",
             "accessibility": "public",
             "ref": [],
-            "websites": [
-              "https://git.sc.uni-leipzig.de/mycore_applications"
-            ],
+            "websites": ["https://git.sc.uni-leipzig.de/mycore_applications"],
             "licensing": [],
             "description": ""
           }
@@ -191,35 +166,22 @@
       }
     },
     "stack": {
-      "database": [
-        "XML"
-      ],
-      "backend": [
-        "Solr",
-        "MyCoRe",
-        "Neo4J"
-      ],
-      "frontend": [
-        "MyCoRe, HTML",
-        "JS"
-      ],
+      "database": ["XML"],
+      "backend": ["Solr", "MyCoRe", "Neo4J"],
+      "frontend": ["MyCoRe, HTML", "JS"],
       "tools": [
         {
           "label": "MyCoRe",
           "self_developed": false,
           "ref": [],
-          "websites": [
-            "https://www.mycore.de/"
-          ],
+          "websites": ["https://www.mycore.de/"],
           "description": "Used as a repository framework"
         },
         {
           "label": "Solr",
           "self_developed": false,
           "ref": [],
-          "websites": [
-            "https://solr.apache.org/"
-          ],
+          "websites": ["https://solr.apache.org/"],
           "description": "Used for indexation and data querying"
         },
         {
@@ -230,10 +192,7 @@
           "description": "Automatic transliteration of Arabic script"
         }
       ],
-      "languages": [
-        "JS",
-        "Java"
-      ]
+      "languages": ["JS", "Java"]
     },
     "policies": [
       {
@@ -241,11 +200,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "catalog",
-      "digital_preservation",
-      "manuscript"
-    ],
+    "keywords": ["catalog", "digital_preservation", "manuscript"],
     "category": "digital_preservation",
     "comment": "The data is openly accessible through an OAI API: https://www.qalamos.net/oai2?verb=Identify"
   }

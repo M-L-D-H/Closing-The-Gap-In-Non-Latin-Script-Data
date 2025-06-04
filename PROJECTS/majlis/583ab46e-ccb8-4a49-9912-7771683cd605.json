@@ -29,9 +29,7 @@
       {
         "place_name": {
           "text": "München",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -39,9 +37,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,9 +48,7 @@
             "https://ror.org/05591te55"
           ]
         },
-        "websites": [
-          "https://www.lmu.de/de/index.html"
-        ]
+        "websites": ["https://www.lmu.de/de/index.html"]
       }
     ],
     "related_entities": [
@@ -93,18 +87,14 @@
             "https://d-nb.info/gnd/1173742050"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/ronny_vollandt/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -116,18 +106,14 @@
       },
       "publications": {
         "open_access": 100,
-        "licensing": [
-          "CC BY-NC 4.0"
-        ]
+        "licensing": ["CC BY-NC 4.0"]
       },
       "data": {
         "datatypes": [
           {
             "label": "XML",
             "stage": "final",
-            "licensing": [
-              "CC BY-NC 4.0"
-            ],
+            "licensing": ["CC BY-NC 4.0"],
             "open_access": 100
           }
         ],
@@ -136,73 +122,42 @@
             "label": "GitHub",
             "accessibility": "public",
             "ref": [],
-            "websites": [
-              "https://github.com/majlis-erc"
-            ],
-            "licensing": [
-              "CC BY-NC 4.0"
-            ],
+            "websites": ["https://github.com/majlis-erc"],
+            "licensing": ["CC BY-NC 4.0"],
             "description": ""
           },
           {
             "label": "Open Data LMU",
             "accessibility": "public",
             "ref": [],
-            "websites": [
-              "https://data.ub.uni-muenchen.de/"
-            ],
-            "licensing": [
-              "CC BY-NC 4.0"
-            ],
+            "websites": ["https://data.ub.uni-muenchen.de/"],
+            "licensing": ["CC BY-NC 4.0"],
             "description": "There is no instance yet; the project will be migrated in the future"
           }
         ]
       }
     },
     "stack": {
-      "database": [
-        "XML"
-      ],
-      "backend": [
-        "manuForma",
-        "XSLT",
-        "XForm",
-        "XQuery",
-        "eXist-db"
-      ],
-      "frontend": [
-        "Srophe",
-        "JS",
-        "XSLT",
-        "XHTML"
-      ],
+      "database": ["XML"],
+      "backend": ["manuForma", "XSLT", "XForm", "XQuery", "eXist-db"],
+      "frontend": ["Srophe", "JS", "XSLT", "XHTML"],
       "tools": [
         {
           "label": "manuForma",
           "self_developed": true,
           "ref": [],
-          "websites": [
-            "https://github.com/majlis-erc/manuForma"
-          ],
+          "websites": ["https://github.com/majlis-erc/manuForma"],
           "description": "TEI-XML File Generator"
         },
         {
           "label": "Srophe",
           "self_developed": false,
           "ref": [],
-          "websites": [
-            "https://srophe.app/"
-          ],
+          "websites": ["https://srophe.app/"],
           "description": "Frontend framework for projects working with TEI-XML"
         }
       ],
-      "languages": [
-        "XQuery",
-        "XSLT",
-        "JS",
-        "XHTML",
-        "CSS"
-      ]
+      "languages": ["XQuery", "XSLT", "JS", "XHTML", "CSS"]
     },
     "policies": [
       {

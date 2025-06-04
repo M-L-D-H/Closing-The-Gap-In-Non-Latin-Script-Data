@@ -29,9 +29,7 @@
       {
         "place_name": {
           "text": "Münster",
-          "ref": [
-            "https://www.geonames.org/6553087/muenster.html"
-          ]
+          "ref": ["https://www.geonames.org/6553087/muenster.html"]
         },
         "coordinates": {
           "lat": "51.95973",
@@ -39,9 +37,7 @@
         }
       }
     ],
-    "lang": [
-      "deu"
-    ],
+    "lang": ["deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,9 +48,7 @@
             "https://www.wikidata.org/wiki/Q168426"
           ]
         },
-        "websites": [
-          "https://www.uni-muenster.de/de/"
-        ]
+        "websites": ["https://www.uni-muenster.de/de/"]
       }
     ],
     "related_entities": [],
@@ -67,18 +61,14 @@
             "https://d-nb.info/gnd/130608467/"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -90,9 +80,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

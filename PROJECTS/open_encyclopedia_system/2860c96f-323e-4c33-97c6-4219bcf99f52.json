@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -40,9 +38,7 @@
       {
         "place_name": {
           "text": "München",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -50,10 +46,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -64,9 +57,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       },
       {
         "relation_type": "host",
@@ -77,9 +68,7 @@
             "https://www.wikidata.org/wiki/Q256507"
           ]
         },
-        "websites": [
-          "https://www.bsb-muenchen.de/"
-        ]
+        "websites": ["https://www.bsb-muenchen.de/"]
       }
     ],
     "related_entities": [
@@ -95,9 +84,7 @@
           "text": "",
           "ref": []
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/ageukes.html"
         ]
@@ -116,9 +103,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -138,10 +123,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "digital_publishing",
-      "research_infrastructure"
-    ],
+    "keywords": ["digital_publishing", "research_infrastructure"],
     "category": "infrastructure",
     "comment": ""
   }

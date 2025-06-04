@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
         "coordinates": {
           "lat": "51.53443",
@@ -38,10 +36,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,9 +47,7 @@
             "https://ror.org/04hsa7a08"
           ]
         },
-        "websites": [
-          "https://adw-goe.de"
-        ]
+        "websites": ["https://adw-goe.de"]
       }
     ],
     "related_entities": [
@@ -82,7 +75,7 @@
         "relation_type": "cooperation",
         "title": "Coptic Scriptorium: Digital Research in Coptic Language and Literature",
         "uuid": "0250aa46-2fc2-44cb-8b08-87b40d1fc3a5"
-    }
+      }
     ],
     "people": [
       {
@@ -94,18 +87,14 @@
             "https://www.wikidata.org/wiki/Q126132633"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/koptisches-altes-testament/mitarbeiter/frank-feder/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "cop"
-      ],
+      "lang": ["cop"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -117,9 +106,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

@@ -1,215 +1,191 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "0250aa46-2fc2-44cb-8b08-87b40d1fc3a5",
-        "record_created_on": "2025-05-09",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2025-05-09",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Coptic Scriptorium: Digital Research in Coptic Language and Literature",
-        "abbr": "CS",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2013",
-                "to": ""
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "0250aa46-2fc2-44cb-8b08-87b40d1fc3a5",
+    "record_created_on": "2025-05-09",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-05-09",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Coptic Scriptorium: Digital Research in Coptic Language and Literature",
+    "abbr": "CS",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2013",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": ["https://copticscriptorium.org/"],
+    "project_desc": "The project aimed to create a digitized corpus of Coptic texts available in multiple formats and visualizations (including TEI XML), tools to analyze and process the language (e.g., the first Coptic part-of-speech tagger), a database with search and visualization capabilities, and a collaborative platform for scholars to contribute texts and annotations and to conduct research.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Washington",
+          "ref": ["https://www.geonames.org/4140963/washington.html"]
+        },
+        "coordinates": {
+          "lat": "38.89504",
+          "lng": "-77.03654"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Stockton",
+          "ref": ["https://www.geonames.org/5399020/stockton.html"]
+        },
+        "coordinates": {
+          "lat": "37.9577",
+          "lng": "-121.29078"
+        }
+      },
+      {
+        "place_name": {
+          "text": "Norman",
+          "ref": ["https://www.geonames.org/4543762/norman.html"]
+        },
+        "coordinates": {
+          "lat": "35.22257",
+          "lng": "-97.43948"
+        }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Georgetown University",
+          "ref": [
+            "https://ror.org/05vzafd60",
+            "https://www.wikidata.org/wiki/Q333886"
+          ]
+        },
+        "websites": ["https://www.georgetown.edu/"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of the Pacific",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q630226",
+            "https://ror.org/05ma4gw77"
+          ]
+        },
+        "websites": ["https://www.pacific.edu/"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "University of Oklahoma",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q640652",
+            "https://ror.org/02aqsxs83"
+          ]
+        },
+        "websites": ["https://www.ou.edu/"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "Corpus dei Manoscritti Copti Letterari",
+        "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Digitale Gesamtedition und \u00dcbersetzung des koptisch-sahidischen Alten Testaments",
+        "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Archaeological Atlas of Coptic Literature by PATHs",
+        "uuid": "3a48e496-f4ef-4801-ae66-dc61b7ec274f"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Database and Dictionary of Greek Loanwords in Coptic",
+        "uuid": "0e6bdb55-2d42-482f-a8d8-639ac232314e"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0001-9543-0692",
+            "https://d-nb.info/gnd/1027296033",
+            "https://www.wikidata.org/wiki/Q104840369"
+          ]
+        },
+        "roles": ["supervision"],
         "websites": [
-            "https://copticscriptorium.org/"
-        ],
-        "project_desc": "The project aimed to create a digitized corpus of Coptic texts available in multiple formats and visualizations (including TEI XML), tools to analyze and process the language (e.g., the first Coptic part-of-speech tagger), a database with search and visualization capabilities, and a collaborative platform for scholars to contribute texts and annotations and to conduct research.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Washington",
-                    "ref": [
-                        "https://www.geonames.org/4140963/washington.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "38.89504",
-                    "lng": "-77.03654"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Stockton",
-                    "ref": [
-                        "https://www.geonames.org/5399020/stockton.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "37.9577",
-                    "lng": "-121.29078"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "Norman",
-                    "ref": [
-                        "https://www.geonames.org/4543762/norman.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "35.22257",
-                    "lng": "-97.43948"
-                }
-            }
-        ],
-        "lang": [
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Georgetown University",
-                    "ref": [
-                        "https://ror.org/05vzafd60",
-                        "https://www.wikidata.org/wiki/Q333886"
-                    ]
-                },
-                "websites": [
-                    "https://www.georgetown.edu/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of the Pacific",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q630226",
-                        "https://ror.org/05ma4gw77"
-                    ]
-                },
-                "websites": [
-                    "https://www.pacific.edu/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "University of Oklahoma",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q640652",
-                        "https://ror.org/02aqsxs83"
-                    ]
-                },
-                "websites": [
-                    "https://www.ou.edu/"
-                ]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "cooperation",
-                "title": "Corpus dei Manoscritti Copti Letterari",
-                "uuid": "c4f41a6d-9fb9-4c31-85f0-b66acfe41289"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Digitale Gesamtedition und \u00dcbersetzung des koptisch-sahidischen Alten Testaments",
-                "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Archaeological Atlas of Coptic Literature by PATHs",
-                "uuid": "3a48e496-f4ef-4801-ae66-dc61b7ec274f"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Database and Dictionary of Greek Loanwords in Coptic",
-                "uuid": "0e6bdb55-2d42-482f-a8d8-639ac232314e"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0001-9543-0692",
-                        "https://d-nb.info/gnd/1027296033",
-                        "https://www.wikidata.org/wiki/Q104840369"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.ou.edu/cas/wgs/people/faculty/carrie-schroeder"
-                ]
-            },
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0001-8016-6753",
-                        "https://d-nb.info/gnd/1030115885",
-                        "https://www.wikidata.org/wiki/Q57686330"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://gucorpling.org/amir/"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "cop"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 1.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 6,
-                "open_access_count": 6
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.ou.edu/cas/wgs/people/faculty/carrie-schroeder"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0001-8016-6753",
+            "https://d-nb.info/gnd/1030115885",
+            "https://www.wikidata.org/wiki/Q57686330"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "annotation",
-            "classical_text",
-            "collaboration_platform",
-            "corpus_output",
-            "digital_preservation",
-            "egyptology",
-            "linguistics",
-            "manuscript",
-            "nlp",
-            "tei",
-            "visualization"
-        ],
-        "category": "tools_and_analysis",
-        "comment": ""
-    }
+        "roles": ["supervision"],
+        "websites": ["https://gucorpling.org/amir/"]
+      }
+    ],
+    "research_data": {
+      "lang": ["cop"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 6,
+        "open_access_count": 6
+      },
+      "publications": {
+        "open_access": 0,
+        "licensing": []
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "annotation",
+      "classical_text",
+      "collaboration_platform",
+      "corpus_output",
+      "digital_preservation",
+      "egyptology",
+      "linguistics",
+      "manuscript",
+      "nlp",
+      "tei",
+      "visualization"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
 }

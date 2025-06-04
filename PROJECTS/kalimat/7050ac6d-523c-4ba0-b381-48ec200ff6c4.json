@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -37,10 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "ara",
-      "eng"
-    ],
+    "lang": ["ara", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +46,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       }
     ],
     "related_entities": [
@@ -97,18 +90,14 @@
             "https://d-nb.info/gnd/111749344X"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/team/Professuren/Gruendler/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,

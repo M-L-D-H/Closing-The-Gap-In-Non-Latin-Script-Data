@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Heidelberg",
-          "ref": [
-            "https://www.geonames.org/2907911/heidelberg.html"
-          ]
+          "ref": ["https://www.geonames.org/2907911/heidelberg.html"]
         },
         "coordinates": {
           "lat": "49.40768",
@@ -37,22 +35,15 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
         "org_name": {
           "text": "Hochschule für Jüdische Studien Heidelberg",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1622186"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q1622186"]
         },
-        "websites": [
-          "https://www.hfjs.eu"
-        ]
+        "websites": ["https://www.hfjs.eu"]
       }
     ],
     "related_entities": [],
@@ -66,18 +57,14 @@
             "https://www.wikidata.org/wiki/Q19963114"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.hfjs.eu/professuren/bibel-und-juedische-bibelauslegung/team/prof-dr-hanna-liss.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "heb"
-      ],
+      "lang": ["heb"],
       "sustainability_plan": {
         "project_website": 0.0,
         "Github": 0.0,
@@ -89,9 +76,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

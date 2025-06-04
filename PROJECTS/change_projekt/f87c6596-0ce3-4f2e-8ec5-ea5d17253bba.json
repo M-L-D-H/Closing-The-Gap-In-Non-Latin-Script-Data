@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -37,9 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "deu"
-    ],
+    "lang": ["deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +46,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       }
     ],
     "related_entities": [],
@@ -65,9 +59,7 @@
             "https://www.wikidata.org/wiki/Q57684019"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://web.archive.org/web/20230402234810/www.fu-berlin.de/sites/ub/ueber-uns/team/riesenweber/"
         ]
@@ -75,22 +67,16 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0001-7550-7365"
-          ]
+          "ref": ["https://orcid.org/0000-0001-7550-7365"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.ub.hu-berlin.de/de/ueber-uns/kontakt/ansprechpartner/ansprechpartner-leitende-mitarbeiterinnen-und-mitarbeiter/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "deu"
-      ],
+      "lang": ["deu"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -102,9 +88,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
@@ -124,9 +108,7 @@
         "ref": []
       }
     ],
-    "keywords": [
-      "research_infrastructure"
-    ],
+    "keywords": ["research_infrastructure"],
     "category": "infrastructure",
     "comment": "no website, last publication 2022"
   }

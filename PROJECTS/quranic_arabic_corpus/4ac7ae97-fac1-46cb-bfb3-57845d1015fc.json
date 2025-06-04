@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://corpus.quran.com/"
-    ],
+    "websites": ["https://corpus.quran.com/"],
     "project_desc": "The Quranic Arabic Corpus, an annotated linguistic resource which shows the Arabic grammar, syntax and morphology for each word in the Holy Quran. The corpus provides three levels of analysis: morphological annotation, a syntactic treebank and a semantic ontology.",
     "places": [
       {
         "place_name": {
           "text": "Leeds",
-          "ref": [
-            "https://www.geonames.org/2644688/leeds.html"
-          ]
+          "ref": ["https://www.geonames.org/2644688/leeds.html"]
         },
         "coordinates": {
           "lat": "53.79742",
@@ -37,9 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +44,7 @@
             "https://www.wikidata.org/wiki/Q503424"
           ]
         },
-        "websites": [
-          "https://www.leeds.ac.uk/"
-        ]
+        "websites": ["https://www.leeds.ac.uk/"]
       }
     ],
     "related_entities": [],
@@ -60,13 +52,9 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q15994551"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q15994551"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": []
       },
       {
@@ -77,18 +65,14 @@
             "http://viaf.org/viaf/34339580"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://eps.leeds.ac.uk/computing-applied-computing/staff/33/professor-eric-atwell"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,

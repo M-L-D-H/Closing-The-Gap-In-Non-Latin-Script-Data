@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://geniza.princeton.edu/en/"
-    ],
+    "websites": ["https://geniza.princeton.edu/en/"],
     "project_desc": "The Princeton Geniza Project (PGP) aims to digitize and make accessible the texts of the Cairo Geniza, integrating images, transcriptions, and metadata to support research on medieval Mediterranean life. From a digital humanities perspective, it demonstrates how computational tools and digital platforms can preserve, analyze, and democratize access to historical manuscripts.",
     "places": [
       {
         "place_name": {
           "text": "Princeton",
-          "ref": [
-            "https://www.geonames.org/5102922/"
-          ]
+          "ref": ["https://www.geonames.org/5102922/"]
         },
         "coordinates": {
           "lat": "40.34872",
@@ -37,9 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,21 +44,15 @@
             "http://www.wikidata.org/entity/Q21578"
           ]
         },
-        "websites": [
-          "https://www.princeton.edu/"
-        ]
+        "websites": ["https://www.princeton.edu/"]
       },
       {
         "relation_type": "cooperation",
         "org_name": {
           "text": "The center for Digital Humanities at Princeton",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q58312170"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q58312170"]
         },
-        "websites": [
-          "https://cdh.princeton.edu/"
-        ]
+        "websites": ["https://cdh.princeton.edu/"]
       }
     ],
     "related_entities": [],
@@ -77,9 +65,7 @@
             "https://d-nb.info/gnd/1203909276"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://history.princeton.edu/people/marina-rustow",
           "https://princeton.academia.edu/MarinaRustow/"
@@ -93,9 +79,7 @@
             "http://viaf.org/viaf/12155409620808740789"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://cdh.princeton.edu/people/rebecca-sutton-koeser/",
           "https://rlskoeser.github.io/",
@@ -104,11 +88,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "eng",
-        "heb"
-      ],
+      "lang": ["ara", "eng", "heb"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,

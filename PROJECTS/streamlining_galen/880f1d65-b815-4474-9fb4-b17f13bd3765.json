@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Coventry",
-          "ref": [
-            "https://www.geonames.org/2652221/coventry.html"
-          ]
+          "ref": ["https://www.geonames.org/2652221/coventry.html"]
         },
         "coordinates": {
           "lat": "52.40656",
@@ -37,9 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +46,7 @@
             "https://www.wikidata.org/wiki/Q865528"
           ]
         },
-        "websites": [
-          "https://www2.warwick.ac.uk/"
-        ]
+        "websites": ["https://www2.warwick.ac.uk/"]
       }
     ],
     "related_entities": [],
@@ -60,13 +54,9 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q55386758"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q55386758"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://warwick.ac.uk/fac/arts/classics/intranets/staff/simonswain/"
         ]
@@ -79,18 +69,14 @@
             "https://d-nb.info/gnd/1066384339"
           ]
         },
-        "roles": [
-          "investigation"
-        ],
+        "roles": ["investigation"],
         "websites": [
           "https://warwick.ac.uk/fac/arts/classics/intranets/staff/vagelpohl"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -102,9 +88,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

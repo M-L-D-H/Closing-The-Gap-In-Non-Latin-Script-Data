@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://persdigumd.github.io/PDL/"
-    ],
+    "websites": ["https://persdigumd.github.io/PDL/"],
     "project_desc": "Main goal of the project was to create the first machine-actionable premodern Persian corpus. Currently the project is focused on two inter-linked projects: (1) the construction of a scholarly-verified and machine actionable corpus, and (2) the development of optical character recognition (OCR)/handwritten text recognition (HTR) tools for Persian (and other Arabic-script languages).",
     "places": [
       {
         "place_name": {
           "text": "College Park",
-          "ref": [
-            "https://www.geonames.org/4351977/college-park.html"
-          ]
+          "ref": ["https://www.geonames.org/4351977/college-park.html"]
         },
         "coordinates": {
           "lat": "38.98067",
@@ -37,9 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +44,7 @@
             "https://www.wikidata.org/wiki/Q503415"
           ]
         },
-        "websites": [
-          "https://umd.edu"
-        ]
+        "websites": ["https://umd.edu"]
       }
     ],
     "related_entities": [
@@ -83,18 +75,12 @@
           "text": "",
           "ref": []
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://sllc.umd.edu/directory/matthew-miller"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://sllc.umd.edu/directory/matthew-miller"]
       }
     ],
     "research_data": {
-      "lang": [
-        "fas"
-      ],
+      "lang": ["fas"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,

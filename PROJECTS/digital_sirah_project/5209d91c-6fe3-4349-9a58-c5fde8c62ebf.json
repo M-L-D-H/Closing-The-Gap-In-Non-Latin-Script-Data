@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "London",
-          "ref": [
-            "https://www.geonames.org/2643743/london.html"
-          ]
+          "ref": ["https://www.geonames.org/2643743/london.html"]
         },
         "coordinates": {
           "lat": "51.50853",
@@ -40,9 +38,7 @@
       {
         "place_name": {
           "text": "Doha",
-          "ref": [
-            "https://www.geonames.org/290030/doha.html"
-          ]
+          "ref": ["https://www.geonames.org/290030/doha.html"]
         },
         "coordinates": {
           "lat": "25.28545",
@@ -50,9 +46,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -63,9 +57,7 @@
             "https://www.wikidata.org/wiki/Q1361436"
           ]
         },
-        "websites": [
-          "https://www.qnl.qa/en"
-        ]
+        "websites": ["https://www.qnl.qa/en"]
       }
     ],
     "related_entities": [
@@ -79,22 +71,16 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://viaf.org/viaf/65884589"
-          ]
+          "ref": ["https://viaf.org/viaf/65884589"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://religiousstudies.indiana.edu/about/faculty/jaques-kevin.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -106,9 +92,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

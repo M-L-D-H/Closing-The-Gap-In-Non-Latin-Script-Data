@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Leiden",
-          "ref": [
-            "https://www.geonames.org/2751773/leiden.html"
-          ]
+          "ref": ["https://www.geonames.org/2751773/leiden.html"]
         },
         "coordinates": {
           "lat": "52.15833",
@@ -37,9 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +46,7 @@
             "https://ror.org/027bh9e22"
           ]
         },
-        "websites": [
-          "https://www.universiteitleiden.nl/en"
-        ]
+        "websites": ["https://www.universiteitleiden.nl/en"]
       }
     ],
     "related_entities": [
@@ -71,18 +65,14 @@
             "https://www.wikidata.org/wiki/Q14084136"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.universiteitleiden.nl/en/staffmembers/petra-sijpesteijn#tab-1"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 0.0,
         "Github": 0.0,
@@ -94,9 +84,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

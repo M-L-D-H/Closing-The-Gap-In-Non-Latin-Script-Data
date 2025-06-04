@@ -28,9 +28,7 @@
       {
         "place_name": {
           "text": "München",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
         "coordinates": {
           "lat": "48.13743",
@@ -40,9 +38,7 @@
       {
         "place_name": {
           "text": "Würzburg",
-          "ref": [
-            "https://www.geonames.org/6556942/wuerzburg.html"
-          ]
+          "ref": ["https://www.geonames.org/6556942/wuerzburg.html"]
         },
         "coordinates": {
           "lat": "49.79708",
@@ -50,9 +46,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -63,9 +57,7 @@
             "https://ror.org/001rdaz60"
           ]
         },
-        "websites": [
-          "https://badw.de/die-akademie.html"
-        ]
+        "websites": ["https://badw.de/die-akademie.html"]
       },
       {
         "relation_type": "host",
@@ -76,9 +68,7 @@
             "https://www.wikidata.org/wiki/Q161976"
           ]
         },
-        "websites": [
-          "https://www.uni-wuerzburg.de/startseite/"
-        ]
+        "websites": ["https://www.uni-wuerzburg.de/startseite/"]
       }
     ],
     "related_entities": [],
@@ -91,9 +81,7 @@
             "https://d-nb.info/gnd/11800638X"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.philosophie.uni-wuerzburg.de/institut/allelehrsthlefrphilosophie/profdrdagnikolaushasse/",
           "https://ptolemaeus.badw.de/team/3"
@@ -101,11 +89,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "grc",
-        "lat"
-      ],
+      "lang": ["ara", "grc", "lat"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -117,27 +101,20 @@
       },
       "publications": {
         "open_access": 100,
-        "licensing": [
-          "CC BY-NC-ND 4.0"
-        ]
+        "licensing": ["CC BY-NC-ND 4.0"]
       },
       "data": {
         "datatypes": [
           {
             "label": "xml",
             "stage": "final",
-            "licensing": [
-              "CC BY",
-              "Reserved"
-            ],
+            "licensing": ["CC BY", "Reserved"],
             "open_access": 100
           },
           {
             "label": "json",
             "stage": "final",
-            "licensing": [
-              "CC BY"
-            ],
+            "licensing": ["CC BY"],
             "open_access": 100
           }
         ],
@@ -145,12 +122,8 @@
           {
             "label": "LRZ",
             "accessibility": "private",
-            "ref": [
-              "https://www.wikidata.org/wiki/Q872555"
-            ],
-            "websites": [
-              "https://daten.badw.de/pal-texts"
-            ],
+            "ref": ["https://www.wikidata.org/wiki/Q872555"],
+            "websites": ["https://daten.badw.de/pal-texts"],
             "licensing": [],
             "description": "Das zentrale Rechenzentrum der Münchner Universitäten, institutionell Teil der BADW"
           }
@@ -158,100 +131,61 @@
       }
     },
     "stack": {
-      "database": [
-        "MariaDB"
-      ],
-      "backend": [
-        "Nginx",
-        "Python"
-      ],
-      "frontend": [
-        "CSS",
-        "JS",
-        "Bottle.py",
-        "HTML"
-      ],
+      "database": ["MariaDB"],
+      "backend": ["Nginx", "Python"],
+      "frontend": ["CSS", "JS", "Bottle.py", "HTML"],
       "tools": [
         {
           "label": "Calamari",
           "self_developed": false,
-          "ref": [
-            "https://www.wikidata.org/wiki/Q124348079"
-          ],
-          "websites": [
-            "https://github.com/Calamari-OCR/calamari"
-          ],
+          "ref": ["https://www.wikidata.org/wiki/Q124348079"],
+          "websites": ["https://github.com/Calamari-OCR/calamari"],
           "description": "Line based ATR/ OCR Engine based on OCRopy"
         },
         {
           "label": "Nashi",
           "self_developed": false,
           "ref": [],
-          "websites": [
-            "https://github.com/andbue/nashi/tree/master"
-          ],
+          "websites": ["https://github.com/andbue/nashi/tree/master"],
           "description": "Tool for the OCR-Aided Transcription of ted Text"
         },
         {
           "label": "Classical Text Editor",
           "self_developed": false,
-          "ref": [
-            "https://www.wikidata.org/wiki/Q116949834"
-          ],
-          "websites": [
-            "https://cte.oeaw.ac.at/"
-          ],
+          "ref": ["https://www.wikidata.org/wiki/Q116949834"],
+          "websites": ["https://cte.oeaw.ac.at/"],
           "description": "Software for editing printable scholarly editions of classical texts"
         },
         {
           "label": "TinyMCE",
           "self_developed": false,
-          "ref": [
-            "https://www.wikidata.org/wiki/Q572792"
-          ],
-          "websites": [
-            "https://www.tiny.cloud/"
-          ],
+          "ref": ["https://www.wikidata.org/wiki/Q572792"],
+          "websites": ["https://www.tiny.cloud/"],
           "description": "Customizable WYSIWYG rich text editor"
         },
         {
           "label": "JabRef ",
           "self_developed": false,
-          "ref": [
-            "https://www.wikidata.org/wiki/Q1676802"
-          ],
-          "websites": [
-            "https://www.jabref.org/"
-          ],
+          "ref": ["https://www.wikidata.org/wiki/Q1676802"],
+          "websites": ["https://www.jabref.org/"],
           "description": "Reference management software"
         },
         {
           "label": "LAREX",
           "self_developed": false,
-          "ref": [
-            "https://www.wikidata.org/wiki/Q124348103"
-          ],
-          "websites": [
-            "https://github.com/OCR4all/LAREX"
-          ],
+          "ref": ["https://www.wikidata.org/wiki/Q124348103"],
+          "websites": ["https://github.com/OCR4all/LAREX"],
           "description": "Semi-automatic open-source tool for Layout Analysis and Region EXtraction on early printed books."
         },
         {
           "label": "FontForge",
           "self_developed": false,
-          "ref": [
-            "https://www.wikidata.org/wiki/Q687332"
-          ],
-          "websites": [
-            "https://fontforge.org/en-US/"
-          ],
+          "ref": ["https://www.wikidata.org/wiki/Q687332"],
+          "websites": ["https://fontforge.org/en-US/"],
           "description": "Free font editor"
         }
       ],
-      "languages": [
-        "Python",
-        "JS"
-      ]
+      "languages": ["Python", "JS"]
     },
     "policies": [
       {

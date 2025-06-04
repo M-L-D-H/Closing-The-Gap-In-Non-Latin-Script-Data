@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
         "coordinates": {
           "lat": "52.52437",
@@ -39,9 +37,7 @@
       {
         "place_name": {
           "text": "Paris",
-          "ref": [
-            "https://www.geonames.org/2988506/paris.html"
-          ]
+          "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
         "coordinates": {
           "lat": "48.85339",
@@ -49,11 +45,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng",
-      "fra"
-    ],
+    "lang": ["deu", "eng", "fra"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -64,21 +56,15 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": [
-          "https://www.bbaw.de/"
-        ]
+        "websites": ["https://www.bbaw.de/"]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "Académie des Inscriptions et Belles-Lettres Paris",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q337526"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q337526"]
         },
-        "websites": [
-          "https://aibl.fr/"
-        ]
+        "websites": ["https://aibl.fr/"]
       }
     ],
     "related_entities": [
@@ -102,9 +88,7 @@
             "https://www.wikidata.org/wiki/Q534480"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://web.archive.org/web/20230127042100/www.geschkult.fu-berlin.de/e/semiarab/arabistik/Seminar/Ehemalige-Mitarbeiterinnen-und-Mitarbeiter/Professuren/neuwirth/"
         ]
@@ -117,18 +101,14 @@
             "https://www.wikidata.org/wiki/Q27919930"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://aibl.fr/membres-academiciens/robin-christian-julien/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -140,9 +120,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

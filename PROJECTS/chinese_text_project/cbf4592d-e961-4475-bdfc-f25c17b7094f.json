@@ -1,131 +1,116 @@
 {
   "schema_version": "0.2.7",
   "record_metadata": {
-      "uuid": "cbf4592d-e961-4475-bdfc-f25c17b7094f",
-      "record_created_on": "2025-04-13",
-      "record_created_by": "Alieva, Aibaniz",
-      "last_edited_on": "2025-04-13",
-      "interviewed": false
+    "uuid": "cbf4592d-e961-4475-bdfc-f25c17b7094f",
+    "record_created_on": "2025-04-13",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-04-13",
+    "interviewed": false
   },
   "project": {
-      "title": "Chinese Text Project",
-      "abbr": "",
-      "type": "project",
-      "ref": [],
-      "date": [
-          {
-              "from": "2006",
-              "to": ""
-          }
-      ],
-      "maintained": true,
-      "websites": [
-          "https://ctext.org"
-      ],
-      "project_desc": "The goal of the project is to present accurate and accessible copies of ancient (in particular pre-Qin and Han dynasty) Chinese texts in an organized and searchable format, and to make the best possible use of modern technology to aid in the study and research of these texts, so making them accessible to the widest possible audience.",
-      "places": [
-          {
-              "place_name": {
-                  "text": "Durham",
-                  "ref": [
-                      "https://www.geonames.org/2650628/durham.html"
-                  ]
-              },
-              "coordinates": {
-                  "lat": "54.66667",
-                  "lng": "-1.76654"
-              }
-          }
-      ],
-      "lang": [
-          "eng",
-          "zho"
-      ],
-      "related_institutions": [
-          {
-              "relation_type": "host",
-              "org_name": {
-                  "text": "Durham University",
-                  "ref": [
-                      "https://ror.org/01v29qb04",
-                      "https://www.wikidata.org/wiki/Q458393"
-                  ]
-              },
-              "websites": [
-                  "https://www.dur.ac.uk/"
-              ]
-          }
-      ],
-      "related_entities": [],
-      "people": [
-          {
-              "pers_name": {
-                  "text": "",
-                  "ref": [
-                      "https://orcid.org/0000-0003-1092-8454",
-                      "https://viaf.org/en/viaf/232020963",
-                      "https://www.wikidata.org/wiki/Q85880056"
-                  ]
-              },
-              "roles": [
-                  "supervision"
-              ],
-              "websites": [
-                  "https://www.durham.ac.uk/staff/donald-j-sturgeon/"
-              ]
-          }
-      ],
-      "research_data": {
-          "lang": [
-              "zho"
-          ],
-          "sustainability_plan": {
-              "project_website": 1.0,
-              "Github": 0.0,
-              "data_accessibility": 1.0,
-              "webhosting": 1.0,
-              "publications": 1.0,
-              "publication_count": 5,
-              "open_access_count": 5
-          },
-          "publications": {
-              "open_access": 0,
-              "licensing": []
-          },
-          "data": {
-              "datatypes": [],
-              "repositories": []
-          }
+    "title": "Chinese Text Project",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [
+      {
+        "from": "2006",
+        "to": ""
+      }
+    ],
+    "maintained": true,
+    "websites": ["https://ctext.org"],
+    "project_desc": "The goal of the project is to present accurate and accessible copies of ancient (in particular pre-Qin and Han dynasty) Chinese texts in an organized and searchable format, and to make the best possible use of modern technology to aid in the study and research of these texts, so making them accessible to the widest possible audience.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Durham",
+          "ref": ["https://www.geonames.org/2650628/durham.html"]
+        },
+        "coordinates": {
+          "lat": "54.66667",
+          "lng": "-1.76654"
+        }
+      }
+    ],
+    "lang": ["eng", "zho"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Durham University",
+          "ref": [
+            "https://ror.org/01v29qb04",
+            "https://www.wikidata.org/wiki/Q458393"
+          ]
+        },
+        "websites": ["https://www.dur.ac.uk/"]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0003-1092-8454",
+            "https://viaf.org/en/viaf/232020963",
+            "https://www.wikidata.org/wiki/Q85880056"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": ["https://www.durham.ac.uk/staff/donald-j-sturgeon/"]
+      }
+    ],
+    "research_data": {
+      "lang": ["zho"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 5,
+        "open_access_count": 5
       },
-      "stack": {
-          "database": [],
-          "backend": [],
-          "frontend": [],
-          "tools": [],
-          "languages": []
+      "publications": {
+        "open_access": 0,
+        "licensing": []
       },
-      "policies": [
-          {
-              "description": "",
-              "ref": []
-          }
-      ],
-      "keywords": [
-          "annotation",
-          "classical_text",
-          "collaboration_platform",
-          "computational_text_analysis",
-          "corpus_output",
-          "digital_preservation",
-          "image",
-          "linguistics",
-          "literary_studies",
-          "manuscript",
-          "religion_studies",
-          "text_reuse",
-          "translation"
-      ],
-      "category": "tools_and_analysis",
-      "comment": ""
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "annotation",
+      "classical_text",
+      "collaboration_platform",
+      "computational_text_analysis",
+      "corpus_output",
+      "digital_preservation",
+      "image",
+      "linguistics",
+      "literary_studies",
+      "manuscript",
+      "religion_studies",
+      "text_reuse",
+      "translation"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
   }
 }

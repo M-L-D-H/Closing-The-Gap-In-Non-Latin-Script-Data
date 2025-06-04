@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Wismar",
-          "ref": [
-            "https://www.geonames.org/2807465/wismar.html"
-          ]
+          "ref": ["https://www.geonames.org/2807465/wismar.html"]
         },
         "coordinates": {
           "lat": "53.89314",
@@ -39,9 +37,7 @@
       {
         "place_name": {
           "text": "Rostock",
-          "ref": [
-            "https://www.geonames.org/2844588/rostock.html"
-          ]
+          "ref": ["https://www.geonames.org/2844588/rostock.html"]
         },
         "coordinates": {
           "lat": "54.0887",
@@ -51,9 +47,7 @@
       {
         "place_name": {
           "text": "Darmstadt",
-          "ref": [
-            "https://www.geonames.org/2938913/darmstadt.html"
-          ]
+          "ref": ["https://www.geonames.org/2938913/darmstadt.html"]
         },
         "coordinates": {
           "lat": "49.87167",
@@ -61,11 +55,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "grc",
-      "eng"
-    ],
+    "lang": ["deu", "grc", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -76,9 +66,7 @@
             "https://ror.org/00s1ckt27"
           ]
         },
-        "websites": [
-          "https://www.hs-wismar.de"
-        ]
+        "websites": ["https://www.hs-wismar.de"]
       },
       {
         "relation_type": "host",
@@ -89,9 +77,7 @@
             "https://ror.org/03zdwsf69"
           ]
         },
-        "websites": [
-          "https://www.uni-rostock.de"
-        ]
+        "websites": ["https://www.uni-rostock.de"]
       },
       {
         "relation_type": "host",
@@ -102,9 +88,7 @@
             "https://ror.org/04w23p232"
           ]
         },
-        "websites": [
-          "https://www.eh-darmstadt.de"
-        ]
+        "websites": ["https://www.eh-darmstadt.de"]
       },
       {
         "relation_type": "cooperation",
@@ -115,9 +99,7 @@
             "https://ror.org/04pp8hn57"
           ]
         },
-        "websites": [
-          "https://www.uu.nl/"
-        ]
+        "websites": ["https://www.uu.nl/"]
       },
       {
         "relation_type": "cooperation",
@@ -128,9 +110,7 @@
             "https://ror.org/016w23120"
           ]
         },
-        "websites": [
-          "https://www.pthu.nl/en/"
-        ]
+        "websites": ["https://www.pthu.nl/en/"]
       },
       {
         "relation_type": "cooperation",
@@ -141,9 +121,7 @@
             "https://ror.org/00pd74e08"
           ]
         },
-        "websites": [
-          "https://www.uni-muenster.de/de/"
-        ]
+        "websites": ["https://www.uni-muenster.de/de/"]
       }
     ],
     "related_entities": [],
@@ -151,9 +129,7 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-7925-3363"
-          ]
+          "ref": ["https://orcid.org/0000-0002-7925-3363"]
         },
         "roles": [
           "supervision",
@@ -171,9 +147,7 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-2037-1111"
-          ]
+          "ref": ["https://orcid.org/0000-0002-2037-1111"]
         },
         "roles": [
           "supervision",
@@ -189,9 +163,7 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0003-1098-208X"
-          ]
+          "ref": ["https://orcid.org/0000-0003-1098-208X"]
         },
         "roles": [
           "supervision",
@@ -207,9 +179,7 @@
       {
         "pers_name": {
           "text": "Werner, Christoph",
-          "ref": [
-            "https://orcid.org/0009-0008-9907-251X"
-          ]
+          "ref": ["https://orcid.org/0009-0008-9907-251X"]
         },
         "roles": [
           "software",
@@ -224,15 +194,9 @@
       {
         "pers_name": {
           "text": "Shoukry, Zacharias",
-          "ref": [
-            "https://orcid.org/0000-0002-9784-7034"
-          ]
+          "ref": ["https://orcid.org/0000-0002-9784-7034"]
         },
-        "roles": [
-          "data curation",
-          "formal analysis",
-          "investigation"
-        ],
+        "roles": ["data curation", "formal analysis", "investigation"],
         "websites": [
           "https://www.theologie.uni-rostock.de/fachgebiete/neues-testament/shoukry-zacharias-dr/"
         ]
@@ -242,21 +206,14 @@
           "text": "Mense, Sebastian",
           "ref": []
         },
-        "roles": [
-          "formal analysis",
-          "investigation"
-        ],
+        "roles": ["formal analysis", "investigation"],
         "websites": [
           "https://www.eh-darmstadt.de/hochschule/personenverzeichnis/mense/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "deu",
-        "eng",
-        "grc"
-      ],
+      "lang": ["deu", "eng", "grc"],
       "sustainability_plan": {
         "project_website": 0.0,
         "Github": 0.0,
@@ -268,9 +225,7 @@
       },
       "publications": {
         "open_access": 100,
-        "licensing": [
-          "CC BY 4.0"
-        ]
+        "licensing": ["CC BY 4.0"]
       },
       "data": {
         "datatypes": [
@@ -289,38 +244,26 @@
             "websites": [
               "https://github.com/chr-werner/SemDH2024-GreekNewTestamentNames"
             ],
-            "licensing": [
-              "CC BY 4.0"
-            ],
+            "licensing": ["CC BY 4.0"],
             "description": "Source Code for SemDH 2024 Workshop Paper 'A Corpus of Biblical Names in the Greek New Testament to Study the Additions, Omissions, and Variations across Different Manuscripts'"
           },
           {
             "label": "Zenodo",
             "accessibility": "public",
             "ref": [],
-            "websites": [
-              "https://doi.org/10.5281/zenodo.12723324"
-            ],
-            "licensing": [
-              "CC BY 4.0"
-            ],
+            "websites": ["https://doi.org/10.5281/zenodo.12723324"],
+            "licensing": ["CC BY 4.0"],
             "description": "Corpus of biblical names including spelling variation and inflections and their mentions in the transcriptions of the Ancient Greek New Testament."
           }
         ]
       }
     },
     "stack": {
-      "database": [
-        "xml",
-        "csv",
-        "json"
-      ],
+      "database": ["xml", "csv", "json"],
       "backend": [],
       "frontend": [],
       "tools": [],
-      "languages": [
-        "python"
-      ]
+      "languages": ["python"]
     },
     "policies": [
       {

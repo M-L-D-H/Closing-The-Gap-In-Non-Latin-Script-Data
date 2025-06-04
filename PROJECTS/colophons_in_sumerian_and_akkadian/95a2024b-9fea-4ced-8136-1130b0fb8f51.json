@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -37,9 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -67,19 +63,14 @@
             "https://d-nb.info/gnd/1156345170"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/soevegjarto.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "akk",
-        "sux"
-      ],
+      "lang": ["akk", "sux"],
       "sustainability_plan": {
         "project_website": 0.0,
         "Github": 0.0,
@@ -91,9 +82,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

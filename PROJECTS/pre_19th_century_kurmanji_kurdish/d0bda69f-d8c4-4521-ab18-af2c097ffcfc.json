@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Bamberg",
-          "ref": [
-            "https://www.geonames.org/2952984/bamberg.html"
-          ]
+          "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
         "coordinates": {
           "lat": "49.89873",
@@ -37,9 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +46,7 @@
             "https://ror.org/01c1w6d29"
           ]
         },
-        "websites": [
-          "https://www.uni-bamberg.de/"
-        ]
+        "websites": ["https://www.uni-bamberg.de/"]
       }
     ],
     "related_entities": [
@@ -86,18 +80,12 @@
             "https://d-nb.info/gnd/1121608140"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.chu.cam.ac.uk/fellows/dr-ergin-opengin/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.chu.cam.ac.uk/fellows/dr-ergin-opengin/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "kur"
-      ],
+      "lang": ["kur"],
       "sustainability_plan": {
         "project_website": 0.0,
         "Github": 0.0,
@@ -109,9 +97,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],

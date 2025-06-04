@@ -19,17 +19,13 @@
       }
     ],
     "maintained": true,
-    "websites": [
-      "https://www.oeaw.ac.at/iran/nomansland/"
-    ],
+    "websites": ["https://www.oeaw.ac.at/iran/nomansland/"],
     "project_desc": "The focus of this projects lies on Iranian and Central Asian societies in the period between the 13th and 15th century which witnessed nomadic conquest after the rise of Chinggis Khan. The process of transculturation and interaction between the sedentary Muslim conquered and nomadic conqueror is documented in largely unstudied manuscripts from that period, which will be explored and analyzed in the course of this project. The technical side of the project will be responsible for developing and implementing of an independent Analytical Database of Islamic Manuscripts which will serve both as a digital repository of manuscripts and an analytical tool that will allow users to do wider research on Islamic and Eurasian studies.",
     "places": [
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
         "coordinates": {
           "lat": "48.20849",
@@ -37,10 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +44,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": [
-          "https://www.oeaw.ac.at/en/"
-        ]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       }
     ],
     "related_entities": [
@@ -97,19 +88,14 @@
             "https://d-nb.info/gnd/1081572116"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.oeaw.ac.at/en/ifi/institute/staff/research-staff/bruno-de-nicola/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "fas"
-      ],
+      "lang": ["ara", "fas"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -121,9 +107,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [
@@ -145,21 +129,15 @@
             "label": "Das Forschungsdatenrepositorium der ÖAW",
             "accessibility": "private",
             "ref": [],
-            "websites": [
-              "https://datathek.oeaw.ac.at/startseite/d-1"
-            ],
+            "websites": ["https://datathek.oeaw.ac.at/startseite/d-1"],
             "licensing": [],
             "description": "Interdisciplinary repository of the ÖAW"
           },
           {
             "label": "ARCHE",
             "accessibility": "public",
-            "ref": [
-              "https://www.wikidata.org/wiki/Q126588727"
-            ],
-            "websites": [
-              "https://arche.acdh.oeaw.ac.at/browser/"
-            ],
+            "ref": ["https://www.wikidata.org/wiki/Q126588727"],
+            "websites": ["https://arche.acdh.oeaw.ac.at/browser/"],
             "licensing": [],
             "description": "Repository designed to preserve and provide access to research data."
           }
@@ -167,13 +145,8 @@
       }
     },
     "stack": {
-      "database": [
-        "PostgreSQL"
-      ],
-      "backend": [
-        "APIS",
-        "Django"
-      ],
+      "database": ["PostgreSQL"],
+      "backend": ["APIS", "Django"],
       "frontend": [],
       "tools": [
         {
@@ -188,11 +161,7 @@
           "description": "APIS is a modular framework for authoring, management, analysis, and publication of biographical and prosopographical data."
         }
       ],
-      "languages": [
-        "Python",
-        "JavaScript",
-        "HTML"
-      ]
+      "languages": ["Python", "JavaScript", "HTML"]
     },
     "policies": [
       {

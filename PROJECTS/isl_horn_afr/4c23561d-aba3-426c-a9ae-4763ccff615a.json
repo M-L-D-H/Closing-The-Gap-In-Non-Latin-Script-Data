@@ -19,17 +19,13 @@
       }
     ],
     "maintained": false,
-    "websites": [
-      "https://islhornafr.tors.ku.dk/"
-    ],
+    "websites": ["https://islhornafr.tors.ku.dk/"],
     "project_desc": "The project focuses on the Islamic culture of the Horn of Africa, exploring the region's rich but under-researched literary heritage. It applies digital humanities approaches to catalog, digitize, and analyze manuscripts written in Arabic and local languages using Arabic script. The project has created a comprehensive database that documents over 4,000 texts, shedding light on the region's Islamic traditions and intellectual history while enhancing the preservation of its written heritage​.",
     "places": [
       {
         "place_name": {
           "text": "Copenhagen",
-          "ref": [
-            "https://www.geonames.org/2618425/"
-          ]
+          "ref": ["https://www.geonames.org/2618425/"]
         },
         "coordinates": {
           "lat": "55.67594",
@@ -37,9 +33,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +44,7 @@
             "http://www.wikidata.org/entity/Q186285"
           ]
         },
-        "websites": [
-          "https://ccrs.ku.dk"
-        ]
+        "websites": ["https://ccrs.ku.dk"]
       }
     ],
     "related_entities": [
@@ -71,19 +63,12 @@
             "https://d-nb.info/gnd/132297582"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "http://ccrs.ku.dk/staff/?id=475264&vis=medarbejder"
-        ]
+        "roles": ["supervision"],
+        "websites": ["http://ccrs.ku.dk/staff/?id=475264&vis=medarbejder"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "eng"
-      ],
+      "lang": ["ara", "eng"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,

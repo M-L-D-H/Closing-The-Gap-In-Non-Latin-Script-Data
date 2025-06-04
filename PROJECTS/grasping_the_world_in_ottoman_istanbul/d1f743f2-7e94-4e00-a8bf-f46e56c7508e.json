@@ -27,9 +27,7 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
         "coordinates": {
           "lat": "53.55073",
@@ -37,9 +35,7 @@
         }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -77,22 +73,14 @@
             "https://d-nb.info/gnd/1195099657"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.bgsmcs.fu-berlin.de/about/alumni_doctoral_fellows/nadja_danilenko.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "fas",
-        "lat",
-        "ota",
-        "tur"
-      ],
+      "lang": ["ara", "fas", "lat", "ota", "tur"],
       "sustainability_plan": {
         "project_website": 0.0,
         "Github": 0.0,
@@ -104,9 +92,7 @@
       },
       "publications": {
         "open_access": 0,
-        "licensing": [
-          ""
-        ]
+        "licensing": [""]
       },
       "data": {
         "datatypes": [],
