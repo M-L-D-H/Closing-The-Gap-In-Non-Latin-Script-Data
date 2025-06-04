@@ -14,10 +14,10 @@
   "author": "Multilingual Digital Humanities",
   "main": "PROJECTS.json",
   "scripts": {
+    "check-links": "lychee --config lychee.toml ./**/*.json",
     "format": "prettier --ignore-path .gitignore --write .",
     "map-langs": "deno run --allow-read --allow-write TESTS/map_language_codes.ts",
-    "test": "deno test --allow-read TESTS/schema_tests.ts",
-    "check-links": "lychee --config lychee.toml ./**/*.json"
+    "test": "deno test --allow-read TESTS/schema_tests.ts"
   },
   "devDependencies": {
     "prettier": "^3.5.3",
