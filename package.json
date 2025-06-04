@@ -20,7 +20,7 @@
     "check-links": "lychee --config lychee.toml ./**/*.json"
   },
   "devDependencies": {
-    "prettier": "^3.4.2",
-    "zod": "^3.24.1"
+    "prettier": "^3.5.3",
+    "zod": "^3.25.51"
   }
 }
