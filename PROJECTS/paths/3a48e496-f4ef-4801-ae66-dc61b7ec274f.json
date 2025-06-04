@@ -12,12 +12,7 @@
     "abbr": "PATHs",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2015",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2015", "to": "" }],
     "maintained": true,
     "websites": ["https://atlas.paths-erc.eu", "http://paths.uniroma1.it"],
     "project_desc": "The project aims  to map and contextualize the distribution of Coptic literary texts across Egypt, focusing on their archaeological and manuscript traditions.",
@@ -27,10 +22,7 @@
           "text": "Roma",
           "ref": ["https://www.geonames.org/3169070/"]
         },
-        "coordinates": {
-          "lat": "41.89193",
-          "lng": "12.51133"
-        }
+        "coordinates": { "lat": "41.89193", "lng": "12.51133" }
       }
     ],
     "lang": ["eng"],
@@ -72,10 +64,7 @@
       },
       {
         "relation_type": "cooperation",
-        "org_name": {
-          "text": "Coptic Scriptorium ",
-          "ref": []
-        },
+        "org_name": { "text": "Coptic Scriptorium ", "ref": [] },
         "websites": ["http://copticscriptorium.org/"]
       },
       {
@@ -88,26 +77,17 @@
       },
       {
         "relation_type": "cooperation",
-        "org_name": {
-          "text": "Beta maṣāḥǝft",
-          "ref": []
-        },
+        "org_name": { "text": "Beta maṣāḥǝft", "ref": [] },
         "websites": ["https://www.betamasaheft.uni-hamburg.de/"]
       },
       {
         "relation_type": "cooperation",
-        "org_name": {
-          "text": "TraCES",
-          "ref": []
-        },
+        "org_name": { "text": "TraCES", "ref": [] },
         "websites": ["https://www.traces.uni-hamburg.de"]
       },
       {
         "relation_type": "cooperation",
-        "org_name": {
-          "text": "Trismegistos",
-          "ref": []
-        },
+        "org_name": { "text": "Trismegistos", "ref": [] },
         "websites": ["https://www.trismegistos.org"]
       },
       {
@@ -152,18 +132,10 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -184,12 +156,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_preservation",
       "image",

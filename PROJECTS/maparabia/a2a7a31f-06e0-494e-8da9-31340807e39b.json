@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2018",
-        "to": "2023"
-      }
-    ],
+    "date": [{ "from": "2018", "to": "2023" }],
     "maintained": true,
     "websites": ["https://ancientarabia.huma-num.fr/"],
     "project_desc": "The objective of the project is to produce a set of tools with a common aim: to model territorial and cultural dynamics by cross-referencing the various available sources. These analyses yield an updated regional history from the beginning of the 1st millennium BCE to the 7th cent. CE.",
@@ -27,10 +22,7 @@
           "text": "Paris",
           "ref": ["https://www.geonames.org/2988507/paris.html"]
         },
-        "coordinates": {
-          "lat": "48.8535",
-          "lng": "2.34839"
-        }
+        "coordinates": { "lat": "48.8535", "lng": "2.34839" }
       }
     ],
     "lang": ["eng"],
@@ -108,18 +100,10 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -140,12 +124,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "archaeology",

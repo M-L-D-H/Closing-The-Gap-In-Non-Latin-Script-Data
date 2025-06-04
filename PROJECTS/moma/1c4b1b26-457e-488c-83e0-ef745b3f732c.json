@@ -12,12 +12,7 @@
     "abbr": "MoMa",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2020", "to": "" }],
     "maintained": true,
     "websites": ["https://mouse.digitalscholarship.nl"],
     "project_desc": "The aim of the 'Mouse & Manuscript' project is to enhance teaching on codicology and Oriental manuscripts by utilizing digital tools to make Leiden University's manuscript collections more accessible. The project provides interactive lessons, leveraging digital humanities technology, such as an IIIF viewer, to offer detailed, zoomable access to manuscripts, while integrating questions and assignments to engage students and support further scholarly research.",
@@ -27,10 +22,7 @@
           "text": "Leiden",
           "ref": ["https://www.geonames.org/2751773/"]
         },
-        "coordinates": {
-          "lat": "52.15833",
-          "lng": "4.49306"
-        }
+        "coordinates": { "lat": "52.15833", "lng": "4.49306" }
       }
     ],
     "lang": ["eng", "ara"],
@@ -81,18 +73,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -113,12 +97,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "e_learning",

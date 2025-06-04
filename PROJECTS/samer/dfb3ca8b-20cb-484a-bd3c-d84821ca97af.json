@@ -12,12 +12,7 @@
     "abbr": "SAMER",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2018"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2018" }],
     "maintained": true,
     "websites": ["http://samer.camel-lab.com/"],
     "project_desc": "The aim of the SAMER project is to create standards and tools for simplifying modern Arabic fiction for school-age learners, including a readability scale, a curated readability list, a 36k-word thesaurus, and a simplification platform for Google Docs.",
@@ -27,10 +22,7 @@
           "text": "Abu Dhabi",
           "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
         },
-        "coordinates": {
-          "lat": "24.45384",
-          "lng": "54.37740"
-        }
+        "coordinates": { "lat": "24.45384", "lng": "54.37740" }
       }
     ],
     "lang": [],
@@ -96,18 +88,10 @@
         "publication_count": 9,
         "open_access_count": 9
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -128,12 +112,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "corpus_output",

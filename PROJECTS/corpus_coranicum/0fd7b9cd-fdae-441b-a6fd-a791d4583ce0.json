@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2007",
-        "to": "2024"
-      }
-    ],
+    "date": [{ "from": "2007", "to": "2024" }],
     "maintained": true,
     "websites": ["https://corpuscoranicum.de/en"],
     "project_desc": "Corpus Coranicum develops a catalogue of early Qur’anic manuscripts and texts of the Islamic scholarly tradition, which are all published online (open access) by using TEI standards. It offers not only transcriptions of the manuscripts in original languages and their German translations, but also images of originals, variant readings and commentaries explaining their literary, cultural and historical context. The project focuses on the systematic documentation of sources related to the Qur’an with the objective to reconstruct the development of the first Muslim community as the interaction between the Prophet and the first addressees in Mecca and Medina.",
@@ -27,10 +22,7 @@
           "text": "Potsdam",
           "ref": ["https://www.geonames.org/2852458/potsdam.html"]
         },
-        "coordinates": {
-          "lat": "52.39886",
-          "lng": "13.06566"
-        }
+        "coordinates": { "lat": "52.39886", "lng": "13.06566" }
       }
     ],
     "lang": ["deu", "eng", "fra"],
@@ -121,10 +113,7 @@
         "publication_count": 4,
         "open_access_count": 3
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
           {
@@ -145,12 +134,7 @@
             "licensing": [],
             "open_access": 0
           },
-          {
-            "label": "XML",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          },
+          { "label": "XML", "stage": "raw", "licensing": [], "open_access": 0 },
           {
             "label": "TEI-XML",
             "stage": "final",
@@ -200,12 +184,7 @@
       ],
       "languages": ["PHP", "JS", "TS"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "digital_preservation",

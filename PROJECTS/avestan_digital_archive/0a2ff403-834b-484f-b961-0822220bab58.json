@@ -12,12 +12,7 @@
     "abbr": "ADA",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2006",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2006", "to": "" }],
     "maintained": false,
     "websites": [
       "https://ada.geschkult.fu-berlin.de/",
@@ -30,10 +25,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["eng"],
@@ -108,14 +100,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -124,12 +110,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_edition",
       "digital_preservation",

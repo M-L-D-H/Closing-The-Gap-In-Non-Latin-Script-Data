@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2003",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2003", "to": "" }],
     "maintained": true,
     "websites": [
       "https://www.apd.gwi.uni-muenchen.de/apd/project.jsp",
@@ -30,20 +25,14 @@
           "text": "Basel",
           "ref": ["https://www.geonames.org/2661604/basel.html"]
         },
-        "coordinates": {
-          "lat": "47.55839",
-          "lng": "7.57327"
-        }
+        "coordinates": { "lat": "47.55839", "lng": "7.57327" }
       },
       {
         "place_name": {
           "text": "München",
           "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
+        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
       }
     ],
     "lang": ["eng"],
@@ -93,14 +82,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -109,12 +92,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

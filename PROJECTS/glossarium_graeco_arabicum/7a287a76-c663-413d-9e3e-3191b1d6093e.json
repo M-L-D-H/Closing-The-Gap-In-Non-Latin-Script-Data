@@ -13,14 +13,8 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "1994",
-        "to": "2006"
-      },
-      {
-        "from": "2010",
-        "to": "2015"
-      }
+      { "from": "1994", "to": "2006" },
+      { "from": "2010", "to": "2015" }
     ],
     "maintained": false,
     "websites": [
@@ -34,20 +28,14 @@
           "text": "Bochum",
           "ref": ["https://www.geonames.org/2947416/bochum.html"]
         },
-        "coordinates": {
-          "lat": "51.48165",
-          "lng": "7.21648"
-        }
+        "coordinates": { "lat": "51.48165", "lng": "7.21648" }
       },
       {
         "place_name": {
           "text": "Pisa",
           "ref": ["https://www.geonames.org/3170647/pisa.html"]
         },
-        "coordinates": {
-          "lat": "43.70853",
-          "lng": "10.4036"
-        }
+        "coordinates": { "lat": "43.70853", "lng": "10.4036" }
       }
     ],
     "lang": ["eng"],
@@ -102,14 +90,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -118,12 +100,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "corpus_resource",

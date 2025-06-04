@@ -12,12 +12,7 @@
     "abbr": "EPYW",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2023",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2023", "to": "" }],
     "maintained": true,
     "websites": ["https://epyw.glitch.me"],
     "project_desc": "The EPYW project aims to geographically visualize the dissemination of early printed Yemeni works, offering an interactive platform for exploring this literary heritage. Users can search the database by author, editor, and publication year, accessing detailed metadata that includes author names, editor names, publishers, and publishing dates. Additionally, the project features advanced place-based analytics, enabling users to analyze documented works geographically and sort data by individuals, years, or publishers, providing valuable insights into the historical and cultural landscape of Yemeni print culture.",
@@ -27,10 +22,7 @@
           "text": "Madrid",
           "ref": ["https://www.geonames.org/3117735/"]
         },
-        "coordinates": {
-          "lat": "40.4165",
-          "lng": "-3.70256"
-        }
+        "coordinates": { "lat": "40.4165", "lng": "-3.70256" }
       }
     ],
     "lang": ["eng"],
@@ -72,18 +64,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -104,12 +88,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "biographical_data",

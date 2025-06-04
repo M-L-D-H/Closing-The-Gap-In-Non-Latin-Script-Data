@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013",
-        "to": "2019"
-      }
-    ],
+    "date": [{ "from": "2013", "to": "2019" }],
     "maintained": false,
     "websites": [
       "https://www.st-andrews.ac.uk/modern-languages/research/projects/language-philology-culture/"
@@ -29,10 +24,7 @@
           "text": "Saint Andrews",
           "ref": ["https://www.geonames.org/2638864/saint-andrews.html"]
         },
-        "coordinates": {
-          "lat": "56.34039",
-          "lng": "-2.79558"
-        }
+        "coordinates": { "lat": "56.34039", "lng": "-2.79558" }
       }
     ],
     "lang": ["eng"],
@@ -87,14 +79,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -103,12 +89,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "computational_text_analysis",

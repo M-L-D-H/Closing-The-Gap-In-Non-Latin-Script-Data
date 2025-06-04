@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2018-01-01",
-        "to": "2022-12-31"
-      }
-    ],
+    "date": [{ "from": "2018-01-01", "to": "2022-12-31" }],
     "maintained": true,
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/kalila-wa-dimna/index.html",
@@ -30,10 +25,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -103,10 +95,7 @@
         "publication_count": 38,
         "open_access_count": 24
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
+      "publications": { "open_access": 0, "licensing": [""] },
       "data": {
         "datatypes": [
           { "label": "PDF", "stage": "raw", "licensing": [], "open_access": 0 },
@@ -166,12 +155,7 @@
       ],
       "languages": ["TS", "Python", "HTML", "CSS"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "classical_text",

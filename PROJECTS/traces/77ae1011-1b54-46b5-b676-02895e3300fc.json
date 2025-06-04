@@ -12,12 +12,7 @@
     "abbr": "TraCES",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2014",
-        "to": "2019"
-      }
-    ],
+    "date": [{ "from": "2014", "to": "2019" }],
     "maintained": false,
     "websites": [
       "https://www.traces.uni-hamburg.de/",
@@ -30,10 +25,7 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
     "lang": ["eng"],
@@ -163,18 +155,10 @@
         "publication_count": 98,
         "open_access_count": 35
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -195,12 +179,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "african_studies",
       "annotation",

@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": "2032"
-      }
-    ],
+    "date": [{ "from": "2020", "to": "2032" }],
     "maintained": true,
     "websites": [
       "https://www.uni-muenster.de/ALEA/",
@@ -31,10 +26,7 @@
           "text": "Münster",
           "ref": ["https://www.geonames.org/6553087/muenster.html"]
         },
-        "coordinates": {
-          "lat": "51.95973",
-          "lng": "7.63137"
-        }
+        "coordinates": { "lat": "51.95973", "lng": "7.63137" }
       }
     ],
     "lang": ["deu"],
@@ -78,14 +70,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -94,12 +80,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

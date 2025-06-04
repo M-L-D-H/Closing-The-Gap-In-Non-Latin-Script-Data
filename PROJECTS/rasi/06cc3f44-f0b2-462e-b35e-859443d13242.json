@@ -12,12 +12,7 @@
     "abbr": "RASI",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2008",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2008", "to": "" }],
     "maintained": true,
     "websites": [
       "https://islamsci.mcgill.ca/RASI/index.html",
@@ -30,10 +25,7 @@
           "text": "Montreal",
           "ref": ["https://www.geonames.org/6077243/"]
         },
-        "coordinates": {
-          "lat": "45.50884",
-          "lng": "28.94966"
-        }
+        "coordinates": { "lat": "45.50884", "lng": "28.94966" }
       }
     ],
     "lang": ["eng"],
@@ -75,14 +67,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -91,12 +77,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "digital_preservation",

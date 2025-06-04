@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2019",
-        "to": "2021"
-      }
-    ],
+    "date": [{ "from": "2019", "to": "2021" }],
     "maintained": false,
     "websites": [
       "https://web.archive.org/web/20240412020940/www.fu-berlin.de/sites/ub/ueber-uns/wandel/index.html"
@@ -29,10 +24,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["deu"],
@@ -86,14 +78,8 @@
         "publication_count": 11,
         "open_access_count": 11
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -102,12 +88,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_infrastructure"],
     "category": "infrastructure",
     "comment": "no website, last publication 2022"

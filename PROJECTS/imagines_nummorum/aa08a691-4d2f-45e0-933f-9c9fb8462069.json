@@ -12,12 +12,7 @@
     "abbr": "ThING",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2025",
-        "to": "2029"
-      }
-    ],
+    "date": [{ "from": "2025", "to": "2029" }],
     "maintained": true,
     "websites": ["https://www.imagines-nummorum.eu"],
     "project_desc": "The aim of the academy project is to unlock the potential of ancient Greek coins for questions of visual studies and cultural history by developing a hierarchical iconographic thesaurus on the basis of Linked Open Data.",
@@ -27,20 +22,14 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.51089",
-          "lng": "13.39894"
-        }
+        "coordinates": { "lat": "52.51089", "lng": "13.39894" }
       },
       {
         "place_name": {
           "text": "Kiel",
           "ref": ["https://www.geonames.org/2891122/kiel.html"]
         },
-        "coordinates": {
-          "lat": "54.32271",
-          "lng": "10.13556"
-        }
+        "coordinates": { "lat": "54.32271", "lng": "10.13556" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -144,14 +133,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -160,12 +143,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "artefact",

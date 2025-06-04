@@ -12,12 +12,7 @@
     "abbr": "SEAL",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2007",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2007", "to": "" }],
     "maintained": true,
     "websites": ["https://seal.huji.ac.il"],
     "project_desc": "Project aims to compile an exhaustive catalogue of Akkadian literary texts from the 3rd and 2nd millennia BCE, to present this corpus in such a way as to enable the efficient study of the entire early Akkadian corpus in all its philological, literary, and historical dimensions. Many of the editions in SEAL rely on new collations and photographs.",
@@ -27,20 +22,14 @@
           "text": "Jerusalem",
           "ref": ["https://www.geonames.org/281184/jerusalem.html"]
         },
-        "coordinates": {
-          "lat": "31.77882",
-          "lng": "35.22576"
-        }
+        "coordinates": { "lat": "31.77882", "lng": "35.22576" }
       },
       {
         "place_name": {
           "text": "Leipzig",
           "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
-        "coordinates": {
-          "lat": "51.34063",
-          "lng": "12.37473"
-        }
+        "coordinates": { "lat": "51.34063", "lng": "12.37473" }
       }
     ],
     "lang": ["eng"],
@@ -107,14 +96,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -123,12 +106,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "corpus_output",

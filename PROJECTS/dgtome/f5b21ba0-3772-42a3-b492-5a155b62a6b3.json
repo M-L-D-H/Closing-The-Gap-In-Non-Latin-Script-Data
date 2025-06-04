@@ -12,12 +12,7 @@
     "abbr": "DGTOME",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2020", "to": "" }],
     "maintained": true,
     "websites": ["https://dgtome.com/"],
     "project_desc": "The project provides essential information on the most significant plays/performances written and performed in the Middle East and North Africa (MENA) and among their diasporas since 2000. The goal is to recognize and display the breadth and diversity of theatrical visions, creations, and collaborations of MENA theatre artists in an accessible and sustained manner to academics and theater practitioners and producers.",
@@ -27,10 +22,7 @@
           "text": "College Park",
           "ref": ["https://www.geonames.org/4351977/college-park.html"]
         },
-        "coordinates": {
-          "lat": "38.98067",
-          "lng": "-76.93692"
-        }
+        "coordinates": { "lat": "38.98067", "lng": "-76.93692" }
       }
     ],
     "lang": ["eng"],
@@ -88,18 +80,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -120,12 +104,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "art_studies",
       "catalog",

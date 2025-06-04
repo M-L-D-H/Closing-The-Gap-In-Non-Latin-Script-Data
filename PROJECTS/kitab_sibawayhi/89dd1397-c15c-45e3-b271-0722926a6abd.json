@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2023",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2023", "to": "" }],
     "maintained": true,
     "websites": ["https://refubium.fu-berlin.de/handle/fub188/41580"],
     "project_desc": "This repository includes a TEI-encoded version of the Kitāb Sībawayhi and an XSLT for the visualization of the resource.",
@@ -27,10 +22,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.51089",
-          "lng": "13.39894"
-        }
+        "coordinates": { "lat": "52.51089", "lng": "13.39894" }
       }
     ],
     "lang": ["eng"],
@@ -80,18 +72,10 @@
         "publication_count": 1,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -112,12 +96,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

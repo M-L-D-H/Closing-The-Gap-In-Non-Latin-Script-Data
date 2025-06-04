@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2009",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2009", "to": "" }],
     "maintained": true,
     "websites": ["https://corpus.quran.com/"],
     "project_desc": "The Quranic Arabic Corpus, an annotated linguistic resource which shows the Arabic grammar, syntax and morphology for each word in the Holy Quran. The corpus provides three levels of analysis: morphological annotation, a syntactic treebank and a semantic ontology.",
@@ -27,10 +22,7 @@
           "text": "Leeds",
           "ref": ["https://www.geonames.org/2644688/leeds.html"]
         },
-        "coordinates": {
-          "lat": "53.79742",
-          "lng": "-1.54379"
-        }
+        "coordinates": { "lat": "53.79742", "lng": "-1.54379" }
       }
     ],
     "lang": ["eng"],
@@ -82,18 +74,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -114,12 +98,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "computational_text_analysis",

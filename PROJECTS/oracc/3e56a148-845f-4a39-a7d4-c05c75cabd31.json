@@ -12,12 +12,7 @@
     "abbr": "Oracc",
     "type": "project",
     "ref": ["https://urn.fi/urn:nbn:fi:lb-2022031705"],
-    "date": [
-      {
-        "from": "2012",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2012", "to": "" }],
     "maintained": true,
     "websites": ["http://oracc.museum.upenn.edu/"],
     "project_desc": "Oracc emerged from the CDLI project. It is a is a collaborative effort to develop a complete multilingual corpus of cuneiform whose rich annotation and open licensing support the next generation of scholarly research.",
@@ -27,30 +22,21 @@
           "text": "Los Angeles",
           "ref": ["https://www.geonames.org/5368361/los-angeles.html"]
         },
-        "coordinates": {
-          "lat": "34.05223",
-          "lng": "-118.24368"
-        }
+        "coordinates": { "lat": "34.05223", "lng": "-118.24368" }
       },
       {
         "place_name": {
           "text": "Oxford",
           "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
-        "coordinates": {
-          "lat": "51.75222",
-          "lng": "-1.25596"
-        }
+        "coordinates": { "lat": "51.75222", "lng": "-1.25596" }
       },
       {
         "place_name": {
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["eng"],
@@ -79,10 +65,7 @@
     ],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": ["https://viaf.org/viaf/18932290"]
-        },
+        "pers_name": { "text": "", "ref": ["https://viaf.org/viaf/18932290"] },
         "roles": ["supervision"],
         "websites": ["https://www.ling.upenn.edu/people/tinney"]
       }
@@ -109,14 +92,8 @@
         "publication_count": 5,
         "open_access_count": 5
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -125,12 +102,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

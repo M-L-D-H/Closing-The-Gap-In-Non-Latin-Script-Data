@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2010",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2010", "to": "" }],
     "maintained": true,
     "websites": ["https://islamicinscriptions.cultnat.org/"],
     "project_desc": "The Project covers Islamic inscriptions that are found in a range of the most important pre-1800 historical monuments in Cairo. The project database includes 3300 inscriptions related to 509 monuments, written on different materials such as stone, plaster, wood, and metal, and in many types of script including Kufic, Thuluth, and Naskh.",
@@ -27,20 +22,14 @@
           "text": "Cairo",
           "ref": ["https://www.geonames.org/360630/cairo.html"]
         },
-        "coordinates": {
-          "lat": "30.04439",
-          "lng": "31.23573"
-        }
+        "coordinates": { "lat": "30.04439", "lng": "31.23573" }
       },
       {
         "place_name": {
           "text": "Giza",
           "ref": ["https://www.geonames.org/360995/giza.html"]
         },
-        "coordinates": {
-          "lat": "29.98708",
-          "lng": "31.21181"
-        }
+        "coordinates": { "lat": "29.98708", "lng": "31.21181" }
       }
     ],
     "lang": ["eng"],
@@ -104,18 +93,10 @@
         "publication_count": 3,
         "open_access_count": 3
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -136,12 +117,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

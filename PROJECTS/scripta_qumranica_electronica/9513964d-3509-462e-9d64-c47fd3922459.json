@@ -12,12 +12,7 @@
     "abbr": "SQE",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2021"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2021" }],
     "maintained": true,
     "websites": [
       "https://sqe.deadseascrolls.org.il/",
@@ -30,40 +25,28 @@
           "text": "Göttingen",
           "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
       },
       {
         "place_name": {
           "text": "Tel Aviv",
           "ref": ["https://www.geonames.org/293397/tel-aviv.html"]
         },
-        "coordinates": {
-          "lat": "32.08088",
-          "lng": "34.78057"
-        }
+        "coordinates": { "lat": "32.08088", "lng": "34.78057" }
       },
       {
         "place_name": {
           "text": "Jerusalem",
           "ref": ["https://www.geonames.org/281184/jerusalem.html"]
         },
-        "coordinates": {
-          "lat": "31.76904",
-          "lng": "35.21633"
-        }
+        "coordinates": { "lat": "31.76904", "lng": "35.21633" }
       },
       {
         "place_name": {
           "text": "Haifa",
           "ref": ["https://www.geonames.org/294801/haifa.html"]
         },
-        "coordinates": {
-          "lat": "32.81841",
-          "lng": "34.9885"
-        }
+        "coordinates": { "lat": "32.81841", "lng": "34.9885" }
       }
     ],
     "lang": ["eng"],
@@ -126,10 +109,7 @@
     ],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": ["https://d-nb.info/gnd/115412700"]
-        },
+        "pers_name": { "text": "", "ref": ["https://d-nb.info/gnd/115412700"] },
         "roles": ["supervision"],
         "websites": ["https://www.uni-goettingen.de/de/56085.html"]
       },
@@ -156,14 +136,8 @@
         "publication_count": 2,
         "open_access_count": 2
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -172,12 +146,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "catalog",

@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2021",
-        "to": "2026"
-      }
-    ],
+    "date": [{ "from": "2021", "to": "2026" }],
     "maintained": true,
     "websites": [
       "https://www.csmc.uni-hamburg.de/research/affiliated-projects/persian-documents.html",
@@ -30,10 +25,7 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55034",
-          "lng": "10.00065"
-        }
+        "coordinates": { "lat": "53.55034", "lng": "10.00065" }
       }
     ],
     "lang": ["eng"],
@@ -164,14 +156,8 @@
         "publication_count": 1,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -180,12 +166,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "digital_preservation",

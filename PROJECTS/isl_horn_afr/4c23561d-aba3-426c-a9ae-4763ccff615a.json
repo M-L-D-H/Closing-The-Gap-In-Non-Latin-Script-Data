@@ -12,12 +12,7 @@
     "abbr": "IslHornAfr",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013",
-        "to": "2018"
-      }
-    ],
+    "date": [{ "from": "2013", "to": "2018" }],
     "maintained": false,
     "websites": ["https://islhornafr.tors.ku.dk/"],
     "project_desc": "The project focuses on the Islamic culture of the Horn of Africa, exploring the region's rich but under-researched literary heritage. It applies digital humanities approaches to catalog, digitize, and analyze manuscripts written in Arabic and local languages using Arabic script. The project has created a comprehensive database that documents over 4,000 texts, shedding light on the region's Islamic traditions and intellectual history while enhancing the preservation of its written heritage​.",
@@ -27,10 +22,7 @@
           "text": "Copenhagen",
           "ref": ["https://www.geonames.org/2618425/"]
         },
-        "coordinates": {
-          "lat": "55.67594",
-          "lng": "12.56553"
-        }
+        "coordinates": { "lat": "55.67594", "lng": "12.56553" }
       }
     ],
     "lang": ["eng"],
@@ -78,18 +70,10 @@
         "publication_count": 57,
         "open_access_count": 34
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -110,12 +94,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "african_studies",
       "biographical_data",

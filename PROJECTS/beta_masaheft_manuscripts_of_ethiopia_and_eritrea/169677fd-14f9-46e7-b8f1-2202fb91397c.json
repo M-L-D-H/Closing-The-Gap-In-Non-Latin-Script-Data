@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2040"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2040" }],
     "maintained": true,
     "websites": [
       "https://www.betamasaheft.uni-hamburg.de/",
@@ -32,10 +27,7 @@
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -203,10 +195,7 @@
         "publication_count": 2,
         "open_access_count": 2
       },
-      "publications": {
-        "open_access": 100,
-        "licensing": []
-      },
+      "publications": { "open_access": 100, "licensing": [] },
       "data": {
         "datatypes": [
           {
@@ -270,12 +259,7 @@
       ],
       "languages": ["XQuery", "JS", "Python", "XSLT"]
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "african_studies",
       "digital_edition",

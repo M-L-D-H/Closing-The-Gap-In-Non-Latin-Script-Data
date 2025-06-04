@@ -12,12 +12,7 @@
     "abbr": "PGP",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "1986",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "1986", "to": "" }],
     "maintained": true,
     "websites": ["https://geniza.princeton.edu/en/"],
     "project_desc": "The Princeton Geniza Project (PGP) aims to digitize and make accessible the texts of the Cairo Geniza, integrating images, transcriptions, and metadata to support research on medieval Mediterranean life. From a digital humanities perspective, it demonstrates how computational tools and digital platforms can preserve, analyze, and democratize access to historical manuscripts.",
@@ -27,10 +22,7 @@
           "text": "Princeton",
           "ref": ["https://www.geonames.org/5102922/"]
         },
-        "coordinates": {
-          "lat": "40.34872",
-          "lng": "-74.65905"
-        }
+        "coordinates": { "lat": "40.34872", "lng": "-74.65905" }
       }
     ],
     "lang": ["eng"],
@@ -98,18 +90,10 @@
         "publication_count": 1,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -130,12 +114,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "jewish_studies",

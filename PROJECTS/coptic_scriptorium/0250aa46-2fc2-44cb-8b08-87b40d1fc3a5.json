@@ -12,12 +12,7 @@
     "abbr": "CS",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2013", "to": "" }],
     "maintained": true,
     "websites": ["https://copticscriptorium.org/"],
     "project_desc": "The project aimed to create a digitized corpus of Coptic texts available in multiple formats and visualizations (including TEI XML), tools to analyze and process the language (e.g., the first Coptic part-of-speech tagger), a database with search and visualization capabilities, and a collaborative platform for scholars to contribute texts and annotations and to conduct research.",
@@ -27,30 +22,21 @@
           "text": "Washington",
           "ref": ["https://www.geonames.org/4140963/washington.html"]
         },
-        "coordinates": {
-          "lat": "38.89504",
-          "lng": "-77.03654"
-        }
+        "coordinates": { "lat": "38.89504", "lng": "-77.03654" }
       },
       {
         "place_name": {
           "text": "Stockton",
           "ref": ["https://www.geonames.org/5399020/stockton.html"]
         },
-        "coordinates": {
-          "lat": "37.9577",
-          "lng": "-121.29078"
-        }
+        "coordinates": { "lat": "37.9577", "lng": "-121.29078" }
       },
       {
         "place_name": {
           "text": "Norman",
           "ref": ["https://www.geonames.org/4543762/norman.html"]
         },
-        "coordinates": {
-          "lat": "35.22257",
-          "lng": "-97.43948"
-        }
+        "coordinates": { "lat": "35.22257", "lng": "-97.43948" }
       }
     ],
     "lang": ["eng"],
@@ -150,14 +136,8 @@
         "publication_count": 6,
         "open_access_count": 6
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -166,12 +146,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "classical_text",

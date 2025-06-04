@@ -12,12 +12,7 @@
     "abbr": "MELA",
     "type": "organization",
     "ref": ["https://www.wikidata.org/wiki/Q100320015"],
-    "date": [
-      {
-        "from": "1972",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "1972", "to": "" }],
     "maintained": true,
     "websites": ["https://www.mela.us/"],
     "project_desc": "MELA is an association of Middle East library specialists. Its mission is to facilitate communication and encourage cooperation among its members and Middle East libraries. It aims at improving area librarianship through the development of standards for the profession and education of Middle East librarians. It also compiles and disseminates information concerning Middle East libraries through various meeting and publications.",
@@ -27,10 +22,7 @@
           "text": "US",
           "ref": ["https://www.geonames.org/6252001/united-states.html"]
         },
-        "coordinates": {
-          "lat": "39.76",
-          "lng": "-98.5"
-        }
+        "coordinates": { "lat": "39.76", "lng": "-98.5" }
       }
     ],
     "lang": ["eng"],
@@ -57,14 +49,8 @@
         "publication_count": 99,
         "open_access_count": 99
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -73,12 +59,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["collaboration_platform"],
     "category": "other",
     "comment": ""

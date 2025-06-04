@@ -12,12 +12,7 @@
     "abbr": "SPACE",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2024",
-        "to": "2029"
-      }
-    ],
+    "date": [{ "from": "2024", "to": "2029" }],
     "maintained": true,
     "websites": ["https://space-project.imtlucca.it/"],
     "project_desc": "The aim of SPACE is to explore in detail the neglected issue of the system of the sciences as instantiated in the earliest examples of philosophical encyclopaedias, those penned by the Arabophone Persian polymath Avicenna (Ibn Sīnā, d. 1037). SPACE will explore in detail the structure and format of three philosophical summae by Avicenna, written in different languages (Arabic and Persian), at different times in the master's career, with different aims and targets, and coming in very different sizes.",
@@ -27,10 +22,7 @@
           "text": "Lucca",
           "ref": ["https://www.geonames.org/3174530/lucca.html"]
         },
-        "coordinates": {
-          "lat": "43.84369",
-          "lng": "10.50447"
-        }
+        "coordinates": { "lat": "43.84369", "lng": "10.50447" }
       }
     ],
     "lang": ["eng"],
@@ -79,14 +71,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -95,12 +81,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "classical_text",

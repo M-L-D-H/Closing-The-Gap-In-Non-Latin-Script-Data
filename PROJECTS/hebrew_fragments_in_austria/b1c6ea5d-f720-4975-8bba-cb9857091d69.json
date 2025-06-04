@@ -13,18 +13,9 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "1991",
-        "to": "2002"
-      },
-      {
-        "from": "2004",
-        "to": "2008"
-      },
-      {
-        "from": "2008",
-        "to": ""
-      }
+      { "from": "1991", "to": "2002" },
+      { "from": "2004", "to": "2008" },
+      { "from": "2008", "to": "" }
     ],
     "maintained": true,
     "websites": ["https://www.hebrewmanuscript.com/"],
@@ -35,10 +26,7 @@
           "text": "St. Pölten",
           "ref": ["https://www.geonames.org/2766429/sankt-poelten.html"]
         },
-        "coordinates": {
-          "lat": "48.2044",
-          "lng": "15.62291"
-        }
+        "coordinates": { "lat": "48.2044", "lng": "15.62291" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -97,18 +85,10 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -129,12 +109,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "corpus_output",

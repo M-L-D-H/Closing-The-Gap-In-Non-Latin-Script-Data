@@ -12,12 +12,7 @@
     "abbr": "Epidat",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2002",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2002", "to": "" }],
     "maintained": true,
     "websites": ["http://www.steinheim-institut.de/cgi-bin/epidat"],
     "project_desc": "Epidat is a database of 50,900 Jewish funerary inscriptions in Europe, mostly Germany, with German translations and metadata.",
@@ -27,20 +22,14 @@
           "text": "Essen",
           "ref": ["https://www.geonames.org/2928810/essen.html"]
         },
-        "coordinates": {
-          "lat": "51.45822",
-          "lng": "7.01582"
-        }
+        "coordinates": { "lat": "51.45822", "lng": "7.01582" }
       },
       {
         "place_name": {
           "text": "Mainz",
           "ref": ["https://www.geonames.org/2874225/mainz.html"]
         },
-        "coordinates": {
-          "lat": "49.99952",
-          "lng": "8.27363"
-        }
+        "coordinates": { "lat": "49.99952", "lng": "8.27363" }
       }
     ],
     "lang": ["deu"],
@@ -102,18 +91,10 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -134,12 +115,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "catalog",

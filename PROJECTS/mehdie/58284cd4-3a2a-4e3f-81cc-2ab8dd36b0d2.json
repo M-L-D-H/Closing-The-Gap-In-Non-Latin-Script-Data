@@ -12,12 +12,7 @@
     "abbr": "MEHDIE",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": "2023"
-      }
-    ],
+    "date": [{ "from": "2020", "to": "2023" }],
     "maintained": true,
     "websites": ["https://mehdie.org/#"],
     "project_desc": "The project aims to integrate multilingual Medieval Middle Eastern historical and geographical data using Knowledge Graph technology, leveraging the linguistic affinity between Semitic languages and their English translations. By structuring and linking curated datasets in Arabic, Hebrew, and Judeo-Arabic, it provides a foundational resource for data-driven research in the digital humanities.",
@@ -27,10 +22,7 @@
           "text": "Haifa",
           "ref": ["https://www.geonames.org/294801/"]
         },
-        "coordinates": {
-          "lat": "32.81841",
-          "lng": "34.9885"
-        }
+        "coordinates": { "lat": "32.81841", "lng": "34.9885" }
       }
     ],
     "lang": ["eng"],
@@ -75,18 +67,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -107,12 +91,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "geodata",

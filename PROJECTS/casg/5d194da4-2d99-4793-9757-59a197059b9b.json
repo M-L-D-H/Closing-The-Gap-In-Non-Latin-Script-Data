@@ -13,14 +13,8 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2009",
-        "to": "2011"
-      },
-      {
-        "from": "2023",
-        "to": ""
-      }
+      { "from": "2009", "to": "2011" },
+      { "from": "2023", "to": "" }
     ],
     "maintained": false,
     "websites": [
@@ -33,10 +27,7 @@
           "text": "Halle (Saale)",
           "ref": ["https://www.geonames.org/6551220/halle-saale.html"]
         },
-        "coordinates": {
-          "lat": "51.48298",
-          "lng": "11.97202"
-        }
+        "coordinates": { "lat": "51.48298", "lng": "11.97202" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -56,10 +47,7 @@
     "related_entities": [],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": ["https://d-nb.info/gnd/111231965"]
-        },
+        "pers_name": { "text": "", "ref": ["https://d-nb.info/gnd/111231965"] },
         "roles": ["supervision"],
         "websites": ["https://www.uni-goettingen.de/de/654951.html"]
       }
@@ -75,18 +63,10 @@
         "publication_count": 1,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -107,12 +87,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

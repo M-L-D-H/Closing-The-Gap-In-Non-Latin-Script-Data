@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2013", "to": "" }],
     "maintained": true,
     "websites": [
       "https://mamluk.lib.uchicago.edu/index.html",
@@ -30,10 +25,7 @@
           "text": "Chicago",
           "ref": ["https://www.geonames.org/4887398/"]
         },
-        "coordinates": {
-          "lat": "41.85003",
-          "lng": "-87.65005"
-        }
+        "coordinates": { "lat": "41.85003", "lng": "-87.65005" }
       }
     ],
     "lang": ["eng"],
@@ -74,18 +66,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 80,
-        "licensing": []
-      },
+      "publications": { "open_access": 80, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "mdb",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          },
+          { "label": "mdb", "stage": "raw", "licensing": [], "open_access": 0 },
           {
             "label": "xlsx",
             "stage": "final",
@@ -150,12 +134,7 @@
       ],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["arabic_studies", "catalog", "digital_preservation"],
     "category": "digital_preservation",
     "comment": ""

@@ -13,18 +13,9 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2013",
-        "to": "2016"
-      },
-      {
-        "from": "2016",
-        "to": "2021"
-      },
-      {
-        "from": "2021",
-        "to": "2025"
-      }
+      { "from": "2013", "to": "2016" },
+      { "from": "2016", "to": "2021" },
+      { "from": "2021", "to": "2025" }
     ],
     "maintained": true,
     "websites": ["https://www.corpus-nummorum.eu"],
@@ -35,10 +26,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.51089",
-          "lng": "13.39894"
-        }
+        "coordinates": { "lat": "52.51089", "lng": "13.39894" }
       }
     ],
     "lang": ["bul", "deu", "ell", "eng", "ron", "rus", "tur"],
@@ -147,14 +135,8 @@
         "publication_count": 42,
         "open_access_count": 13
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -163,12 +145,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "artefact",

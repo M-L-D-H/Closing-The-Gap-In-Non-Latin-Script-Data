@@ -12,12 +12,7 @@
     "abbr": "PEACE",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2020", "to": "" }],
     "maintained": true,
     "websites": ["https://peace.sites.uu.nl/"],
     "project_desc": "The PEACE portal explores Jewish funerary culture through the ages. In this initial phase, it focuses on epigraphical aspects: the inscriptions recorded on stone, plaster, or gold-glass. The other aspects, namely archaeology, conservation, and education, will be added to the portal in the coming years.",
@@ -27,30 +22,21 @@
           "text": "Utrecht",
           "ref": ["https://www.geonames.org/2745912/utrecht.html"]
         },
-        "coordinates": {
-          "lat": "52.0907",
-          "lng": "5.12156"
-        }
+        "coordinates": { "lat": "52.0907", "lng": "5.12156" }
       },
       {
         "place_name": {
           "text": "Essen",
           "ref": ["https://www.geonames.org/2928810/essen.html"]
         },
-        "coordinates": {
-          "lat": "51.45822",
-          "lng": "7.01582"
-        }
+        "coordinates": { "lat": "51.45822", "lng": "7.01582" }
       },
       {
         "place_name": {
           "text": "Providence",
           "ref": ["https://www.geonames.org/5224151/providence.html"]
         },
-        "coordinates": {
-          "lat": "41.82399",
-          "lng": "-71.41283"
-        }
+        "coordinates": { "lat": "41.82399", "lng": "-71.41283" }
       }
     ],
     "lang": ["eng"],
@@ -126,18 +112,10 @@
         "publication_count": 4,
         "open_access_count": 2
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -158,12 +136,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "catalog",

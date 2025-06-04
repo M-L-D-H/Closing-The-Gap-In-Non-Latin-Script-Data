@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2010",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2010", "to": "" }],
     "maintained": true,
     "websites": ["https://nomisma.org"],
     "project_desc": "Nomisma.org is an international, collaborative project to provide stable digital representations of numismatic concepts according to the principles of Linked Open Data (LOD). These take the form of HTTP URIs that also provide access to reusable information about those concepts, along with links to other resources.",
@@ -27,10 +22,7 @@
           "text": "New York",
           "ref": ["https://www.geonames.org/5128581/new-york-city.html"]
         },
-        "coordinates": {
-          "lat": "40.71273",
-          "lng": "-74.00602"
-        }
+        "coordinates": { "lat": "40.71273", "lng": "-74.00602" }
       }
     ],
     "lang": ["eng"],
@@ -105,14 +97,8 @@
         "publication_count": 5,
         "open_access_count": 4
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -121,12 +107,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "catalog",

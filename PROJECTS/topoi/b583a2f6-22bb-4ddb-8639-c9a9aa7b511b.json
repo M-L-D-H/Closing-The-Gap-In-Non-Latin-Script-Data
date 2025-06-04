@@ -13,14 +13,8 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2007",
-        "to": "2012"
-      },
-      {
-        "from": "2012",
-        "to": "2019"
-      }
+      { "from": "2007", "to": "2012" },
+      { "from": "2012", "to": "2019" }
     ],
     "maintained": false,
     "websites": ["https://topoi.org/"],
@@ -31,10 +25,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": [],
@@ -86,14 +77,8 @@
         "publication_count": 87,
         "open_access_count": 87
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -102,12 +87,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["cultural_studies", "history_studies"],
     "category": "other",
     "comment": ""

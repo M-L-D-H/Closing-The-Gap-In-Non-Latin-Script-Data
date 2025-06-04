@@ -12,12 +12,7 @@
     "abbr": "DOI",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2009",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2009", "to": "" }],
     "maintained": true,
     "websites": ["http://info.ottomaninscriptions.com/"],
     "project_desc": "The DOI project aims to develop a searchable digital database comprising information about, as well as transliterations and pictures of, all the Turkish, Arabic and Persian architectural inscriptions created in the Ottoman lands during Ottoman times.",
@@ -27,10 +22,7 @@
           "text": "Istanbul",
           "ref": ["https://www.geonames.org/745044/istanbul.html"]
         },
-        "coordinates": {
-          "lat": "41.0766",
-          "lng": "29.0525"
-        }
+        "coordinates": { "lat": "41.0766", "lng": "29.0525" }
       }
     ],
     "lang": ["eng", "tur"],
@@ -96,18 +88,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -128,12 +112,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "epigraphy",

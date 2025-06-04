@@ -12,12 +12,7 @@
     "abbr": "HebrewPal",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2022",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2022", "to": "" }],
     "maintained": true,
     "websites": ["https://www.hebrewpalaeography.com/"],
     "project_desc": "The aim of this resource is to offer historians, textual scholars, manuscript students, and the general learned public accessible tools for the study of Hebrew scripts and handwritings from the Middle Ages and Early Modern period. It analyses and makes freely available samples of manuscripts, both books and documents, as well as epigraphic inscriptions in Hebrew and Judeo-languages from across Jewish communities.",
@@ -27,10 +22,7 @@
           "text": "Oxford",
           "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
-        "coordinates": {
-          "lat": "51.75201",
-          "lng": "-1.25785"
-        }
+        "coordinates": { "lat": "51.75201", "lng": "-1.25785" }
       }
     ],
     "lang": ["eng"],
@@ -102,18 +94,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -134,12 +118,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_edition",
       "digital_preservation",

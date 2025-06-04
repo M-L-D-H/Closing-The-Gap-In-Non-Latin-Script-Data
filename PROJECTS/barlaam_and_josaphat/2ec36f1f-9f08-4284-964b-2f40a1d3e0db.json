@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2017",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2017", "to": "" }],
     "maintained": true,
     "websites": ["https://barlaamandjosaphat.wp.st-andrews.ac.uk/"],
     "project_desc": "The focus of this project lies on Arabic manuscripts of Barlaam and Josaphat, an outstanding work of world literature, and the rich history of its transmission in Arabic sources. In the course of the project the manuscripts will be published online in an open-access research platform ediarum developed at the Berlin Brandenburg Academy of Sciences and Humanities (Berlin, Germany). Along with the photocopies of the manuscripts, the platform will feature full transcriptions of the Arabic texts, an English translation of selected manuscripts as well as analytical metadata and bibliography. This will result in the creation of a comprehensive research tool on the history of Barlaam and Josaphat in Arabic literature.",
@@ -27,10 +22,7 @@
           "text": "Saint Andrews",
           "ref": ["https://www.geonames.org/2638864/saint-andrews.html"]
         },
-        "coordinates": {
-          "lat": "56.33871",
-          "lng": "-2.79902"
-        }
+        "coordinates": { "lat": "56.33871", "lng": "-2.79902" }
       }
     ],
     "lang": ["eng"],
@@ -63,10 +55,7 @@
         ]
       },
       {
-        "pers_name": {
-          "text": "",
-          "ref": ["https://d-nb.info/gnd/140143777"]
-        },
+        "pers_name": { "text": "", "ref": ["https://d-nb.info/gnd/140143777"] },
         "roles": ["supervision"],
         "websites": [
           "https://www.bilalorfali.com/en",
@@ -85,14 +74,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -101,12 +84,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "classical_text",

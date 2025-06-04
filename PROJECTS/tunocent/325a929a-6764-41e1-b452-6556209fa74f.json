@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2019-04-01",
-        "to": "2023-03-31"
-      }
-    ],
+    "date": [{ "from": "2019-04-01", "to": "2023-03-31" }],
     "maintained": true,
     "websites": ["https://tunocent.acdh.oeaw.ac.at/"],
     "project_desc": "This project studies the hitherto almost unknown Arabic varieties spoken in parts of Tunisia. Firstly, the team members will record and collect the linguistic data through fieldwork. In the second phase of the project selected dialects will be sketched and two varieties representing the main dialectal areas described in detail. Finlay a digital and fully searchable corpus of transcribed and translated narrative and ethnographic texts and conversations will be developed. The project will build on an existing research infrastructure for Arabic variations, which has been established at the Austrian Academy of Sciences over the recent years such as VICAV, TUNICO and ARCHE.",
@@ -27,10 +22,7 @@
           "text": "Vienna",
           "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
+        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
       }
     ],
     "lang": ["eng"],
@@ -113,14 +105,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -129,12 +115,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "audio",

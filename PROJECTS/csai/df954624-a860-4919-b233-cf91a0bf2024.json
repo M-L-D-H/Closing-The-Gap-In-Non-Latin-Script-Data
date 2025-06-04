@@ -12,12 +12,7 @@
     "abbr": "CSAI",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2011",
-        "to": "2016"
-      }
-    ],
+    "date": [{ "from": "2011", "to": "2016" }],
     "maintained": true,
     "websites": [
       "https://dasi.cnr.it/index.php?id=42&prjId=1&corId=0&colId=0&navId=0&rl=yes"
@@ -29,10 +24,7 @@
           "text": "Pisa",
           "ref": ["https://www.geonames.org/3170647/pisa.html"]
         },
-        "coordinates": {
-          "lat": "43.70853",
-          "lng": "10.4036"
-        }
+        "coordinates": { "lat": "43.70853", "lng": "10.4036" }
       }
     ],
     "lang": ["eng"],
@@ -108,18 +100,10 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -140,12 +124,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "corpus_output",

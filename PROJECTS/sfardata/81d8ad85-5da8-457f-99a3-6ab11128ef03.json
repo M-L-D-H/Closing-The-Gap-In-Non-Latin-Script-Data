@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "1965",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "1965", "to": "" }],
     "maintained": true,
     "websites": [
       "https://sfardata.nli.org.il/#/startSearch_En",
@@ -30,20 +25,14 @@
           "text": "Jerusalem",
           "ref": ["https://www.geonames.org/281184/jerusalem.html"]
         },
-        "coordinates": {
-          "lat": "31.76904",
-          "lng": "35.21633"
-        }
+        "coordinates": { "lat": "31.76904", "lng": "35.21633" }
       },
       {
         "place_name": {
           "text": "Hamburg",
           "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
     "lang": ["eng", "heb"],
@@ -171,10 +160,7 @@
     ],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": ["https://d-nb.info/gnd/104345179"]
-        },
+        "pers_name": { "text": "", "ref": ["https://d-nb.info/gnd/104345179"] },
         "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/beitarie.html"
@@ -192,10 +178,7 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
+      "publications": { "open_access": 0, "licensing": [""] },
       "data": {
         "datatypes": [
           {
@@ -226,12 +209,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "digital_preservation",

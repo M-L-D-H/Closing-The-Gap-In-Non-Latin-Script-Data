@@ -12,12 +12,7 @@
     "abbr": "ALT",
     "type": "organization",
     "ref": [],
-    "date": [
-      {
-        "from": "2011",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2011", "to": "" }],
     "maintained": true,
     "websites": ["https://alt.qcri.org"],
     "project_desc": "ALT Group was formed in 2011 as a flagship Qatar Computing Research Institute (QCRI) research initiative, addressing challenging problems in machine learning, computational linguistics and NLP in the context of machine translation, Arabic NLP, multi-lingual speech processing, model interpretability, and fake news detection.",
@@ -27,10 +22,7 @@
           "text": "Doha",
           "ref": ["https://www.geonames.org/290030/doha.html"]
         },
-        "coordinates": {
-          "lat": "25.28563",
-          "lng": "51.52642"
-        }
+        "coordinates": { "lat": "25.28563", "lng": "51.52642" }
       }
     ],
     "lang": ["eng"],
@@ -82,14 +74,8 @@
         "publication_count": 406,
         "open_access_count": 81
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -98,12 +84,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "computational_text_analysis",

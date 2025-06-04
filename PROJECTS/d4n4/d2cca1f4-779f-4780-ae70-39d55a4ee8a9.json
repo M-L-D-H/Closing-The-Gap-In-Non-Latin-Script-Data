@@ -12,12 +12,7 @@
     "abbr": "D4N4",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2021",
-        "to": "2025"
-      }
-    ],
+    "date": [{ "from": "2021", "to": "2025" }],
     "maintained": true,
     "websites": [
       "https://www.corpus-nummorum.eu",
@@ -30,10 +25,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.51089",
-          "lng": "13.39894"
-        }
+        "coordinates": { "lat": "52.51089", "lng": "13.39894" }
       }
     ],
     "lang": ["bul", "deu", "ell", "eng", "ron", "rus", "tur"],
@@ -142,14 +134,8 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -158,12 +144,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "digital_preservation",

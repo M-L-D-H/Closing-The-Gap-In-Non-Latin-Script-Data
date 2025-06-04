@@ -13,14 +13,8 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2018",
-        "to": "2021"
-      },
-      {
-        "from": "2023",
-        "to": "2026"
-      }
+      { "from": "2018", "to": "2021" },
+      { "from": "2023", "to": "2026" }
     ],
     "maintained": true,
     "websites": ["https://handschriftenportal.de/"],
@@ -31,40 +25,28 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Leipzig",
           "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
+        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
       },
       {
         "place_name": {
           "text": "München",
           "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
+        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
       },
       {
         "place_name": {
           "text": "Wolfenbüttel",
           "ref": ["https://www.geonames.org/2806914/wolfenbuettel.html"]
         },
-        "coordinates": {
-          "lat": "52.16442",
-          "lng": "10.54095"
-        }
+        "coordinates": { "lat": "52.16442", "lng": "10.54095" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -138,14 +120,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -154,12 +130,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": "In case of funding extension the second phase of the project should start in 2022"

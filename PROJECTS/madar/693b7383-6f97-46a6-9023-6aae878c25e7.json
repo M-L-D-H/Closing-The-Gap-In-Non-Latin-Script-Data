@@ -12,12 +12,7 @@
     "abbr": "MADAR",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016-02",
-        "to": "2019-01"
-      }
-    ],
+    "date": [{ "from": "2016-02", "to": "2019-01" }],
     "maintained": true,
     "websites": ["https://sites.google.com/nyu.edu/madar/"],
     "project_desc": "The project aimed at improving dialectal Arabic processing by developing resources for Arabic dialect modeling, including a 25-city multi-dialect lexicon and parallel corpus, as well as creating machine translation systems between dialects, English, and Standard Arabic, and advancing dialect identification systems capable of operating at different levels of granularity.",
@@ -27,30 +22,21 @@
           "text": "Doha",
           "ref": ["https://www.geonames.org/290030/doha.html"]
         },
-        "coordinates": {
-          "lat": "24.73677",
-          "lng": "81.44660"
-        }
+        "coordinates": { "lat": "24.73677", "lng": "81.44660" }
       },
       {
         "place_name": {
           "text": "Abu Dhabi",
           "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
         },
-        "coordinates": {
-          "lat": "24.45384",
-          "lng": "54.37740"
-        }
+        "coordinates": { "lat": "24.45384", "lng": "54.37740" }
       },
       {
         "place_name": {
           "text": "New York",
           "ref": ["https://www.geonames.org/5128581/new-york-city.html"]
         },
-        "coordinates": {
-          "lat": "40.71273",
-          "lng": "-74.00602"
-        }
+        "coordinates": { "lat": "40.71273", "lng": "-74.00602" }
       }
     ],
     "lang": ["eng"],
@@ -150,18 +136,10 @@
         "publication_count": 10,
         "open_access_count": 10
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -182,12 +160,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "corpus_output",

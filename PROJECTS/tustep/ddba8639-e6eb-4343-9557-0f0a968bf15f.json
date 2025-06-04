@@ -12,12 +12,7 @@
     "abbr": "TUSTEP",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "1966",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "1966", "to": "" }],
     "maintained": true,
     "websites": [
       "https://www.tustep.uni-tuebingen.de/",
@@ -30,10 +25,7 @@
           "text": "Tübingen",
           "ref": ["https://www.geonames.org/2820860/tuebingen.html"]
         },
-        "coordinates": {
-          "lat": "48.52033",
-          "lng": "9.0536"
-        }
+        "coordinates": { "lat": "48.52033", "lng": "9.0536" }
       }
     ],
     "lang": ["eng", "deu"],
@@ -81,14 +73,8 @@
         "publication_count": 2,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -97,12 +83,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "computational_text_analysis",
       "corpus_resource",

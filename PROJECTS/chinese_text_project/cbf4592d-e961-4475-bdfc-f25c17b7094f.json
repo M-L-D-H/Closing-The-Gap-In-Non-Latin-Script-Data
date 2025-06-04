@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2006",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2006", "to": "" }],
     "maintained": true,
     "websites": ["https://ctext.org"],
     "project_desc": "The goal of the project is to present accurate and accessible copies of ancient (in particular pre-Qin and Han dynasty) Chinese texts in an organized and searchable format, and to make the best possible use of modern technology to aid in the study and research of these texts, so making them accessible to the widest possible audience.",
@@ -27,10 +22,7 @@
           "text": "Durham",
           "ref": ["https://www.geonames.org/2650628/durham.html"]
         },
-        "coordinates": {
-          "lat": "54.66667",
-          "lng": "-1.76654"
-        }
+        "coordinates": { "lat": "54.66667", "lng": "-1.76654" }
       }
     ],
     "lang": ["eng", "zho"],
@@ -73,14 +65,8 @@
         "publication_count": 5,
         "open_access_count": 5
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -89,12 +75,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "classical_text",

@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2010",
-        "to": "2013"
-      }
-    ],
+    "date": [{ "from": "2010", "to": "2013" }],
     "maintained": false,
     "websites": [
       "https://www.geschkult.fu-berlin.de/e/iranistik/archiv/projekt-archiv/vorislamisches-recht/videvdad13-15/index.html",
@@ -30,10 +25,7 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": ["eng"],
@@ -92,10 +84,7 @@
         ]
       },
       {
-        "pers_name": {
-          "text": "",
-          "ref": ["https://d-nb.info/gnd/108931838"]
-        },
+        "pers_name": { "text": "", "ref": ["https://d-nb.info/gnd/108931838"] },
         "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/iranistik/mitarbeiter/ehemalige/macuch/index.html"
@@ -113,14 +102,8 @@
         "publication_count": 1,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -129,12 +112,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_edition",
       "digital_preservation",

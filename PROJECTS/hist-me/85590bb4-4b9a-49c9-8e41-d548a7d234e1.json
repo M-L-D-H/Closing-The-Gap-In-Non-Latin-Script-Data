@@ -12,25 +12,14 @@
     "abbr": "Hist-ME",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2020", "to": "" }],
     "maintained": true,
     "websites": ["https://github.com/Hist-ME"],
     "project_desc": "An informal alliance for exchanging research data related to the historical Middle East.",
     "places": [
       {
-        "place_name": {
-          "text": "",
-          "ref": []
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "place_name": { "text": "", "ref": [] },
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": [],
@@ -94,14 +83,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -110,12 +93,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["collaboration_platform", "research_data_management"],
     "category": "other",
     "comment": ""

@@ -12,12 +12,7 @@
     "abbr": "HATA",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "1988",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "1988", "to": "" }],
     "maintained": false,
     "websites": ["https://www.eea.csic.es/red/hata/index.html"],
     "project_desc": "The project focus lies in the intellectual production of al-Andalus. It aims to compile a bio-bibliographical database of over 5,000 Andalusian scholars, detailing their works and contributions in chronological order.",
@@ -27,20 +22,14 @@
           "text": "Madrid",
           "ref": ["https://www.geonames.org/3117735/"]
         },
-        "coordinates": {
-          "lat": "40.4165",
-          "lng": "-3.70256"
-        }
+        "coordinates": { "lat": "40.4165", "lng": "-3.70256" }
       },
       {
         "place_name": {
           "text": "Granada",
           "ref": ["https://www.geonames.org/2517117/granada.html"]
         },
-        "coordinates": {
-          "lat": "37.18817",
-          "lng": "-3.60667"
-        }
+        "coordinates": { "lat": "37.18817", "lng": "-3.60667" }
       }
     ],
     "lang": ["eng", "spa"],
@@ -95,18 +84,10 @@
         "publication_count": 2,
         "open_access_count": 2
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -127,12 +108,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "biographical_data",

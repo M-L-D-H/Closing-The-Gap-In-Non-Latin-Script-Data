@@ -12,12 +12,7 @@
     "abbr": "PhiBor",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2014",
-        "to": "2019"
-      }
-    ],
+    "date": [{ "from": "2014", "to": "2019" }],
     "maintained": true,
     "websites": ["https://www.avicennaproject.eu/#/"],
     "project_desc": "The project aims to provide an accurate knowledge of the historical significance and doctrinal impact of the Ilahiyyat (Metaphysics) of Ibn Sina (Avicenna)’s Kitab al-Shifa' (Book of the Cure, or: of the Healing) – one of the masterpieces of Medieval Arabic philosophy in the Islamic world, and one of the most influential and widespread works of falsafa of all times – by means of a reconstruction of the manuscript tradition, a reliable edition, an English translation, and a doctrinal explanation of the text of the work.",
@@ -27,20 +22,14 @@
           "text": "Pisa",
           "ref": ["https://www.geonames.org/3170647/pisa.html"]
         },
-        "coordinates": {
-          "lat": "43.70853",
-          "lng": "10.4036"
-        }
+        "coordinates": { "lat": "43.70853", "lng": "10.4036" }
       },
       {
         "place_name": {
           "text": "Lucca",
           "ref": ["https://www.geonames.org/3174530/lucca.html"]
         },
-        "coordinates": {
-          "lat": "43.84369",
-          "lng": "10.50447"
-        }
+        "coordinates": { "lat": "43.84369", "lng": "10.50447" }
       }
     ],
     "lang": ["eng"],
@@ -100,14 +89,8 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -116,12 +99,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "arabic_studies",

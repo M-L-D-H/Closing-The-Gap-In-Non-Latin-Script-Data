@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2012",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2012", "to": "" }],
     "maintained": true,
     "websites": ["https://khallina.org"],
     "project_desc": "The project is an Open Source tool to explore Arabic cutlure. The learning materials include Cultural Modules for different educational stages, covering a variety of subject matters and include diverse output methods.",
@@ -27,10 +22,7 @@
           "text": "Abu Dhabi",
           "ref": ["https://www.geonames.org/292968/"]
         },
-        "coordinates": {
-          "lat": "24.45118",
-          "lng": "54.39696"
-        }
+        "coordinates": { "lat": "24.45118", "lng": "54.39696" }
       }
     ],
     "lang": ["eng"],
@@ -113,18 +105,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -145,12 +129,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "audio",

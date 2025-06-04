@@ -12,12 +12,7 @@
     "abbr": "KI\u0160IB",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2025",
-        "to": "2041"
-      }
-    ],
+    "date": [{ "from": "2025", "to": "2041" }],
     "maintained": true,
     "websites": [
       "https://www.bbaw.de/en/research/kisib-digital-corpus-of-ancient-west-asian-seals-and-sealings"
@@ -29,20 +24,14 @@
           "text": "Berlin",
           "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.51089",
-          "lng": "13.39894"
-        }
+        "coordinates": { "lat": "52.51089", "lng": "13.39894" }
       },
       {
         "place_name": {
           "text": "M\u00fcnchen",
           "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13711",
-          "lng": "11.57538"
-        }
+        "coordinates": { "lat": "48.13711", "lng": "11.57538" }
       }
     ],
     "lang": ["deu", "eng"],
@@ -134,14 +123,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -150,12 +133,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "archaeology",
       "artefact",

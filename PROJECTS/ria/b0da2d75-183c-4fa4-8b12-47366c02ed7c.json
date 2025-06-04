@@ -12,12 +12,7 @@
     "abbr": "RIA",
     "type": "project",
     "ref": ["https://www.wikidata.org/wiki/Q1246462"],
-    "date": [
-      {
-        "from": "1928",
-        "to": "2018"
-      }
-    ],
+    "date": [{ "from": "1928", "to": "2018" }],
     "maintained": true,
     "websites": [
       "https://rla.badw.de/das-projekt.html",
@@ -30,10 +25,7 @@
           "text": "München",
           "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
+        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
       }
     ],
     "lang": ["deu", "eng", "fra"],
@@ -59,10 +51,7 @@
     ],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": ["https://d-nb.info/gnd/130425893"]
-        },
+        "pers_name": { "text": "", "ref": ["https://d-nb.info/gnd/130425893"] },
         "roles": ["supervision"],
         "websites": [
           "https://www.uni-leipzig.de/personenprofil/mitarbeiter/prof-dr-michael-peter-streck"
@@ -80,14 +69,8 @@
         "publication_count": 16,
         "open_access_count": 16
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -96,12 +79,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": ["encyclopedia", "history_studies", "semitic_studies"],
     "category": "tools_and_analysis",
     "comment": ""
