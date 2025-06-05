@@ -12,12 +12,7 @@
     "abbr": "MBT",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2024",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2024", "to": "" }],
     "maintained": true,
     "websites": [
       "https://www.slavistik.uni-freiburg.de/personal/univ-prof-dr-achim-rabus"
@@ -27,20 +22,12 @@
       {
         "place_name": {
           "text": "Freiburg",
-          "ref": [
-            "https://www.geonames.org/2925177/freiburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2925177/freiburg.html"]
         },
-        "coordinates": {
-          "lat": "47.99609",
-          "lng": "7.8494"
-        }
+        "coordinates": { "lat": "47.99609", "lng": "7.8494" }
       }
     ],
-    "lang": [
-      "eng",
-      "deu"
-    ],
+    "lang": ["eng", "deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +38,7 @@
             "https://www.wikidata.org/wiki/Q153987"
           ]
         },
-        "websites": [
-          "https://uni-freiburg.de/"
-        ]
+        "websites": ["https://uni-freiburg.de/"]
       }
     ],
     "related_entities": [],
@@ -67,18 +52,14 @@
             "https://d-nb.info/gnd/105350831X"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.slavistik.uni-freiburg.de/personal/univ-prof-dr-achim-rabus"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "bul"
-      ],
+      "lang": ["bul"],
       "sustainability_plan": {
         "project_website": 0.0,
         "Github": 0.0,
@@ -88,18 +69,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -120,17 +93,8 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "ocr",
-      "manuscript",
-      "nlp"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["ocr", "manuscript", "nlp"],
     "category": "tools_and_analysis",
     "comment": ""
   }

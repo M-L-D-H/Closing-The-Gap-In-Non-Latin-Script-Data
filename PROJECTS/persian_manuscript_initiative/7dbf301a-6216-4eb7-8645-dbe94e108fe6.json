@@ -12,34 +12,20 @@
     "abbr": "PMI",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2016", "to": "" }],
     "maintained": true,
-    "websites": [
-      "https://persianmanuscriptinitiative.github.io/"
-    ],
+    "websites": ["https://persianmanuscriptinitiative.github.io/"],
     "project_desc": "The Persian Manuscript Initiative partners with leading libraries and archives around the world to digitally preserve Persian manuscripts and improve the quality of metadata we have for them. The project is focused especially on preserving Persian manuscripts that may be at a risk of loss.",
     "places": [
       {
         "place_name": {
           "text": "College Park",
-          "ref": [
-            "https://www.geonames.org/4351977/college-park.html"
-          ]
+          "ref": ["https://www.geonames.org/4351977/college-park.html"]
         },
-        "coordinates": {
-          "lat": "38.98067",
-          "lng": "-76.93692"
-        }
+        "coordinates": { "lat": "38.98067", "lng": "-76.93692" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +36,7 @@
             "https://www.wikidata.org/wiki/Q503415"
           ]
         },
-        "websites": [
-          "https://umd.edu"
-        ]
+        "websites": ["https://umd.edu"]
       }
     ],
     "related_entities": [
@@ -69,22 +53,13 @@
     ],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://sllc.umd.edu/directory/matthew-miller"
-        ]
+        "pers_name": { "text": "", "ref": [] },
+        "roles": ["supervision"],
+        "websites": ["https://sllc.umd.edu/directory/matthew-miller"]
       }
     ],
     "research_data": {
-      "lang": [
-        "fas"
-      ],
+      "lang": ["fas"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -94,18 +69,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -126,12 +93,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

@@ -12,12 +12,7 @@
     "abbr": "PersDig@UMD",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2015",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2015", "to": "" }],
     "maintained": true,
     "websites": [
       "https://sllc.umd.edu/fields/persian/roshan-institute/digital-humanities"
@@ -27,19 +22,12 @@
       {
         "place_name": {
           "text": "College Park",
-          "ref": [
-            "https://www.geonames.org/4351977/college-park.html"
-          ]
+          "ref": ["https://www.geonames.org/4351977/college-park.html"]
         },
-        "coordinates": {
-          "lat": "38.98067",
-          "lng": "-76.93692"
-        }
+        "coordinates": { "lat": "38.98067", "lng": "-76.93692" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +38,7 @@
             "https://www.wikidata.org/wiki/Q503415"
           ]
         },
-        "websites": [
-          "https://umd.edu"
-        ]
+        "websites": ["https://umd.edu"]
       }
     ],
     "related_entities": [
@@ -79,22 +65,13 @@
     ],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://sllc.umd.edu/directory/matthew-miller"
-        ]
+        "pers_name": { "text": "", "ref": [] },
+        "roles": ["supervision"],
+        "websites": ["https://sllc.umd.edu/directory/matthew-miller"]
       }
     ],
     "research_data": {
-      "lang": [
-        "fas"
-      ],
+      "lang": ["fas"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -104,18 +81,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -136,16 +105,8 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "digital_preservation",
-      "iranian_studies"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["digital_preservation", "iranian_studies"],
     "category": "digital_preservation",
     "comment": ""
   }

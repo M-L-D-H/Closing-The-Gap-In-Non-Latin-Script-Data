@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2005",
-        "to": "2028"
-      }
-    ],
+    "date": [{ "from": "2005", "to": "2028" }],
     "maintained": true,
     "websites": [
       "https://www.kleinefaecher.de/kartierung/arbeitsstelle-kleine-faecher"
@@ -27,19 +22,12 @@
       {
         "place_name": {
           "text": "Mainz",
-          "ref": [
-            "https://www.geonames.org/2874224/mainz.html"
-          ]
+          "ref": ["https://www.geonames.org/2874224/mainz.html"]
         },
-        "coordinates": {
-          "lat": "50.00133",
-          "lng": "8.25865"
-        }
+        "coordinates": { "lat": "50.00133", "lng": "8.25865" }
       }
     ],
-    "lang": [
-      "deu"
-    ],
+    "lang": ["deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,21 +38,14 @@
             "https://ror.org/023b0x485"
           ]
         },
-        "websites": [
-          "https://www.uni-mainz.de/"
-        ]
+        "websites": ["https://www.uni-mainz.de/"]
       }
     ],
     "related_entities": [],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "roles": [
-          "supervision"
-        ],
+        "pers_name": { "text": "", "ref": [] },
+        "roles": ["supervision"],
         "websites": [
           "https://www.zq.uni-mainz.de/ueber-uns/team/univ-prof-dr-uwe-schmidt/"
         ]
@@ -72,22 +53,14 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/1026820677"
-          ]
+          "ref": ["https://d-nb.info/gnd/1026820677"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.zq.uni-mainz.de/dr-katharina-bahlmann/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.zq.uni-mainz.de/dr-katharina-bahlmann/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "deu"
-      ],
+      "lang": ["deu"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -97,16 +70,8 @@
         "publication_count": 116,
         "open_access_count": 116
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -115,15 +80,8 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "research_infrastructure"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["research_infrastructure"],
     "category": "infrastructure",
     "comment": ""
   }

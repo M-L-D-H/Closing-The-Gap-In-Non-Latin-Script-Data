@@ -12,12 +12,7 @@
     "abbr": "PalREAD",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2018-04-01",
-        "to": "2023-03-31"
-      }
-    ],
+    "date": [{ "from": "2018-04-01", "to": "2023-03-31" }],
     "maintained": true,
     "websites": [
       "https://www.geschkult.fu-berlin.de/en/e/palread/index.html",
@@ -28,14 +23,9 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": [],
@@ -49,9 +39,7 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       }
     ],
     "related_entities": [
@@ -90,18 +78,14 @@
             "https://www.wikidata.org/wiki/Q114409698"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/semiarab/arabistik/team/Professuren/Abu-Remaileh/index.html "
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -111,16 +95,8 @@
         "publication_count": 15,
         "open_access_count": 9
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -129,16 +105,8 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "literary_studies"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["arabic_studies", "literary_studies"],
     "category": "tools_and_analysis",
     "comment": ""
   }

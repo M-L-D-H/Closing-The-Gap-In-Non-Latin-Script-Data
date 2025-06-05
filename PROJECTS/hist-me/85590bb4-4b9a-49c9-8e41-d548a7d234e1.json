@@ -12,27 +12,14 @@
     "abbr": "Hist-ME",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2020", "to": "" }],
     "maintained": true,
-    "websites": [
-      "https://github.com/Hist-ME"
-    ],
+    "websites": ["https://github.com/Hist-ME"],
     "project_desc": "An informal alliance for exchanging research data related to the historical Middle East.",
     "places": [
       {
-        "place_name": {
-          "text": "",
-          "ref": []
-        },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "place_name": { "text": "", "ref": [] },
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
     "lang": [],
@@ -47,12 +34,8 @@
             "https://viaf.org/viaf/308232467/#Grossner,_Karl,_1950-"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.worldhistory.pitt.edu/people/ant-23"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.worldhistory.pitt.edu/people/ant-23"]
       },
       {
         "pers_name": {
@@ -62,23 +45,15 @@
             "https://viaf.org/viaf/59147905242279092527/#Gibson,_Nathan_P."
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://biblia-arabica.com/team/nathan-gibson/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://biblia-arabica.com/team/nathan-gibson/"]
       },
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-5129-5748"
-          ]
+          "ref": ["https://orcid.org/0000-0002-5129-5748"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/en/e/semiarab/arabistik/team/bua/beers/index.html"
         ]
@@ -91,9 +66,7 @@
             "https://www.wikidata.org/wiki/Q110952396"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/personen/till-grallert"
         ]
@@ -110,16 +83,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -128,16 +93,8 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "collaboration_platform",
-      "research_data_management"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["collaboration_platform", "research_data_management"],
     "category": "other",
     "comment": ""
   }

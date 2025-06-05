@@ -12,12 +12,7 @@
     "abbr": "ADP",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2003",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2003", "to": "" }],
     "maintained": false,
     "websites": [
       "https://www.naher-osten.uni-muenchen.de/forschung/papyrologie/apd/index.html",
@@ -28,31 +23,19 @@
       {
         "place_name": {
           "text": "München",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
+        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
       },
       {
         "place_name": {
           "text": "Zürich",
-          "ref": [
-            "https://www.geonames.org/7287650/zuerich.html"
-          ]
+          "ref": ["https://www.geonames.org/7287650/zuerich.html"]
         },
-        "coordinates": {
-          "lat": "47.38283",
-          "lng": "8.53071"
-        }
+        "coordinates": { "lat": "47.38283", "lng": "8.53071" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -63,9 +46,7 @@
             "https://ror.org/05591te55"
           ]
         },
-        "websites": [
-          "https://www.lmu.de/de/index.html"
-        ]
+        "websites": ["https://www.lmu.de/de/index.html"]
       },
       {
         "relation_type": "host",
@@ -76,9 +57,7 @@
             "https://ror.org/02crff812"
           ]
         },
-        "websites": [
-          "https://www.uzh.ch/de.html"
-        ]
+        "websites": ["https://www.uzh.ch/de.html"]
       }
     ],
     "related_entities": [
@@ -97,18 +76,14 @@
             "https://d-nb.info/gnd/115211942"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.naher-osten.uni-muenchen.de/personen/professoren/andreas_kaplony/index.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -118,16 +93,8 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -136,12 +103,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

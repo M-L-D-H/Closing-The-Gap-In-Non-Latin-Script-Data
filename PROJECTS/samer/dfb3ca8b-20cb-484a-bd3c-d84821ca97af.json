@@ -12,29 +12,17 @@
     "abbr": "SAMER",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2018"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2018" }],
     "maintained": true,
-    "websites": [
-      "http://samer.camel-lab.com/"
-    ],
+    "websites": ["http://samer.camel-lab.com/"],
     "project_desc": "The aim of the SAMER project is to create standards and tools for simplifying modern Arabic fiction for school-age learners, including a readability scale, a curated readability list, a 36k-word thesaurus, and a simplification platform for Google Docs.",
     "places": [
       {
         "place_name": {
           "text": "Abu Dhabi",
-          "ref": [
-            "https://www.geonames.org/292968/abu-dhabi.html"
-          ]
+          "ref": ["https://www.geonames.org/292968/abu-dhabi.html"]
         },
-        "coordinates": {
-          "lat": "24.45384",
-          "lng": "54.37740"
-        }
+        "coordinates": { "lat": "24.45384", "lng": "54.37740" }
       }
     ],
     "lang": [],
@@ -48,9 +36,7 @@
             "https://www.wikidata.org/wiki/Q566189"
           ]
         },
-        "websites": [
-          "https://nyuad.nyu.edu/en/"
-        ]
+        "websites": ["https://nyuad.nyu.edu/en/"]
       }
     ],
     "related_entities": [
@@ -69,13 +55,9 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0009-0006-5800-0558"
-          ]
+          "ref": ["https://orcid.org/0009-0006-5800-0558"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/muhamed-osman-al-khalil.html"
         ]
@@ -88,9 +70,7 @@
             "https://www.wikidata.org/wiki/Q93953901"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://nyuscholars.nyu.edu/en/persons/nizar-habash",
           "https://www.nizarhabash.com"
@@ -98,9 +78,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -110,18 +88,10 @@
         "publication_count": 9,
         "open_access_count": 9
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -142,12 +112,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "corpus_output",

@@ -12,14 +12,9 @@
     "abbr": "DAMAST",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2017",
-        "to": "2021"
-      }
-    ],
+    "date": [{ "from": "2017", "to": "2021" }],
     "maintained": false,
-    "websites": [      
+    "websites": [
       "https://www.geschichte.uni-frankfurt.de/87681539/Dhimmis_and_Muslims",
       "https://portal.volkswagenstiftung.de/search/projectDetails.do?ref=93252",
       "https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/gmspaet/forschung-projekte/projekte_weltecke/dhimmis-and-muslims",
@@ -30,44 +25,26 @@
       {
         "place_name": {
           "text": "Frankfurt",
-          "ref": [
-            "https://www.geonames.org/2925533/frankfurt-am-main.html"
-          ]
+          "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
         },
-        "coordinates": {
-          "lat": "50.11552",
-          "lng": "8.68417"
-        }
+        "coordinates": { "lat": "50.11552", "lng": "8.68417" }
       },
       {
         "place_name": {
           "text": "Stuttgart",
-          "ref": [
-            "https://www.geonames.org/2825297/stuttgart.html"
-          ]
+          "ref": ["https://www.geonames.org/2825297/stuttgart.html"]
         },
-        "coordinates": {
-          "lat": "48.78232",
-          "lng": "9.17702"
-        }
+        "coordinates": { "lat": "48.78232", "lng": "9.17702" }
       },
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -78,9 +55,7 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": [
-          "https://www.goethe-university-frankfurt.de/en?"
-        ]
+        "websites": ["https://www.goethe-university-frankfurt.de/en?"]
       },
       {
         "relation_type": "host",
@@ -91,9 +66,7 @@
             "https://www.wikidata.org/wiki/Q122453"
           ]
         },
-        "websites": [
-          "https://www.uni-stuttgart.de/home/index.en.html"
-        ]
+        "websites": ["https://www.uni-stuttgart.de/home/index.en.html"]
       },
       {
         "relation_type": "host",
@@ -104,9 +77,7 @@
             "https://ror.org/01j818n92"
           ]
         },
-        "websites": [
-          "https://www.hu-berlin.de/de"
-        ]
+        "websites": ["https://www.hu-berlin.de/de"]
       }
     ],
     "related_entities": [],
@@ -119,9 +90,7 @@
             "https://www.wikidata.org/wiki/Q126596324"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.vis.uni-stuttgart.de/en/institute/team/Koch-00006/"
         ]
@@ -134,18 +103,14 @@
             "https://www.wikidata.org/wiki/Q23836118"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.geschichte.uni-frankfurt.de/66156354/Dorothea_Weltecke"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -155,16 +120,8 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -173,12 +130,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "geodata",
       "history_studies",

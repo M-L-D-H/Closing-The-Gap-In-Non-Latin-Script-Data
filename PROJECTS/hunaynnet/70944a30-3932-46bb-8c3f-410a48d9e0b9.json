@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2021"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2021" }],
     "maintained": false,
     "websites": [
       "https://hunaynnet.oeaw.ac.at/",
@@ -28,20 +23,12 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
+        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,9 +39,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": [
-          "https://www.oeaw.ac.at/en/"
-        ]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       }
     ],
     "related_entities": [],
@@ -67,9 +52,7 @@
             "https://d-nb.info/gnd/1069608009"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.oeaw.ac.at/fileadmin/Institute/imafo/pdf/forschung/byzanzforschung/Staff/CV_GrigoryKessel_de.pdf",
           "https://www.ias.edu/scholars/grigory-kessel"
@@ -77,11 +60,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "grc",
-        "syr"
-      ],
+      "lang": ["ara", "grc", "syr"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -91,16 +70,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -109,12 +80,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "arabic_studies",

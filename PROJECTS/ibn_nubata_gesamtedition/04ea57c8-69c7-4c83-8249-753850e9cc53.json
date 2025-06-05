@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": "2032"
-      }
-    ],
+    "date": [{ "from": "2020", "to": "2032" }],
     "maintained": true,
     "websites": [
       "https://www.uni-muenster.de/ALEA/",
@@ -29,19 +24,12 @@
       {
         "place_name": {
           "text": "Münster",
-          "ref": [
-            "https://www.geonames.org/6553087/muenster.html"
-          ]
+          "ref": ["https://www.geonames.org/6553087/muenster.html"]
         },
-        "coordinates": {
-          "lat": "51.95973",
-          "lng": "7.63137"
-        }
+        "coordinates": { "lat": "51.95973", "lng": "7.63137" }
       }
     ],
-    "lang": [
-      "deu"
-    ],
+    "lang": ["deu"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,9 +40,7 @@
             "https://www.wikidata.org/wiki/Q168426"
           ]
         },
-        "websites": [
-          "https://www.uni-muenster.de/de/"
-        ]
+        "websites": ["https://www.uni-muenster.de/de/"]
       }
     ],
     "related_entities": [],
@@ -67,18 +53,14 @@
             "https://d-nb.info/gnd/130608467/"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.uni-muenster.de/ArabistikIslam/Mitarbeiter/bauer.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -88,16 +70,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -106,12 +80,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

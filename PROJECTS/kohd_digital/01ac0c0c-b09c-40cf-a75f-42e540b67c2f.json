@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2022"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2022" }],
     "maintained": false,
     "websites": [
       "https://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/kohd"
@@ -27,20 +22,12 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +38,7 @@
             "https://ror.org/04hsa7a08"
           ]
         },
-        "websites": [
-          "https://adw-goe.de"
-        ]
+        "websites": ["https://adw-goe.de"]
       }
     ],
     "related_entities": [
@@ -87,25 +72,12 @@
             "https://www.wikidata.org/wiki/Q112472167"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.gw.uni-jena.de/seidensticker-tilman"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.gw.uni-jena.de/seidensticker-tilman"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "bod",
-        "fas",
-        "khm",
-        "ota",
-        "san",
-        "tam",
-        "tur"
-      ],
+      "lang": ["ara", "bod", "fas", "khm", "ota", "san", "tam", "tur"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -115,16 +87,8 @@
         "publication_count": 37,
         "open_access_count": 37
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -133,12 +97,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "catalog",

@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2015",
-        "to": "2018"
-      }
-    ],
+    "date": [{ "from": "2015", "to": "2018" }],
     "maintained": true,
     "websites": [
       "https://paleocoran.de/index",
@@ -28,33 +23,19 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Paris",
-          "ref": [
-            "https://www.geonames.org/2988506/paris.html"
-          ]
+          "ref": ["https://www.geonames.org/2988506/paris.html"]
         },
-        "coordinates": {
-          "lat": "48.85339",
-          "lng": "2.34864"
-        }
+        "coordinates": { "lat": "48.85339", "lng": "2.34864" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng",
-      "fra"
-    ],
+    "lang": ["deu", "eng", "fra"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -65,9 +46,7 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": [
-          "https://www.bbaw.de/"
-        ]
+        "websites": ["https://www.bbaw.de/"]
       },
       {
         "relation_type": "host",
@@ -78,9 +57,7 @@
             "https://ror.org/04ex24z53"
           ]
         },
-        "websites": [
-          "https://www.college-de-france.fr/fr"
-        ]
+        "websites": ["https://www.college-de-france.fr/fr"]
       }
     ],
     "related_entities": [
@@ -104,18 +81,14 @@
             "https://d-nb.info/gnd/1084218380"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/marx-michael"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -125,16 +98,8 @@
         "publication_count": 1,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -143,12 +108,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_edition",
       "digital_preservation",

@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2019-07-01",
-        "to": "2022-06-30"
-      }
-    ],
+    "date": [{ "from": "2019-07-01", "to": "2022-06-30" }],
     "maintained": true,
     "websites": [
       "https://multicast.aspra.uni-bamberg.de/resources/hambam/",
@@ -29,31 +24,19 @@
       {
         "place_name": {
           "text": "Bamberg",
-          "ref": [
-            "https://www.geonames.org/2952984/bamberg.html"
-          ]
+          "ref": ["https://www.geonames.org/2952984/bamberg.html"]
         },
-        "coordinates": {
-          "lat": "49.89873",
-          "lng": "10.90067"
-        }
+        "coordinates": { "lat": "49.89873", "lng": "10.90067" }
       },
       {
         "place_name": {
           "text": "Hamadan",
-          "ref": [
-            "https://www.geonames.org/132144/hamadan.html"
-          ]
+          "ref": ["https://www.geonames.org/132144/hamadan.html"]
         },
-        "coordinates": {
-          "lat": "34.79922",
-          "lng": "48.51456"
-        }
+        "coordinates": { "lat": "34.79922", "lng": "48.51456" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -64,9 +47,7 @@
             "https://ror.org/01c1w6d29"
           ]
         },
-        "websites": [
-          "https://www.uni-bamberg.de/"
-        ]
+        "websites": ["https://www.uni-bamberg.de/"]
       },
       {
         "relation_type": "host",
@@ -77,9 +58,7 @@
             "https://ror.org/04ka8rx28"
           ]
         },
-        "websites": [
-          "https://www.basu.ac.ir/"
-        ]
+        "websites": ["https://www.basu.ac.ir/"]
       }
     ],
     "related_entities": [
@@ -113,9 +92,7 @@
             "https://d-nb.info/gnd/1016008090"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": []
       },
       {
@@ -126,18 +103,12 @@
             "https://www.wikidata.org/wiki/Q5962522#sitelinks-wikipedia"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://basu.ac.ir/en/~rasekh"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://basu.ac.ir/en/~rasekh"]
       }
     ],
     "research_data": {
-      "lang": [
-        "fas"
-      ],
+      "lang": ["fas"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -147,16 +118,8 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -165,12 +128,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "corpus_resource",

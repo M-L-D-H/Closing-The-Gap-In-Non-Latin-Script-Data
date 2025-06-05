@@ -12,34 +12,20 @@
     "abbr": "ELAR",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2002",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2002", "to": "" }],
     "maintained": true,
-    "websites": [
-      "https://www.elararchive.org"
-    ],
+    "websites": ["https://www.elararchive.org"],
     "project_desc": "The Endangered Languages Documentation Programme (ELDP) promotes the digital documentation and preservation of endangered languages worldwide. Each year, the program provides grants to approximately 30 to 40 speakers and early career scholars to work with language communities to create collections of digital audio and video recordings. These are archived in the Endangered Languages Archive (ELAR) and made available free of charge to language communities, scholars, and the public worldwide.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.51089",
-          "lng": "13.39894"
-        }
+        "coordinates": { "lat": "52.51089", "lng": "13.39894" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +36,7 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": [
-          "https://www.bbaw.de/"
-        ]
+        "websites": ["https://www.bbaw.de/"]
       }
     ],
     "related_entities": [],
@@ -66,9 +50,7 @@
             "https://www.wikidata.org/wiki/Q54963580"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/seyfeddinipur-mandana"
         ]
@@ -85,16 +67,8 @@
         "publication_count": 10,
         "open_access_count": 10
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -103,12 +77,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "audio",
       "digital_preservation",

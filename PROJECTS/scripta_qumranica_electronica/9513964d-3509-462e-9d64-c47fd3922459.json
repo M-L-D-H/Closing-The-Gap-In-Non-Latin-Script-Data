@@ -12,12 +12,7 @@
     "abbr": "SQE",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": "2021"
-      }
-    ],
+    "date": [{ "from": "2016", "to": "2021" }],
     "maintained": true,
     "websites": [
       "https://sqe.deadseascrolls.org.il/",
@@ -28,55 +23,33 @@
       {
         "place_name": {
           "text": "Göttingen",
-          "ref": [
-            "https://www.geonames.org/2918632/goettingen.html"
-          ]
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
         },
-        "coordinates": {
-          "lat": "51.53443",
-          "lng": "9.93228"
-        }
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
       },
       {
         "place_name": {
           "text": "Tel Aviv",
-          "ref": [
-            "https://www.geonames.org/293397/tel-aviv.html"
-          ]
+          "ref": ["https://www.geonames.org/293397/tel-aviv.html"]
         },
-        "coordinates": {
-          "lat": "32.08088",
-          "lng": "34.78057"
-        }
+        "coordinates": { "lat": "32.08088", "lng": "34.78057" }
       },
       {
         "place_name": {
           "text": "Jerusalem",
-          "ref": [
-            "https://www.geonames.org/281184/jerusalem.html"
-          ]
+          "ref": ["https://www.geonames.org/281184/jerusalem.html"]
         },
-        "coordinates": {
-          "lat": "31.76904",
-          "lng": "35.21633"
-        }
+        "coordinates": { "lat": "31.76904", "lng": "35.21633" }
       },
       {
         "place_name": {
           "text": "Haifa",
-          "ref": [
-            "https://www.geonames.org/294801/haifa.html"
-          ]
+          "ref": ["https://www.geonames.org/294801/haifa.html"]
         },
-        "coordinates": {
-          "lat": "32.81841",
-          "lng": "34.9885"
-        }
+        "coordinates": { "lat": "32.81841", "lng": "34.9885" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -87,9 +60,7 @@
             "https://ror.org/04hsa7a08"
           ]
         },
-        "websites": [
-          "https://adw-goe.de"
-        ]
+        "websites": ["https://adw-goe.de"]
       },
       {
         "relation_type": "host",
@@ -100,9 +71,7 @@
             "https://ror.org/04mhzgx49"
           ]
         },
-        "websites": [
-          "https://english.tau.ac.il/"
-        ]
+        "websites": ["https://english.tau.ac.il/"]
       },
       {
         "relation_type": "host",
@@ -113,9 +82,7 @@
             "https://www.wikidata.org/wiki/Q2744135"
           ]
         },
-        "websites": [
-          "https://www.antiquities.org.il/default_en.aspx"
-        ]
+        "websites": ["https://www.antiquities.org.il/default_en.aspx"]
       }
     ],
     "related_entities": [
@@ -142,18 +109,9 @@
     ],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/115412700"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.uni-goettingen.de/de/56085.html"
-        ]
+        "pers_name": { "text": "", "ref": ["https://d-nb.info/gnd/115412700"] },
+        "roles": ["supervision"],
+        "websites": ["https://www.uni-goettingen.de/de/56085.html"]
       },
       {
         "pers_name": {
@@ -163,19 +121,12 @@
             "https://www.wikidata.org/wiki/Q66087728"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://english.tau.ac.il/profile/028799815"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://english.tau.ac.il/profile/028799815"]
       }
     ],
     "research_data": {
-      "lang": [
-        "arc",
-        "heb"
-      ],
+      "lang": ["arc", "heb"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -185,16 +136,8 @@
         "publication_count": 2,
         "open_access_count": 2
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -203,12 +146,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "catalog",

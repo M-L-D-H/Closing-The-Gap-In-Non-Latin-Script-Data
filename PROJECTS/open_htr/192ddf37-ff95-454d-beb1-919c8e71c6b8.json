@@ -12,12 +12,7 @@
     "abbr": "htr2hpc",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2024",
-        "to": "2025"
-      }
-    ],
+    "date": [{ "from": "2024", "to": "2025" }],
     "maintained": true,
     "websites": [
       "https://cdh.princeton.edu/projects/princeton-open-htr-initiative/",
@@ -28,19 +23,12 @@
       {
         "place_name": {
           "text": "Princeton",
-          "ref": [
-            "https://www.geonames.org/5102922/"
-          ]
+          "ref": ["https://www.geonames.org/5102922/"]
         },
-        "coordinates": {
-          "lat": "40.34872",
-          "lng": "-74.65905"
-        }
+        "coordinates": { "lat": "40.34872", "lng": "-74.65905" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,21 +39,15 @@
             "http://www.wikidata.org/entity/Q21578"
           ]
         },
-        "websites": [
-          "https://www.princeton.edu/"
-        ]
+        "websites": ["https://www.princeton.edu/"]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "The center for Digital Humanities at Princeton",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q58312170"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q58312170"]
         },
-        "websites": [
-          "https://cdh.princeton.edu/"
-        ]
+        "websites": ["https://cdh.princeton.edu/"]
       }
     ],
     "related_entities": [
@@ -84,9 +66,7 @@
             "https://d-nb.info/gnd/1203909276"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://history.princeton.edu/people/marina-rustow",
           "https://princeton.academia.edu/MarinaRustow/"
@@ -95,13 +75,9 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0009-0004-5999-8749"
-          ]
+          "ref": ["https://orcid.org/0009-0004-5999-8749"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://cdh.princeton.edu/people/christine-roughan/",
           "https://cmroughan.github.io/",
@@ -117,9 +93,7 @@
             "https://d-nb.info/gnd/109492802X"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://history.princeton.edu/people/helmut-reimitz",
           "https://de.wikipedia.org/wiki/Helmut_Reimitz"
@@ -127,10 +101,7 @@
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "eng"
-      ],
+      "lang": ["ara", "eng"],
       "sustainability_plan": {
         "project_website": 0.0,
         "Github": 1.0,
@@ -140,18 +111,10 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -172,18 +135,8 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "arabic_studies",
-      "htr",
-      "manuscript",
-      "machine_learning"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["arabic_studies", "htr", "manuscript", "machine_learning"],
     "category": "digital_preservation",
     "comment": ""
   }

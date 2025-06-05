@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020-2",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2020-2", "to": "" }],
     "maintained": true,
     "websites": [
       "https://hannah-arendt-edition.net/home",
@@ -28,20 +23,12 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,47 +39,28 @@
             "https://www.wikidata.org/wiki/Q153006"
           ]
         },
-        "websites": [
-          "https://www.fu-berlin.de/"
-        ]
+        "websites": ["https://www.fu-berlin.de/"]
       }
     ],
     "related_entities": [],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/115655271"
-          ]
-        },
-        "roles": [
-          "supervision"
-        ],
+        "pers_name": { "text": "", "ref": ["https://d-nb.info/gnd/115655271"] },
+        "roles": ["supervision"],
         "websites": [
           "https://as.vanderbilt.edu/german-russian-studies/bio/barbara-hahn/"
         ]
       },
       {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "roles": [
-          "investigation"
-        ],
+        "pers_name": { "text": "", "ref": [] },
+        "roles": ["investigation"],
         "websites": [
           "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "deu",
-        "eng",
-        "fra",
-        "yid"
-      ],
+      "lang": ["deu", "eng", "fra", "yid"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -102,16 +70,8 @@
         "publication_count": 4,
         "open_access_count": 3
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -120,12 +80,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_edition",
       "digital_preservation",

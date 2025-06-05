@@ -13,14 +13,8 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2019",
-        "to": "2022"
-      },
-      {
-        "from": "2022",
-        "to": "2025"
-      }
+      { "from": "2019", "to": "2022" },
+      { "from": "2022", "to": "2025" }
     ],
     "maintained": true,
     "websites": [
@@ -32,20 +26,12 @@
       {
         "place_name": {
           "text": "Halle (Saale)",
-          "ref": [
-            "https://www.geonames.org/2911522/halle-saale.html"
-          ]
+          "ref": ["https://www.geonames.org/2911522/halle-saale.html"]
         },
-        "coordinates": {
-          "lat": "51.48158",
-          "lng": "11.97947"
-        }
+        "coordinates": { "lat": "51.48158", "lng": "11.97947" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -56,9 +42,7 @@
             "https://www.wikidata.org/wiki/Q32120"
           ]
         },
-        "websites": [
-          "https://www.uni-halle.de/?lang=en"
-        ]
+        "websites": ["https://www.uni-halle.de/?lang=en"]
       }
     ],
     "related_entities": [],
@@ -66,22 +50,16 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0001-8718-1198"
-          ]
+          "ref": ["https://orcid.org/0000-0001-8718-1198"]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.informatik.uni-halle.de/ti/mitarbeiter/poeckelmann/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "heb"
-      ],
+      "lang": ["heb"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -91,16 +69,8 @@
         "publication_count": 1,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -109,12 +79,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_edition",
       "digital_preservation",

@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2020",
-        "to": "2024"
-      }
-    ],
+    "date": [{ "from": "2020", "to": "2024" }],
     "maintained": true,
     "websites": [],
     "project_desc": "This project’s objective is to develop an integrative database for the results of the research project “Verses and Sayings” (Verse und Sprüche).",
@@ -25,20 +20,12 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -49,13 +36,8 @@
     ],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": []
-        },
-        "roles": [
-          "investigation"
-        ],
+        "pers_name": { "text": "", "ref": [] },
+        "roles": ["investigation"],
         "websites": [
           "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/bgrote.html"
         ]
@@ -72,16 +54,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -90,15 +64,8 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "research_infrastructure"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["research_infrastructure"],
     "category": "infrastructure",
     "comment": ""
   }

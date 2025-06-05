@@ -12,34 +12,20 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2016",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2016", "to": "" }],
     "maintained": false,
-    "websites": [
-      "https://averroes.uni-koeln.de/edition/current-editions/"
-    ],
+    "websites": ["https://averroes.uni-koeln.de/edition/current-editions/"],
     "project_desc": "The project aims at proving inside in Averroes’s lost commentary on Aristotle’s De partibus animalium and De generatione animalium by editing its Latin translation together with a study of work’s transmission into Hebrew.",
     "places": [
       {
         "place_name": {
           "text": "Köln",
-          "ref": [
-            "https://www.geonames.org/2886242/koeln.html"
-          ]
+          "ref": ["https://www.geonames.org/2886242/koeln.html"]
         },
-        "coordinates": {
-          "lat": "50.93333",
-          "lng": "6.95"
-        }
+        "coordinates": { "lat": "50.93333", "lng": "6.95" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -67,13 +53,9 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://viaf.org/viaf/48155707096822411871/"
-          ]
+          "ref": ["https://viaf.org/viaf/48155707096822411871/"]
         },
-        "roles": [
-          "investigation"
-        ],
+        "roles": ["investigation"],
         "websites": [
           "https://uclouvain.academia.edu/Gr%C3%A9goryClesse/CurriculumVitae"
         ]
@@ -86,20 +68,14 @@
             "https://d-nb.info/gnd/1052000452"
           ]
         },
-        "roles": [
-          "investigation"
-        ],
+        "roles": ["investigation"],
         "websites": [
           "https://philosophie.phil-fak.uni-koeln.de/personen/wissenschaftliche-mitarbeiterinnen-in-drittmittelprojekten"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "heb",
-        "lat",
-        "ara"
-      ],
+      "lang": ["heb", "lat", "ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -109,16 +85,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -127,12 +95,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

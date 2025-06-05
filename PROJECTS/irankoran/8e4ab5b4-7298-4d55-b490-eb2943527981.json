@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2017",
-        "to": "2020"
-      }
-    ],
+    "date": [{ "from": "2017", "to": "2020" }],
     "maintained": true,
     "websites": [
       "https://www.bbaw.de/forschung/irankoran",
@@ -28,21 +23,12 @@
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng",
-      "fra"
-    ],
+    "lang": ["deu", "eng", "fra"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -53,9 +39,7 @@
             "https://www.wikidata.org/wiki/Q219989"
           ]
         },
-        "websites": [
-          "https://www.bbaw.de/"
-        ]
+        "websites": ["https://www.bbaw.de/"]
       }
     ],
     "related_entities": [
@@ -69,23 +53,14 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://orcid.org/0000-0002-1287-8721"
-          ]
+          "ref": ["https://orcid.org/0000-0002-1287-8721"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.uni-paderborn.de/person/87590"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.uni-paderborn.de/person/87590"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "fas"
-      ],
+      "lang": ["ara", "fas"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -95,16 +70,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -113,12 +80,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "digital_edition",
       "digital_preservation",

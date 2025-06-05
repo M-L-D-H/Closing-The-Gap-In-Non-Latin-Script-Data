@@ -1,195 +1,151 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "b5db28e8-5662-4887-99d4-1659dc8a1a99",
-        "record_created_on": "2025-04-20",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2025-04-20",
-        "interviewed": false
-    },
-    "project": {
-        "title": "KI\u0160IB \u2014 Digital Corpus of Ancient West Asian Seals and Sealings",
-        "abbr": "KI\u0160IB",
-        "type": "project",
-        "ref": [],
-        "date": [
-            {
-                "from": "2025",
-                "to": "2041"
-            }
-        ],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "b5db28e8-5662-4887-99d4-1659dc8a1a99",
+    "record_created_on": "2025-04-20",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-04-20",
+    "interviewed": false
+  },
+  "project": {
+    "title": "KI\u0160IB \u2014 Digital Corpus of Ancient West Asian Seals and Sealings",
+    "abbr": "KI\u0160IB",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2025", "to": "2041" }],
+    "maintained": true,
+    "websites": [
+      "https://www.bbaw.de/en/research/kisib-digital-corpus-of-ancient-west-asian-seals-and-sealings"
+    ],
+    "project_desc": "KI\u0160IB seeks to establish a digital corpus of c. 80,000 seals and sealings. The inter-academic project makes use of machine learning to speed up the collection, segmentation, and controlled annotation of artefact-, image-, and text-related information, based on state-of-the-art FAIR (Findable, Accessible, Interoperable, and Reusable) and LOUD (Linked Open Usable Data) data standards. Its research component explores ancient mechanisms of interpersonal and societal trust established through sealing practice and seal design.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+        },
+        "coordinates": { "lat": "52.51089", "lng": "13.39894" }
+      },
+      {
+        "place_name": {
+          "text": "M\u00fcnchen",
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
+        },
+        "coordinates": { "lat": "48.13711", "lng": "11.57538" }
+      }
+    ],
+    "lang": ["deu", "eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
+          "ref": [
+            "https://ror.org/05jgq9443",
+            "https://www.wikidata.org/wiki/Q219989"
+          ]
+        },
+        "websites": ["https://www.bbaw.de/"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Bayerische Akademie der Wissenschaften",
+          "ref": [
+            "https://ror.org/001rdaz60",
+            "https://www.wikidata.org/wiki/Q684415"
+          ]
+        },
+        "websites": ["https://badw.de/die-akademie.html"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+          "ref": [
+            "https://ror.org/05591te55",
+            "https://www.wikidata.org/wiki/Q55044"
+          ]
+        },
+        "websites": ["https://www.lmu.de"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Freie Universit\u00e4t Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
+        "websites": ["https://www.fu-berlin.de/"]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0001-9025-8424",
+            "https://d-nb.info/gnd/1144913314",
+            "https://www.wikidata.org/wiki/Q64006860"
+          ]
+        },
+        "roles": ["supervision"],
         "websites": [
-            "https://www.bbaw.de/en/research/kisib-digital-corpus-of-ancient-west-asian-seals-and-sealings"
-        ],
-        "project_desc": "KI\u0160IB seeks to establish a digital corpus of c. 80,000 seals and sealings. The inter-academic project makes use of machine learning to speed up the collection, segmentation, and controlled annotation of artefact-, image-, and text-related information, based on state-of-the-art FAIR (Findable, Accessible, Interoperable, and Reusable) and LOUD (Linked Open Usable Data) data standards. Its research component explores ancient mechanisms of interpersonal and societal trust established through sealing practice and seal design.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": [
-                        "https://www.geonames.org/2950159/berlin.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "52.51089",
-                    "lng": "13.39894"
-                }
-            },
-            {
-                "place_name": {
-                    "text": "M\u00fcnchen",
-                    "ref": [
-                        "https://www.geonames.org/2867714/munich.html"
-                    ]
-                },
-                "coordinates": {
-                    "lat": "48.13711",
-                    "lng": "11.57538"
-                }
-            }
-        ],
-        "lang": [
-            "deu",
-            "eng"
-        ],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Berlin-Brandenburgische Akademie der Wissenschaften",
-                    "ref": [
-                        "https://ror.org/05jgq9443",
-                        "https://www.wikidata.org/wiki/Q219989"
-                    ]
-                },
-                "websites": [
-                    "https://www.bbaw.de/"
-                ]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Bayerische Akademie der Wissenschaften",
-                    "ref": [
-                        "https://ror.org/001rdaz60",
-                        "https://www.wikidata.org/wiki/Q684415"
-                    ]
-                },
-                "websites": [
-                    "https://badw.de/die-akademie.html"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
-                    "ref": [
-                        "https://ror.org/05591te55",
-                        "https://www.wikidata.org/wiki/Q55044"
-                    ]
-                },
-                "websites": [
-                    "https://www.lmu.de"
-                ]
-            },
-            {
-                "relation_type": "cooperation",
-                "org_name": {
-                    "text": "Freie Universit\u00e4t Berlin",
-                    "ref": [
-                        "https://ror.org/046ak2485",
-                        "https://www.wikidata.org/wiki/Q153006"
-                    ]
-                },
-                "websites": [
-                    "https://www.fu-berlin.de/"
-                ]
-            }
-        ],
-        "related_entities": [],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0001-9025-8424",
-                        "https://d-nb.info/gnd/1144913314",
-                        "https://www.wikidata.org/wiki/Q64006860"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.vorderas-archaeologie.uni-muenchen.de/personen/professoren/otto/index.html"
-                ]
-            },
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": [
-                        "https://orcid.org/0000-0002-5788-0497",
-                        "https://d-nb.info/gnd/1080275223",
-                        "https://www.wikidata.org/wiki/Q113835682"
-                    ]
-                },
-                "roles": [
-                    "supervision"
-                ],
-                "websites": [
-                    "https://www.geschkult.fu-berlin.de/e/vaa/vaa/mitarbeiter/Professorinnen_und_Professoren/Rossberger.html"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": [
-                "akk",
-                "sux"
-            ],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 0.0,
-                "webhosting": 0.5,
-                "publications": 0.0,
-                "publication_count": 0,
-                "open_access_count": 0
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": []
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
+          "https://www.vorderas-archaeologie.uni-muenchen.de/personen/professoren/otto/index.html"
+        ]
+      },
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0002-5788-0497",
+            "https://d-nb.info/gnd/1080275223",
+            "https://www.wikidata.org/wiki/Q113835682"
+          ]
         },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "archaeology",
-            "artefact",
-            "corpus_output",
-            "digital_preservation",
-            "epigraphy",
-            "history_studies",
-            "image",
-            "inscription",
-            "machine_learning"
-        ],
-        "category": "tools_and_analysis",
-        "comment": ""
-    }
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.geschkult.fu-berlin.de/e/vaa/vaa/mitarbeiter/Professorinnen_und_Professoren/Rossberger.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["akk", "sux"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 0.0,
+        "webhosting": 0.5,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": [
+      "archaeology",
+      "artefact",
+      "corpus_output",
+      "digital_preservation",
+      "epigraphy",
+      "history_studies",
+      "image",
+      "inscription",
+      "machine_learning"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
 }

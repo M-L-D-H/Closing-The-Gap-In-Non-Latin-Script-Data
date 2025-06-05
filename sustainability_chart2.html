@@ -1,173 +1,213 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Sustainability Visualization</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fff;
-      color: #2F4A60;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sustainability Visualization</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #2f4a60;
+      }
 
-    #vis.vega-embed {
-      width: 90%;
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background-color: #fafafa;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    }
+      #vis.vega-embed {
+        width: 90%;
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 1rem;
+        background-color: #fafafa;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      }
 
-    h1 {
-      text-align: center;
-      font-weight: 600;
-      font-size: 1.8rem;
-      margin-top: 2rem;
-    }
-  </style>
-</head>
-<body>
-  <h1>Sustainability Metadata Overview</h1>
-  <div id="vis">Loading chart...</div>
+      h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.8rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sustainability Metadata Overview</h1>
+    <div id="vis">Loading chart...</div>
 
-  <script>
-    async function getSustainabilityData() {
-      const res = await fetch('/Projects.json');
-      const allProjects = await res.json();
+    <script>
+      async function getSustainabilityData() {
+        const res = await fetch("/Projects.json");
+        const allProjects = await res.json();
 
-      const rawProjects = await Promise.all(
-        Object.entries(allProjects).map(async ([uuid, project]) => {
-          const folderPath = project.path;
-          const filePath = folderPath.endsWith('/')
-            ? folderPath + uuid + '.json'
-            : folderPath + '/' + uuid + '.json';
+        const rawProjects = await Promise.all(
+          Object.entries(allProjects).map(async ([uuid, project]) => {
+            const folderPath = project.path;
+            const filePath = folderPath.endsWith("/")
+              ? folderPath + uuid + ".json"
+              : folderPath + "/" + uuid + ".json";
 
-          try {
-            const res = await fetch(filePath);
-            const data = await res.json();
-            const sustainability = data.project?.research_data?.sustainability_plan ?? {};
+            try {
+              const res = await fetch(filePath);
+              const data = await res.json();
+              const sustainability =
+                data.project?.research_data?.sustainability_plan ?? {};
 
-            return {
-              website: sustainability.project_website ?? 'N/A',
-              github: sustainability.Github ?? 'N/A',
-              data_accessibility: sustainability.data_accessibility ?? 'N/A',
-              publications: sustainability.publications ?? 'N/A',
-              publication_count: sustainability.publication_count ?? 0,
-              open_access_count: sustainability.open_access_count ?? 0,
-              webhosting: sustainability.webhosting ?? 'N/A'
-            };
-          } catch (err) {
-            console.warn(`Skipping project ${uuid} at ${filePath}:`, err);
-            return null;
-          }
-        })
-      );
-
-      return rawProjects.filter(p => p !== null);
-    }
-
-    function groupData(projects) {
-      const total = projects.length;
-      const countBy = (key, val) => projects.filter(p => p[key] === val).length;
-
-      const bar = (cat, label, count) => ({
-        Category: cat,
-        "Score Label": label,
-        Count: count,
-        Tooltip: `From ${total} total projects, ${count} projects are in category "${label}".`
-      });
-
-      return [
-        bar("Website", "Full / Yes", countBy("website", 1.0)),
-        bar("Website", "No / None", countBy("website", 0.0)),
-
-        bar("Github", "Full / Yes", countBy("github", 1.0)),
-        bar("Github", "No / None", countBy("github", 0.0)),
-
-        bar("Data Accessibility", "Full / Yes", countBy("data_accessibility", 1.0)),
-        bar("Data Accessibility", "Partial / Mentioned", countBy("data_accessibility", 0.5)),
-        bar("Data Accessibility", "No / None", countBy("data_accessibility", 0.0)),
-
-        bar("Publications", "Full / Yes", countBy("publications", 1.0)),
-        bar("Publications", "No / None", countBy("publications", 0.0)),
-
-        bar("Open Access Publications", "Full / Yes", projects.filter(p => p.publication_count > 0 && p.publication_count === p.open_access_count).length),
-        bar("Open Access Publications", "Partial / Mentioned", projects.filter(p => p.open_access_count > 0 && p.open_access_count < p.publication_count).length),
-        bar("Open Access Publications", "No / None", projects.filter(p => p.publication_count > 0 && p.open_access_count === 0).length),
-
-        bar("Webhosting", "Full / Yes", countBy("webhosting", 1.0)),
-        bar("Webhosting", "Partial / Mentioned", countBy("webhosting", 0.5)),
-        bar("Webhosting", "No / None", countBy("webhosting", 0.0))
-      ];
-    }
-
-    async function renderChart() {
-      const projects = await getSustainabilityData();
-      const values = groupData(projects);
-
-      const spec = {
-        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": "Sustainability Metadata Overview (" + projects.length + " Projects)",
-        "selection": {
-          "highlight": {
-            "type": "single",
-            "on": "mouseover",
-            "empty": "all",
-            "clear": "mouseout"
-          }
-        },
-        "data": { "values": values },
-        "mark": "bar",
-        "encoding": {
-          "x": {
-            "field": "Category",
-            "type": "nominal",
-            "title": "Category",
-            "axis": { "labelAngle": 30 }
-          },
-          "xOffset": { "field": "Score Label", "type": "nominal" },
-          "y": {
-            "field": "Count",
-            "type": "quantitative",
-            "title": "Number of Projects"
-          },
-          "color": {
-            "field": "Score Label",
-            "type": "nominal",
-            "legend": { "title": "Sustainability Score" },
-            "scale": {
-              "domain": ["Full / Yes", "Partial / Mentioned", "No / None"],
-              "range": ["#2F4A60", "#F29559", "#B8B18F"]
+              return {
+                website: sustainability.project_website ?? "N/A",
+                github: sustainability.Github ?? "N/A",
+                data_accessibility: sustainability.data_accessibility ?? "N/A",
+                publications: sustainability.publications ?? "N/A",
+                publication_count: sustainability.publication_count ?? 0,
+                open_access_count: sustainability.open_access_count ?? 0,
+                webhosting: sustainability.webhosting ?? "N/A",
+              };
+            } catch (err) {
+              console.warn(`Skipping project ${uuid} at ${filePath}:`, err);
+              return null;
             }
-          },
-          "opacity": {
-            "condition": {
-              "selection": "highlight",
-              "value": 1
+          }),
+        );
+
+        return rawProjects.filter((p) => p !== null);
+      }
+
+      function groupData(projects) {
+        const total = projects.length;
+        const countBy = (key, val) =>
+          projects.filter((p) => p[key] === val).length;
+
+        const bar = (cat, label, count) => ({
+          Category: cat,
+          "Score Label": label,
+          Count: count,
+          Tooltip: `From ${total} total projects, ${count} projects are in category "${label}".`,
+        });
+
+        return [
+          bar("Website", "Full / Yes", countBy("website", 1.0)),
+          bar("Website", "No / None", countBy("website", 0.0)),
+
+          bar("Github", "Full / Yes", countBy("github", 1.0)),
+          bar("Github", "No / None", countBy("github", 0.0)),
+
+          bar(
+            "Data Accessibility",
+            "Full / Yes",
+            countBy("data_accessibility", 1.0),
+          ),
+          bar(
+            "Data Accessibility",
+            "Partial / Mentioned",
+            countBy("data_accessibility", 0.5),
+          ),
+          bar(
+            "Data Accessibility",
+            "No / None",
+            countBy("data_accessibility", 0.0),
+          ),
+
+          bar("Publications", "Full / Yes", countBy("publications", 1.0)),
+          bar("Publications", "No / None", countBy("publications", 0.0)),
+
+          bar(
+            "Open Access Publications",
+            "Full / Yes",
+            projects.filter(
+              (p) =>
+                p.publication_count > 0 &&
+                p.publication_count === p.open_access_count,
+            ).length,
+          ),
+          bar(
+            "Open Access Publications",
+            "Partial / Mentioned",
+            projects.filter(
+              (p) =>
+                p.open_access_count > 0 &&
+                p.open_access_count < p.publication_count,
+            ).length,
+          ),
+          bar(
+            "Open Access Publications",
+            "No / None",
+            projects.filter(
+              (p) => p.publication_count > 0 && p.open_access_count === 0,
+            ).length,
+          ),
+
+          bar("Webhosting", "Full / Yes", countBy("webhosting", 1.0)),
+          bar("Webhosting", "Partial / Mentioned", countBy("webhosting", 0.5)),
+          bar("Webhosting", "No / None", countBy("webhosting", 0.0)),
+        ];
+      }
+
+      async function renderChart() {
+        const projects = await getSustainabilityData();
+        const values = groupData(projects);
+
+        const spec = {
+          $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+          title:
+            "Sustainability Metadata Overview (" +
+            projects.length +
+            " Projects)",
+          selection: {
+            highlight: {
+              type: "single",
+              on: "mouseover",
+              empty: "all",
+              clear: "mouseout",
             },
-            "value": 0.2
           },
-          "tooltip": { "field": "Tooltip", "type": "nominal" }
-        },
-        "width": 700,
-        "height": 400
-      };
+          data: { values: values },
+          mark: "bar",
+          encoding: {
+            x: {
+              field: "Category",
+              type: "nominal",
+              title: "Category",
+              axis: { labelAngle: 30 },
+            },
+            xOffset: { field: "Score Label", type: "nominal" },
+            y: {
+              field: "Count",
+              type: "quantitative",
+              title: "Number of Projects",
+            },
+            color: {
+              field: "Score Label",
+              type: "nominal",
+              legend: { title: "Sustainability Score" },
+              scale: {
+                domain: ["Full / Yes", "Partial / Mentioned", "No / None"],
+                range: ["#2F4A60", "#F29559", "#B8B18F"],
+              },
+            },
+            opacity: {
+              condition: { selection: "highlight", value: 1 },
+              value: 0.2,
+            },
+            tooltip: { field: "Tooltip", type: "nominal" },
+          },
+          width: 700,
+          height: 400,
+        };
 
-      vegaEmbed("#vis", spec, {}).catch(err => {
-        document.getElementById("vis").innerHTML = `<pre style="color:red;">Error: ${err.message}</pre>`;
-        console.error(err);
-      });
-    }
+        vegaEmbed("#vis", spec, {}).catch((err) => {
+          document.getElementById("vis").innerHTML =
+            `<pre style="color:red;">Error: ${err.message}</pre>`;
+          console.error(err);
+        });
+      }
 
-    renderChart();
-  </script>
-</body>
+      renderChart();
+    </script>
+  </body>
 </html>

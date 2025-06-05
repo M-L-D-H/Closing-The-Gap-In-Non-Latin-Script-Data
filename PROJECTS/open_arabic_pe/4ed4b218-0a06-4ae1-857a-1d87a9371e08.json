@@ -12,41 +12,24 @@
     "abbr": "OpenArabicPE",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2015",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2015", "to": "" }],
     "maintained": true,
-    "websites": [
-      "https://openarabicpe.github.io/"
-    ],
+    "websites": ["https://openarabicpe.github.io/"],
     "project_desc": "Corpus of TEI/XML editions of Arabic periodicals, a static webview, and a framework of workflows for digital scholarly editions following the principles of minimal computing to address the affordances of the digital for cultural artefacts from the Global South",
     "places": [
       {
         "place_name": {
           "text": "Beirut",
-          "ref": [
-            "https://www.geonames.org/276781/beirut.html"
-          ]
+          "ref": ["https://www.geonames.org/276781/beirut.html"]
         },
-        "coordinates": {
-          "lat": "33.89332",
-          "lng": "35.50157"
-        }
+        "coordinates": { "lat": "33.89332", "lng": "35.50157" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
-        "org_name": {
-          "text": "",
-          "ref": []
-        },
+        "org_name": { "text": "", "ref": [] },
         "websites": []
       }
     ],
@@ -60,18 +43,12 @@
             "https://www.wikidata.org/wiki/Q110952396"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://openarabicpe.github.io/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://openarabicpe.github.io/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -81,18 +58,10 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -113,12 +82,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2019",
-        "to": "2022"
-      }
-    ],
+    "date": [{ "from": "2019", "to": "2022" }],
     "maintained": true,
     "websites": [
       "https://www.csmc.uni-hamburg.de/written-artefacts/completed-projects/rfi02.html"
@@ -27,19 +22,12 @@
       {
         "place_name": {
           "text": "Hamburg",
-          "ref": [
-            "https://www.geonames.org/2911298/hamburg.html"
-          ]
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
         },
-        "coordinates": {
-          "lat": "53.55073",
-          "lng": "9.99302"
-        }
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [],
     "related_entities": [
       {
@@ -77,22 +65,14 @@
             "https://d-nb.info/gnd/1195099657"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.bgsmcs.fu-berlin.de/about/alumni_doctoral_fellows/nadja_danilenko.html"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara",
-        "fas",
-        "lat",
-        "ota",
-        "tur"
-      ],
+      "lang": ["ara", "fas", "lat", "ota", "tur"],
       "sustainability_plan": {
         "project_website": 0.0,
         "Github": 0.0,
@@ -102,16 +82,8 @@
         "publication_count": 2,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -120,12 +92,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

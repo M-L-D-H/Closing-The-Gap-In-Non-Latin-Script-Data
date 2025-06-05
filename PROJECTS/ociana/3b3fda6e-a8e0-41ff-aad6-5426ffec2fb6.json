@@ -13,14 +13,8 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2013",
-        "to": "2017"
-      },
-      {
-        "from": "2024",
-        "to": ""
-      }
+      { "from": "2013", "to": "2017" },
+      { "from": "2024", "to": "" }
     ],
     "maintained": true,
     "websites": [
@@ -33,31 +27,19 @@
       {
         "place_name": {
           "text": "Oxford",
-          "ref": [
-            "https://www.geonames.org/2640729/oxford.html"
-          ]
+          "ref": ["https://www.geonames.org/2640729/oxford.html"]
         },
-        "coordinates": {
-          "lat": "51.75201",
-          "lng": "-1.25785"
-        }
+        "coordinates": { "lat": "51.75201", "lng": "-1.25785" }
       },
       {
         "place_name": {
           "text": "Columbus",
-          "ref": [
-            "https://www.geonames.org/4509177/columbus.html"
-          ]
+          "ref": ["https://www.geonames.org/4509177/columbus.html"]
         },
-        "coordinates": {
-          "lat": "39.96226",
-          "lng": "-83.00071"
-        }
+        "coordinates": { "lat": "39.96226", "lng": "-83.00071" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -68,9 +50,7 @@
             "https://www.wikidata.org/wiki/Q34433"
           ]
         },
-        "websites": [
-          "http://www.ox.ac.uk"
-        ]
+        "websites": ["http://www.ox.ac.uk"]
       },
       {
         "relation_type": "host",
@@ -81,9 +61,7 @@
             "https://www.wikidata.org/wiki/Q309331"
           ]
         },
-        "websites": [
-          "https://www.osu.edu/"
-        ]
+        "websites": ["https://www.osu.edu/"]
       }
     ],
     "related_entities": [
@@ -112,16 +90,10 @@
       {
         "pers_name": {
           "text": "",
-          "ref": [
-            "https://d-nb.info/gnd/1051915554"
-          ]
+          "ref": ["https://d-nb.info/gnd/1051915554"]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.ames.ox.ac.uk/people/michael-c-macdonald"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.ames.ox.ac.uk/people/michael-c-macdonald"]
       },
       {
         "pers_name": {
@@ -132,18 +104,12 @@
             "https://www.wikidata.org/wiki/Q125510466"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://nesa.osu.edu/people/al-jallad.1"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://nesa.osu.edu/people/al-jallad.1"]
       }
     ],
     "research_data": {
-      "lang": [
-        "xna"
-      ],
+      "lang": ["xna"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -153,18 +119,10 @@
         "publication_count": 3,
         "open_access_count": 3
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -185,12 +143,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "corpus_output",
       "digital_preservation",

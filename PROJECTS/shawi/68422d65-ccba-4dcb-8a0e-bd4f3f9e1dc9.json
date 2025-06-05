@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2021-02-01",
-        "to": "2025-02-28"
-      }
-    ],
+    "date": [{ "from": "2021-02-01", "to": "2025-02-28" }],
     "maintained": true,
     "websites": [
       "https://shawi.acdh-ch-dev.oeaw.ac.at/",
@@ -28,20 +23,12 @@
       {
         "place_name": {
           "text": "Vienna",
-          "ref": [
-            "https://www.geonames.org/2761369/vienna.html"
-          ]
+          "ref": ["https://www.geonames.org/2761369/vienna.html"]
         },
-        "coordinates": {
-          "lat": "48.20849",
-          "lng": "16.37208"
-        }
+        "coordinates": { "lat": "48.20849", "lng": "16.37208" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -52,9 +39,7 @@
             "https://ror.org/03anc3s24"
           ]
         },
-        "websites": [
-          "https://www.oeaw.ac.at/en/"
-        ]
+        "websites": ["https://www.oeaw.ac.at/en/"]
       },
       {
         "relation_type": "host",
@@ -65,9 +50,7 @@
             "https://www.wikidata.org/wiki/Q165980"
           ]
         },
-        "websites": [
-          "https://www.univie.ac.at/en/"
-        ]
+        "websites": ["https://www.univie.ac.at/en/"]
       }
     ],
     "related_entities": [
@@ -111,18 +94,14 @@
             "https://d-nb.info/gnd/136441688"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://orientalistik.univie.ac.at/ueber-uns/personal/detailansicht-personal/user/prochas8/inum/1073/backpid/86555/"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 1.0,
@@ -132,16 +111,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -150,12 +121,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "audio",

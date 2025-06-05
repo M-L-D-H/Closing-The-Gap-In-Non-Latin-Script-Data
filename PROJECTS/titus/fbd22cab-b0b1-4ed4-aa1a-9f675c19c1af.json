@@ -12,29 +12,17 @@
     "abbr": "TITUS",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "1986",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "1986", "to": "" }],
     "maintained": true,
-    "websites": [
-      "https://titus.uni-frankfurt.de/indexd.htm"
-    ],
+    "websites": ["https://titus.uni-frankfurt.de/indexd.htm"],
     "project_desc": "The project seeks to organize the collaboration of numerous scholars in developing an electronic text collection. This collection will serve as a foundation for computer-aided investigations into diverse Indo-European languages. Additionally, the project aims to expand the initiative by generating a growing repository of files containing supplementary materials, including dictionaries, word lists, linguistic analysis tools, and similar resources.",
     "places": [
       {
         "place_name": {
           "text": "Frankfurt",
-          "ref": [
-            "https://www.geonames.org/2925533/frankfurt-am-main.html"
-          ]
+          "ref": ["https://www.geonames.org/2925533/frankfurt-am-main.html"]
         },
-        "coordinates": {
-          "lat": "50.11552",
-          "lng": "8.68417"
-        }
+        "coordinates": { "lat": "50.11552", "lng": "8.68417" }
       }
     ],
     "lang": [],
@@ -48,9 +36,7 @@
             "https://www.wikidata.org/wiki/Q50662"
           ]
         },
-        "websites": [
-          "https://www.uni-frankfurt.de/de"
-        ]
+        "websites": ["https://www.uni-frankfurt.de/de"]
       }
     ],
     "related_entities": [],
@@ -64,9 +50,7 @@
             "https://www.wikidata.org/wiki/Q15299239"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.csmc.uni-hamburg.de/about/people/gippert.html"
         ]
@@ -125,18 +109,10 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -157,12 +133,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "corpus_output",

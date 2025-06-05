@@ -13,74 +13,43 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "2018",
-        "to": "2021"
-      },
-      {
-        "from": "2023",
-        "to": "2026"
-      }
+      { "from": "2018", "to": "2021" },
+      { "from": "2023", "to": "2026" }
     ],
     "maintained": true,
-    "websites": [
-      "https://handschriftenportal.de/"
-    ],
+    "websites": ["https://handschriftenportal.de/"],
     "project_desc": "This collaborative project carried out by four German libraries (see parent projects) will develop an online platform to provide metadata, descriptive information and images of all manuscripts held at German institutions, as well as a user-friendly workspace for manuscript research. It will enable researchers to access and work on data presented in a standardized and coherent way from one central access point.",
     "places": [
       {
         "place_name": {
           "text": "Berlin",
-          "ref": [
-            "https://www.geonames.org/2950159/berlin.html"
-          ]
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
         },
-        "coordinates": {
-          "lat": "52.52437",
-          "lng": "13.41053"
-        }
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       },
       {
         "place_name": {
           "text": "Leipzig",
-          "ref": [
-            "https://www.geonames.org/2879139/leipzig.html"
-          ]
+          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
         },
-        "coordinates": {
-          "lat": "51.33962",
-          "lng": "12.37129"
-        }
+        "coordinates": { "lat": "51.33962", "lng": "12.37129" }
       },
       {
         "place_name": {
           "text": "München",
-          "ref": [
-            "https://www.geonames.org/2867714/munich.html"
-          ]
+          "ref": ["https://www.geonames.org/2867714/munich.html"]
         },
-        "coordinates": {
-          "lat": "48.13743",
-          "lng": "11.57549"
-        }
+        "coordinates": { "lat": "48.13743", "lng": "11.57549" }
       },
       {
         "place_name": {
           "text": "Wolfenbüttel",
-          "ref": [
-            "https://www.geonames.org/2806914/wolfenbuettel.html"
-          ]
+          "ref": ["https://www.geonames.org/2806914/wolfenbuettel.html"]
         },
-        "coordinates": {
-          "lat": "52.16442",
-          "lng": "10.54095"
-        }
+        "coordinates": { "lat": "52.16442", "lng": "10.54095" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -91,21 +60,15 @@
             "https://www.wikidata.org/wiki/Q170109"
           ]
         },
-        "websites": [
-          "https://staatsbibliothek-berlin.de/"
-        ]
+        "websites": ["https://staatsbibliothek-berlin.de/"]
       },
       {
         "relation_type": "host",
         "org_name": {
           "text": "Universitätsbibliothek Leipzig",
-          "ref": [
-            "https://www.wikidata.org/wiki/Q872896"
-          ]
+          "ref": ["https://www.wikidata.org/wiki/Q872896"]
         },
-        "websites": [
-          "https://www.ub.uni-leipzig.de/start/"
-        ]
+        "websites": ["https://www.ub.uni-leipzig.de/start/"]
       },
       {
         "relation_type": "host",
@@ -116,9 +79,7 @@
             "https://www.wikidata.org/wiki/Q256507"
           ]
         },
-        "websites": [
-          "https://www.bsb-muenchen.de/"
-        ]
+        "websites": ["https://www.bsb-muenchen.de/"]
       },
       {
         "relation_type": "host",
@@ -129,9 +90,7 @@
             "https://ror.org/02y5mkh60"
           ]
         },
-        "websites": [
-          "https://www.hab.de/"
-        ]
+        "websites": ["https://www.hab.de/"]
       }
     ],
     "related_entities": [],
@@ -144,9 +103,7 @@
             "https://d-nb.info/gnd/1023548224"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/generaldirektion/info-gd"
         ]
@@ -163,16 +120,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -181,16 +130,8 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
-    "keywords": [
-      "research_data_management",
-      "research_infrastructure"
-    ],
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["research_data_management", "research_infrastructure"],
     "category": "infrastructure",
     "comment": "In case of funding extension the second phase of the project should start in 2022"
   }

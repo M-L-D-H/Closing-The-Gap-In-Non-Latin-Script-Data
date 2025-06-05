@@ -1,10 +1,9 @@
-
 name: Monthly Release
 
 on:
   schedule:
-    - cron: '0 0 1 * *'  
-  workflow_dispatch:  
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
 
 jobs:
   release:
@@ -18,15 +17,15 @@ jobs:
 
       - name: Get latest version tag
         id: get_latest_tag
-        run: |          
+        run: |
           latest_tag=$(git tag --sort=-v:refname | grep '^v' | head -n 1)
           echo "Latest tag: $latest_tag"
-          echo "tag=$latest_tag" >> $GITHUB_ENV  
+          echo "tag=$latest_tag" >> $GITHUB_ENV
 
       - name: Compute next minor version
         id: compute_version
         env:
-          tag: ${{ env.tag }} 
+          tag: ${{ env.tag }}
         run: |
           tag="$tag"
           tag="${tag#v}"  # Strip the 'v' from the beginning
@@ -85,4 +84,3 @@ jobs:
           body: ${{ steps.get_prs.outputs.release_notes }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-

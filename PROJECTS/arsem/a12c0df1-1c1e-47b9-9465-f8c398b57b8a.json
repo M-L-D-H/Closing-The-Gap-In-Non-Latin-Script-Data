@@ -12,12 +12,7 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2013",
-        "to": "2019"
-      }
-    ],
+    "date": [{ "from": "2013", "to": "2019" }],
     "maintained": false,
     "websites": [
       "https://www.st-andrews.ac.uk/modern-languages/research/projects/language-philology-culture/"
@@ -27,19 +22,12 @@
       {
         "place_name": {
           "text": "Saint Andrews",
-          "ref": [
-            "https://www.geonames.org/2638864/saint-andrews.html"
-          ]
+          "ref": ["https://www.geonames.org/2638864/saint-andrews.html"]
         },
-        "coordinates": {
-          "lat": "56.34039",
-          "lng": "-2.79558"
-        }
+        "coordinates": { "lat": "56.34039", "lng": "-2.79558" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +38,7 @@
             "https://www.wikidata.org/wiki/Q216273"
           ]
         },
-        "websites": [
-          "https://www.st-andrews.ac.uk/"
-        ]
+        "websites": ["https://www.st-andrews.ac.uk/"]
       }
     ],
     "related_entities": [
@@ -76,18 +62,14 @@
             "https://d-nb.info/gnd/138140030"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.st-andrews.ac.uk/modern-languages/people/arabic/kd25"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -97,14 +79,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -113,12 +89,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "computational_text_analysis",

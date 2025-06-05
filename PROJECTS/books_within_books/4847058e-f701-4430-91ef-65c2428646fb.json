@@ -12,34 +12,20 @@
     "abbr": "",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2007",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2007", "to": "" }],
     "maintained": true,
-    "websites": [
-      "https://www.hebrewmanuscript.com/"
-    ],
+    "websites": ["https://www.hebrewmanuscript.com/"],
     "project_desc": "The project is a European scholarly network dedicated to studying medieval Hebrew book and document fragments found in book bindings and notarial files across various archives. It aims to foster collaboration between existing projects by sharing updates on research, events, and publications. Additionally, it seeks to systematically catalog and describe these fragments through published catalogues and an online database for registered users.",
     "places": [
       {
         "place_name": {
           "text": "Paris",
-          "ref": [
-            "https://www.geonames.org/2988507/paris.html"
-          ]
+          "ref": ["https://www.geonames.org/2988507/paris.html"]
         },
-        "coordinates": {
-          "lat": "48.8535",
-          "lng": "2.34839"
-        }
+        "coordinates": { "lat": "48.8535", "lng": "2.34839" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +36,7 @@
             "https://www.wikidata.org/wiki/Q1163431"
           ]
         },
-        "websites": [
-          "https://psl.eu"
-        ]
+        "websites": ["https://psl.eu"]
       }
     ],
     "related_entities": [
@@ -71,18 +55,14 @@
             "https://d-nb.info/gnd/1046170465"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "https://www.ccc.ox.ac.uk/people/professor-judith-olszowy-schlanger"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "heb"
-      ],
+      "lang": ["heb"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -92,18 +72,10 @@
         "publication_count": 2,
         "open_access_count": 2
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -124,12 +96,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "collaboration_platform",

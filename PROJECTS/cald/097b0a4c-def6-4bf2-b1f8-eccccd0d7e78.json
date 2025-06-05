@@ -12,34 +12,20 @@
     "abbr": "CALD",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2022",
-        "to": "2024"
-      }
-    ],
+    "date": [{ "from": "2022", "to": "2024" }],
     "maintained": true,
-    "websites": [
-      "https://cald.irht.cnrs.fr/"
-    ],
+    "websites": ["https://cald.irht.cnrs.fr/"],
     "project_desc": "CALD is a research tool developed for the study of Arabic legal documents from the 7th to 16th centuries C.E. It provides access to over 3,000 historical documents, facilitating the study of Islamic law. The platform offers a sample of these documents along with analytical tools, and users can create accounts to access images and resources.",
     "places": [
       {
         "place_name": {
           "text": "Paris",
-          "ref": [
-            "https://www.geonames.org/2988507/paris.html"
-          ]
+          "ref": ["https://www.geonames.org/2988507/paris.html"]
         },
-        "coordinates": {
-          "lat": "48.8535",
-          "lng": "2.34839"
-        }
+        "coordinates": { "lat": "48.8535", "lng": "2.34839" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -50,9 +36,7 @@
             "https://www.wikidata.org/wiki/Q280413"
           ]
         },
-        "websites": [
-          "https://www.cnrs.fr"
-        ]
+        "websites": ["https://www.cnrs.fr"]
       }
     ],
     "related_entities": [],
@@ -65,18 +49,12 @@
             "http://viaf.org/viaf/113526270"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://www.irht.cnrs.fr/fr/annuaire/muller-christian"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://www.irht.cnrs.fr/fr/annuaire/muller-christian"]
       }
     ],
     "research_data": {
-      "lang": [
-        "ara"
-      ],
+      "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -86,18 +64,10 @@
         "publication_count": 25,
         "open_access_count": 25
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -118,12 +88,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "arabic_studies",
       "digital_edition",

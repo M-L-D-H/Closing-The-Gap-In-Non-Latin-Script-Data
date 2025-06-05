@@ -12,12 +12,7 @@
     "abbr": "RASI",
     "type": "project",
     "ref": [],
-    "date": [
-      {
-        "from": "2008",
-        "to": ""
-      }
-    ],
+    "date": [{ "from": "2008", "to": "" }],
     "maintained": true,
     "websites": [
       "https://islamsci.mcgill.ca/RASI/index.html",
@@ -28,19 +23,12 @@
       {
         "place_name": {
           "text": "Montreal",
-          "ref": [
-            "https://www.geonames.org/6077243/"
-          ]
+          "ref": ["https://www.geonames.org/6077243/"]
         },
-        "coordinates": {
-          "lat": "45.50884",
-          "lng": "28.94966"
-        }
+        "coordinates": { "lat": "45.50884", "lng": "28.94966" }
       }
     ],
-    "lang": [
-      "eng"
-    ],
+    "lang": ["eng"],
     "related_institutions": [
       {
         "relation_type": "host",
@@ -51,9 +39,7 @@
             "https://www.wikidata.org/wiki/Q201492"
           ]
         },
-        "websites": [
-          "https://www.mcgill.ca/"
-        ]
+        "websites": ["https://www.mcgill.ca/"]
       }
     ],
     "related_entities": [],
@@ -66,19 +52,12 @@
             "https://www.wikidata.org/wiki/Q113842885"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
-        "websites": [
-          "https://islamsci.mcgill.ca/Jamil/"
-        ]
+        "roles": ["supervision"],
+        "websites": ["https://islamsci.mcgill.ca/Jamil/"]
       }
     ],
     "research_data": {
-      "lang": [
-        "heb",
-        "eng"
-      ],
+      "lang": ["heb", "eng"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -88,16 +67,8 @@
         "publication_count": 0,
         "open_access_count": 0
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [
-          ""
-        ]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -106,12 +77,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "digital_preservation",

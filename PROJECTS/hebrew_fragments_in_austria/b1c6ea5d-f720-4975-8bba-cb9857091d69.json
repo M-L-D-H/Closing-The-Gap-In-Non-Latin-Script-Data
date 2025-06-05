@@ -13,54 +13,31 @@
     "type": "project",
     "ref": [],
     "date": [
-      {
-        "from": "1991",
-        "to": "2002"
-      },
-      {
-        "from": "2004",
-        "to": "2008"
-      },
-      {
-        "from": "2008",
-        "to": ""
-      }
+      { "from": "1991", "to": "2002" },
+      { "from": "2004", "to": "2008" },
+      { "from": "2008", "to": "" }
     ],
     "maintained": true,
-    "websites": [
-      "https://www.hebrewmanuscript.com/"
-    ],
+    "websites": ["https://www.hebrewmanuscript.com/"],
     "project_desc": "The project aims at the collection, digitalisation, academic description and identification of all Hebrew fragments at Austrian libraries and archives.",
     "places": [
       {
         "place_name": {
           "text": "St. Pölten",
-          "ref": [
-            "https://www.geonames.org/2766429/sankt-poelten.html"
-          ]
+          "ref": ["https://www.geonames.org/2766429/sankt-poelten.html"]
         },
-        "coordinates": {
-          "lat": "48.2044",
-          "lng": "15.62291"
-        }
+        "coordinates": { "lat": "48.2044", "lng": "15.62291" }
       }
     ],
-    "lang": [
-      "deu",
-      "eng"
-    ],
+    "lang": ["deu", "eng"],
     "related_institutions": [
       {
         "relation_type": "host",
         "org_name": {
           "text": "Institute for Jewish History in Austria",
-          "ref": [
-            "https://ror.org/031kbs337"
-          ]
+          "ref": ["https://ror.org/031kbs337"]
         },
-        "websites": [
-          "http://www.injoest.ac.at/en"
-        ]
+        "websites": ["http://www.injoest.ac.at/en"]
       },
       {
         "relation_type": "cooperation",
@@ -71,9 +48,7 @@
             "https://www.wikidata.org/wiki/Q299015"
           ]
         },
-        "websites": [
-          "https://www.oeaw.ac.at/"
-        ]
+        "websites": ["https://www.oeaw.ac.at/"]
       }
     ],
     "related_entities": [
@@ -93,18 +68,14 @@
             "https://www.wikidata.org/wiki/Q19295875"
           ]
         },
-        "roles": [
-          "supervision"
-        ],
+        "roles": ["supervision"],
         "websites": [
           "http://www.injoest.ac.at/de/institut/mitarbeiterinnen/martha-keil"
         ]
       }
     ],
     "research_data": {
-      "lang": [
-        "heb"
-      ],
+      "lang": ["heb"],
       "sustainability_plan": {
         "project_website": 1.0,
         "Github": 0.0,
@@ -114,18 +85,10 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": []
-      },
+      "publications": { "open_access": 0, "licensing": [] },
       "data": {
         "datatypes": [
-          {
-            "label": "",
-            "stage": "raw",
-            "licensing": [],
-            "open_access": 0
-          }
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
         ],
         "repositories": [
           {
@@ -146,12 +109,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "catalog",
       "corpus_output",
