@@ -1,0 +1,104 @@
+{
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "28e0cbf6-fcb9-481e-9e81-ba2c6daebede",
+    "record_created_on": "2025-06-06",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-06-06",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Prosopographia Aegypti",
+    "abbr": "",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2020", "to": "" }],
+    "maintained": true,
+    "websites": ["https://www1.ivv1.uni-muenster.de/prosoaeg/index.html"],
+    "project_desc": "Database for Egyptian (Pharaonic to Roman period) personal names written in hieroglyphic, hieratic, and demotic scripts, including Greek and Coptic, sometimes Latin, equivalents. It is being constantly updated and enlarged, actually containing more than 60.000 datasets and additionally references to another database at Mainz University containing another 40000 entries.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Münster",
+          "ref": ["https://www.geonames.org/2867543/muenster.html"]
+        },
+        "coordinates": { "lat": "51.96236", "lng": "7.62571" }}
+    ],
+    "lang": ["deu"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Münster",
+          "ref": [
+            "https://ror.org/00pd74e08",
+            "https://www.wikidata.org/wiki/Q168426"
+          ]
+        },
+        "websites": ["https://www.uni-muenster.de"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "cooperation",
+        "title": "Thesaurus Linguae Aegyptiae",
+        "uuid": "af9250ab-86ed-472a-a75b-cea8b5f752b0"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0003-1734-3686",
+            "https://www.wikidata.org/wiki/Q1350986",
+            "https://d-nb.info/gnd/124596827"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.uni-muenster.de/IAEK/institut/personen/graefe/index.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["egy", "grc", "cop"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 0.5,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": {
+        "datatypes": [
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["corpus_resource", "biographical_data", "egyptology", "history_studies"],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
+}
