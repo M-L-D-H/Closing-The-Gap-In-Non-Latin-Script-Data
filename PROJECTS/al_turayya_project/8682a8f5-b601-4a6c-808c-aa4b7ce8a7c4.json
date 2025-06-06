@@ -109,9 +109,9 @@
         {
           "label": "QGIS",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q1329181"],
           "websites": ["https://www.qgis.org/de/site/"],
-          "description": ""
+          "description": "Open source desktop geographic information system software"
         }
       ],
       "languages": ["JS", "Python"]
