@@ -196,8 +196,8 @@
 				matches.push([url, entry]);
 				continue; // Not needed at the moment, but maybe later
 			}
-
-				if (project.related_institutions) {
+			// Hosting University
+			if (project.related_institutions) {
 			for (const inst of project.related_institutions) {
 				const name = inst.org_name?.text?.toLowerCase();
 				if (name && name.includes(termLower)) {
