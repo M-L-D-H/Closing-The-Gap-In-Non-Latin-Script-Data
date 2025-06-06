@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "66058341-b09d-4f18-b931-4b0d2cacb6d9",
+    "record_created_on": "2025-06-06",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-06-06",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Persons and Names of the Middle Kingdom and early New Kingdom",
+    "abbr": "PNM",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2017", "to": "2024" }],
+    "maintained": true,
+    "websites": ["https://pnm.uni-mainz.de/info"],
+    "project_desc": "The online database “Persons and Names of the Middle Kingdom and early New Kingdom” (PNM) contains Egyptian Middle Kingdom and early New Kingdom personal names, people, written sources, titles, and dossiers of persons attested in various sources. Version 5, currently available online, covers the sources from the reign of Mentuhotep II to the reign of Amenhotep III. The database is a work in progress. Along with additional sources, future versions will also include better translations and classification of names and titles as well as more elaborate datings.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Mainz",
+          "ref": ["https://www.geonames.org/2874225/mainz.html"]
+        },
+        "coordinates": { "lat": "49.98419", "lng": "8.2791" }}
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Johannes Gutenberg-Universität Mainz",
+          "ref": [
+            "https://ror.org/023b0x485",
+            "https://www.wikidata.org/wiki/Q161982"
+          ]
+        },
+        "websites": ["https://www.uni-mainz.de"]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0003-4287-8180",
+            "https://www.wikidata.org/wiki/Q123002274",
+            "https://d-nb.info/gnd/1148164774"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.aegyptologie.uni-mainz.de/ilin-tomich/"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["egy"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "Github": 0.0,
+        "data_accessibility": 0.0,
+        "webhosting": 1.0,
+        "publications": 0.0,
+        "publication_count": 0,
+        "open_access_count": 0
+      },
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": {
+        "datatypes": [
+          { "label": "", "stage": "raw", "licensing": [], "open_access": 0 }
+        ],
+        "repositories": [
+          {
+            "label": "",
+            "accessibility": "public",
+            "ref": [],
+            "websites": [],
+            "licensing": [],
+            "description": ""
+          }
+        ]
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["artefact", "biographical_data", "egyptology", "geodata", "history_studies"],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
+}
