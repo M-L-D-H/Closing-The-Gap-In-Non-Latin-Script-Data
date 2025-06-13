@@ -176,7 +176,15 @@
       "database": [],
       "backend": [],
       "frontend": [],
-      "tools": [],
+      "tools": [
+        {
+          "label": "Dillmann Lexicon",
+          "self_developed": true,
+          "ref": [],
+          "websites": ["https://github.com/BetaMasaheft/Dillmann", "https://www.fdr.uni-hamburg.de/record/702"],
+          "description": "The application displaying data from the digitization process of the Lexicon Linguae Aethiopicae of Augustus Dillmann."
+        }
+      ],
       "languages": []
     },
     "policies": [{ "description": "", "ref": [] }],
