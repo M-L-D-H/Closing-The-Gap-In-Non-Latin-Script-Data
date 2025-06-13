@@ -232,27 +232,27 @@
           "label": "Dillmann Lexicon",
           "self_developed": false,
           "ref": [],
-          "websites": ["https://github.com/BetaMasaheft/Dillmann"],
-          "description": "The lexicon was developed by the project Traces"
+          "websites": ["https://github.com/BetaMasaheft/Dillmann", "https://www.fdr.uni-hamburg.de/record/702"],
+          "description": "The application displaying data from the digitization process of the Lexicon Linguae Aethiopicae of Augustus Dillmann."
         },
         {
           "label": "Transkribus",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q22937321"],
           "websites": ["https://www.transkribus.org/de"],
           "description": "An AI-supported platform for automatic transcription of handwritten documents. The project trained the model for the Ethiopian language with an accuracy of approximately 80%."
         },
         {
           "label": "ABBYY FineReader",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q111165619"],
           "websites": ["https://pdf.abbyy.com"],
           "description": "OCR software"
         },
         {
           "label": "Alpheios",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q16002666"],
           "websites": ["https://alpheios.net/"],
           "description": "Tool providing translation and morphological information of words in classical languages."
         }
