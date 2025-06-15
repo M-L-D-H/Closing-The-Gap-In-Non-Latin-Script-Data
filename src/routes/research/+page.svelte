@@ -30,6 +30,7 @@
               date:     c.Date,
               time:     c['Lecture time'],
               title:    c['Lecture title'],
+              link:     c.Link,
               rawDate
             };
           })
@@ -67,7 +68,13 @@
         <div class="grid gap-4 mb-6">
           {#each upcoming as c}
             <div class="rounded bg-white p-4 shadow">
-              <p class="font-bold text-lg text-ctgblue">{c.name}</p>
+              <p class="font-bold text-lg text-ctgblue">
+                {#if c.link}
+                  <a href={c.link} target="_blank" rel="noopener noreferrer" class="hover:underline">{c.name}</a>
+                {:else}
+                  {c.name}
+                {/if}
+              </p>
               <p class="text-sm">{c.date} | {c.time} | {c.location}</p>
               <p class="italic mt-1 text-gray-700">{c.title}</p>
             </div>
@@ -77,21 +84,27 @@
         <p class="text-gray-600 mb-6">No upcoming conferences.</p>
       {/if}
   
-      <!-- Past Conferences -->
-      <h2 class="text-xl font-medium mb-3.5 border-b border-ctgblue pb-2">Past Conferences</h2>
-      {#if past.length}
-        <div class="grid gap-4 mb-6">
-          {#each past as c}
-            <div class="rounded bg-white p-4 shadow">
-              <p class="font-bold text-lg text-gray-700">{c.name}</p>
-              <p class="text-sm">{c.date} | {c.time} | {c.location}</p>
-              <p class="italic mt-1 text-gray-700">{c.title}</p>
-            </div>
-          {/each}
-        </div>
-      {:else}
-        <p class="text-gray-600 mb-6">No past conferences listed yet.</p>
-      {/if}
+<!-- Past Conferences -->
+<h2 class="text-xl font-medium mb-3.5 border-b border-ctgblue pb-2">Past Conferences</h2>
+{#if past.length}
+  <div class="grid gap-4 mb-6">
+    {#each past as c}
+      <div class="rounded bg-white p-4 shadow">
+        <p class="font-bold text-lg text-gray-700">
+          {#if c.link}
+            <a href={c.link} target="_blank" rel="noopener noreferrer" class="hover:underline">{c.name}</a>
+          {:else}
+            {c.name}
+          {/if}
+        </p>
+        <p class="text-sm">{c.date} | {c.time} | {c.location}</p>
+        <p class="italic mt-1 text-gray-700">{c.title}</p>
+      </div>
+    {/each}
+  </div>
+{:else}
+  <p class="text-gray-600 mb-6">No past conferences listed yet.</p>
+{/if}
   
       <!-- Publications -->
       <h2 class="text-xl font-medium mb-3.5 border-b border-ctgblue pb-2">Publications</h2>
