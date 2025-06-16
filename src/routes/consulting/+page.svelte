@@ -174,7 +174,7 @@
 
 			<!-- Support Needs -->
 			<div>
-				<label class="mb-3.5">What kind of support are you looking for?*</label>
+				<div class="mb-3.5">What kind of support are you looking for?*</div>
 				<div class="mt-2 space-y-1 text-sm text-gray-700">
 					<label class="block"
 						><input type="checkbox" value="Finding related DH projects" bind:group={supportNeeds} />
@@ -257,7 +257,7 @@
 
 			<!-- Follow-Up Method -->
 			<div>
-				<label class="mb-3.5">Preferred Follow-Up Method</label>
+				<div class="mb-3.5">Preferred Follow-Up Method</div>
 				<div class="mt-1 space-x-4 text-sm text-gray-700">
 					<label
 						><input

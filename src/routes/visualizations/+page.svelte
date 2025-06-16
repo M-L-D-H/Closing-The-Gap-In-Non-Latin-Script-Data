@@ -578,6 +578,7 @@
 			'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master';
 
 		const rawProjects = await Promise.all(
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			Object.entries(allProjects).map(async ([uuid, project]: any) => {
 				const folderPath = project.path;
 				const filePath =

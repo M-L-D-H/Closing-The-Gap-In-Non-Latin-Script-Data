@@ -22,7 +22,6 @@
 	const keywordsMap = getKeywords(entries);
 	const keywordCats: Record<string, string[]> = fetchCategories(keywordsMap);
 	const languagesMap: Record<string, string[]> = getLanguages(entries);
-	const articles = ['a', 'an', 'the', 'der', 'die', 'das'];
 
 	let searchTermValue: string;
 	searchTerm.subscribe((value) => {
@@ -96,6 +95,7 @@
 			.trim();
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	function customSort(entries: [string, any][]) {
 		return entries.sort(([, aData], [, bData]) =>
 			removeArticles(aData.project.title).localeCompare(removeArticles(bData.project.title))

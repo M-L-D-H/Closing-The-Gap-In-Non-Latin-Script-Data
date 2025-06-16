@@ -136,7 +136,6 @@
 
 <style>
 	p,
-	label,
 	span {
 		color: black;
 	}

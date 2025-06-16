@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
-	import Logotype from '$lib/svg/Logotype.svelte';
 
 	import LogotypeURL from '$lib/svg/Logotype.svg?url';
 </script>
