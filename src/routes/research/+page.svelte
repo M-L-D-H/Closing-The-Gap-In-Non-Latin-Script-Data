@@ -1,55 +1,98 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 
-	let upcoming = [];
-	let past = [];
-	let publications = [];
+	// Define rough types for conference and publication data
+	type ConferenceRow = {
+		Type: 'Conference';
+		'Name of conference': string;
+		Location: string;
+		Date: string;
+		'Lecture time': string;
+		'Lecture title': string;
+		Link: string;
+	};
+
+	type Conference = {
+		name: string;
+		location: string;
+		date: string;
+		time: string;
+		title: string;
+		link: string;
+		rawDate: Date;
+	};
+
+	type PublicationRow = {
+		Type: 'Publication';
+		Title: string;
+		Author: string;
+		Year: string;
+		Link: string;
+	};
+
+	type Publication = {
+		title: string;
+		author: string;
+		year: string;
+		link: string;
+	};
+
+	type DataRow = ConferenceRow | PublicationRow;
+
+	let upcoming: Conference[] = [];
+	let past: Conference[] = [];
+	let publications: Publication[] = [];
 
 	const API_URL = 'https://api.sheetbest.com/sheets/ebb6f083-a7a1-49c1-ae15-9f2739cd389e';
 
-	function parseStartDate(dateStr) {
+	function parseStartDate(dateStr: string): Date | null {
 		const first = dateStr.split(/[-–—]/)[0].trim();
 		const [d, m, y] = first.split('.');
 		const dt = new Date(`${y}-${m}-${d}`);
-		return isNaN(dt) ? null : dt;
+		return isNaN(dt.getTime()) ? null : dt;
+	}
+
+	function isConference(row: DataRow): row is ConferenceRow {
+		return row.Type?.toLowerCase() === 'conference';
+	}
+
+	function isPublication(row: DataRow): row is PublicationRow {
+		return row.Type?.toLowerCase() === 'publication';
 	}
 
 	onMount(async () => {
 		try {
 			const res = await fetch(API_URL);
-			const data = await res.json();
+			const data: DataRow[] = await res.json();
 			const today = new Date();
 
-			const allConfs = data
-				.filter((row) => row.Type?.toLowerCase() === 'conference')
+			const allConfs: Conference[] = data
+				.filter(isConference)
 				.map((c) => {
 					const rawDate = parseStartDate(c.Date);
-					return (
-						rawDate && {
-							name: c['Name of conference'],
-							location: c.Location,
-							date: c.Date,
-							time: c['Lecture time'],
-							title: c['Lecture title'],
-							link: c.Link,
-							rawDate
-						}
-					);
+					if (!rawDate) return null;
+					return {
+						name: c['Name of conference'],
+						location: c.Location,
+						date: c.Date,
+						time: c['Lecture time'],
+						title: c['Lecture title'],
+						link: c.Link,
+						rawDate
+					};
 				})
-				.filter(Boolean)
-				.sort((a, b) => a.rawDate - b.rawDate);
+				.filter((c): c is Conference => c !== null)
+				.sort((a, b) => a.rawDate.getTime() - b.rawDate.getTime());
 
 			upcoming = allConfs.filter((c) => c.rawDate >= today);
 			past = allConfs.filter((c) => c.rawDate < today);
 
-			publications = data
-				.filter((row) => row.Type?.toLowerCase() === 'publication')
-				.map((p) => ({
-					title: p.Title,
-					author: p.Author,
-					year: p.Year,
-					link: p.Link
-				}));
+			publications = data.filter(isPublication).map((p) => ({
+				title: p.Title,
+				author: p.Author,
+				year: p.Year,
+				link: p.Link
+			}));
 		} catch (err) {
 			console.error('Error loading research data:', err);
 		}
