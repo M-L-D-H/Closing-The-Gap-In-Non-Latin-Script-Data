@@ -198,11 +198,11 @@
 			}
 			// Hosting University
 			if (entry.project.related_institutions) {
-			for (const inst of entry.project.related_institutions) {
-				const name = inst.org_name?.text?.toLowerCase();
-				if (name && name.includes(termLower)) {
-					matches.push([url, entry]);
-					break;
+				for (const inst of entry.project.related_institutions) {
+					const name = inst.org_name?.text?.toLowerCase();
+					if (name && name.includes(termLower)) {
+						matches.push([url, entry]);
+						break;
 					}
 				}
 			}

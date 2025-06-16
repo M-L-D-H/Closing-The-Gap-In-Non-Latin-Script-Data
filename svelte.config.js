@@ -15,7 +15,7 @@ const config = {
 		appDir: 'app',
 		prerender: {
 			handleMissingId: 'ignore',
-			handleHttpError: 'warn',
+			handleHttpError: 'warn'
 		}
 	}
 };

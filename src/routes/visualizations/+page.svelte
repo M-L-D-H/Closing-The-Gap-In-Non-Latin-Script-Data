@@ -569,68 +569,89 @@
 	onMount(async () => {
 		vegaEmbed('#vis2', spec2, {});
 		vegaEmbed('#vis1', spec1, {});
-		const res = await fetch('https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/PROJECTS.json');
-  		const allProjects = await res.json();
+		const res = await fetch(
+			'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master/PROJECTS.json'
+		);
+		const allProjects = await res.json();
 
-  		const rawBasePath = 'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master';
+		const rawBasePath =
+			'https://raw.githubusercontent.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data/master';
 
-  		const rawProjects = await Promise.all(
-    		Object.entries(allProjects).map(async ([uuid, project]: any) => {
-      			const folderPath = project.path;
-      			const filePath = rawBasePath + (folderPath.endsWith('/')
-        			? folderPath + uuid + '.json'
-        			: folderPath + '/' + uuid + '.json');
+		const rawProjects = await Promise.all(
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
+			Object.entries(allProjects).map(async ([uuid, project]: any) => {
+				const folderPath = project.path;
+				const filePath =
+					rawBasePath +
+					(folderPath.endsWith('/')
+						? folderPath + uuid + '.json'
+						: folderPath + '/' + uuid + '.json');
 
-      			try {
-        			const res = await fetch(filePath);
-        			const data = await res.json();
-        			const s = data.project?.research_data?.sustainability_plan ?? {};
+				try {
+					const res = await fetch(filePath);
+					const data = await res.json();
+					const s = data.project?.research_data?.sustainability_plan ?? {};
 
-        			return {
-          				website: s.project_website ?? 'N/A',
-         				github: s.Github ?? 'N/A',
-          				data_accessibility: s.data_accessibility ?? 'N/A',
-          				publications: s.publications ?? 'N/A',
-          				publication_count: s.publication_count ?? 0,
-          				open_access_count: s.open_access_count ?? 0,
-          				webhosting: s.webhosting ?? 'N/A'
-        			};
-      			} catch (err) {
-        			console.warn(`⚠️ Failed to load project ${uuid}:`, err);
-        			return null;
-      			}
-   			})
-  		);
-    	const projects = rawProjects.filter((p) => p !== null);
-    	const total = projects.length;
-    	const countBy = (key: string, val: number) => projects.filter((p) => p[key] === val).length;
-    	const bar = (cat: string, label: string, count: number) => ({
-      		Category: cat,
-      		'Score Label': label,
-      		Count: count,
-      		Tooltip: `From ${total} total projects, ${count} projects are in category "${label}".`
-    		});
+					return {
+						website: s.project_website ?? 'N/A',
+						github: s.Github ?? 'N/A',
+						data_accessibility: s.data_accessibility ?? 'N/A',
+						publications: s.publications ?? 'N/A',
+						publication_count: s.publication_count ?? 0,
+						open_access_count: s.open_access_count ?? 0,
+						webhosting: s.webhosting ?? 'N/A'
+					};
+				} catch (err) {
+					console.warn(`⚠️ Failed to load project ${uuid}:`, err);
+					return null;
+				}
+			})
+		);
+		const projects = rawProjects.filter((p) => p !== null);
+		const total = projects.length;
+		const countBy = (key: string, val: number) => projects.filter((p) => p[key] === val).length;
+		const bar = (cat: string, label: string, count: number) => ({
+			Category: cat,
+			'Score Label': label,
+			Count: count,
+			Tooltip: `From ${total} total projects, ${count} projects are in category "${label}".`
+		});
 
-    	const values = [
-  			bar('Github', 'Full / Yes', countBy('github', 1.0)),
-  			bar('Github', 'No / None', countBy('github', 0.0)),
-  			bar('Data Accessibility', 'Full / Yes', countBy('data_accessibility', 1.0)),
-  			bar('Data Accessibility', 'Partial / Mentioned', countBy('data_accessibility', 0.5)),
-  			bar('Data Accessibility', 'No / None', countBy('data_accessibility', 0.0)),
-  			bar('Publications', 'Full / Yes', countBy('publications', 1.0)),
-  			bar('Publications', 'No / None', countBy('publications', 0.0)),
-			bar('Open Access Publications', 'Full / Yes', projects.filter((p) => p.publication_count > 0 && p.publication_count === p.open_access_count).length),
-			bar('Open Access Publications', 'Partial / Mentioned', projects.filter((p) => p.open_access_count > 0 && p.open_access_count < p.publication_count).length),
-  			bar('Open Access Publications', 'No / None', projects.filter((p) => p.publication_count > 0 && p.open_access_count === 0).length),
-  			bar('Website', 'Full / Yes', countBy('website', 1.0)),
-  			bar('Website', 'No / None', countBy('website', 0.0)),
-  			bar('Webhosting', 'Full / Yes', countBy('webhosting', 1.0)),
-  			bar('Webhosting', 'Partial / Mentioned', countBy('webhosting', 0.5)),
-  			bar('Webhosting', 'No / None', countBy('webhosting', 0.0))
+		const values = [
+			bar('Github', 'Full / Yes', countBy('github', 1.0)),
+			bar('Github', 'No / None', countBy('github', 0.0)),
+			bar('Data Accessibility', 'Full / Yes', countBy('data_accessibility', 1.0)),
+			bar('Data Accessibility', 'Partial / Mentioned', countBy('data_accessibility', 0.5)),
+			bar('Data Accessibility', 'No / None', countBy('data_accessibility', 0.0)),
+			bar('Publications', 'Full / Yes', countBy('publications', 1.0)),
+			bar('Publications', 'No / None', countBy('publications', 0.0)),
+			bar(
+				'Open Access Publications',
+				'Full / Yes',
+				projects.filter(
+					(p) => p.publication_count > 0 && p.publication_count === p.open_access_count
+				).length
+			),
+			bar(
+				'Open Access Publications',
+				'Partial / Mentioned',
+				projects.filter((p) => p.open_access_count > 0 && p.open_access_count < p.publication_count)
+					.length
+			),
+			bar(
+				'Open Access Publications',
+				'No / None',
+				projects.filter((p) => p.publication_count > 0 && p.open_access_count === 0).length
+			),
+			bar('Website', 'Full / Yes', countBy('website', 1.0)),
+			bar('Website', 'No / None', countBy('website', 0.0)),
+			bar('Webhosting', 'Full / Yes', countBy('webhosting', 1.0)),
+			bar('Webhosting', 'Partial / Mentioned', countBy('webhosting', 0.5)),
+			bar('Webhosting', 'No / None', countBy('webhosting', 0.0))
 		];
 
-   		const sustainabilitySpec: VisualizationSpec = {
-     		$schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+		const sustainabilitySpec: VisualizationSpec = {
+			$schema: 'https://vega.github.io/schema/vega-lite/v5.json',
 			title: {
 				text: 'Sustainability Overview',
 				orient: 'top',
@@ -639,8 +660,8 @@
 				offset: 50,
 				color: 'black',
 				subtitle: [
-				'This chart visualizes sustainability-related metadata for each project in our database, including their web presence, data accessibility, publications,',
-				'open accessibility of their publications and their usage of GitHub',
+					'This chart visualizes sustainability-related metadata for each project in our database, including their web presence, data accessibility, publications,',
+					'open accessibility of their publications and their usage of GitHub'
 				],
 				anchor: 'middle',
 				subtitleFontSize: 14,
@@ -662,74 +683,78 @@
 				labelFontSize: 16,
 				titleFontSize: 14
 			},
-      		data: { values },
-      		selection: {
-        		highlight: { type: 'single', on: 'mouseover', empty: 'all', clear: 'mouseout' }
-      		},
-      		mark: 'bar',
-      		encoding: {
-        		x: {
-  					field: 'Category',
-  					type: 'nominal',
- 					title: 'Category',
-  					axis: { labelAngle: 15 },
-  					sort: [
-    					'Github',
-    					'Data Accessibility',
-    					'Publications',
-    					'Open Access Publications',
-    					'Website',
-    					'Webhosting'
-  					]
+			data: { values },
+			selection: {
+				highlight: { type: 'single', on: 'mouseover', empty: 'all', clear: 'mouseout' }
+			},
+			mark: 'bar',
+			encoding: {
+				x: {
+					field: 'Category',
+					type: 'nominal',
+					title: 'Category',
+					axis: { labelAngle: 15 },
+					sort: [
+						'Github',
+						'Data Accessibility',
+						'Publications',
+						'Open Access Publications',
+						'Website',
+						'Webhosting'
+					]
 				},
-        		xOffset: { field: 'Score Label', type: 'nominal' },
-        		y: { field: 'Count', type: 'quantitative', title: 'Number of Projects' },
-        		color: {
-          			field: 'Score Label',
-          			type: 'nominal',
-          			legend: { title: 'Values', titleFontSize: 16, labelFontSize: 14, orient: 'bottom', direction: 'horizontal', columns: 2 },
-          			scale: {
-            			domain: ['Full / Yes', 'Partial / Mentioned', 'No / None'],
-            			range: ['#2F4A60', '#F29559', '#B8B18F'],
-          			},
-					
-       			},
-        		opacity: {
-          			condition: { selection: 'highlight', value: 1 },
-          			value: 0.5
-       			},
-				tooltip: [
-  					{ field: 'Tooltip', type: 'nominal', title: 'Details' }
-				]
-      		},
-      		autosize: { type: 'pad', contains: 'padding' },
+				xOffset: { field: 'Score Label', type: 'nominal' },
+				y: { field: 'Count', type: 'quantitative', title: 'Number of Projects' },
+				color: {
+					field: 'Score Label',
+					type: 'nominal',
+					legend: {
+						title: 'Values',
+						titleFontSize: 16,
+						labelFontSize: 14,
+						orient: 'bottom',
+						direction: 'horizontal',
+						columns: 2
+					},
+					scale: {
+						domain: ['Full / Yes', 'Partial / Mentioned', 'No / None'],
+						range: ['#2F4A60', '#F29559', '#B8B18F']
+					}
+				},
+				opacity: {
+					condition: { selection: 'highlight', value: 1 },
+					value: 0.5
+				},
+				tooltip: [{ field: 'Tooltip', type: 'nominal', title: 'Details' }]
+			},
+			autosize: { type: 'pad', contains: 'padding' },
 			width: 1050,
 			height: 450,
 			padding: 44,
 			config: {
-  				bar: {
-   				 innerPadding: 5,
- 				}
-			}				
-    	};
+				bar: {
+					innerPadding: 5
+				}
+			}
+		};
 
-    	vegaEmbed(sustainabilityChartEl, sustainabilitySpec);
-  });
+		vegaEmbed(sustainabilityChartEl, sustainabilitySpec);
+	});
 </script>
 
 <div class="flex justify-center overflow-auto px-4">
 	<div
-	  bind:this={sustainabilityChartEl}
-	  id="vis3"
-	  class="mb-4 rounded-lg bg-gray-50 p-4"
-	  style="min-width: 750px; max-width: 1220px;"
+		bind:this={sustainabilityChartEl}
+		id="vis3"
+		class="mb-4 rounded-lg bg-gray-50 p-4"
+		style="min-width: 750px; max-width: 1220px;"
 	></div>
 </div>
 
 <div class="flex justify-center px-4">
-  <div id="vis1" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
+	<div id="vis1" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
 </div>
 
 <div class="flex justify-center px-4">
-  <div id="vis2" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
+	<div id="vis2" class="mb-4 rounded-lg bg-gray-50 p-4"></div>
 </div>
