@@ -8,10 +8,10 @@
 		"build": "vite build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"git-sync": "git add src/data && (git commit -m \"Update archived data\" || echo \"No changes to commit\") && git push",
-  		"deploy": "npm run archive && npm run git-sync && npm run build && gh-pages -d build",
+		"deploy": "npm run archive && npm run git-sync && npm run build && gh-pages -d build",
 		"dev": "vite dev",
 		"format": "prettier --plugin prettier-plugin-svelte --plugin prettier-plugin-tailwindcss --write .",
+		"git-sync": "git add src/data && (git commit -m \"Update archived data\" || echo \"No changes to commit\") && git push",
 		"lint": "prettier --plugin prettier-plugin-svelte --plugin prettier-plugin-tailwindcss --check . && eslint .",
 		"preview": "vite preview",
 		"test": "deno test --allow-read deno/date_test.ts"
