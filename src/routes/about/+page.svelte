@@ -50,46 +50,88 @@
 			</p>
 		</div>
 		<div class="mt-8">
-			<h3 class="text-center text-2xl mb-6">The Team</h3>
-			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+			<h3 class="mb-6 text-center text-2xl">The Team</h3>
+			<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
 				<!-- Profile 1 -->
-				<div class="bg-white rounded-lg shadow p-4 text-center">
-					<a href="https://www.caseyegyptologist.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow">
-						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/christian.png" alt="Christian Casey" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
+				<div class="rounded-lg bg-white p-4 text-center shadow">
+					<a
+						href="https://www.caseyegyptologist.com"
+						target="_blank"
+						rel="noreferrer"
+						class="block rounded-lg bg-white p-4 text-center shadow transition-shadow hover:shadow-lg"
+					>
+						<img
+							src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/christian.png"
+							alt="Christian Casey"
+							class="mx-auto mb-4 h-32 w-32 rounded-full object-cover"
+						/>
 						<h4 class="text-xl font-semibold">Dr. Christian Casey</h4>
-						<p class="text-sm mt-2">Christian is an Egyptologist with wide interest in the digital humanities, especially data sustainability. As the leader of the Closing the Gap team, his role is getting out of the way and letting Xenia, Aibaniz, and Joudy do amazing work curating our collection of DH projects.</p>
+						<p class="mt-2 text-sm">
+							Christian is an Egyptologist with wide interest in the digital humanities, especially
+							data sustainability. As the leader of the Closing the Gap team, his role is getting
+							out of the way and letting Xenia, Aibaniz, and Joudy do amazing work curating our
+							collection of DH projects.
+						</p>
 					</a>
 				</div>
-		
+
 				<!-- Profile 2 -->
-				<div class="bg-white rounded-lg shadow p-4 text-center">
+				<div class="rounded-lg bg-white p-4 text-center shadow">
 					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
-						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/xenia.jpg" alt="M. Xenia Kudela" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
-						<h4 class="text-xl font-semibold">M. Xenia Kudela</h4>
-						<p class="text-sm mt-2">Xenia is responsible for supervising the database and workflows of the project. Her current interests include the sustainability of human heritage in the digital era, workflow optimization with AI, exploring the limits of NLP, and as much tech-related stuff as she can still fit into her schedule.</p>
+					<img
+						src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/xenia.jpg"
+						alt="M. Xenia Kudela"
+						class="mx-auto mb-4 h-32 w-32 rounded-full object-cover"
+					/>
+					<h4 class="text-xl font-semibold">M. Xenia Kudela</h4>
+					<p class="mt-2 text-sm">
+						Xenia is responsible for supervising the database and workflows of the project. Her
+						current interests include the sustainability of human heritage in the digital era,
+						workflow optimization with AI, exploring the limits of NLP, and as much tech-related
+						stuff as she can still fit into her schedule.
+					</p>
 					<!-- </a> -->
 				</div>
-		
+
 				<!-- Profile 3 -->
-				<div class="bg-white rounded-lg shadow p-4 text-center">
+				<div class="rounded-lg bg-white p-4 text-center shadow">
 					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
-						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/aya.jpg" alt="Aibaniz Alieva" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
-						<h4 class="text-xl font-semibold">Aibaniz Alieva</h4>
-						<p class="text-sm mt-2">Aibaniz, with a background in Arabic Studies and digital humanities, works on Closing the Gap by identifying Arabic-focused and underrepresented projects, collecting accurate metadata, and developing tools to structure it. She also contributes to research on DH project sustainability and designed the project’s logo and logotype.</p>
+					<img
+						src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/aya.jpg"
+						alt="Aibaniz Alieva"
+						class="mx-auto mb-4 h-32 w-32 rounded-full object-cover"
+					/>
+					<h4 class="text-xl font-semibold">Aibaniz Alieva</h4>
+					<p class="mt-2 text-sm">
+						Aibaniz, with a background in Arabic Studies and digital humanities, works on Closing
+						the Gap by identifying Arabic-focused and underrepresented projects, collecting accurate
+						metadata, and developing tools to structure it. She also contributes to research on DH
+						project sustainability and designed the project’s logo and logotype.
+					</p>
 					<!-- </a> -->
 				</div>
-		
+
 				<!-- Profile 4 -->
-				<div class="bg-white rounded-lg shadow p-4 text-center">
+				<div class="rounded-lg bg-white p-4 text-center shadow">
 					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
-						<img src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/joudy.jpg" alt="Joudy Sido-Bozan" class="mx-auto mb-4 w-32 h-32 rounded-full object-cover" />
-						<h4 class="text-xl font-semibold">Joudy Sido-Bozan</h4>
-						<p class="text-sm mt-2">Joudy Sido Bozan works at the intersection of digital humanities and programming, developing tools to collect, organize, and visualize research projects in non-Latin scripts. Her work focuses on automating data extraction and creating visual representations, ensuring accessibility, sustainability and structured analysis of research in underrepresented languages.</p>
+					<img
+						src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/joudy.jpg"
+						alt="Joudy Sido-Bozan"
+						class="mx-auto mb-4 h-32 w-32 rounded-full object-cover"
+					/>
+					<h4 class="text-xl font-semibold">Joudy Sido-Bozan</h4>
+					<p class="mt-2 text-sm">
+						Joudy Sido Bozan works at the intersection of digital humanities and programming,
+						developing tools to collect, organize, and visualize research projects in non-Latin
+						scripts. Her work focuses on automating data extraction and creating visual
+						representations, ensuring accessibility, sustainability and structured analysis of
+						research in underrepresented languages.
+					</p>
 					<!-- </a> -->
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="space-y-4 text-center">
 			<p class="text-xl">
 				If you want to contribute in any way, to work on a localization of this service or to report

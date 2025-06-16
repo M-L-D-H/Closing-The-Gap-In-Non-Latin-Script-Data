@@ -6,11 +6,14 @@
 	import LogotypeURL from '$lib/svg/Logotype.svg?url';
 </script>
 
-
 <div class="mx-auto mb-4 max-w-[76rem] px-4 text-gray-50">
-	<div class="flex items-left space-x-4">
+	<div class="items-left flex space-x-4">
 		<div>
-			<img src={LogotypeURL} alt="Closing the Gap in Non-Latin Script Data" class="h-24 w-auto block" />
+			<img
+				src={LogotypeURL}
+				alt="Closing the Gap in Non-Latin Script Data"
+				class="block h-24 w-auto"
+			/>
 		</div>
 	</div>
 </div>

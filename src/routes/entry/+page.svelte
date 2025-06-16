@@ -174,18 +174,25 @@
 			<p class="mb-1 font-normal">Involved researchers:</p>
 			<ul class="ml-4 list-disc">
 				{#each contacts as contact}
-						{#if contact.pers_name.text !== ""}
+					{#if contact.pers_name.text !== ''}
 						<li>
-						{contact.pers_name.text}
-						{#each contact.pers_name.ref.filter(r => r.startsWith("https://orcid.org")) as orcid}
-							: <a href="{orcid}" target="_blank" rel="noreferrer" class="break-words hover:underline">{orcid}</a>
-						{/each}
+							{contact.pers_name.text}
+							{#each contact.pers_name.ref.filter( (r) => r.startsWith('https://orcid.org') ) as orcid}
+								: <a
+									href={orcid}
+									target="_blank"
+									rel="noreferrer"
+									class="break-words hover:underline">{orcid}</a
+								>
+							{/each}
 						</li>
-					{:else if contact.pers_name.ref.some(r => r.startsWith("https://orcid.org"))}
-						{#each contact.pers_name.ref.filter(r => r.startsWith("https://orcid.org")) as orcid}
-						<li>
-							<a href="{orcid}" target="_blank" rel="noreferrer" class="break-words hover:underline">{orcid}</a>
-						</li>
+					{:else if contact.pers_name.ref.some((r) => r.startsWith('https://orcid.org'))}
+						{#each contact.pers_name.ref.filter((r) => r.startsWith('https://orcid.org')) as orcid}
+							<li>
+								<a href={orcid} target="_blank" rel="noreferrer" class="break-words hover:underline"
+									>{orcid}</a
+								>
+							</li>
 						{/each}
 					{/if}
 				{/each}
