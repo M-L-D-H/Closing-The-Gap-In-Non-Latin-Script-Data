@@ -6,7 +6,7 @@
 </script>
 
 <div class="mx-auto mb-4 max-w-[76rem] px-4 text-gray-50">
-	<div class="items-start flex space-x-4">
+	<div class="flex items-start space-x-4">
 		<div>
 			<img
 				src={LogotypeURL}
