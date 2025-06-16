@@ -311,7 +311,7 @@
 			<!-- Submit -->
 			<button
 				type="submit"
-				class="rounded-md border border-ctgblue border-slate-800 bg-ctgorange px-4 py-2 font-mono hover:underline disabled:opacity-50"
+				class="rounded-md border border-ctgblue bg-ctgorange px-4 py-2 font-mono hover:underline disabled:opacity-50"
 				disabled={sending}
 			>
 				{sending ? 'Sending...' : 'Submit'}
