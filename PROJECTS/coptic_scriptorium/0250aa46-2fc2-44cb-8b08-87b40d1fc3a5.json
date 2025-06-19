@@ -95,7 +95,12 @@
         "relation_type": "cooperation",
         "title": "Database and Dictionary of Greek Loanwords in Coptic",
         "uuid": "0e6bdb55-2d42-482f-a8d8-639ac232314e"
-      }
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Koptische/Coptic Electronic Language and Literature International Alliance",
+        "uuid": "520deb9e-b9d9-4c50-ad85-555bb6483bd6"
+      }    
     ],
     "people": [
       {
