@@ -1,6 +1,7 @@
 ﻿# Protocol of CtG Team Meetings
 
 ##2025-06-06
+
 **Time**: 15:00–16:00 (Berlin)
 **Participants** (alphabetical): Alieva, Aibaniz; Casey, Christian; Gründler, Beatrice; Kudela, M. Xenia; Müller-Laackman, Jonas; Beers, Theodore; Sido Bozan, Joudy
 
