@@ -1,5 +1,63 @@
 ﻿# Protocol of CtG Team Meetings
 
+##2025-06-06
+**Time**: 15:00–16:00 (Berlin)
+**Participants** (alphabetical): Alieva, Aibaniz; Casey, Christian; Gründler, Beatrice; Kudela, M. Xenia; Müller-Laackman, Jonas; Beers, Theodore; Sido Bozan, Joudy
+
+**Overview of Latest Achievements**
+
+  - Search Functionality:
+    Search bar now includes university-based filters, allowing users to search for projects by institutional affiliation.
+
+  - Sustainability Visualizations:
+    A new module displays key sustainability parameters of each project in the database. The visualization enables comparative project analysis and facilitates insight into     project design and longevity.
+
+  - Contribute Page:
+    The submission form has been redesigned to improve usability and lower the barrier for new contributions, particularly from external researchers.
+
+  - Consulting Page:
+    A new consulting interface allows researchers to submit inquiries for project recommendations based on CtG’s database and analytical expertise in non-Latin script       research projects. The page has been distributed via institutional academic listservers and is already generating incoming consultation requests, reflecting strong interest and relevance.
+
+  - About Page:
+    Biographies and photographs of all current team members have been added to improve visibility, transparency, and project communication.
+
+  - Research Page:
+    Full list of past and upcoming conference contributions and publications has been compiled. A previously discussed improvement—adding hyperlinks to conferences and  publications—has been implemented.
+
+  - Visual Identity – Logo and Title:
+    A new logo has been implemented across the site and official communication materials. The project title now appears in a stylized Kufi script on the homepage, aligning the design more closely with the project’s focus on non-Latin script data and enhancing visual coherence.
+
+  - Workflow Documentation:
+    CtG has published internal documentation outlining each active workflow supporting project development and maintenance. The document is publicly accessible under:
+DOCS -> workflows_doc.md
+
+**Updates Towards Future Research**
+  - AI Integration:
+    Following recent developments in sustainability metrics and visualization work, CtG will pursue the development of an AI-based chatbot.
+
+  - Model Choice and Scope:
+    The LLaMA2 model has been selected. The AI will be trained solely on sustainability-related project metadata. Sensitive personal data, such as names of PIs, will be  excluded in accordance with existing internal policy.
+
+**Blog Posts**
+  - Current Contribution:
+    Joudy Sido Bozan is drafting a blog post on the role of team dynamics in influencing project sustainability. Scheduled for publication in late June 2025.
+
+  - Next Authors:
+    Following blog contributions will be written by Theodore Beers and Christian Casey, respectively.
+
+**New Team Member**
+  - Joining July 2025:
+    Hala Abdalhadi will join the CtG team in July 2025. A more formal introduction and role clarification will follow in the next meeting.
+
+**Education**
+  - Seminar Continuation:
+    Due to high interest, the seminar “Digital Humanities and Data Sustainability” taught by Christian Casey will continue in an adapted format in the following semester.
+
+  - Conference Participation:
+    On June 20th, Christian Casey will represent CtG at the QUADRIGA-Konferenz: Stärkung von Datenkompetenz für die Forschung, presenting on data sustainability strategies and pedagogical models.
+
+
+
 ##2025-01-17
 
 **Time**: 15:00-16:00 (Berlin)
