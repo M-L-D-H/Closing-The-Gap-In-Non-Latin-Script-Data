@@ -1,1 +1,1 @@
-web: python server.py
+web: gunicorn Ai_chatboy.server:app
