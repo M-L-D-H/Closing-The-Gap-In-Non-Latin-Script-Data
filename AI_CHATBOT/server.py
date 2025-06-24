@@ -6,7 +6,7 @@ from llama_cpp import Llama  # Make sure llama_cpp is installed and available
 app = Flask(__name__)
 
 # Adjust the model path depending on where it's located on Render
-MODEL_PATH = "llama.cpp/models/mistral-7b-instruct-v0.1.Q5_K_M.gguf"
+MODEL_PATH = "/Users/jous00/WorkـCtG/Closing-The-Gap-In-Non-Latin-Script-Data/AI_CHATBOT/llama.cpp/models/mistral-7b-instruct-v0.1.Q5_K_M.gguf"
 CSV_PATH = os.path.join(os.path.dirname(__file__), 'project_metadata.csv')
 
 # Initialize the model (optional if model is not deployed in Render)
@@ -16,11 +16,13 @@ except Exception as e:
     llm = None
     print("⚠️ Warning: LLaMA model not loaded -", e)
 
-def load_project_data():
+def load_project_data(limit=10):
     summaries = []
     with open(CSV_PATH, newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
-        for row in reader:
+        for i, row in enumerate(reader):
+            if i >= limit:
+                break
             title = row.get("title", "Unknown")
             oa = int(row.get("open_access_count", 0))
             total = int(row.get("publication_count", 1))
