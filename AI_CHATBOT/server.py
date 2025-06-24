@@ -5,7 +5,7 @@ from llama_cpp import Llama  # Make sure llama_cpp is installed and available
 
 app = Flask(__name__)
 
-# Adjust the model path depending on where it's located on Render
+
 MODEL_PATH = "/Users/jous00/WorkـCtG/Closing-The-Gap-In-Non-Latin-Script-Data/AI_CHATBOT/llama.cpp/models/mistral-7b-instruct-v0.1.Q5_K_M.gguf"
 CSV_PATH = os.path.join(os.path.dirname(__file__), 'project_metadata.csv')
 
