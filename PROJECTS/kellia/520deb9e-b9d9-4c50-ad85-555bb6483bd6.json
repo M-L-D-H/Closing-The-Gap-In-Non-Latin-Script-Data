@@ -64,7 +64,8 @@
         "relation_type": "cooperation",
         "title": "Database and Dictionary of Greek Loanwords in Coptic",
         "uuid": "0e6bdb55-2d42-482f-a8d8-639ac232314e"
-      }],
+      }
+    ],
     "people": [
       {
         "pers_name": {
@@ -72,12 +73,11 @@
           "ref": [
             "https://orcid.org/0009-0005-8470-1617",
             "https://d-nb.info/gnd/1075292484",
-            "https://www.wikidata.org/wiki/Q55147114"]
+            "https://www.wikidata.org/wiki/Q55147114"
+          ]
         },
         "roles": ["supervision"],
-        "websites": [
-          "https://www.uni-goettingen.de/en/472658.html"
-        ]
+        "websites": ["https://www.uni-goettingen.de/en/472658.html"]
       },
       {
         "pers_name": {
@@ -85,7 +85,8 @@
           "ref": [
             "https://orcid.org/0000-0001-9543-0692",
             "https://d-nb.info/gnd/1027296033",
-            "https://www.wikidata.org/wiki/Q104840369"]
+            "https://www.wikidata.org/wiki/Q104840369"
+          ]
         },
         "roles": ["supervision"],
         "websites": [
@@ -105,30 +106,34 @@
         "open_access_count": 4
       },
       "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-    "keywords": ["collaboration_platform", "egyptology", "machine_learning", "ocr", "research_infrastructure"],
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "collaboration_platform",
+      "egyptology",
+      "machine_learning",
+      "ocr",
+      "research_infrastructure"
+    ],
     "category": "tools_and_analysis",
     "comment": ""
   }

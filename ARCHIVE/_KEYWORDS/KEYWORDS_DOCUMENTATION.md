@@ -24,7 +24,6 @@ Note: Feel free to use the `comment` section in the JSON file to add any additio
 ## List
 
 1. **Discipline**
-
    - african_studies
    - [archaeology](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept29)
    - [architecture](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept19)
@@ -55,7 +54,6 @@ Note: Feel free to use the `comment` section in the JSON file to add any additio
    - [theology](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept13)
 
 2. **Resources**
-
    - [audio_recording](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept33)
    - [corpus](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept39.01)
    - [geodata](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept36)
@@ -76,7 +74,6 @@ Note: Feel free to use the `comment` section in the JSON file to add any additio
    - [vocabulary](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept40.03)
 
 3. **Tools and Services**
-
    - [annotation](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept52)
    - [crowdsourcing](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept54)
    - dictionary
@@ -107,7 +104,6 @@ Note: Feel free to use the `comment` section in the JSON file to add any additio
    - [xml_editor](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept53.01)
 
 4. **Topics DH**
-
    - [biographical_data](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept69)
    - [copyright_and_licensing](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept57)
    - [cultural_heritage](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept65)
@@ -129,7 +125,6 @@ Note: Feel free to use the `comment` section in the JSON file to add any additio
    - [terminology](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept55)
 
 5. **Topics NLS**
-
    - classical_text
    - hadith
    - language_documentation

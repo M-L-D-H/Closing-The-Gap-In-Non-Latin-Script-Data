@@ -52,11 +52,9 @@ Our project employs a **custom taxonomy** of keywords to classify research proje
 To add new keywords, follow these steps:
 
 1. **Open the `KEYWORDS` Folder**
-
    - Navigate to the **`KEYWORDS`** folder in the root directory of the repository.
 
 2. **Update the `KEYWORDS.json` File**
-
    - Insert the new keyword **alphabetically** into the appropriate category within the **`KEYWORDS.json`** file, which contains the complete taxonomy.
 
 3. **Update the `KEYWORDS_DOCUMENTATION.md` File**
@@ -70,15 +68,12 @@ By maintaining a structured and curated taxonomy, we ensure **semantic consisten
 To ensure the **consistency and integrity** of our data, we implement **schema validation** using **Deno**. Whenever the schema is modified or updated, follow these steps:
 
 1. **Open the `SCHEMATA` Folder**
-
    - Navigate to the **`SCHEMATA`** folder in the root directory.
 
 2. **Update the `changelog.md` File**
-
    - Document the changes introduced in the new schema version by updating the **`changelog.md`** file.
 
 3. **Modify `project_schema.ts`**
-
    - This file contains the **machine-readable** description of the schema used for validation.
    - Update the **`schemaVersion`** variable to reflect the new version number.
    - Navigate to the specific section that requires modification (the **element order** follows that of all data entries).
@@ -86,7 +81,6 @@ To ensure the **consistency and integrity** of our data, we implement **schema v
    - If you are unfamiliar with **TypeScript**, follow the structure of similar elements.
 
 4. **Update the `project.json` Template**
-
    - In the **`TEMPLATES`** folder, apply the schema updates to **`project.json`**.
    - Ensure that the **`schema_version`** field is set to the new version number.
 
@@ -105,7 +99,6 @@ For contributors who commit regularly, we have also enabled the ability to run t
 Steps to Run the Tests Locally
 
 1. **Ensure Deno is Installed**
-
    - Make sure you have **[Deno installed globally](https://docs.deno.com/runtime/getting_started/installation/)** on your machine.
    - Verify the installation by running:
      ```bash
@@ -131,7 +124,6 @@ Steps to Run the Tests Locally
    ````
 
 4. **Review the Output**
-
    - The test will check all relevant files against the schema.
    - Any files that fail the validation will be listed in the terminal output.
 
@@ -153,7 +145,6 @@ To utilize Lychee for checking broken links in our data:
 1. **Install Lychee**: If you haven't already, install Lychee globally by following the instructions on the [Lychee installation page](https://lychee.cli.rs/usage/cli/).
 
 2. **Run the Link Check**:
-
    - Open your terminal.
    - Navigate to the root directory of the repository:
    - Execute one of the following commands:

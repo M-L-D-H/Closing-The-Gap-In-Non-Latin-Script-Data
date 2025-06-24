@@ -14,7 +14,9 @@
     "ref": [],
     "date": [{ "from": "2017", "to": "2023" }],
     "maintained": true,
-    "websites": ["https://historica.unibo.it/entities/project/e0f37ddb-d42f-4757-bca8-9c309c1107d9"],
+    "websites": [
+      "https://historica.unibo.it/entities/project/e0f37ddb-d42f-4757-bca8-9c309c1107d9"
+    ],
     "project_desc": "The project provided the revaluation of one of the most important and richest collections of Arabic manuscripts hosted in a public library in Italy: the Oriental Manuscripts Fund of the University Library of Bologna. The work was concluded with the implementation and digitalisation online of almost the entire collection. This collection covers an extremely wide range of themes: dozens of beautifully decorated Holy Qur’ans, hadith, Islamic jurisprudence, theological debates, prayers, grammars, poetry and metrics, mysticism, philosophy, medicine, astronomy, history, geography, etc.",
     "places": [
       {
@@ -47,9 +49,7 @@
           "ref": ["https://orcid.org/0000-0002-2149-2097"]
         },
         "roles": ["supervision"],
-        "websites": [
-          "https://www.unibo.it/sitoweb/ahmad.addous/en"
-        ]
+        "websites": ["https://www.unibo.it/sitoweb/ahmad.addous/en"]
       },
       {
         "pers_name": {
@@ -57,12 +57,11 @@
           "ref": [
             "https://orcid.org/0000-0002-4518-3205",
             "https://d-nb.info/gnd/138135185",
-            "https://www.wikidata.org/wiki/Q126722371"]
+            "https://www.wikidata.org/wiki/Q126722371"
+          ]
         },
         "roles": ["supervision"],
-        "websites": [
-          "https://dip.storia.uniroma2.it/valentina-sagaria-rossi/"
-        ]
+        "websites": ["https://dip.storia.uniroma2.it/valentina-sagaria-rossi/"]
       }
     ],
     "research_data": {
@@ -77,30 +76,34 @@
         "open_access_count": 0
       },
       "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-    "keywords": ["arabic_studies", "catalog", "digital_preservation", "manuscript", "translation"],
+        "open_access": 0,
+        "licensing": [""]
+      },
+      "data": {
+        "datatypes": [],
+        "repositories": []
+      }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [
+      {
+        "description": "",
+        "ref": []
+      }
+    ],
+    "keywords": [
+      "arabic_studies",
+      "catalog",
+      "digital_preservation",
+      "manuscript",
+      "translation"
+    ],
     "category": "digital_preservation",
     "comment": ""
   }
