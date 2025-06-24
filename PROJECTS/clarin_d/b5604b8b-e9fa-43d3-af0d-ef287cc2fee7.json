@@ -14,7 +14,7 @@
     "ref": [],
     "date": [{ "from": "2012", "to": "" }],
     "maintained": true,
-    "websites": ["https://www.clarin-d.net/en/"],
+    "websites": ["https://clarin-d.net/en/"],
     "project_desc": "CLARIN-D is a research-oriented infrastructure for the Humanities and Social Sciences which supports researchers with accessing, preparing and analyzing of research data based on all language-related resources. It offers information on a wide range of topics, including teaching material, help on data management plans and other, discipline-specific support and makes available tools for Humanities, Cultural and Social Sciences scholars to analyze their research data in different ways. It is a German center of a pan-European research infrastructure CLARIN.",
     "places": [
       {
