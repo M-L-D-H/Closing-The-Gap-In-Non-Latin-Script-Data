@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-CSV_PATH = CSV_PATH = os.path.join(os.path.dirname(__file__), 'project_metadata.csv')
+CSV_PATH = os.path.join(os.path.dirname(__file__), 'project_metadata.csv')
 
 def load_data():
     projects = []
