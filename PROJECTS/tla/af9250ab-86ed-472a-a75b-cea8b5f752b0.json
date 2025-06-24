@@ -81,10 +81,7 @@
     ],
     "people": [
       {
-        "pers_name": {
-          "text": "",
-          "ref": ["https://d-nb.info/gnd/142266140"]
-        },
+        "pers_name": { "text": "", "ref": ["https://d-nb.info/gnd/142266140"] },
         "roles": ["supervision"],
         "websites": [
           "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Richter/",
@@ -103,14 +100,8 @@
         "publication_count": 1,
         "open_access_count": 1
       },
-      "publications": {
-        "open_access": 0,
-        "licensing": [""]
-      },
-      "data": {
-        "datatypes": [],
-        "repositories": []
-      }
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
     },
     "stack": {
       "database": [],
@@ -119,12 +110,7 @@
       "tools": [],
       "languages": []
     },
-    "policies": [
-      {
-        "description": "",
-        "ref": []
-      }
-    ],
+    "policies": [{ "description": "", "ref": [] }],
     "keywords": [
       "annotation",
       "corpus_output",
