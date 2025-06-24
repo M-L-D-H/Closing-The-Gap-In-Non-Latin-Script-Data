@@ -7,57 +7,59 @@
 
 **Overview of Latest Achievements**
 
-  - Search Functionality:
-    Search bar now includes university-based filters, allowing users to search for projects by institutional affiliation.
+- Search Functionality:
+  Search bar now includes university-based filters, allowing users to search for projects by institutional affiliation.
 
-  - Sustainability Visualizations:
-    A new module displays key sustainability parameters of each project in the database. The visualization enables comparative project analysis and facilitates insight into     project design and longevity.
+- Sustainability Visualizations:
+  A new module displays key sustainability parameters of each project in the database. The visualization enables comparative project analysis and facilitates insight into project design and longevity.
 
-  - Contribute Page:
-    The submission form has been redesigned to improve usability and lower the barrier for new contributions, particularly from external researchers.
+- Contribute Page:
+  The submission form has been redesigned to improve usability and lower the barrier for new contributions, particularly from external researchers.
 
-  - Consulting Page:
-    A new consulting interface allows researchers to submit inquiries for project recommendations based on CtG’s database and analytical expertise in non-Latin script       research projects. The page has been distributed via institutional academic listservers and is already generating incoming consultation requests, reflecting strong interest and relevance.
+- Consulting Page:
+  A new consulting interface allows researchers to submit inquiries for project recommendations based on CtG’s database and analytical expertise in non-Latin script research projects. The page has been distributed via institutional academic listservers and is already generating incoming consultation requests, reflecting strong interest and relevance.
 
-  - About Page:
-    Biographies and photographs of all current team members have been added to improve visibility, transparency, and project communication.
+- About Page:
+  Biographies and photographs of all current team members have been added to improve visibility, transparency, and project communication.
 
-  - Research Page:
-    Full list of past and upcoming conference contributions and publications has been compiled. A previously discussed improvement—adding hyperlinks to conferences and  publications—has been implemented.
+- Research Page:
+  Full list of past and upcoming conference contributions and publications has been compiled. A previously discussed improvement—adding hyperlinks to conferences and publications—has been implemented.
 
-  - Visual Identity – Logo and Title:
-    A new logo has been implemented across the site and official communication materials. The project title now appears in a stylized Kufi script on the homepage, aligning the design more closely with the project’s focus on non-Latin script data and enhancing visual coherence.
+- Visual Identity – Logo and Title:
+  A new logo has been implemented across the site and official communication materials. The project title now appears in a stylized Kufi script on the homepage, aligning the design more closely with the project’s focus on non-Latin script data and enhancing visual coherence.
 
-  - Workflow Documentation:
-    CtG has published internal documentation outlining each active workflow supporting project development and maintenance. The document is publicly accessible under:
-DOCS -> workflows_doc.md
+- Workflow Documentation:
+  CtG has published internal documentation outlining each active workflow supporting project development and maintenance. The document is publicly accessible under:
+  DOCS -> workflows_doc.md
 
 **Updates Towards Future Research**
-  - AI Integration:
-    Following recent developments in sustainability metrics and visualization work, CtG will pursue the development of an AI-based chatbot.
 
-  - Model Choice and Scope:
-    The LLaMA2 model has been selected. The AI will be trained solely on sustainability-related project metadata. Sensitive personal data, such as names of PIs, will be  excluded in accordance with existing internal policy.
+- AI Integration:
+  Following recent developments in sustainability metrics and visualization work, CtG will pursue the development of an AI-based chatbot.
+
+- Model Choice and Scope:
+  The LLaMA2 model has been selected. The AI will be trained solely on sustainability-related project metadata. Sensitive personal data, such as names of PIs, will be excluded in accordance with existing internal policy.
 
 **Blog Posts**
-  - Current Contribution:
-    Joudy Sido Bozan is drafting a blog post on the role of team dynamics in influencing project sustainability. Scheduled for publication in late June 2025.
 
-  - Next Authors:
-    Following blog contributions will be written by Theodore Beers and Christian Casey, respectively.
+- Current Contribution:
+  Joudy Sido Bozan is drafting a blog post on the role of team dynamics in influencing project sustainability. Scheduled for publication in late June 2025.
+
+- Next Authors:
+  Following blog contributions will be written by Theodore Beers and Christian Casey, respectively.
 
 **New Team Member**
-  - Joining July 2025:
-    Hala Abdalhadi will join the CtG team in July 2025. A more formal introduction and role clarification will follow in the next meeting.
+
+- Joining July 2025:
+  Hala Abdalhadi will join the CtG team in July 2025. A more formal introduction and role clarification will follow in the next meeting.
 
 **Education**
-  - Seminar Continuation:
-    Due to high interest, the seminar “Digital Humanities and Data Sustainability” taught by Christian Casey will continue in an adapted format in the following semester.
 
-  - Conference Participation:
-    On June 20th, Christian Casey will represent CtG at the QUADRIGA-Konferenz: Stärkung von Datenkompetenz für die Forschung, presenting on data sustainability strategies and pedagogical models.
+- Seminar Continuation:
+  Due to high interest, the seminar “Digital Humanities and Data Sustainability” taught by Christian Casey will continue in an adapted format in the following semester.
 
-
+- Conference Participation:
+  On June 20th, Christian Casey will represent CtG at the QUADRIGA-Konferenz: Stärkung von Datenkompetenz für die Forschung, presenting on data sustainability strategies and pedagogical models.
 
 ##2025-01-17
 
@@ -135,37 +137,30 @@ Interview Participation
 **Participants** (alphabetical): Alieva, Aibaniz, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman, Sido Bozan, Joudy
 
 - Names of Places in the Dataset
-
   - We have both English names and names in the original language in the dataset. How should we standardize it so that it does not reinforce the hegemony of the English language while still making the places findable by their English names? The name of the city should be an array of objects with two names. Both should be findable, but the name displayed on the frontend will be the name in the original language.
 
 - Personal Data
-
   - We should remove names and surnames from the dataset unless someone explicitly asks us to include their name. Instead, we should add ORCID. If there is no ORCID, we should create a snapshot of their university webpage and upload it to the Wayback Machine. Alternatively, we can contact individuals directly to ask for permission to publish their name or include it in the GND database.
   - We should rename the "contacts" object as "people" and modify it according to the above-mentioned guidelines.
   - Open question: How should we handle deceased contacts? We could discuss this at the DHD meeting.
 
 - Publications.
-
   - We have written a new blog post and a paper for the _Transformation_ journal. The paper is currently under review. _Transformation_ requires preprints to be uploaded to Zenodo, which is good for open science. Preprints should become more widely accepted in our field, as they are already a standard in medicine.
   - Planned entries for the blog post:
     - Christian: one for when he joined the team.
     - Joudy and Aybaniz: a blog post for students containing a list of digital tools useful for Arabic studies. We should also include Wikidata IDs for the tools in the blog post or create new Wikidata entries for tools that are not yet listed. We should use the students' enthusiasm for AI to introduce more digital solutions that promote transparent and reusable research. While enthusiasm for AI is great, students should also understand its limitations.
 
 - Networking
-
   - We spoke with the director of the HU Library and now have a list of names for networking. At HU, the cooperation between IT and the library works very well, and they have managed to build a lot for the DH community.
 
 - Conferences
-
   - What should we do for the DHD and DOT conferences?
   - For DOT: We should focus on raising awareness about digital workflows and open science.
 
 - BUA
-
   - There is a meeting of the steering committee on either February 18 or 21, between 10:00 and 14:30. We should attend and present our project.
 
 - DH Workshop
-
   - We have received around 30 registrations for the workshop. Unfortunately, we cannot accept everyone due to limited space, but this shows how strongly students are interested in digital research methods.
 
 - Idea for a new paper
@@ -178,12 +173,10 @@ Interview Participation
 **Participants** (alphabetical): Alieva, Aibaniz, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman, Sido Bozan, Joudy
 
 - Team
-
   - Joudy has joined the project.
   - We are still waiting for the new Postdoc. The position description is still in the approval process and will be published soon.
 
 - Tool´s list
-
   - We will start a collaboration with the Scholarly Makerspace at the HU. They have a sustainable WikiData toolbox that could be linked to our list of tools. There are three cooperation scenarios:
     - We both use the same tool and display a combination of our data and theirs.
     - We enrich their toolbox with our tools and receive an authority file in return.
@@ -192,7 +185,6 @@ Interview Participation
   Data exchange should be done with SPARQL, which would be a good programming exercise for the SHKs. Next steps: contact the Scholarly Makerspace via email and visit their workshop.
 
 - Emails
-
   - The emails to the contacts of the projects existing in our database need to be gathered manually. The process of sending them automatically can be done with Python.
 
 - Blog
@@ -206,38 +198,30 @@ Interview Participation
 **Participants** (alphabetical): Alieva, Aibaniz, Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
 
 - SHK
-
   - Our first student assistant, Aibaniz, has joined the team.
   - The main tasks of the student assistants will be to work on the backlog of projects and to extend our database.
 
 - PostDoc
-
   - The position for Theo’s replacement is ready. Once it is approved by the responsible units, it will be published immediately.
 
 - Xenia’s Workshop
-
   - The DH workshop for students should take place in late November or early December. To enable other interested team members to participate, it should be scheduled either before or after the following events:
     - 02-04.12: Anthologies across Literary Cultures
     - 05-06.12: Temporal Communities International Conference: Visualising Universalisms
 
 - Interviews
-
   - We should send a reminder to all the projects that haven’t responded, or write directly to the PIs. This will also help convey the seriousness of our research.
 
 - BUA Reporting
-
   - We have completed all our reporting documents and received very positive feedback from BUA for our precise and detailed work.
 
 - Website
-
   - The website is fully set up, and the events calendar has been updated.
 
 - Blog
-
   - We will have three blog posts by December: two from external contributors, and one from Xenia.
 
 - Tools
-
   - How can we visualize the results of the interviews? We already have a list of 20 tools used by the interviewed projects. Some interviewees have expressed interest in seeing an overview of technologies used by others.
   - Idea 1: We could create a sub-database just for the tools and present it in a new tab on our website.
   - Idea 2: A separate database is not a good idea; it is very difficult to maintain since tools are constantly being replaced or becoming outdated ([Quinn Dombrowski wrote an article about this issue](https://quinndombrowski.com/projects/bamboo-dirt/)). We need to think of a model that will be sustainable even after the project is completed. There are already plenty of tool directories available ([example here](https://www.vezveze-kandu.de/)).
@@ -245,7 +229,6 @@ Interview Participation
   - Idea 4: If we decide to create a directory, we should initiate cooperation with the HU initiative that archives tools in WikiData to cross-reference our findings.
 
 - Cooperation Initiatives
-
   - We will invite two external parties to our team meeting to initiate cooperation:
     - The management of the HU Library
     - Fachinformationsdienst Nahost
@@ -259,36 +242,29 @@ Interview Participation
 **Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
 
 - BUA
-
   - The updated budget has been sent to BUA.
   - Early next week, Theo will update the Steckbrief.
   - We should update the document with project outputs regularly to ensure we don't miss anything, even though it is not directly required right now. Last time, we might have omitted some of our outputs, so regular updates will ensure that the document is complete when required for the next funding phase. It's also useful for our internal records.
 
 - Website
-
   - Our project was evaluated very positively by the Open Methods Colloquium, an internal rating for tools and projects by DARIAH, explicitly mentioning it as an example of good academic practice. We will add this to our website, the Steckbrief, and the output list.
 
 - Events
-
   - Jonas will present our project in a DARIAH workshop as a corpus of projects dealing with multilingual data. He will reach out to Xenia to discuss the details. It will take place on the 28th or 29th of August. We should also put it on our calendar and the list of outputs.
 
 - Hiring Process
-
   - The SHKs are waiting for their contracts and will start in August.
   - As for the PostDoc position, we reviewed the pool of potential candidates, contacted some of them, and will invite them for interviews. We hope to fill the position by November 1st.
 
 - Interviews
-
   - Since the last meeting, Xenia has interviewed Bibliotheca Arabica and World Scripts Explorer.
   - The researchers of Bibliotheca Arabica would be interested in a list of tools used by other projects; maybe we should implement such a feature on our website.
   - A list of the next projects to invite was made based on their relevance and funding period. First invitations were sent to Corpus Coranicum and Averroes Edition.
 
 - Projects
-
   - Prof. Gründler saw a presentation on the Kitab project during the conference in Venice. They have made their website more user-friendly and implemented a new feature visualizing text reuse among the documents. They also offer to perform a text reuse test on any PDF sent to them by external users and display it on their website since they want to expand their database.
 
 - DH Course
-
   - Theo's course ended last week. It was well attended, and some students became really motivated to engage more with DH.
   - In one of the sessions, students were shown eScriptorium and were directly interested in using it in their studies and academic practice. However, attempts to make it work on their machines were unsuccessful, even with the use of Docker. It is very complicated to set it up, even when consulting official documentation.
   - Possible solutions would be to first ask FUB-IT to create an eScriptorium instance for the FU so that it can be used with students. Secondly, we could ask Hamburg University to share their instance with us, as they have a large community working with eScriptorium. Alternatively, we could seek advice from Uni Mannheim, which is also an important hotspot for engagement with eScriptorium.
@@ -303,24 +279,19 @@ Interview Participation
 **Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
 
 - SHK
-
   - We have hired two student assistants who should start at the end of August. We should update the contributor page and add their names. Xenia is on holiday shortly after they start, so they should be given tasks to do during this time (generating
     email lists, adding project details, or learning programming).
 
 - Post Doc Position
-
   - Theo talked to a possible candidate for his position. He brings expertise in Egyptian studies, has a reading understanding of Arabic, and strong IT experience (research software development for other projects). He was also part of an initiative to incorporate several ancient Egyptian scripts into the UTF-8 encoding, which aligns with the focus of our project. It is important to actively look for suitable candidates because even though the position will be posted openly, it does not guarantee that it will reach people with the skills we are looking for.
 
 - RDF
-
   - We should rethink the most efficient way to offer our data as RDF (what about JSON.LD format?). We could offer it as a separate file in each project folder. The main points of the schema would be enough at the beginning. This would make our data more accessible, easier to communicate with, and searchable by SPARQL queries. This would strengthen our position in terms of Open Access and FAIR principles. Moreover, people should be more eager to share their data with us, knowing that it can be disseminated in a more standardized way.
 
 - Cooperation and Affiliations
-
   - We have further discussed possible cooperation partners. Xenia talked to one of them who is generally interested in joining our team meetings. We should reach out to people in Berlin, especially those who have expertise we are missing (Hebrew studies, Altorientalistik, etc.) to provide us with more projects from their fields. We should also build up a network of DH people from different Berlin institutions (a list of names was created).
 
 - Workshop
-
   - Xenia will organize the workshop about the TypeDB database with our partner from CCHS-CSIC in Madrid. We have to take care of the room, catering, and dissemination.
 
 ##2024-06-14
@@ -330,22 +301,18 @@ Interview Participation
 **Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela
 
 - Administrative updates:
-
   - Regular administrative meetings have been held in the last couple of weeks with the goal of enhancing our web presence. We have set up a project website embedded in the university's website with a calendar containing CTG-related events.
   - The Abschlussbericht has been completed and sent to BUA.
 
 - SHK positions:
-
   - Four applicants have been invited for interviews.
 
 - Visualizations:
-
   - Xenia has completed the second visualization. It needs to be embedded in the website. Two more visualizations depicting languages and universities will follow ASAP.
   - Titles, captions, and explanations for all visualizations should also be added.
   - Languages with multiple scripts need to be addressed.
 
 - Blog:
-
   - Theo has added a new project to the blog.
   - Efforts are ongoing to add new contributors. Oualid has agreed but is currently busy.
   - The blog should be part of the archiving process and the Bericht for BUA.
@@ -353,11 +320,9 @@ Interview Participation
   - Offering DOIs could facilitate engaging people to contribute to the blog.
 
 - Theo’s position:
-
   - Three people were mentioned as possible candidates for Theo’s position. We will discuss with them their interest in joining.
 
 - Workshop collaboration:
-
   - There is a possibility of organizing a workshop on relational Database Type DB for early November. We should discuss this with Jonas and then coordinate it with the person interested in conducting the workshop.
 
 - Interviews and best practices:
@@ -380,12 +345,10 @@ Interview Participation
 - AG MLDH was very active. The Arabic studies are becoming more visible in the DH scene and we should try use this opportunity to involve more people to become active in the community and to attend the conference.
 
 - Data:
-
   - Transliteration should be included in the future.
   - We should also include information about where the source text comes from, whether it was self-transcribed, digitized with an OCR, or taken from another place. This should be one of the questions asked in the interviews.
 
 - New postdoc
-
   - We should start looking for a replacement for Theo. We could eventually split the position in two.
   - The criteria would be:
     - Knowledge in a non-Latin script, doesn´t have to be Arabic, but there should be at least an interest in it. Having someone working with scripts other than Arabic would make our project more inclusive and multilingual-oriented.
@@ -433,7 +396,6 @@ Interview Participation
 - Hamburg Workshop: Jonas has already ordered catering and taken care of the advertising in Hamburg. All blog posts have been published. The registration procedure was changed so that we know how many people will come. Hotel suggestion: Hotel Wagner next to the SUB. We should be on-site at 8:30 AM.
 
 - Documents for BUA: BUA has requested two documents from us:
-
   - The final report for the first phase of the project, which is due three months after the conclusion of the project (on the 14th of February).
   - A short project description (Steckbrief), also due on the 14th of February.Theo will revise it by the 2nd of February and send it to the rest of the team for further review.
 
@@ -468,7 +430,6 @@ Interview Participation
 - Vega visualizations: we have started to work on the first [chart](https://vega.github.io/vega/examples/edge-bundling/), which will be used to represent the relations between the entries of our database.
 
 - Workshop:
-
   - The event was advertised in a print flyer of the SUB.
   - Our own flyer is also ready, and Theo will post it on social media.
   - Theo and Jonas will finalize the blurb in the first week of January so that we can publish a blog post immediately after the Christmas break.
@@ -490,7 +451,6 @@ Interview Participation
 - Theo will present CtG in a research colloquium for Arabic DH next Thursday (14 Dec.)
 
 - Workshop
-
   - Catering has been arranged
   - Xenia prepared multiple draft flyers, and the team chose one option
   - Promotional text needs to be finalized
@@ -499,12 +459,10 @@ Interview Participation
   - Reminder should be sent to all workshop invitees once materials are ready
 
 - Interviews
-
   - Two projects have been contacted; we are waiting for the answers. We may need to send reminders.
   - Should also speak with librarians about issues of long-term data preservation
 
 - Database
-
   - Projects added recently were mostly from 2022 or older
   - New projects launched in 23–24 need to be investigated
   - The number of research languages covered almost doubled (and not all languages have ISO codes; this could be discussed at the DHd conference)
@@ -514,7 +472,6 @@ Interview Participation
 - SHK: we should start the process of hiring a SHK to help with adding new projects
 
 - Website
-
   - Working on creating a fully static version
   - Static mode could be set via config file or environment variable
   - Wayback Machine (Internet Archive): we should snapshot our own project site periodically. Additionally, we could save all the links we have in the database, to preserve a better record of those projects. We need to make sure that such a practice would be legal, and to find an API for automatic archiving, since we have over 1,200 links.
@@ -525,14 +482,12 @@ Interview Participation
 - Visualizations: next to be implemented will be a Vega edge bundling chart containing project relations. Other possible charts: alluvial, bubble, sunburst.
 
 - Schema
-
   - Should start adding ORCID pages of contact people
   - To add to schema: a boolean value, `maintained`, should be added to address the difference between the funding time and the general time of activity of a project
 
 - Blog: topics of upcoming posts will be our link-checking workflow (Theo), keyword taxonomy (Xenia), and use of AI in the field of multilingual DH (Xenia).
 
 - Data in RDF and CSV formats: scheduled for later follow-up
-
   - We should probably use the XML-based syntax option for RDF, rather than Turtle
 
 - Next meeting: 22 Dec., 10:00
@@ -548,9 +503,7 @@ Interview Participation
 - A number of projects have been added recently (Xenia)
 
 - February workshop
-
   - Structure
-
     - Short talks in the beginning (PIs, SUB people)
     - General introduction to the project (Jonas)
     - Presentation 1: Xenia or Theo
@@ -559,20 +512,17 @@ Interview Participation
     - Final hour less structured
 
   - Possible titles for the event
-
     - Closing the Gap in Non-Latin-Script Data: Challenges of Data Loss in the Multilingual Digital Humanities
     - Data Survival: Challenges of Infrastructural Monolingualism
     - How to Preserve Diverse Data in a Monolingual Environment
 
   - Remarks
-
     - Leave time for people to chat, ask questions, have coffee and pretzels
     - Open event, open to the public
     - Hybrid setup possible (and desirable?)
     - English title, bilingual blurb
 
   - To-dos
-
     - Schedule for February workshop should be published ASAP
     - Brief text needed for blog post
     - Flyers to advertise the event (Xenia)
@@ -582,19 +532,16 @@ Interview Participation
 - Possible collaborations: Ada Lovelace Center, QUEST Center and others
 
 - DHd paper
-
   - Submission of camera-ready version of "paper" (i.e., abstract) by Dec. 4
   - Registration phase also opens on Dec. 4
   - Conference will take place in Passau in the last week of Feb.
 
 - CtG internal matters
-
   - Test run for explaining our workflow (e.g., the focus on Germany; difficult enough to build networks in Germany)
   - Ideas for follow-up, expanding project
   - IDHN, OpenITI and Hist-ME are doing similar things
 
 - General to-dos:
-
   - Update on survey (schedule first meeting, then second meeting with AnonymClassic) (Xenia)
   - Website updates (new visualizations needed) (Xenia)
 
@@ -609,7 +556,6 @@ Interview Participation
 - DHd conference abstracts: Reviews came back for the abstracts that we submitted, and they are overall quite positive. We can respond to the reviews, and final decisions will be made in due course.
 
 - Hamburg workshop: Plans are underway for a "Closing the Gap" mini-workshop, to be held in Hamburg in early 2024 (most likely in February). We have a specific date nearly fixed; there is just one guest participant who still needs to confirm. Soon, hopefully, we can develop a detailed schedule and begin to publicize the event.
-
   - The workshop will feature two or three presentations (mostly by members of our team?), with plenty of time left for discussion and networking. It will be open to the public.
 
 - Open-Access-Tage 2023: This week, Xenia Kudela attended the [Open-Access-Tage conference](https://open-access-tage.de/open-access-tage-2023-berlin) on behalf of "Closing the Gap." She will report back to us about this soon, and may write a post for our blog.
@@ -629,40 +575,33 @@ Interview Participation
 **Participants** (alphabetical): Theodore Beers, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman
 
 - Documentation
-
   - Documentation of our technology and workflow should be systematized. A new `DOCS` folder containing the changelog, list of dependencies, and description of our workflow will be added to the GitHub repo. (Xenia and Theo)
   - Releases: The latest GitHub release is outdated. New releases should be launched—one today and another after the new taxonomy has been implemented. For better searchability, the new release should contain three folders: `SCHEMA`, `DATA`, and one for the entire project (?). If possible, the release should be also connected to Zenodo. (Jonas)
   - The schema version should be bumped after the taxonomy has been changed. (Xenia)
 
 - Questionnaire
-
   - A draft of the interview questionnaire has been prepared by Theo. The questionnaire should contain the most crucial questions to be asked of all projects. But each interview will also have its own particular points to cover. This topic is scheduled to be discussed in depth at the next meeting. (Everyone)
 
 - Meeting in Hamburg
-
   - The event will take place in the first few months of 2024.
   - Guests should be asked in advance for preferred times. (Jonas?)
   - A small workshop should be offered alongside the presentation of the project. Idea: giving an overview of our data and proposing possible implementations based on this research. (Jonas, Theo, Xenia)
 
 - Website
-
   - The search pane should be updated to enable filtering projects by marking multiple tags at once. (Xenia, Theo)
   - New cards with detailed information about each project (e.g., research and output languages) should be implemented soon. (Theo)
   - For now, the languages listed in the existing cards will not be changed.
 
 - Taxonomy
-
   - The new keywords are ready; they will be visible on the website within a week. (Xenia)
   - The display categories for the keywords should be as follows: discipline, topic, output, resources, and methods. (Xenia)
   - The proposed division between primary disciplines, which fall within the focus of the project (e.g., Arabic or Persian Studies), and secondary disciplines (e.g., Literary Studies or Linguistics), was questioned by team members due to its hierarchical and exclusive tone. We may return to this question later.
 
 - Interviews
-
   - The first interviews should take place ASAP, i.e., as soon as the questionnaire is ready. A list of the first few proposed interviewees has been set by the team privately.
   - If possible, the first interviews should take place directly after team meetings, so that everyone can sit in. Once the pace of interviews increases, other time slots will be found.
 
 - Next meeting
-
   - Date and time: 2023-09-29, 10:00–11:30 (Berlin)
   - Topics: Questionnaire and other updates
   - Xenia and Theo will meet separately before this to discuss the questionnaire.

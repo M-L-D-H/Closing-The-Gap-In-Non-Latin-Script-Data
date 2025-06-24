@@ -19,10 +19,8 @@
     "map-langs": "deno run --allow-read --allow-write TESTS/map_language_codes.ts",
     "test": "deno test --allow-read TESTS/schema_tests.ts"
   },
-  "dependencies": {
-    "zod": "^3.25.67"
-  },
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "prettier": "^3.6.0",
+    "zod": "^3.25.67"
   }
 }

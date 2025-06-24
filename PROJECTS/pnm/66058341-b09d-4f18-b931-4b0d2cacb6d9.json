@@ -22,7 +22,8 @@
           "text": "Mainz",
           "ref": ["https://www.geonames.org/2874225/mainz.html"]
         },
-        "coordinates": { "lat": "49.98419", "lng": "8.2791" }}
+        "coordinates": { "lat": "49.98419", "lng": "8.2791" }
+      }
     ],
     "lang": ["eng"],
     "related_institutions": [
@@ -50,9 +51,7 @@
           ]
         },
         "roles": ["supervision"],
-        "websites": [
-          "https://www.aegyptologie.uni-mainz.de/ilin-tomich/"
-        ]
+        "websites": ["https://www.aegyptologie.uni-mainz.de/ilin-tomich/"]
       }
     ],
     "research_data": {
@@ -91,7 +90,13 @@
       "languages": []
     },
     "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["artefact", "biographical_data", "egyptology", "geodata", "history_studies"],
+    "keywords": [
+      "artefact",
+      "biographical_data",
+      "egyptology",
+      "geodata",
+      "history_studies"
+    ],
     "category": "tools_and_analysis",
     "comment": ""
   }
