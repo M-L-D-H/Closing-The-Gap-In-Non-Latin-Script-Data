@@ -215,7 +215,7 @@ export const projectSchema = z
                     "Indicates whether there is a dedicated project website (0 = no, 1 = yes)",
                   ),
 
-                Github: z
+                GitHub: z
                   .number()
                   .min(0)
                   .max(1)

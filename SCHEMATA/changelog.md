@@ -1,7 +1,7 @@
 # Changelog - Schema
 
 - From version 0.2.6 to 0.2.7. (2025-03-20):
-  - Add to `sustainability_plan` the following categories: `project_website`, `Github`, `data_accessibility`, `webhosting`, `publications`, `publication_count`, `open_access_count`
+  - Add to `sustainability_plan` the following categories: `project_website`, `GitHub`, `data_accessibility`, `webhosting`, `publications`, `publication_count`, `open_access_count`
 
 - From version 0.2.5 to 0.2.6 (2025-01-09):
   - Rename `contacts` to `people`. Our database includes deceased people, and we want to name this entity in a way that includes them as well.
