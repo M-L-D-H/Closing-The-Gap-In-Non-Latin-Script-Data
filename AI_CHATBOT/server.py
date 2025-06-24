@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-CSV_PATH = "/Users/jous00/WorkـCtG/Closing-The-Gap-In-Non-Latin-Script-Data/AI_CHATBOT/project_metadata.csv'"
+CSV_PATH = "/Users/jous00/WorkـCtG/Closing-The-Gap-In-Non-Latin-Script-Data/AI_CHATBOT/project_metadata.csv"
 
 def load_data():
     projects = []
