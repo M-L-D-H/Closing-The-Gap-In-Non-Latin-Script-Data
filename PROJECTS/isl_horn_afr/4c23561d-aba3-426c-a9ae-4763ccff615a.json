@@ -33,7 +33,7 @@
           "text": "University of Copenhagen",
           "ref": [
             "https://ror.org/035b05819",
-            "http://www.wikidata.org/entity/Q186285"
+            "https://www.wikidata.org/entity/Q186285"
           ]
         },
         "websites": ["https://ccrs.ku.dk"]
@@ -56,7 +56,7 @@
           ]
         },
         "roles": ["supervision"],
-        "websites": ["http://ccrs.ku.dk/staff/?id=475264&vis=medarbejder"]
+        "websites": ["https://ccrs.ku.dk/staff/?id=475264&vis=medarbejder"]
       }
     ],
     "research_data": {

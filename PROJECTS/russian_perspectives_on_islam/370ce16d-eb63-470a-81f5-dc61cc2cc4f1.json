@@ -42,7 +42,7 @@
     "related_entities": [],
     "people": [
       {
-        "pers_name": { "text": "", "ref": ["http://viaf.org/viaf/167201814"] },
+        "pers_name": { "text": "", "ref": ["https://viaf.org/viaf/167201814"] },
         "roles": ["supervision"],
         "websites": ["https://historyarthistory.gmu.edu/people/vstaklo/"]
       }

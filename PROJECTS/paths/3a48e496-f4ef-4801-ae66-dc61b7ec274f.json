@@ -36,7 +36,7 @@
             "https://www.wikidata.org/wiki/Q209344"
           ]
         },
-        "websites": ["http://www.uniroma1.it/"]
+        "websites": ["https://www.uniroma1.it/en/"]
       },
       {
         "relation_type": "cooperation",
@@ -44,7 +44,7 @@
           "text": "Corpus dei Manoscritti Copti Letterari",
           "ref": []
         },
-        "websites": ["http://www.cmcl.it"]
+        "websites": ["https://www.cmcl.it/"]
       },
       {
         "relation_type": "cooperation",
