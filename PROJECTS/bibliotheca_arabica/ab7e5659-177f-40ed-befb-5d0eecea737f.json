@@ -120,7 +120,7 @@
         {
           "label": "Kraken",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q97126903"],
           "websites": ["https://kraken.re/main/index.html"],
           "description": "OCR engine unsed by eScriptorium"
         },
