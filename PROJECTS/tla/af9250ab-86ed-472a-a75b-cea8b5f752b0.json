@@ -1,137 +1,126 @@
 {
-    "schema_version": "0.2.7",
-    "record_metadata": {
-        "uuid": "af9250ab-86ed-472a-a75b-cea8b5f752b0",
-        "record_created_on": "2025-06-06",
-        "record_created_by": "Alieva, Aibaniz",
-        "last_edited_on": "2025-06-06",
-        "interviewed": false
-    },
-    "project": {
-        "title": "Thesaurus Linguae Aegyptiae",
-        "abbr": "TLA",
-        "type": "project",
-        "ref": [],
-        "date": [{ "from": "2013", "to": "2034" }],
-        "maintained": true,
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "af9250ab-86ed-472a-a75b-cea8b5f752b0",
+    "record_created_on": "2025-06-06",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-06-06",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Thesaurus Linguae Aegyptiae",
+    "abbr": "TLA",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2013", "to": "2034" }],
+    "maintained": true,
+    "websites": [
+      "https://thesaurus-linguae-aegyptiae.de/home",
+      "https://aaew.bbaw.de/de"
+    ],
+    "project_desc": "The project\u2019s aim is to document and annotate the Ancient Egyptian language through its entire lifespan of more than 4,000 years from ca 3,000 BCE until ca 1,400 CE. Its two main research outcomes, the digital text corpus and the lemma lists, are published exclusively in electronic form, on the project\u2019s publication platform, i.e., the TLA, and in the form of raw data.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+        },
+        "coordinates": { "lat": "52.51089", "lng": "13.39894" }
+      },
+      {
+        "place_name": {
+          "text": "Leipzig",
+          "ref": ["https://www.geonames.org/2879139/leipzig.html"]
+        },
+        "coordinates": { "lat": "51.34063", "lng": "12.37473" }
+      }
+    ],
+    "lang": ["deu", "eng", "ara"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Zentrum Grundlagenforschung Alte Welt",
+          "ref": []
+        },
+        "websites": ["https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "S\u00e4chsische Akademie der Wissenschaften zu Leipzig",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q27891200",
+            "https://ror.org/03zxjdk07"
+          ]
+        },
+        "websites": ["https://www.saw-leipzig.de"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "sibling",
+        "title": "Alt\u00e4gyptisches W\u00f6rterbuch",
+        "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760"
+      },
+      {
+        "relation_type": "sibling",
+        "title": "Corpus Coranicum",
+        "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Prosopographia Aegypti",
+        "uuid": "28e0cbf6-fcb9-481e-9e81-ba2c6daebede"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Koptische/Coptic Electronic Language and Literature International Alliance",
+        "uuid": "520deb9e-b9d9-4c50-ad85-555bb6483bd6"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": { "text": "", "ref": ["https://d-nb.info/gnd/142266140"] },
+        "roles": ["supervision"],
         "websites": [
-            "https://thesaurus-linguae-aegyptiae.de/home",
-            "https://aaew.bbaw.de/de"
-        ],
-        "project_desc": "The project\u2019s aim is to document and annotate the Ancient Egyptian language through its entire lifespan of more than 4,000 years from ca 3,000 BCE until ca 1,400 CE. Its two main research outcomes, the digital text corpus and the lemma lists, are published exclusively in electronic form, on the project\u2019s publication platform, i.e., the TLA, and in the form of raw data.",
-        "places": [
-            {
-                "place_name": {
-                    "text": "Berlin",
-                    "ref": ["https://www.geonames.org/2950159/berlin.html"]
-                },
-                "coordinates": {"lat": "52.51089", "lng": "13.39894"}
-            },
-            {
-                "place_name": {
-                    "text": "Leipzig",
-                    "ref": ["https://www.geonames.org/2879139/leipzig.html"]
-                },
-                "coordinates": {"lat": "51.34063", "lng": "12.37473"}
-            }
-        ],
-        "lang": ["deu", "eng", "ara"],
-        "related_institutions": [
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "Zentrum Grundlagenforschung Alte Welt",
-                    "ref": []
-                },
-                "websites": ["https://www.bbaw.de/forschung/zentren/zentrum-alte-welt"]
-            },
-            {
-                "relation_type": "host",
-                "org_name": {
-                    "text": "S\u00e4chsische Akademie der Wissenschaften zu Leipzig",
-                    "ref": [
-                        "https://www.wikidata.org/wiki/Q27891200",
-                        "https://ror.org/03zxjdk07"
-                    ]
-                },
-                "websites": ["https://www.saw-leipzig.de"]
-            }
-        ],
-        "related_entities": [
-            {
-                "relation_type": "sibling",
-                "title": "Alt\u00e4gyptisches W\u00f6rterbuch",
-                "uuid": "a4d189e4-f03f-4db0-8742-b777e22da760"
-            },
-            {
-                "relation_type": "sibling",
-                "title": "Corpus Coranicum",
-                "uuid": "0fd7b9cd-fdae-441b-a6fd-a791d4583ce0"
-            },
-            {
-                "relation_type": "cooperation",
-                "title": "Prosopographia Aegypti",
-                "uuid": "28e0cbf6-fcb9-481e-9e81-ba2c6daebede"
-            }
-        ],
-        "people": [
-            {
-                "pers_name": {
-                    "text": "",
-                    "ref": ["https://d-nb.info/gnd/142266140"]
-                },
-                "roles": ["supervision"],
-                "websites": [
-                    "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Richter/",
-                    "https://www.bbaw.de/die-akademie/bbaw-mitglieder/mitglied-tonio-sebastian-richter"
-                ]
-            }
-        ],
-        "research_data": {
-            "lang": ["egy", "cop"],
-            "sustainability_plan": {
-                "project_website": 1.0,
-                "Github": 0.0,
-                "data_accessibility": 1.0,
-                "webhosting": 1.0,
-                "publications": 1.0,
-                "publication_count": 1,
-                "open_access_count": 1
-            },
-            "publications": {
-                "open_access": 0,
-                "licensing": [
-                    ""
-                ]
-            },
-            "data": {
-                "datatypes": [],
-                "repositories": []
-            }
-        },
-        "stack": {
-            "database": [],
-            "backend": [],
-            "frontend": [],
-            "tools": [],
-            "languages": []
-        },
-        "policies": [
-            {
-                "description": "",
-                "ref": []
-            }
-        ],
-        "keywords": [
-            "annotation",
-            "corpus_output",
-            "egyptology",
-            "lexicography",
-            "lexicon",
-            "translation",
-            "vre"
-        ],
-        "category": "tools_and_analysis",
-        "comment": ""
-    }
+          "https://www.geschkult.fu-berlin.de/e/aegyptologie/personen/Professorinnen-und-Professoren/Richter/",
+          "https://www.bbaw.de/die-akademie/bbaw-mitglieder/mitglied-tonio-sebastian-richter"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["egy", "cop"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "GitHub": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 1,
+        "open_access_count": 1
+      },
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": [
+      "annotation",
+      "corpus_output",
+      "egyptology",
+      "lexicography",
+      "lexicon",
+      "translation",
+      "vre"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
 }

@@ -48,7 +48,7 @@
         },
         "roles": ["supervision"],
         "websites": [
-          "https://cchs.csic.es/en/personal/jan-thiele",
+          "https://www.cchs.csic.es/en/personal/jan-thiele",
           "https://www.csic.es/es/investigación/investigadoresjan-thiele"
         ]
       }
@@ -57,7 +57,7 @@
       "lang": ["ara"],
       "sustainability_plan": {
         "project_website": 1.0,
-        "Github": 1.0,
+        "GitHub": 1.0,
         "data_accessibility": 0.5,
         "webhosting": 1.0,
         "publications": 0.0,

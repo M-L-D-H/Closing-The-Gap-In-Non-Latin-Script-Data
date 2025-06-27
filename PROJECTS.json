@@ -27,6 +27,10 @@
     "title": "Altägyptisches Wörterbuch",
     "path": "/PROJECTS/altaegyptisches_woerterbuch/"
   },
+  "46c08dce-66bc-41de-983c-410560a642c9": {
+    "title": "Arabic Manuscripts in the Bologna University Library Online",
+    "path": "/PROJECTS/ambulo/"
+  },
   "e8ceae3b-140f-4edc-b192-023be857bbbd": {
     "title": "Analytical Database of Arabic Poetry",
     "path": "/PROJECTS/analytical_database_of_arabic_poetry/"
@@ -475,6 +479,10 @@
     "title": "Kallimachos",
     "path": "/PROJECTS/kallimachos/"
   },
+  "520deb9e-b9d9-4c50-ad85-555bb6483bd6": {
+    "title": "Koptische/Coptic Electronic Language and Literature International Alliance",
+    "path": "/PROJECTS/kellia/"
+  },
   "6ec0ed98-7037-4d93-8b9d-4563c9bbb8c0": {
     "title": "Khallina",
     "path": "/PROJECTS/khallina/"
@@ -871,7 +879,7 @@
     "title": "Thesaurus Indogermanischer Text- und Sprachmaterialien",
     "path": "/PROJECTS/titus/"
   },
-   "af9250ab-86ed-472a-a75b-cea8b5f752b0": {
+  "af9250ab-86ed-472a-a75b-cea8b5f752b0": {
     "title": "Thesaurus Linguae Aegyptiae",
     "path": "/PROJECTS/tla/"
   },

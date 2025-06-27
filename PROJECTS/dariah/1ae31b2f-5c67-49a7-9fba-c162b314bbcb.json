@@ -227,7 +227,7 @@
             "https://ror.org/036x5ad56"
           ]
         },
-        "websites": ["https://wwwen.uni.lu/"]
+        "websites": ["https://www.uni.lu/en/"]
       },
       {
         "relation_type": "member",
@@ -431,7 +431,7 @@
       "lang": [],
       "sustainability_plan": {
         "project_website": 1.0,
-        "Github": 1.0,
+        "GitHub": 1.0,
         "data_accessibility": 1.0,
         "webhosting": 1.0,
         "publications": 1.0,

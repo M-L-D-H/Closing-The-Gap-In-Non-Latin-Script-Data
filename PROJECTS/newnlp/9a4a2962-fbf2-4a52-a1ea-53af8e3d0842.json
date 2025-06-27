@@ -65,7 +65,7 @@
       "lang": ["ara", "efi", "eng", "kan", "que", "tir", "tur", "yid", "yor"],
       "sustainability_plan": {
         "project_website": 1.0,
-        "Github": 1.0,
+        "GitHub": 1.0,
         "data_accessibility": 1.0,
         "webhosting": 1.0,
         "publications": 0.0,

@@ -22,7 +22,8 @@
           "text": "Münster",
           "ref": ["https://www.geonames.org/2867543/muenster.html"]
         },
-        "coordinates": { "lat": "51.96236", "lng": "7.62571" }}
+        "coordinates": { "lat": "51.96236", "lng": "7.62571" }
+      }
     ],
     "lang": ["deu"],
     "related_institutions": [
@@ -65,7 +66,7 @@
       "lang": ["egy", "grc", "cop"],
       "sustainability_plan": {
         "project_website": 1.0,
-        "Github": 0.0,
+        "GitHub": 0.0,
         "data_accessibility": 0.5,
         "webhosting": 1.0,
         "publications": 1.0,
@@ -97,7 +98,12 @@
       "languages": []
     },
     "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["corpus_resource", "biographical_data", "egyptology", "history_studies"],
+    "keywords": [
+      "corpus_resource",
+      "biographical_data",
+      "egyptology",
+      "history_studies"
+    ],
     "category": "tools_and_analysis",
     "comment": ""
   }

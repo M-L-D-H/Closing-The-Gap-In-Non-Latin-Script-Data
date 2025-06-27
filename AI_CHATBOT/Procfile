@@ -1,0 +1,1 @@
+web: gunicorn Ai_chatboy.server:app

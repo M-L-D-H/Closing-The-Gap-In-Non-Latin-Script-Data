@@ -65,14 +65,14 @@
           ]
         },
         "roles": ["investigation"],
-        "websites": ["https://www.soas.ac.uk/staff/staff30592.php"]
+        "websites": ["https://peterkaustin.com/"]
       }
     ],
     "research_data": {
       "lang": [],
       "sustainability_plan": {
         "project_website": 1.0,
-        "Github": 0.0,
+        "GitHub": 0.0,
         "data_accessibility": 0.5,
         "webhosting": 1.0,
         "publications": 1.0,

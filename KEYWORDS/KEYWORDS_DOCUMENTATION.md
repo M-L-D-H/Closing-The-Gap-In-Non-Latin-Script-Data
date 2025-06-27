@@ -24,7 +24,6 @@ In order to help us maintain consistency, please refrain from including keywords
 ## List
 
 1. **Discipline**
-
    - african_studies
    - arabic_studies
    - [archaeology](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept29)
@@ -53,7 +52,6 @@ In order to help us maintain consistency, please refrain from including keywords
    - turkology
 
 2. **Topic**
-
    - [biographical_data](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept69)
    - classical_text
    - computational_text_analysis
@@ -71,7 +69,6 @@ In order to help us maintain consistency, please refrain from including keywords
    - text_reuse
 
 3. **Output**
-
    - audio
    - catalog (a structured set of metadata referring to mostly textual documents, may also contain images or links to external sources)
    - collaboration_platform
@@ -89,7 +86,6 @@ In order to help us maintain consistency, please refrain from including keywords
    - [vre](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept50)
 
 4. **Resources**
-
    - artefact
    - corpus_resource (large and structured set of texts of multiple authors electronically stored and processed)
    - [geodata](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept36)
@@ -98,7 +94,6 @@ In order to help us maintain consistency, please refrain from including keywords
    - other
 
 5. **Method**
-
    - [annotation](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept52)
    - [nlp](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept48)
    - network_analysis

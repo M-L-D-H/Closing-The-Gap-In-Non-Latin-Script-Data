@@ -1,0 +1,129 @@
+{
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "520deb9e-b9d9-4c50-ad85-555bb6483bd6",
+    "record_created_on": "2025-06-19",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-06-19",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Koptische/Coptic Electronic Language and Literature International Alliance",
+    "abbr": "KELLIA",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2015", "to": "2018" }],
+    "maintained": true,
+    "websites": ["https://kellia.uni-goettingen.de/"],
+    "project_desc": "KELLIA (the Koptische/Coptic Electronic Language and Literature International Alliance) will promote interdisciplinary collaborations across the Digital Humanities and international standards in Coptic Studies. This collaboration will enable advances not only in Coptic Studies but also in other fields that use corpus linguistics methods or produce digital text editions. KELLIA will produce international standards for data curation in Coptic, tools that integrate corpus linguistics and digital philology methods, and models using shared corpora from the KELLIA partners.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Göttingen",
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+        },
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Georg-August-Universität Göttingen",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152838",
+            "https://ror.org/01y9bpm73"
+          ]
+        },
+        "websites": ["https://www.uni-goettingen.de/"]
+      }
+    ],
+    "related_entities": [
+      {
+        "relation_type": "parent",
+        "title": "Coptic Scriptorium: Digital Research in Coptic Language and Literature",
+        "uuid": "0250aa46-2fc2-44cb-8b08-87b40d1fc3a5"
+      },
+      {
+        "relation_type": "parent",
+        "title": "Digitale Gesamtedition und \u00dcbersetzung des koptisch-sahidischen Alten Testaments",
+        "uuid": "1b19963e-ffc5-48f0-a1b3-81553d601497"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Thesaurus Linguae Aegyptiae",
+        "uuid": "af9250ab-86ed-472a-a75b-cea8b5f752b0"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Archaeological Atlas of Coptic Literature by PATHs",
+        "uuid": "3a48e496-f4ef-4801-ae66-dc61b7ec274f"
+      },
+      {
+        "relation_type": "cooperation",
+        "title": "Database and Dictionary of Greek Loanwords in Coptic",
+        "uuid": "0e6bdb55-2d42-482f-a8d8-639ac232314e"
+      }
+    ],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0009-0005-8470-1617",
+            "https://d-nb.info/gnd/1075292484",
+            "https://www.wikidata.org/wiki/Q55147114"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": ["https://www.uni-goettingen.de/en/472658.html"]
+      },
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0001-9543-0692",
+            "https://d-nb.info/gnd/1027296033",
+            "https://www.wikidata.org/wiki/Q104840369"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.ou.edu/cas/wgs/people/faculty/carrie-schroeder"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["cop"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "GitHub": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 4,
+        "open_access_count": 4
+      },
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": [
+      "collaboration_platform",
+      "egyptology",
+      "machine_learning",
+      "ocr",
+      "research_infrastructure"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
+}
