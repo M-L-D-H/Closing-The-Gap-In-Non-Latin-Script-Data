@@ -36,7 +36,7 @@
             "https://www.wikidata.org/wiki/Q24911975"
           ]
         },
-        "websites": ["http://www.hbku.edu.qa/en"]
+        "websites": ["https://www.hbku.edu.qa/en"]
       }
     ],
     "related_entities": [],
@@ -46,7 +46,7 @@
           "text": "",
           "ref": [
             "https://orcid.org/0000-0003-1244-1973",
-            "http://viaf.org/viaf/173467191"
+            "https://viaf.org/viaf/173467191"
           ]
         },
         "roles": ["supervision"],
