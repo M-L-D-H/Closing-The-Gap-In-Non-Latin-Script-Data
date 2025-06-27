@@ -14,7 +14,7 @@
   "author": "Multilingual Digital Humanities",
   "main": "PROJECTS.json",
   "scripts": {
-    "check-links": "lychee --dump '**/*.json' | uniq | lychee -m 3 -t 10 -",
+    "check-links": "lychee --config lychee.toml -m 3 -t 10 ./**/*.json",
     "format": "prettier --ignore-path .gitignore --write .",
     "map-langs": "deno run --allow-read --allow-write TESTS/map_language_codes.ts",
     "test": "deno test --allow-read TESTS/schema_tests.ts"
