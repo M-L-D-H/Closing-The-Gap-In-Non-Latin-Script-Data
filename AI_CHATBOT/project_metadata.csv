@@ -5,7 +5,7 @@ b37c6bd1-90d3-4718-ab58-fb1d60873186,Multilingual Corpus of Annotated Spoken Tex
 9efa71cc-aaf8-4481-a155-caa8d9fe23c1,Mesopotamian Royal Inscriptions,digital_preservation,True,False,2000,eng,https://cdli.ucla.edu/projects/royal/royal.html,1.0,1.0,1.0,0,0
 9513964d-3509-462e-9d64-c47fd3922459,Scripta Qumranica Electronica: Eine Verbunddatenbank und virtuelle Forschungsumgebung für die Texte vom Toten Meer,digital_preservation,True,False,2016,eng,https://sqe.deadseascrolls.org.il/,1.0,0.5,1.0,2,2
 d17ea973-8be6-4d5c-81e2-75c69e8e4e37,Jewish Book Culture in the Islamicate World,digital_preservation,True,False,2020,eng,https://www.jewishbookculture.com,0.0,1.0,1.0,0,0
-b4b093a7-0979-448a-bbfd-83cc3d884cbd,"World Scripts Explorer: one stop to explore, learn and experience any graphical information system",tools_and_analysis,True,True,2021,,https://worldscriptsexplorer.page,1.0,1.0,1.0,0,0
+b4b093a7-0979-448a-bbfd-83cc3d884cbd,World Scripts Explorer: one stop to explore, learn and experience any graphical information system",tools_and_analysis,True,True,2021,,https://worldscriptsexplorer.page,1.0,1.0,1.0,0,0
 e52825b6-9bd6-4206-b99c-964521b5e773,Arabic and Latin Corpus,digital_preservation,False,False,2016,eng,https://www.arabic-latin-corpus.philosophie.uni-wuerzburg.de/index.xhtml,0.0,0.0,1.0,0,0
 b485ffeb-bcbc-42a0-b141-4450ddc914e6,Borno and Old Kanembu Islamic Manuscripts,digital_preservation,False,False,2005,eng,https://digital.soas.ac.uk/okim/about/,0.0,0.5,1.0,4,5
 3b3fda6e-a8e0-41ff-aad6-5426ffec2fb6,Online Corpus of the Inscriptions of Ancient North Arabia,digital_preservation,True,False,2013,eng,https://dasi.cnr.it/index.php?id=42&prjId=4&corId=0&colId=0&navId=0,0.0,0.5,1.0,3,3
@@ -13,26 +13,26 @@ bef2e507-b663-422e-9dd3-7e49ca299f05,Open Islamicate Texts Initiative,digital_pr
 2253d7f2-c150-44e2-9a8a-c7c5ba0ab661,Textdatenbank und Wörterbuch des Klassischen Maya,digital_preservation,True,False,2014,"eng, deu, spa",https://classicmayan.org/portal/,0.0,1.0,1.0,20,20
 1b19963e-ffc5-48f0-a1b3-81553d601497,Digitale Gesamtedition und Übersetzung des koptisch-sahidischen Alten Testaments,digital_preservation,True,False,2015,"deu, eng",https://coptot.manuscriptroom.com/,1.0,1.0,1.0,47,79
 2860c96f-323e-4c33-97c6-4219bcf99f52,Open Encyclopedia System,infrastructure,True,False,2016,"deu, eng",https://www.open-encyclopedia-system.org,1.0,0.0,1.0,6,9
-f87c6596-0ce3-4f2e-8ec5-ea5d17253bba,Change Projekt - Wandel@FU-Bib,infrastructure,False,False,2019,deu,https://web.archive.org/web/20240412020940/www.fu-berlin.de/sites/ub/ueber-uns/wandel/index.html,0.0,0.0,0.5,11,11
+f87c6596-0ce3-4f2e-8ec5-ea5d17253bba,Change Projekt Wandel@FU-Bib,infrastructure,False,False,2019,deu,https://web.archive.org/web/20240412020940/www.fu-berlin.de/sites/ub/ueber-uns/wandel/index.html,0.0,0.0,0.5,11,11
 74b74185-081c-40f7-86da-52bdf9f53105,Gumar Corpus,tools_and_analysis,True,False,2018,eng,https://camel.abudhabi.nyu.edu/gumar/,1.0,0.5,1.0,4,4
-ddba8639-e6eb-4343-9557-0f0a968bf15f,Tübinger System von Textverarbeitungs-Programmen,tools_and_analysis,True,False,1966,"eng, deu",https://www.tustep.uni-tuebingen.de/,0.0,1.0,1.0,1,2
+ddba8639-e6eb-4343-9557-0f0a968bf15f,Tübinger System von Textverarbeitungs Programmen,tools_and_analysis,True,False,1966,"eng, deu",https://www.tustep.uni-tuebingen.de/,0.0,1.0,1.0,1,2
 ce6e74fb-c872-4ab4-a6f2-908232d0099a,ARCHES,digital_preservation,True,False,2019,eng,https://www.naher-osten.uni-muenchen.de/forschung/einzel/arches-projekt/index.html,0.0,0.0,0.5,0,0
 77ae1011-1b54-46b5-b676-02895e3300fc,From Translation to Creation: Changes in Ethiopic Style and Lexicon from Late Antiquity to the Middle Ages,digital_preservation,False,False,2014,eng,https://www.traces.uni-hamburg.de/,1.0,1.0,0.5,35,98
-2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e,Country of Words: Reading and Reception of Palestinian Literature from 1948 to the Present,tools_and_analysis,True,False,2018-04-01,,https://www.geschkult.fu-berlin.de/en/e/palread/index.html,0.0,0.5,1.0,9,15
+2adf7ddc-9dd5-49b3-842c-9dc48dbbf36e,Country of Words Reading and Reception of Palestinian Literature from 1948 to the Present,tools_and_analysis,True,False,2018-04-01,,https://www.geschkult.fu-berlin.de/en/e/palread/index.html,0.0,0.5,1.0,9,15
 eb8e91fe-952e-48b7-af0d-c026ebe37826,Methoden der Bildverarbeitung zur Bestimmung von visuellen Manuskript- und Zeichenmerkmalen,infrastructure,False,False,2015,"deu, eng",https://gepris.dfg.de/gepris/projekt/203079013,0.0,0.0,0.5,0,0
 614f4c99-0d96-48a9-baa5-48a402a8deec,Bamberg Lexical Database for Contemporary Iranian Languages,tools_and_analysis,False,False,2016,eng,https://www.uni-bamberg.de/en/oriental-studies/general-linguistics/research/projects/,0.0,0.0,0.5,2,2
 87d036b9-5145-47d0-8d0e-83bb6821f3fe,Surayt-Aramaic Online Project,tools_and_analysis,True,False,2014,"ara, deu, eng, fra, nld, swe, tur",http://www.surayt.com/,1.0,1.0,1.0,10,10
 df700e7b-1fad-4e54-b534-f63cf5805925,Digital Corpus for Greco-Arabic Studies,digital_preservation,False,False,2010,eng,https://www.graeco-arabic-studies.org/texts,0.0,0.5,1.0,0,0
-693b7383-6f97-46a6-9023-6aae878c25e7,Multi-Arabic Dialect Applications and Resources,tools_and_analysis,True,False,2016-02,eng,https://sites.google.com/nyu.edu/madar/,1.0,1.0,1.0,10,10
-57622367-8250-4932-ab3e-0356615d578a,"Tierrecht und Strafen im 'Gesetz zur Abwehr der Dämonen' (Vidçvdâd, Kapitel 13–15)",digital_preservation,False,False,2010,eng,https://www.geschkult.fu-berlin.de/e/iranistik/archiv/projekt-archiv/vorislamisches-recht/videvdad13-15/index.html,0.0,1.0,0.5,0,1
+693b7383-6f97-46a6-9023-6aae878c25e7,Multi Arabic Dialect Applications and Resources,tools_and_analysis,True,False,2016-02,eng,https://sites.google.com/nyu.edu/madar/,1.0,1.0,1.0,10,10
+57622367-8250-4932-ab3e-0356615d578a,Tierrecht und Strafen im Gesetz zur Abwehr der Dämonen (Vidçvdâd, Kapitel 13–15),digital_preservation,False,False,2010,eng,https://www.geschkult.fu-berlin.de/e/iranistik/archiv/projekt-archiv/vorislamisches-recht/videvdad13-15/index.html,0.0,1.0,0.5,0,1
 e9e4a759-5a0c-4d7d-aa61-49051477ab2f,A Literary History of Medicine Online,digital_preservation,True,False,2013,eng,https://scholarlyeditions.brill.com/lhom/,0.0,1.0,0.5,1,1
 6f32aa08-b11d-48f4-8a9d-8f76738dc62e,Doha Historical Dictionary (معجم الدوحة التأريخي للغة العربية),tools_and_analysis,True,False,2013-05-23,ara,https://dohadictionary.org/,0.0,1.0,1.0,0,1
-5f3c2fbb-ca17-41c9-acdb-d3e147869400,Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybi‘a’s “History of the Physicians”,tools_and_analysis,True,False,2018,"deu, eng",https://usaybia.net/,1.0,1.0,1.0,1,1
+5f3c2fbb-ca17-41c9-acdb-d3e147869400,Communities of Knowledge Interreligious Networks of Scholars in Ibn Abi Usaybi‘a’s “History of the Physicians”,tools_and_analysis,True,False,2018,"deu, eng",https://usaybia.net/,1.0,1.0,1.0,1,1
 04ea57c8-69c7-4c83-8249-753850e9cc53,Edition des Gesamtwerkes von Ibn Nubātah al-Miṣrī,digital_preservation,True,False,2020,deu,https://www.uni-muenster.de/ALEA/,0.0,0.0,0.5,0,0
-c523675a-0e54-4d1e-8d08-2395d58323e3,"Biblia Arabica: The Bible in Arabic among Jews, Christians and Muslims",tools_and_analysis,True,False,2012,eng,https://biblia-arabica.com/,1.0,0.0,1.0,0,8
+c523675a-0e54-4d1e-8d08-2395d58323e3,Biblia Arabica: The Bible in Arabic among Jews, Christians and Muslims",tools_and_analysis,True,False,2012,eng,https://biblia-arabica.com/,1.0,0.0,1.0,0,8
 9078ff92-18f1-4019-a9f3-8c7d9aaa0db8,Belegwörterbuch der sabäischen Sprache,tools_and_analysis,True,False,2012,"deu, eng",http://sabaweb.uni-jena.de/Sabaweb,0.0,1.0,1.0,1,17
 5f57a071-60c1-4fd2-b191-8fa8d15d70bb,Coranica,tools_and_analysis,False,False,2011,"deu, eng, fra",https://webarchive.bbaw.de/default/20210819141519/https://www.coranica.de/front-page-en/,0.0,0.0,1.0,0,0
-b5db28e8-5662-4887-99d4-1659dc8a1a99,KIŠIB — Digital Corpus of Ancient West Asian Seals and Sealings,tools_and_analysis,True,False,2025,"deu, eng",https://www.bbaw.de/en/research/kisib-digital-corpus-of-ancient-west-asian-seals-and-sealings,0.0,0.0,0.5,0,0
+b5db28e8-5662-4887-99d4-1659dc8a1a99,KIŠIB  Digital Corpus of Ancient West Asian Seals and Sealings,tools_and_analysis,True,False,2025,"deu, eng",https://www.bbaw.de/en/research/kisib-digital-corpus-of-ancient-west-asian-seals-and-sealings,0.0,0.0,0.5,0,0
 6ec0ed98-7037-4d93-8b9d-4563c9bbb8c0,Khallina,tools_and_analysis,True,False,2012,eng,https://khallina.org,0.0,0.0,0.0,0,0
 880f1d65-b815-4474-9fb4-b17f13bd3765,Streamlining Galen,digital_preservation,False,False,2019,eng,https://warwick.ac.uk/fac/arts/classics/research/dept_projects/streamlininggalen/,0.0,0.5,0.5,2,3
 1b58eb54-827e-4d01-9153-8c0bcb18205c,Forschungsplattform für jüdische Grabsteinepigraphik,digital_preservation,True,False,2002,deu,http://www.steinheim-institut.de/cgi-bin/epidat,1.0,1.0,1.0,1,1
@@ -50,7 +50,7 @@ da852d13-2483-443b-a2f3-77c0d19d08bd,Isnalyser,tools_and_analysis,False,True,201
 8e4ab5b4-7298-4d55-b490-eb2943527981,Irankoran,digital_preservation,True,False,2017,"deu, eng, fra",https://www.bbaw.de/forschung/irankoran,1.0,1.0,1.0,0,0
 5e7ab61a-0c33-44fc-8175-a1930e6d08bc,Automatic Collation for Diversifying Corpora,tools_and_analysis,False,False,2021-01-01,eng,https://openiti.org/projects/ACDC.html,1.0,0.5,1.0,1,1
 2f06d431-8293-494b-988a-2ff92bfb9c3a,Persian Digital Library,digital_preservation,True,False,2016,eng,https://persdigumd.github.io/PDL/,1.0,1.0,1.0,0,0
-fdda3e43-e15b-4c64-a99d-924f37152cc9,Syriaca.org: The Syriac Reference Portal,tools_and_analysis,True,False,2012,,https://syriaca.org/index.html,1.0,1.0,1.0,3,3
+fdda3e43-e15b-4c64-a99d-924f37152cc9,Syriaca org The Syriac Reference Portal,tools_and_analysis,True,False,2012,,https://syriaca.org/index.html,1.0,1.0,1.0,3,3
 7d8eb5d0-6284-4939-a48b-7ff7a2407989,Zoroastrian Middle Persian Corpus and Dictionary,digital_preservation,True,False,2021,"eng, deu",https://www.mpcorpus.org/,1.0,1.0,1.0,14,25
 e9cb8ab1-2d2c-4cc3-a44d-a793220a8638,WIBARAB: What is Bedouin-Type Arabic?,tools_and_analysis,True,False,2021-10-01,"deu, eng",https://wibarab.acdh.oeaw.ac.at/,1.0,1.0,1.0,4,4
 2fd5c31a-17a5-41ea-ae62-b6c2d3921cf5,FDNext,infrastructure,True,False,2020,"deu, eng",https://www.forschungsdaten.org/index.php/FDNext,0.0,1.0,1.0,19,19
@@ -82,11 +82,11 @@ aa08a691-4d2f-45e0-933f-9c9fb8462069,Imagines Nummorum: Thesaurus Iconographicus
 1a587e85-1385-40b0-b6eb-25ca8fa5042c,Weaving the Humanities into the Web and the Web into the Humanities. Preserving the Cultural Heritage of Yemen by Creating an Universally Virtual Library of Manuscripts (HumanWeb),digital_preservation,False,False,2013,eng,https://cordis.europa.eu/project/id/324591,0.0,0.0,0.5,0,0
 9a4a2962-fbf2-4a52-a1ea-53af8e3d0842,New Languages for NLP,tools_and_analysis,True,False,2021,eng,https://newnlp.princeton.edu/,1.0,1.0,1.0,0,0
 9fbb8b57-bd55-4b84-ab51-2c8a0d7ec5bc,Coptic OCR,tools_and_analysis,True,True,2018,eng,https://kellia.uni-goettingen.de/digitalcoptic3/slides/CopticOCR_2020-12-07_Lincke.pdf,1.0,1.0,1.0,2,3
-fbf007e0-7eee-4bb1-801d-568785d43d04,"Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",digital_preservation,False,False,2009,eng,https://www.aai.uni-hamburg.de/en/ethiostudies/research/ethiospare.html,0.0,0.5,0.5,32,44
+fbf007e0-7eee-4bb1-801d-568785d43d04,Ethio-SPaRe: Cultural Heritage of Christian Ethiopia. Salvation, Preservation, Research",digital_preservation,False,False,2009,eng,https://www.aai.uni-hamburg.de/en/ethiostudies/research/ethiospare.html,0.0,0.5,0.5,32,44
 0fd7b9cd-fdae-441b-a6fd-a791d4583ce0,Corpus Coranicum,digital_preservation,True,True,2007,"deu, eng, fra",https://corpuscoranicum.de/en,1.0,1.0,1.0,3,4
 1b865f29-d492-42f4-a029-49d93a1116f2,Mamluk Bibliography Online,digital_preservation,True,True,2013,eng,https://mamluk.lib.uchicago.edu/index.html,1.0,1.0,1.0,0,0
 3a48e496-f4ef-4801-ae66-dc61b7ec274f,Archaeological Atlas of Coptic Literature by PATHs,digital_preservation,True,False,2015,eng,https://atlas.paths-erc.eu,1.0,1.0,1.0,1,1
-d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9,Kalila and Dimna – AnonymClassic,digital_preservation,True,False,2018-01-01,"deu, eng",https://www.geschkult.fu-berlin.de/en/e/kalila-wa-dimna/index.html,0.0,1.0,1.0,24,38
+d1e6d69b-5e9a-4b4a-85ad-09aac56ed2d9,Kalila and Dimna AnonymClassic,digital_preservation,True,False,2018,"deu, eng",https://www.geschkult.fu-berlin.de/en/e/kalila-wa-dimna/index.html,0.0,1.0,1.0,24,38
 ff1ec94f-2233-46e9-b550-45c792ae581e,Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20),digital_preservation,True,False,2020,"deu, eng",https://gams.uni-graz.at/context:vipa,1.0,1.0,1.0,0,0
 cbf4592d-e961-4475-bdfc-f25c17b7094f,Chinese Text Project,tools_and_analysis,True,False,2006,"eng, zho",https://ctext.org,0.0,1.0,1.0,5,5
 29603647-10fb-4843-aaab-b9a621c72275,Al-Furqan E-Database,digital_preservation,True,False,2013,"eng, ara",https://digitallibrary.al-furqan.com/world_library,0.0,1.0,1.0,0,222
