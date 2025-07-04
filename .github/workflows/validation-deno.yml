@@ -21,5 +21,8 @@ jobs:
         with:
           deno-version: v2.x
 
+      - name: Install dependencies
+        run: deno install
+
       - name: Run tests
         run: deno test --allow-read TESTS/schema_tests.ts
