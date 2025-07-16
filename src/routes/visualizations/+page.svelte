@@ -591,7 +591,7 @@
 					const res = await fetch(filePath);
 					const data = await res.json();
 					const s = data.project?.research_data?.sustainability_plan ?? {};
-					
+
 					return {
 						website: s.project_website ?? 'N/A',
 						github: s.GitHub ?? 'N/A',
