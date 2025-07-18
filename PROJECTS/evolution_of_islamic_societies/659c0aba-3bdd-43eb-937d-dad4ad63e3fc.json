@@ -196,16 +196,9 @@
       "frontend": [],
       "tools": [
         {
-          "label": "AraBERT",
-          "self_developed": false,
-          "ref": [],
-          "websites": ["https://github.com/CAMeL-Lab/camel_tools"],
-          "description": ""
-        },
-        {
           "label": "CAMeL Tools",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q124528184"],
           "websites": ["https://github.com/CAMeL-Lab/camel_tools"],
           "description": ""
         }
