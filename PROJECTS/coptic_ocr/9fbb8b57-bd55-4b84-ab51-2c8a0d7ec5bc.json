@@ -102,21 +102,21 @@
         {
           "label": "OCRopus",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q607628"],
           "websites": ["https://ocropus.github.io/"],
           "description": ""
         },
         {
           "label": "Calamari",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q124348079"],
           "websites": ["https://github.com/Calamari-OCR/calamari"],
           "description": ""
         },
         {
           "label": "ScanTailor",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q4049102"],
           "websites": ["https://scantailor.org/"],
           "description": ""
         }

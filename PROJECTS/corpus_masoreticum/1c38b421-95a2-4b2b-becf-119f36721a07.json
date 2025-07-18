@@ -107,7 +107,7 @@
         {
           "label": "Mirador",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q37155469"],
           "websites": ["https://projectmirador.org/"],
           "description": "Open-source, web-based image viewer for zooming, comparing, and annotating images."
         },
@@ -121,7 +121,7 @@
         {
           "label": "BIMA",
           "self_developed": true,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q135410409"],
           "websites": ["http://bima2.corpusmasoreticum.de/"],
           "description": "Digital collaborative research environment for creating digital editions."
         }
