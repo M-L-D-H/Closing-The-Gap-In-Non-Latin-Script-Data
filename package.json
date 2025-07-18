@@ -9,7 +9,7 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"git-sync": "git add src/data && (git commit -m \"Update archived data\" || echo \"No changes to commit\") && git push",
-  		"deploy": "npm run archive && npm run git-sync && npm run build && gh-pages -d build",
+		"deploy": "npm run archive && npm run git-sync && npm run build && gh-pages -d build",
 		"dev": "vite dev",
 		"format": "prettier --plugin prettier-plugin-svelte --plugin prettier-plugin-tailwindcss --write .",
 		"lint": "prettier --plugin prettier-plugin-svelte --plugin prettier-plugin-tailwindcss --check . && eslint .",
@@ -20,7 +20,7 @@
 		"@emailjs/browser": "^4.4.1",
 		"deno": "^2.2.6",
 		"leaflet": "^1.9.4",
-		"vega-embed": "^6.29.0"
+		"vega-embed": "^7.0.2"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.5",
@@ -45,6 +45,6 @@
 		"tailwindcss": "^3.4.13",
 		"tslib": "^2.7.0",
 		"typescript": "^5.6.3",
-		"vite": "^5.4.8"
+		"vite": "^5.4.19"
 	}
 }
