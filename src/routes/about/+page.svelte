@@ -171,14 +171,6 @@
           class="w-full h-full object-cover"
         />
       </div>
-	   <!-- Card 5 -->
-      <div class="flex-shrink-0 w-64 h-40 overflow-hidden rounded-md border border-gray-200 shadow">
-        <img
-          src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img5.jpg"
-          alt="Project screenshot 5"
-          class="w-full h-full object-cover"
-        />
-      </div>
     </div>
   </div>
 </section>
