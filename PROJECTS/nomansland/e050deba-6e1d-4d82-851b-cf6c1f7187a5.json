@@ -141,7 +141,7 @@
         {
           "label": "APIS",
           "self_developed": true,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q135451396"],
           "websites": [
             "https://www.oeaw.ac.at/acdh/research/dh-research-infrastructure/resources/software-services/apis",
             "https://acdh-oeaw.github.io/apis-core-rdf/",

@@ -131,9 +131,9 @@
         {
           "label": "Nashi",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q135454628"],
           "websites": ["https://github.com/andbue/nashi/tree/master"],
-          "description": "Tool for the OCR-Aided Transcription of ted Text"
+          "description": "Tool for the OCR-aided transcription of texts of both right-to-left and left-to-right languages"
         },
         {
           "label": "Classical Text Editor",

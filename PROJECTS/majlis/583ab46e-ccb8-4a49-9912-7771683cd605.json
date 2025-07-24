@@ -134,14 +134,14 @@
         {
           "label": "manuForma",
           "self_developed": true,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q135451167"],
           "websites": ["https://github.com/majlis-erc/manuForma"],
           "description": "TEI-XML File Generator"
         },
         {
           "label": "Srophe",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q135451250"],
           "websites": ["https://srophe.app/"],
           "description": "Frontend framework for projects working with TEI-XML"
         }
