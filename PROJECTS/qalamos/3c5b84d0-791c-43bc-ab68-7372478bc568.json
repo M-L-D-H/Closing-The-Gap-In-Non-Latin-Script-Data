@@ -156,14 +156,14 @@
         {
           "label": "MyCoRe",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q1956302"],
           "websites": ["https://www.mycore.de/"],
           "description": "Used as a repository framework"
         },
         {
           "label": "Solr",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q2858103"],
           "websites": ["https://solr.apache.org/"],
           "description": "Used for indexation and data querying"
         },

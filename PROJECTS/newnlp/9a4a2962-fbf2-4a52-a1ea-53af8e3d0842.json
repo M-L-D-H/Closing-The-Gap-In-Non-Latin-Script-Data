@@ -81,9 +81,9 @@
       "frontend": [],
       "tools": [
         {
-          "label": "cadet",
+          "label": "Cadet",
           "self_developed": true,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q135451354"],
           "websites": ["https://github.com/New-Languages-for-NLP/cadet"],
           "description": "Help add new languages into the spaCy library by generating and combining all the required units for a language entry. The tool also exists in the form of a notebook available on the GitHub page of the project."
         }

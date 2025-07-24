@@ -110,7 +110,7 @@
         {
           "label": "FontForge",
           "self_developed": false,
-          "ref": [],
+          "ref": ["https://www.wikidata.org/wiki/Q687332"],
           "websites": ["https://fontforge.org/docs/index.html"],
           "description": "FontForge enables creation, modification, and manipulation of PostScript, TrueType, and OpenType fonts."
         },
