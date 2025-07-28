@@ -575,6 +575,10 @@
     "title": "Mouse & Manuscript",
     "path": "/PROJECTS/moma/"
   },
+  "07971c08-769b-4482-ba4e-372e8a47b626": {
+    "title": "Monastica – a dynamic library and research tool",
+    "path": "/PROJECTS/monastica/"
+  },
   "d5dd164d-1887-473f-8282-584b8d09474d": {
     "title": "Moving frontiers",
     "path": "/PROJECTS/moving_frontiers/"
@@ -838,6 +842,10 @@
   "fdda3e43-e15b-4c64-a99d-924f37152cc9": {
     "title": "Syriaca.org: The Syriac Reference Portal",
     "path": "/PROJECTS/syriaca_org/"
+  },
+  "605f4ff7-4328-4bf3-8e70-02bbe70008af": {
+    "title": "Teuchos – Zentrum für Handschriften- und Textforschung",
+    "path": "/PROJECTS/teuchos/"
   },
   "28b08ba5-2a3f-4f35-a909-7a745c26ba55": {
     "title": "TextGrid",

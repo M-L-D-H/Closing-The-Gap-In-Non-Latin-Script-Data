@@ -1,0 +1,98 @@
+{
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "605f4ff7-4328-4bf3-8e70-02bbe70008af",
+    "record_created_on": "2025-07-28",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-07-28",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Teuchos – Zentrum für Handschriften- und Textforschung",
+    "abbr": "TEUCHOS",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2007", "to": "2010" }],
+    "maintained": true,
+    "websites": ["https://www.teuchos.uni-hamburg.de/"],
+    "project_desc": "Das TEUCHOS-Zentrum entwickelt eine weltweit nutzbare elektronische Arbeitsumgebung für die philologische Grundlagenforschung. Insbesondere sollen die Arbeitsabläufe bei der wissenschaftlichen Edition antiker Texte unterstützt werden, die mit der Erschließung der erhaltenen Abschriften aus Spätantike, Mittelalter und Renaissance beginnen.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+        },
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+      }
+    ],
+    "lang": ["deu"],
+    "related_institutions": [
+        {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://ror.org/00g30e956",
+            "https://www.wikidata.org/wiki/Q156725"
+          ]
+        },
+        "websites": ["https://www.uni-hamburg.de"]
+      },
+      {
+        "relation_type": "cooperation",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
+        "websites": ["https://www.fu-berlin.de"]
+      }],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": { "text": "", "ref": [
+          "https://orcid.org/0009-0002-3552-2987",
+          "https://d-nb.info/gnd/137576218",
+          "https://www.wikidata.org/wiki/Q1079072"
+        ] },
+        "roles": ["investigation"],
+        "websites": ["https://www.slm.uni-hamburg.de/igrlatphil/personen/brockmann.html"]
+      },
+      {
+        "pers_name": { "text": "", "ref": [
+          "https://d-nb.info/gnd/107988674",
+          "https://www.wikidata.org/wiki/Q1222073"
+        ] },
+        "roles": ["investigation"],
+        "websites": ["https://www.geisteswissenschaften.fu-berlin.de/we02/griechisch/graezistik/aristotelismuszentrum/Kontakt/index.html"]
+      }
+    ],
+    "research_data": {
+      "lang": ["grc"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "GitHub": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 4,
+        "open_access_count": 4
+      },
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["catalog", "digital_preservation", "literary_studies", "manuscript", "philosophy", "research_infrastructure", "vre"],
+    "category": "digital_preservation",
+    "comment": ""
+  }
+}
