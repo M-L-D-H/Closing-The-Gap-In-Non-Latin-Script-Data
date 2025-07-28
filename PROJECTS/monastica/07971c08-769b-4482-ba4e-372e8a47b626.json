@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "07971c08-769b-4482-ba4e-372e8a47b626",
+    "record_created_on": "2025-07-28",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-07-28",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Monastica – a dynamic library and research tool",
+    "abbr": "Monastica",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2013", "to": "" }],
+    "maintained": true,
+    "websites": ["https://monastica.ht.lu.se"],
+    "project_desc": "Monastica is an open access digital platform for research on the transmission of the so called Sayings of the Desert Fathers, known in Greek as the Apophthegmata Patrum and in Latin as the Verba Seniorum, as well as closely related early monastic literature. It is a dynamic library of texts as well as a complex relational database and advanced tools for scholarly collaboration in gathering, analysing, visualizing, publishing and sharing the complex fluid textual tradition of the Sayings of the Desert Fathers in multiple languages. Through the easily accessed interactive platform, collaborative work on input and revision as well as display and analysis of texts and data is facilitated.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Lund",
+          "ref": ["https://www.geonames.org/2693678/lund.html"]
+        },
+        "coordinates": { "lat": "55.70584", "lng": "13.19321" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+        {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Lund University",
+          "ref": [
+            "https://ror.org/012a77v79",
+            "https://www.wikidata.org/wiki/Q218506"
+          ]
+        },
+        "websites": ["https://www.lu.se"]
+      }],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": { "text": "", "ref": [
+          "https://d-nb.info/gnd/1046662228",
+          "https://www.wikidata.org/wiki/Q6082206"
+        ] },
+        "roles": ["investigation"],
+        "websites": ["https://portal.research.lu.se/en/persons/samuel-rubenson"]
+      }
+    ],
+    "research_data": {
+      "lang": ["ara", "chu", "cop", "grc", "hye", "kat", "lat", "syr"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "GitHub": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 28,
+        "open_access_count": 4
+      },
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["catalog", "manuscript", "religious_studies", "religious_text", "research_infrastructure", "text_reuse", "translation", "vre"],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
+}
