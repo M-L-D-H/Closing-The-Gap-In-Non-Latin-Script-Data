@@ -1,0 +1,108 @@
+{
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "bad8dee2-bca3-453b-bf43-5157294a7a1f",
+    "record_created_on": "2025-07-31",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-07-31",
+    "interviewed": false
+  },
+  "project": {
+    "title": "DraCor – multilingual Drama Corpora platform",
+    "abbr": "DraCor",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2017", "to": "" }],
+    "maintained": true,
+    "websites": ["https://dracor.org"],
+    "project_desc": "DraCor is an open digital infrastructure developed for the computational study of (mostly) European drama from Greco-Roman antiquity to the 20th century. Platform hosts plays encoded in the TEI format in multiple languages, supporting both comparative and computational approaches to literary studies. Each corpus is maintained by individual editors and is dynamic – continuously growing in the number of plays and enriched with increasingly detailed markup.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Berlin",
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+        },
+        "coordinates": { "lat": "52.52437", "lng": "13.41053" }
+      },
+      {
+        "place_name": {
+          "text": "Potsdam",
+          "ref": ["https://www.geonames.org/2852458/potsdam.html"]
+        },
+        "coordinates": { "lat": "52.39886", "lng": "13.06566" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Freie Universität Berlin",
+          "ref": [
+            "https://ror.org/046ak2485",
+            "https://www.wikidata.org/wiki/Q153006"
+          ]
+        },
+        "websites": ["https://www.fu-berlin.de"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Potsdam",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q153012",
+            "https://ror.org/03bnmw459"
+          ]
+        },
+        "websites": ["https://www.uni-potsdam.de"]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0000-0003-2419-6629",
+            "https://d-nb.info/gnd/130344230",
+            "https://www.wikidata.org/wiki/Q57697383"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": ["https://www.geisteswissenschaften.fu-berlin.de/we02/institut/mitarbeiter/Professoren/fischerf/index.html"]
+      }
+    ],
+    "research_data": {
+      "lang": ["bak", "deu", "eng", "fra", "grc", "hun", "ita", "lat", "nld", "rus", "spa", "swe", "tat", "ukr", "yid"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "GitHub": 1.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 125,
+        "open_access_count": 125
+      },
+      "publications": { "open_access": 0, "licensing": [""] },
+      "data": { "datatypes": [], "repositories": [] }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": [
+      "cultural_studies",
+      "corpus_output",
+      "literary_studies",
+      "tei",
+      "text_reuse",
+      "vre"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
+}
