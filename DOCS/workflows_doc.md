@@ -19,7 +19,7 @@ machine by following these steps:
 3. In a Git Bash terminal, use the following command to clone the repository to
    your local machine:
 
-   ```bash
+   ```sh
    git clone https://github.com/M-L-D-H/Closing-The-Gap-In-Non-Latin-Script-Data.git
    ```
 
@@ -39,31 +39,29 @@ initiatives related to **Non-Latin Script Digital Humanities (NLS DH)**. You can
 contribute in one of two ways:
 
 1. **Directly on GitHub**
-
-- Clone the `master` branch of the repository as described in the previous
-  section.
-- Navigate to the **`TEMPLATES`** folder in the root directory.
-- Copy the **`project.json`** file and populate it with your project data.
-- Generate a **[unique UUID](https://www.uuidgenerator.net/)** and use it as the
-  filename.
-- Navigate to the **`PROJECTS`** folder in the root directory and create a new
-  folder named after a shortened version of your project’s title. Use all
-  **lowercase letters** and replace spaces with **underscores (`_`)**.
-- Copy your completed JSON file into this folder.
-- Commit and push your changes, which will automatically open a **pull
-  request**. Once reviewed, your project will be integrated into our dataset and
-  website by the project team.
+   - Clone the `master` branch of the repository as described in the previous
+     section.
+   - Navigate to the **`TEMPLATES`** folder in the root directory.
+   - Copy the **`project.json`** file and populate it with your project data.
+   - Generate a **[unique UUID](https://www.uuidgenerator.net/)** and use it as
+     the filename.
+   - Navigate to the **`PROJECTS`** folder in the root directory and create a
+     new folder named after a shortened version of your project’s title. Use all
+     **lowercase letters** and replace spaces with **underscores (`_`)**.
+   - Copy your completed JSON file into this folder.
+   - Commit and push your changes, which will automatically open a **pull
+     request**. Once reviewed, your project will be integrated into our dataset
+     and website by the project team.
 
 2. **Via Email**
+   - Visit our
+     **[project website](https://m-l-d-h.github.io/Closing-The-Gap-In-Non-Latin-Script-Data/)**.
+   - Select the **"Contribute"** tab from the main menu.
+   - Fill out the submission form
+   - It will be forwarded to our team and added to the database
 
-- Visit our
-  **[project website](https://m-l-d-h.github.io/Closing-The-Gap-In-Non-Latin-Script-Data/)**.
-- Select the **"Contribute"** tab from the main menu.
-- Fill out the submission form
-- It will be forwarded to our team and added to the database
-
-This method is more straightforward; however, the online form only captures
-**basic project details**. If you wish to provide more comprehensive
+The second method is more straightforward; however, the online form only
+captures **basic project details**. If you wish to provide more comprehensive
 information, we recommend using the **GitHub submission method**.
 
 ## Adding New Keywords
@@ -153,7 +151,8 @@ Steps to Run the Tests Locally
      **[Deno installed globally](https://docs.deno.com/runtime/getting_started/installation/)**
      on your machine.
    - Verify the installation by running:
-     ```bash
+
+     ```sh
      deno --version
      ```
 
@@ -162,26 +161,21 @@ Steps to Run the Tests Locally
 3. **Run the Test Command**  
    You can use either of the following commands to execute the schema tests:
 
-   ````bash
+   ```sh
    npm run test
+   ```
 
-   ```markdown
    or
 
-   ```bash
-   deno test --allow-read TESTS/schema_tests.ts   ```
+   ```sh
+   deno test --allow-read TESTS/schema_tests.ts
+   ```
 
    Both commands execute the same validation process.
-
-   ````
 
 4. **Review the Output**
    - The test will check all relevant files against the schema.
    - Any files that fail the validation will be listed in the terminal output.
-
-   ```
-
-   ```
 
 ## Fixing Broken Links with Lychee
 
@@ -208,7 +202,8 @@ To utilize Lychee for checking broken links in our data:
    - Open your terminal.
    - Navigate to the root directory of the repository:
    - Execute one of the following commands:
-     ```bash
+
+     ```sh
      npm run check-links
      ```
 
@@ -255,7 +250,7 @@ To update the dependencies:
 2. Run the following command to update all dependencies listed in
    `package.json`:
 
-   ```bash
+   ```sh
    npm update
    ```
 
@@ -302,7 +297,7 @@ installed on your local machine.
 **2. Switch to the `frontend` Branch**  
 Navigate to the **frontend branch** of the repository using Git:
 
-```bash
+```sh
 git checkout frontend
 ```
 
@@ -310,7 +305,7 @@ git checkout frontend
 To regenerate static data, rebuild and deploy the website, execute the following
 commands:
 
-```bash
+```sh
 npm run build
 npm run deploy
 ```
