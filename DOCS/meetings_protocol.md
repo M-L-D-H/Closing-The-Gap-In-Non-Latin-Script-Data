@@ -1,6 +1,6 @@
-﻿# Protocol of CtG Team Meetings
+# Protocol of CtG Team Meetings
 
-##2025-06-06
+## 2025-06-06
 
 **Time**: 15:00–16:00 (Berlin) **Participants** (alphabetical): Alieva, Aibaniz;
 Casey, Christian; Gründler, Beatrice; Kudela, M. Xenia; Müller-Laackman, Jonas;
@@ -76,7 +76,7 @@ Beers, Theodore; Sido Bozan, Joudy
   the QUADRIGA-Konferenz: Stärkung von Datenkompetenz für die Forschung,
   presenting on data sustainability strategies and pedagogical models.
 
-##2025-01-17
+## 2025-01-17
 
 **Time**: 15:00-16:00 (Berlin) **Participants** (alphabetical): Alieva, Aibaniz;
 Beers, Theo; Casey, Christian; Kudela, M. Xenia; Müller-Laackman, Jonas; Sido
@@ -164,7 +164,7 @@ Interview Participation
       highlighting benefits such as networking, visibility, and contribution to
       meaningful research.
 
-##2024-11-22
+## 2024-11-22
 
 **Time**: 12:00 - 13:30 (Berlin) **Participants** (alphabetical): Alieva,
 Aibaniz, Beatrice Gründler, Xenia Kudela, Jonas Müller-Laackman, Sido Bozan,
@@ -230,7 +230,7 @@ Joudy
     more detailed look at specific universities. It would be good to address the
     main challenges.
 
-##2024-08-23
+## 2024-08-23
 
 **Time**: 10:30 - 12:00 (Berlin)
 
@@ -268,7 +268,7 @@ Kudela, Jonas Müller-Laackman, Sido Bozan, Joudy
   - Xenia, Joudy, and Aibaniz will also co-author a post about the upcoming
     Dariah workshop.
 
-##2024-08-05
+## 2024-08-05
 
 **Time**: 11:30 - 12:30 (Berlin)
 
@@ -337,7 +337,7 @@ Gründler, Xenia Kudela, Jonas Müller-Laackman
 
 - Next meeting: 23.08 at 10:30
 
-##2024-07-19
+## 2024-07-19
 
 **Time**: 10:30 - 12:00 (Berlin)
 
@@ -409,7 +409,7 @@ Kudela, Jonas Müller-Laackman
 
 - Next meeting: 05.08. at 11:30
 
-##2024-06-28
+## 2024-06-28
 
 **Time**: 10:30 - 12:00 (Berlin)
 
@@ -456,7 +456,7 @@ Kudela, Jonas Müller-Laackman
     from CCHS-CSIC in Madrid. We have to take care of the room, catering, and
     dissemination.
 
-##2024-06-14
+## 2024-06-14
 
 **Time**: 10:30 - 12:00 (Berlin)
 
@@ -512,7 +512,7 @@ Kudela, Jonas Müller-Laackman
     record.
   - We should discuss this topic again with Jonas.
 
-##2024-03-15
+## 2024-03-15
 
 **Time**: 11:00-12:15 (Berlin)
 
@@ -559,7 +559,7 @@ Müller-Laackman
 
 - BUA report: the KPIs are yet to be completed.
 
-##2024-02-09
+## 2024-02-09
 
 **Time**: 11:00-12:15 (Berlin)
 
@@ -594,7 +594,7 @@ Kudela, Jonas Müller-Laackman
   person in charge
 - Meeting time: 9 AM at the main door of the SUB
 
-##2024-01-19
+## 2024-01-19
 
 **Time**: 14:15-15:45 (Berlin)
 
@@ -651,7 +651,7 @@ Müller-Laackman
   digitalized imaged of the
   [SUB Hamburg](https://digitalisate.sub.uni-hamburg.de/).
 
-- Next meeting: Friday, 26.01 at 10:15#.
+- Next meeting: Friday, 26.01 at 10:15.
 
 ## 2023-12-22
 
