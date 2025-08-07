@@ -129,55 +129,60 @@
 					</p>
 					<!-- </a> -->
 				</div>
+			</div>
+
+			<!-- Project Gallery -->
+			<section class="mt-12">
+				<h3 class="mb-6 text-center text-2xl">Project Gallery</h3>
+
+				<!-- “Bleed” out to cancel the parent’s px-4, so this truly spans the tan box -->
+				<div class="-mx-4 overflow-x-auto">
+					<!-- re‑apply px-4 for alignment, flex‑nowrap to force one row, min-w-full to fill container -->
+					<div class="flex min-w-full flex-nowrap gap-6 px-4 pb-4">
+						<!-- Card 1 -->
+						<div
+							class="h-40 w-64 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow"
+						>
+							<img
+								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img1.jpg"
+								alt="Project screenshot 1"
+								class="h-full w-full object-cover"
+							/>
+						</div>
+						<!-- Card 2 -->
+						<div
+							class="h-40 w-64 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow"
+						>
+							<img
+								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img2.jpg"
+								alt="Project screenshot 2"
+								class="h-full w-full object-cover"
+							/>
+						</div>
+						<!-- Card 3 -->
+						<div
+							class="h-40 w-64 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow"
+						>
+							<img
+								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img3.jpg"
+								alt="Project screenshot 3"
+								class="h-full w-full object-cover"
+							/>
+						</div>
+						<!-- Card 4 -->
+						<div
+							class="h-40 w-64 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow"
+						>
+							<img
+								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img4.jpg"
+								alt="Project screenshot 4"
+								class="h-full w-full object-cover"
+							/>
+						</div>
+					</div>
 				</div>
-
-<!-- Project Gallery -->
-<section class="mt-12">
-  <h3 class="mb-6 text-center text-2xl">Project Gallery</h3>
-
-  <!-- “Bleed” out to cancel the parent’s px-4, so this truly spans the tan box -->
-  <div class="-mx-4 overflow-x-auto">
-    <!-- re‑apply px-4 for alignment, flex‑nowrap to force one row, min-w-full to fill container -->
-    <div class="px-4 flex flex-nowrap gap-6 min-w-full pb-4">
-      <!-- Card 1 -->
-      <div class="flex-shrink-0 w-64 h-40 overflow-hidden rounded-md border border-gray-200 shadow">
-        <img
-          src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img1.jpg"
-          alt="Project screenshot 1"
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <!-- Card 2 -->
-      <div class="flex-shrink-0 w-64 h-40 overflow-hidden rounded-md border border-gray-200 shadow">
-        <img
-          src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img2.jpg"
-          alt="Project screenshot 2"
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <!-- Card 3 -->
-      <div class="flex-shrink-0 w-64 h-40 overflow-hidden rounded-md border border-gray-200 shadow">
-        <img
-          src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img3.jpg"
-          alt="Project screenshot 3"
-          class="w-full h-full object-cover"
-        />
-      </div>
-       <!-- Card 4 -->
-      <div class="flex-shrink-0 w-64 h-40 overflow-hidden rounded-md border border-gray-200 shadow">
-        <img
-          src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img4.jpg"
-          alt="Project screenshot 4"
-          class="w-full h-full object-cover"
-        />
-      </div>
-    </div>
-  </div>
-</section>
-
-
-</div>
-
+			</section>
+		</div>
 
 		<div class="space-y-4 text-center">
 			<p class="text-xl">
