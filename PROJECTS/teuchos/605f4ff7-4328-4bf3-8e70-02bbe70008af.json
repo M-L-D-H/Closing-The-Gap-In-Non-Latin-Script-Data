@@ -27,7 +27,7 @@
     ],
     "lang": ["deu"],
     "related_institutions": [
-        {
+      {
         "relation_type": "host",
         "org_name": {
           "text": "Universität Hamburg",
@@ -48,25 +48,36 @@
           ]
         },
         "websites": ["https://www.fu-berlin.de"]
-      }],
+      }
+    ],
     "related_entities": [],
     "people": [
       {
-        "pers_name": { "text": "", "ref": [
-          "https://orcid.org/0009-0002-3552-2987",
-          "https://d-nb.info/gnd/137576218",
-          "https://www.wikidata.org/wiki/Q1079072"
-        ] },
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0009-0002-3552-2987",
+            "https://d-nb.info/gnd/137576218",
+            "https://www.wikidata.org/wiki/Q1079072"
+          ]
+        },
         "roles": ["investigation"],
-        "websites": ["https://www.slm.uni-hamburg.de/igrlatphil/personen/brockmann.html"]
+        "websites": [
+          "https://www.slm.uni-hamburg.de/igrlatphil/personen/brockmann.html"
+        ]
       },
       {
-        "pers_name": { "text": "", "ref": [
-          "https://d-nb.info/gnd/107988674",
-          "https://www.wikidata.org/wiki/Q1222073"
-        ] },
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://d-nb.info/gnd/107988674",
+            "https://www.wikidata.org/wiki/Q1222073"
+          ]
+        },
         "roles": ["investigation"],
-        "websites": ["https://www.geisteswissenschaften.fu-berlin.de/we02/griechisch/graezistik/aristotelismuszentrum/Kontakt/index.html"]
+        "websites": [
+          "https://www.geisteswissenschaften.fu-berlin.de/we02/griechisch/graezistik/aristotelismuszentrum/Kontakt/index.html"
+        ]
       }
     ],
     "research_data": {
@@ -91,7 +102,15 @@
       "languages": []
     },
     "policies": [{ "description": "", "ref": [] }],
-    "keywords": ["catalog", "digital_preservation", "literary_studies", "manuscript", "philosophy", "research_infrastructure", "vre"],
+    "keywords": [
+      "catalog",
+      "digital_preservation",
+      "literary_studies",
+      "manuscript",
+      "philosophy",
+      "research_infrastructure",
+      "vre"
+    ],
     "category": "digital_preservation",
     "comment": ""
   }

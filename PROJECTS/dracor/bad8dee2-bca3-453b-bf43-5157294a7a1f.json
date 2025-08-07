@@ -69,11 +69,29 @@
           ]
         },
         "roles": ["supervision"],
-        "websites": ["https://www.geisteswissenschaften.fu-berlin.de/we02/institut/mitarbeiter/Professoren/fischerf/index.html"]
+        "websites": [
+          "https://www.geisteswissenschaften.fu-berlin.de/we02/institut/mitarbeiter/Professoren/fischerf/index.html"
+        ]
       }
     ],
     "research_data": {
-      "lang": ["bak", "deu", "eng", "fra", "grc", "hun", "ita", "lat", "nld", "rus", "spa", "swe", "tat", "ukr", "yid"],
+      "lang": [
+        "bak",
+        "deu",
+        "eng",
+        "fra",
+        "grc",
+        "hun",
+        "ita",
+        "lat",
+        "nld",
+        "rus",
+        "spa",
+        "swe",
+        "tat",
+        "ukr",
+        "yid"
+      ],
       "sustainability_plan": {
         "project_website": 1.0,
         "GitHub": 1.0,

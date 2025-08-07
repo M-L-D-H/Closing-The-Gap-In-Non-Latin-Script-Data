@@ -212,15 +212,15 @@ git checkout frontend
 ```
 
 **2. Build and Deploy the Website**  
-To regenerate static data, rebuild and deploy the website, execute the following commands:  
+To regenerate static data, rebuild and deploy the website, execute the following commands:
 
 ```bash
 npm run build
 npm run deploy
 ```
 
-- Running **`npm run build`** is **optional** but recommended, as it verifies whether the website can be built correctly.  
-- If there are any issues, the command will return an **error** without publishing the changes.  
-- If successful, **`npm run deploy`** will regenerate static data publish the updated website.  
+- Running **`npm run build`** is **optional** but recommended, as it verifies whether the website can be built correctly.
+- If there are any issues, the command will return an **error** without publishing the changes.
+- If successful, **`npm run deploy`** will regenerate static data publish the updated website.
 
 By following these steps, you ensure that the site remains **up-to-date** while maintaining its **static structure** for sustainability and efficiency.
