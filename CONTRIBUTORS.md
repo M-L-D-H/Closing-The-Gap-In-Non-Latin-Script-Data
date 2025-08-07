@@ -1,8 +1,11 @@
 # "Closing the Gap" Contributors
 
-Our project aims to follow the [CRediT Taxonomy](https://credit.niso.org/) in listing the core contributors and the roles that they have carried out.
+Our project aims to follow the [CRediT Taxonomy](https://credit.niso.org/) in
+listing the core contributors and the roles that they have carried out.
 
-Please note that this document encompasses individuals who have worked on "Closing the Gap" directly—rather than the broader group of people who have submitted data or helped in various other ways.
+Please note that this document encompasses individuals who have worked on
+"Closing the Gap" directly—rather than the broader group of people who have
+submitted data or helped in various other ways.
 
 | Contributor Role                                                                            | Contributor Name(s)                                                                                   |
 | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
