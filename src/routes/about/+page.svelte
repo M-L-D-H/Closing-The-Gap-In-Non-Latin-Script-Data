@@ -224,7 +224,7 @@
 
 				<li>
 					Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky (Dr. Jonas Müller-Laackman,
-					Referent <a
+					Department <a
 						class="font-medium hover:underline"
 						href="https://www.sub.uni-hamburg.de/service/digitale-forschungsdienste.html"
 						target="_blank"
