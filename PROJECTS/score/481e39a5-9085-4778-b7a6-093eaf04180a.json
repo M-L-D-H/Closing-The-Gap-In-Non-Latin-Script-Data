@@ -1,0 +1,93 @@
+{
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "481e39a5-9085-4778-b7a6-093eaf04180a",
+    "record_created_on": "2025-10-09",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-10-09",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Social Contexts of Rebellion in the Early Islamic Period",
+    "abbr": "SCORE",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2020", "to": "2026" }],
+    "maintained": true,
+    "websites": [
+      "https://www.aai.uni-hamburg.de/voror/forschung/score/about.html"
+    ],
+    "project_desc": "The project pursues three main objectives: i) improving our understanding of rebellion in the 8th century CE by liberating it from the primacy of religion, also through the inclusion of non-Muslim/mixed revolts; ii) creating a typology of rebellion in the early Islamic period that responds to the lack of a theoretical underpinning of Islamicist discourse on revolt; and iii) advancing a more nuanced picture of early Islamic society, its social strata and inter/intra-communal relationships, which also includes the (changing) mechanisms and processes of power distribution.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Hamburg",
+          "ref": ["https://www.geonames.org/2911298/hamburg.html"]
+        },
+        "coordinates": { "lat": "53.55073", "lng": "9.99302" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Universität Hamburg",
+          "ref": [
+            "https://ror.org/00g30e956",
+            "https://www.wikidata.org/wiki/Q156725"
+          ]
+        },
+        "websites": ["https://www.uni-hamburg.de/"]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://orcid.org/0009-0001-1791-3696",
+            "https://d-nb.info/gnd/1204571104",
+            "https://www.wikidata.org/wiki/Q113752074"
+          ]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.aai.uni-hamburg.de/voror/personen/hagemann.html"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["ara"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "GitHub": 0.0,
+        "data_accessibility": 0.0,
+        "webhosting": 0.5,
+        "publications": 1.0,
+        "publication_count": 37,
+        "open_access_count": 5
+      },
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": [
+      "corpus_resource",
+      "history_studies",
+      "islamic_studies",
+      "manuscript",
+      "network_analysis"
+    ],
+    "category": "tools_and_analysis",
+    "comment": ""
+  }
+}
