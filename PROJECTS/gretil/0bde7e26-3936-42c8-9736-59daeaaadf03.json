@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.2.7",
+  "record_metadata": {
+    "uuid": "0bde7e26-3936-42c8-9736-59daeaaadf03",
+    "record_created_on": "2025-10-10",
+    "record_created_by": "Alieva, Aibaniz",
+    "last_edited_on": "2025-10-10",
+    "interviewed": false
+  },
+  "project": {
+    "title": "Göttingen Register of Electronic Texts in Indian Languages",
+    "abbr": "GRETIL",
+    "type": "project",
+    "ref": [],
+    "date": [{ "from": "2001", "to": "" }],
+    "maintained": true,
+    "websites": [
+      "https://gretil.sub.uni-goettingen.de/gretil.html",
+      "https://textgridrep.org/project/TGPR-2ba9cb1b-9602-202d-71ce-67e63a29de55"
+    ],
+    "project_desc": "The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) provides standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions. The corpus has a strong focus on Sanskrit texts, but also offers a number of additional South Asian languages, both modern and historical. GRETIL aims to cover a thematically wide range of diverse material and is not confined to certain literary genres or time periods.",
+    "places": [
+      {
+        "place_name": {
+          "text": "Göttingen",
+          "ref": ["https://www.geonames.org/2918632/goettingen.html"]
+        },
+        "coordinates": { "lat": "51.53443", "lng": "9.93228" }
+      }
+    ],
+    "lang": ["eng"],
+    "related_institutions": [
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Georg-August-Universität Göttingen",
+          "ref": [
+            "https://www.wikidata.org/wiki/Q152838",
+            "https://ror.org/01y9bpm73"
+          ]
+        },
+        "websites": ["https://www.uni-goettingen.de/"]
+      },
+      {
+        "relation_type": "host",
+        "org_name": {
+          "text": "Niedersächsische Staats- und Universitätsbibliothek Göttingen",
+          "ref": ["https://www.wikidata.org/wiki/Q564783"]
+        },
+        "websites": ["https://www.sub.uni-goettingen.de/sub-aktuell/"]
+      }
+    ],
+    "related_entities": [],
+    "people": [
+      {
+        "pers_name": {
+          "text": "",
+          "ref": [
+            "https://d-nb.info/gnd/1243174773",
+            "https://www.wikidata.org/wiki/Q119984532",
+            "https://orcid.org/0000-0002-1129-5604"]
+        },
+        "roles": ["supervision"],
+        "websites": [
+          "https://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/jose-calvo-tello"
+        ]
+      }
+    ],
+    "research_data": {
+      "lang": ["hin", "jav", "mal", "mar", "pli", "san", "tam", "xct"],
+      "sustainability_plan": {
+        "project_website": 1.0,
+        "GitHub": 0.0,
+        "data_accessibility": 1.0,
+        "webhosting": 1.0,
+        "publications": 1.0,
+        "publication_count": 1,
+        "open_access_count": 1
+      },
+      "publications": { "open_access": 0, "licensing": [] },
+      "data": { "datatypes": [], "repositories": [] }
+    },
+    "stack": {
+      "database": [],
+      "backend": [],
+      "frontend": [],
+      "tools": [],
+      "languages": []
+    },
+    "policies": [{ "description": "", "ref": [] }],
+    "keywords": ["indology", "manuscript", "corpus_output", "tei"],
+    "category": "digital_preservation",
+    "comment": ""
+  }
+}

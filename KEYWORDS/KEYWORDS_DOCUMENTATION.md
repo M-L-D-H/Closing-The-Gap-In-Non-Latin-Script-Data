@@ -51,6 +51,7 @@ for enhancement.
    - egyptology
    - [geography](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept25)
    - [history_studies](https://vocabs.acdh.oeaw.ac.at/dhataxonomy/Concept32)
+   - indology
    - iranian_studies
    - islamic_studies
    - jewish_studies
