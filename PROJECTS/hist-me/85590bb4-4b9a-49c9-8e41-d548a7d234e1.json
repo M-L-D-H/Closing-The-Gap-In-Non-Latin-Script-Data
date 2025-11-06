@@ -18,7 +18,10 @@
     "project_desc": "An informal alliance for exchanging research data related to the historical Middle East.",
     "places": [
       {
-        "place_name": { "text": "Berlin", "ref": ["https://www.geonames.org/2950159/berlin.html"] },
+        "place_name": {
+          "text": "Berlin",
+          "ref": ["https://www.geonames.org/2950159/berlin.html"]
+        },
         "coordinates": { "lat": "52.52437", "lng": "13.41053" }
       }
     ],

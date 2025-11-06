@@ -22,6 +22,6 @@
   },
   "devDependencies": {
     "prettier": "^3.6.2",
-    "zod": "^4.0.15"
+    "zod": "^4.1.12"
   }
 }
