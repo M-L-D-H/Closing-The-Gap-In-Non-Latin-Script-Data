@@ -132,99 +132,99 @@
 			</div>
 
 			<!-- Project Gallery -->
-<section class="mt-12">
-	<h3 class="mb-6 text-center text-2xl">Project Gallery</h3>
+			<section class="mt-12">
+				<h3 class="mb-6 text-center text-2xl">Project Gallery</h3>
 
-	<!-- “Bleed” out to cancel the parent’s px-4, so this truly spans the tan box -->
-	<div class="-mx-4 overflow-x-auto">
-		<!-- re-apply px-4 for alignment, flex-nowrap to force one row, min-w-full to fill container -->
-		<div class="flex min-w-full flex-nowrap gap-6 px-4 pb-4">
-			<!-- Card 1 -->
-			<a
-				href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img1.jpg"
-				target="_blank"
-				rel="noreferrer"
-				class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
-			>
-				<img
-					src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img1.jpg"
-					alt="Project screenshot 1"
-					class="h-full w-full object-cover"
-				/>
-			</a>
+				<!-- “Bleed” out to cancel the parent’s px-4, so this truly spans the tan box -->
+				<div class="-mx-4 overflow-x-auto">
+					<!-- re-apply px-4 for alignment, flex-nowrap to force one row, min-w-full to fill container -->
+					<div class="flex min-w-full flex-nowrap gap-6 px-4 pb-4">
+						<!-- Card 1 -->
+						<a
+							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img1.jpg"
+							target="_blank"
+							rel="noreferrer"
+							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
+						>
+							<img
+								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img1.jpg"
+								alt="Project screenshot 1"
+								class="h-full w-full object-cover"
+							/>
+						</a>
 
-			<!-- Card 2 -->
-			<a
-				href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img2.jpg"
-				target="_blank"
-				rel="noreferrer"
-				class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
-			>
-				<img
-					src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img2.jpg"
-					alt="Project screenshot 2"
-					class="h-full w-full object-cover"
-				/>
-			</a>
+						<!-- Card 2 -->
+						<a
+							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img2.jpg"
+							target="_blank"
+							rel="noreferrer"
+							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
+						>
+							<img
+								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img2.jpg"
+								alt="Project screenshot 2"
+								class="h-full w-full object-cover"
+							/>
+						</a>
 
-			<!-- Card 3 -->
-			<a
-				href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img3.jpg"
-				target="_blank"
-				rel="noreferrer"
-				class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
-			>
-				<img
-					src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img3.jpg"
-					alt="Project screenshot 3"
-					class="h-full w-full object-cover"
-				/>
-			</a>
+						<!-- Card 3 -->
+						<a
+							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img3.jpg"
+							target="_blank"
+							rel="noreferrer"
+							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
+						>
+							<img
+								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img3.jpg"
+								alt="Project screenshot 3"
+								class="h-full w-full object-cover"
+							/>
+						</a>
 
-			<!-- Card 4 -->
-			<a
-				href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img4.jpg"
-				target="_blank"
-				rel="noreferrer"
-				class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
-			>
-				<img
-					src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img4.jpg"
-					alt="Project screenshot 4"
-					class="h-full w-full object-cover"
-				/>
-			</a>
+						<!-- Card 4 -->
+						<a
+							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img4.jpg"
+							target="_blank"
+							rel="noreferrer"
+							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
+						>
+							<img
+								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img4.jpg"
+								alt="Project screenshot 4"
+								class="h-full w-full object-cover"
+							/>
+						</a>
 
-			<!-- Card 5 -->
-			<a
-				href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img5.jpg"
-				target="_blank"
-				rel="noreferrer"
-				class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
-			>
-				<img
-					src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img5.jpg"
-					alt="Project screenshot 5"
-					class="h-full w-full object-cover"
-				/>
-			</a>
+						<!-- Card 5 -->
+						<a
+							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img5.jpg"
+							target="_blank"
+							rel="noreferrer"
+							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
+						>
+							<img
+								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img5.jpg"
+								alt="Project screenshot 5"
+								class="h-full w-full object-cover"
+							/>
+						</a>
 
-			<!-- Card 6 -->
-			<a
-				href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img6.jpg"
-				target="_blank"
-				rel="noreferrer"
-				class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
-			>
-				<img
-					src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img6.jpg"
-					alt="Project screenshot 6"
-					class="h-full w-full object-cover"
-				/>
-			</a>
-		</div>
-	</div>
-</section>
+						<!-- Card 6 -->
+						<a
+							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img6.jpg"
+							target="_blank"
+							rel="noreferrer"
+							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
+						>
+							<img
+								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img6.jpg"
+								alt="Project screenshot 6"
+								class="h-full w-full object-cover"
+							/>
+						</a>
+					</div>
+				</div>
+			</section>
 		</div>
 
 		<div class="space-y-4 text-center">

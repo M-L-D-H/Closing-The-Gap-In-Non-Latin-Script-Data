@@ -25,7 +25,9 @@
 			if (!rows || rows.length < 2) return;
 
 			const headers = rows[0];
-			const data = rows.slice(1).map(row => Object.fromEntries(headers.map((key, i) => [key, row[i] || ''])));
+			const data = rows
+				.slice(1)
+				.map((row) => Object.fromEntries(headers.map((key, i) => [key, row[i] || ''])));
 
 			const today = new Date();
 
@@ -45,19 +47,18 @@
 				.filter(Boolean)
 				.sort((a, b) => a.rawDate - b.rawDate);
 
-			upcoming = events.filter(e => e.rawDate >= today);
-			past = events.filter(e => e.rawDate < today);
+			upcoming = events.filter((e) => e.rawDate >= today);
+			past = events.filter((e) => e.rawDate < today);
 		} catch (err) {
 			console.error('Error loading events:', err);
 		}
 	});
 </script>
+
 <div class="flex justify-center px-4">
 	<div class="mb-4 w-full max-w-6xl rounded-lg bg-ctgtan p-4">
 		<h1 class="mb-3.5 border-b border-ctgblue pb-2 text-2xl font-medium">Events</h1>
-		<p class="mb-6 text-gray-800">
-			Explore upcoming Digital Humanities events in Berlin.
-		</p>
+		<p class="mb-6 text-gray-800">Explore upcoming Digital Humanities events in Berlin.</p>
 
 		<!-- Upcoming Events -->
 		<h2 class="mb-3.5 border-b border-ctgblue pb-2 text-xl font-medium">Upcoming Events</h2>
@@ -108,8 +109,7 @@
 </div>
 
 <style>
-	p,
-	span {
+	p {
 		color: black;
 	}
 </style>

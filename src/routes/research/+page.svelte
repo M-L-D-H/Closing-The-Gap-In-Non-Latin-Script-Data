@@ -83,33 +83,31 @@
 		</p>
 
 		<!-- Upcoming Conferences -->
-<h2 class="mb-3.5 border-b border-ctgblue pb-2 text-xl font-medium">Upcoming Conferences</h2>
-{#if upcoming.length}
-	<div class="mb-6 grid gap-4">
-		{#each upcoming as c}
-			<div class="rounded bg-white p-4 shadow">
-				<p class="text-lg font-bold text-ctgblue">
-					{#if c.link}
-						<a href={c.link} target="_blank" rel="noopener noreferrer" class="hover:underline"
-							>{c.name}</a
-						>
-					{:else}
-						{c.name}
-					{/if}
-				</p>
-				<p class="text-sm">{c.date} | {c.time} | {c.location}</p>
-				<p class="mt-1 italic text-gray-700">{c.title}</p>
-				{#if c.author}
-					<p class="text-sm text-gray-600">Presented by {c.author}</p>
-				{/if}
+		<h2 class="mb-3.5 border-b border-ctgblue pb-2 text-xl font-medium">Upcoming Conferences</h2>
+		{#if upcoming.length}
+			<div class="mb-6 grid gap-4">
+				{#each upcoming as c}
+					<div class="rounded bg-white p-4 shadow">
+						<p class="text-lg font-bold text-ctgblue">
+							{#if c.link}
+								<a href={c.link} target="_blank" rel="noopener noreferrer" class="hover:underline"
+									>{c.name}</a
+								>
+							{:else}
+								{c.name}
+							{/if}
+						</p>
+						<p class="text-sm">{c.date} | {c.time} | {c.location}</p>
+						<p class="mt-1 italic text-gray-700">{c.title}</p>
+						{#if c.author}
+							<p class="text-sm text-gray-600">Presented by {c.author}</p>
+						{/if}
+					</div>
+				{/each}
 			</div>
-		{/each}
-	</div>
-{:else}
-	<p class="mb-6 text-gray-600">No upcoming conferences.</p>
-{/if}
-
-
+		{:else}
+			<p class="mb-6 text-gray-600">No upcoming conferences.</p>
+		{/if}
 
 		<!-- Past Conferences -->
 		<h2 class="mb-3.5 border-b border-ctgblue pb-2 text-xl font-medium">Past Conferences</h2>
@@ -129,7 +127,7 @@
 						<p class="text-sm">{c.date} | {c.time} | {c.location}</p>
 						<p class="mt-1 italic text-gray-700">{c.title}</p>
 						{#if c.author}
-						<p class="text-sm text-gray-600">Presented by {c.author}</p>
+							<p class="text-sm text-gray-600">Presented by {c.author}</p>
 						{/if}
 					</div>
 				{/each}
