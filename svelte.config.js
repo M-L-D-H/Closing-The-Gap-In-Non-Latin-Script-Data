@@ -10,7 +10,7 @@ const config = {
 	kit: {
 		adapter: staticAdapter(),
 		paths: {
-			base: '/Closing-The-Gap-In-Non-Latin-Script-Data'
+			base: ''
 		},
 		appDir: 'app',
 		prerender: {

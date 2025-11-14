@@ -61,7 +61,7 @@
 						class="block rounded-lg bg-white p-4 text-center shadow transition-shadow hover:shadow-lg"
 					>
 						<img
-							src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/christian.png"
+							src="/team/christian.png"
 							alt="Christian Casey"
 							class="mx-auto mb-4 h-32 w-32 rounded-full object-cover"
 						/>
@@ -79,7 +79,7 @@
 				<div class="rounded-lg bg-white p-4 text-center shadow">
 					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
 					<img
-						src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/xenia.jpg"
+						src="/team/xenia.jpg"
 						alt="M. Xenia Kudela"
 						class="mx-auto mb-4 h-32 w-32 rounded-full object-cover"
 					/>
@@ -97,7 +97,7 @@
 				<div class="rounded-lg bg-white p-4 text-center shadow">
 					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
 					<img
-						src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/aya.jpg"
+						src="/team/aya.jpg"
 						alt="Aibaniz Alieva"
 						class="mx-auto mb-4 h-32 w-32 rounded-full object-cover"
 					/>
@@ -115,7 +115,7 @@
 				<div class="rounded-lg bg-white p-4 text-center shadow">
 					<!-- <a href="https://www.example.com" target="_blank" rel="noreferrer" class="block bg-white rounded-lg shadow p-4 text-center hover:shadow-lg transition-shadow"> -->
 					<img
-						src="/Closing-The-Gap-In-Non-Latin-Script-Data/team/joudy.jpg"
+						src="/team/joudy.jpg"
 						alt="Joudy Sido-Bozan"
 						class="mx-auto mb-4 h-32 w-32 rounded-full object-cover"
 					/>
@@ -141,13 +141,13 @@
 					<div class="flex min-w-full flex-nowrap gap-6 px-4 pb-4">
 						<!-- Card 1 -->
 						<a
-							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img1.jpg"
+							href="/gallery/img1.jpg"
 							target="_blank"
 							rel="noreferrer"
 							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
 						>
 							<img
-								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img1.jpg"
+								src="/gallery/img1.jpg"
 								alt="Project screenshot 1"
 								class="h-full w-full object-cover"
 							/>
@@ -155,13 +155,13 @@
 
 						<!-- Card 2 -->
 						<a
-							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img2.jpg"
+							href="/gallery/img2.jpg"
 							target="_blank"
 							rel="noreferrer"
 							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
 						>
 							<img
-								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img2.jpg"
+								src="/gallery/img2.jpg"
 								alt="Project screenshot 2"
 								class="h-full w-full object-cover"
 							/>
@@ -169,13 +169,13 @@
 
 						<!-- Card 3 -->
 						<a
-							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img3.jpg"
+							href="/gallery/img3.jpg"
 							target="_blank"
 							rel="noreferrer"
 							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
 						>
 							<img
-								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img3.jpg"
+								src="/gallery/img3.jpg"
 								alt="Project screenshot 3"
 								class="h-full w-full object-cover"
 							/>
@@ -183,13 +183,13 @@
 
 						<!-- Card 4 -->
 						<a
-							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img4.jpg"
+							href="/gallery/img4.jpg"
 							target="_blank"
 							rel="noreferrer"
 							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
 						>
 							<img
-								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img4.jpg"
+								src="/gallery/img4.jpg"
 								alt="Project screenshot 4"
 								class="h-full w-full object-cover"
 							/>
@@ -197,13 +197,13 @@
 
 						<!-- Card 5 -->
 						<a
-							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img5.jpg"
+							href="/gallery/img5.jpg"
 							target="_blank"
 							rel="noreferrer"
 							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
 						>
 							<img
-								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img5.jpg"
+								src="/gallery/img5.jpg"
 								alt="Project screenshot 5"
 								class="h-full w-full object-cover"
 							/>
@@ -211,13 +211,13 @@
 
 						<!-- Card 6 -->
 						<a
-							href="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img6.jpg"
+							href="/gallery/img6.jpg"
 							target="_blank"
 							rel="noreferrer"
 							class="h-48 w-48 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 shadow transition-transform hover:scale-105"
 						>
 							<img
-								src="/Closing-The-Gap-In-Non-Latin-Script-Data/gallery/img6.jpg"
+								src="/gallery/img6.jpg"
 								alt="Project screenshot 6"
 								class="h-full w-full object-cover"
 							/>
